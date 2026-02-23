@@ -1,9 +1,9 @@
 ---
 name: translate
-description: 開始翻譯 - 翻譯指定章節或檔案
+description: Start translation - translate a specified section or file
 arguments:
   - name: target
-    description: 翻譯目標（檔案路徑/章節名稱/all）
+    description: Translation target (file path / section name / all)
     required: false
 ---
 
@@ -25,8 +25,8 @@ Read `style-decisions.json` and check `translation_mode.mode`:
 
 **If mode is null (not set):**
 - Use AskUserQuestion tool to ask user:
-  - **全文翻譯**: 完整翻譯所有內容，保留原文結構與細節
-  - **摘要翻譯**: 精簡翻譯，提取重點規則，省略範例與冗長說明
+  - **Full Translation**: Translate all content completely, preserving the original structure and details
+  - **Summary Translation**: Provide a concise translation that extracts key rules and omits examples and lengthy explanations
 - Update `style-decisions.json` with user's choice:
   - Set `translation_mode.mode` to `"full"` or `"summary"`
   - Set `translation_mode.reason` to user's reason (if provided)
@@ -59,7 +59,7 @@ For each target file:
 1. **Read source** - Load current content
 2. **Identify segments** - Paragraphs, lists, tables
 3. **Apply glossary** - Use consistent terminology
-4. **Translate** - Convert to natural 繁體中文
+4. **Translate** - Convert to natural English
 5. **Preserve structure** - Keep frontmatter, markdown syntax
 
 ### Translation Rules
@@ -77,17 +77,17 @@ For each target file:
 
 ### Mode-Specific Rules
 
-**全文翻譯模式 (full):**
-- 翻譯所有段落，包含範例與說明
-- 保留原文結構不做刪減
-- 適合需要完整參考的規則書
+**Full Translation Mode (`full`):**
+- Translate all paragraphs, including examples and explanations
+- Preserve the original structure without omission
+- Suitable for rulebooks requiring complete reference
 
-**摘要翻譯模式 (summary):**
-- 提取核心規則與機制
-- 省略冗長範例，改用精簡說明
-- 合併重複概念
-- 使用條列式整理重點
-- 適合快速查閱的規則摘要
+**Summary Translation Mode (`summary`):**
+- Extract core rules and mechanisms
+- Omit lengthy examples and replace with concise explanations
+- Merge repeated concepts
+- Use bullet points to organize key information
+- Suitable for quick-reference rule summaries
 
 ### 4. New Terms
 
