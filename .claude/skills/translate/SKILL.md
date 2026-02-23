@@ -75,8 +75,14 @@ For each target file:
 1. **Read source** - Load current content
 2. **Identify segments** - Paragraphs, lists, tables
 3. **Apply glossary** - Use consistent terminology
-4. **Translate** - Convert to natural English
+4. **Translate manually** - Perform human translation segment by segment
 5. **Preserve structure** - Keep frontmatter, markdown syntax
+
+### Mandatory Translation Constraint
+
+- Translation output must be produced by manual human translation.
+- Do not use scripts, regex batch replacement, or find/replace automation to generate translated prose.
+- Scripts are allowed only for terminology validation and glossary maintenance (`term_read.py`, `term_edit.py`, schema checks).
 
 ### Translation Rules
 
@@ -90,6 +96,7 @@ For each target file:
 | Bold/Italic | Preserve markers |
 | Links | Translate text, keep URLs |
 | Game terms | Apply glossary strictly |
+| Translation method | Manual human translation only; no script-based text replacement |
 
 ### Mode-Specific Rules
 
