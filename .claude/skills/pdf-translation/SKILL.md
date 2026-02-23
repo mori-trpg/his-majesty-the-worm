@@ -8,8 +8,7 @@ description: PDF 遊戲規則轉換與翻譯流程。Use when processing PDF fil
 ## Phase 1: Extract PDF
 
 ```bash
-cd scripts
-uv run python extract_pdf.py ../data/pdfs/<filename>.pdf
+uv run python scripts/extract_pdf.py data/pdfs/<filename>.pdf
 ```
 
 **Outputs** (in `data/markdown/`):
@@ -21,7 +20,7 @@ uv run python extract_pdf.py ../data/pdfs/<filename>.pdf
 
 ## Phase 2: Configure Chapters
 
-1. Generate template: `uv run python split_chapters.py --init`
+1. Generate template: `uv run python scripts/split_chapters.py --init`
 2. Edit `chapters.json`:
 
 ```json
@@ -46,7 +45,7 @@ uv run python extract_pdf.py ../data/pdfs/<filename>.pdf
 }
 ```
 
-3. Split: `uv run python split_chapters.py`
+3. Split: `uv run python scripts/split_chapters.py`
 
 ## Phase 3: Translation
 

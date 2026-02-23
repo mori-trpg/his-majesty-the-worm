@@ -1,13 +1,8 @@
 ---
 name: new-project
 description: 建立新專案 - 從模板建立本地專案並建立 GitHub 私人 repo
-arguments:
-  - name: pdf_path
-    description: PDF 檔案路徑
-    required: true
-  - name: project_name
-    description: 專案名稱（用於資料夾與 repo 名稱）
-    required: false
+user-invocable: true
+disable-model-invocation: true
 ---
 
 # Create New Project from Template

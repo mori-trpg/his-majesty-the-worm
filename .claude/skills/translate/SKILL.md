@@ -1,10 +1,8 @@
 ---
 name: translate
 description: Start translation - translate a specified section or file
-arguments:
-  - name: target
-    description: Translation target (file path / section name / all)
-    required: false
+user-invocable: true
+disable-model-invocation: true
 ---
 
 # Translate Document
@@ -19,7 +17,24 @@ Use `pdf-translation` and `terminology-management` skills.
 
 ## Process
 
-### 0. Select Translation Mode
+### 0. Terminology Preflight (Required)
+
+Before translating any file:
+
+1. Invoke `terminology-management` skill.
+2. Run term read/validation flow:
+   - Load `glossary.json`
+   - Build or reuse full-site term index
+   - Report unknown high-frequency candidates
+3. Resolve critical terminology conflicts first, then continue translation.
+
+If available, prefer script flow:
+
+```bash
+uv run python scripts/term_read.py
+```
+
+### 1. Select Translation Mode
 
 Read `style-decisions.json` and check `translation_mode.mode`:
 
@@ -35,7 +50,7 @@ Read `style-decisions.json` and check `translation_mode.mode`:
 - Show current mode setting
 - Ask if user wants to change (optional)
 
-### 1. Select Target
+### 2. Select Target
 
 If no `$ARGUMENTS`:
 - List available files in `docs/src/content/docs/`
@@ -46,13 +61,13 @@ Scope options:
 - Section: `rules` (all files in section)
 - All: `all`
 
-### 2. Load Resources
+### 3. Load Resources
 
 Read:
 - `glossary.json` - term mappings
 - `style-decisions.json` - style choices
 
-### 3. Translate Content
+### 4. Translate Content
 
 For each target file:
 
@@ -89,20 +104,28 @@ For each target file:
 - Use bullet points to organize key information
 - Suitable for quick-reference rule summaries
 
-### 4. New Terms
+### 5. New Terms
 
 When encountering unknown terms:
 
-1. Pause and report to user
-2. Ask for translation
-3. Add to `glossary.json`
-4. Continue with new term
+1. Pause and classify if it is a real game term.
+2. If yes, run `term_edit.py --cal` first, then update glossary via `term_edit.py`.
+3. Re-run terminology read/check (prefer cached index).
+4. Continue with updated termbase.
 
-### 5. Write Output
+Command pattern:
+
+```bash
+uv run python scripts/term_edit.py --term "<TERM>" --cal
+uv run python scripts/term_edit.py --term "<TERM>" --set-zh "<ZH>" --status approved --mark-term
+uv run python scripts/term_read.py
+```
+
+### 6. Write Output
 
 Replace source file with translated version.
 
-### 6. Progress Tracking
+### 7. Progress Tracking
 
 After each file:
 - Report: `✓ translated: <path>`

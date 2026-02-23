@@ -1,10 +1,8 @@
 ---
 name: check-consistency
 description: 一致性校對 - 檢查術語使用是否一致
-arguments:
-  - name: scope
-    description: 檢查範圍（all/section-name）
-    required: false
+user-invocable: true
+disable-model-invocation: true
 ---
 
 # Check Terminology Consistency
@@ -21,10 +19,24 @@ Read `glossary.json` for approved terms.
 
 Scope: `$ARGUMENTS` or all files in `docs/src/content/docs/**/*.md`
 
-For each file:
-- Extract English terms (capitalized, quoted)
-- Find Chinese translations used
-- Compare against glossary
+Use script:
+
+```bash
+uv run python scripts/term_read.py
+```
+
+Optional JSON output:
+
+```bash
+uv run python scripts/term_read.py --json
+```
+
+CI gate:
+
+```bash
+uv run python scripts/validate_glossary.py
+uv run python scripts/term_read.py --fail-on-forbidden
+```
 
 ### 3. Generate Report
 
@@ -52,11 +64,16 @@ For each issue, ask user:
 2. **Inconsistent**: Which translation to use?
 3. **Untranslated**: Provide translation?
 
-Apply fixes with batch replace.
+Apply fixes with script flow:
+
+```bash
+uv run python scripts/term_edit.py --term "<TERM>" --cal
+uv run python scripts/term_edit.py --term "<TERM>" --set-zh "<ZH>" --status approved --mark-term
+```
 
 ### 5. Verify
 
-Re-run scan to confirm all issues resolved.
+Re-run `term_read.py` to confirm all issues resolved.
 
 ## Example Usage
 

@@ -11,9 +11,13 @@ data/pdfs/
 data/markdown/
 
 # Python virtual environment
+.venv/
 scripts/.venv/
 __pycache__/
 *.pyc
+
+# Script cache
+.cache/
 
 # Environment
 .env

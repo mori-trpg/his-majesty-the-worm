@@ -5,13 +5,13 @@
 
 使用方式：
     # 產生範例設定檔
-    python split_chapters.py --init
+    python scripts/split_chapters.py --init
 
     # 根據設定檔拆分章節
-    python split_chapters.py
+    python scripts/split_chapters.py
 
     # 指定設定檔
-    python split_chapters.py --config my_chapters.json
+    python scripts/split_chapters.py --config my_chapters.json
 
 設定檔格式 (chapters.json)：
 {
@@ -218,7 +218,7 @@ def main():
 
     if not config_path.exists():
         print(f"❌ 找不到設定檔: {config_path}")
-        print("   請先執行: python split_chapters.py --init")
+        print("   請先執行: python scripts/split_chapters.py --init")
         sys.exit(1)
 
     config = load_config(config_path)

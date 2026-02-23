@@ -1,10 +1,8 @@
 ---
 name: init-doc
 description: Initial summary - initialize the document translation project, build glossary and chapter structure
-arguments:
-  - name: pdf_path
-    description: PDF file path (optional, will ask interactively)
-    required: false
+user-invocable: true
+disable-model-invocation: true
 ---
 
 # Initialize Document Translation
@@ -26,8 +24,7 @@ If no `$ARGUMENTS` provided, ask user for PDF location in `data/pdfs/`.
 ### 2. Extract Content
 
 ```bash
-cd scripts
-uv run python extract_pdf.py <pdf_path>
+uv run python scripts/extract_pdf.py <pdf_path>
 ```
 
 Review output in `data/markdown/`:
@@ -235,16 +232,23 @@ body {
 }
 ```
 
-### 6. Identify Key Terms
+### 6. Identify Key Terms (Interactive)
 
-Scan extracted content for:
+Invoke `terminology-management` skill and run candidate generation from extracted docs:
+
 - Capitalized game terms (Move, Playbook, Harm)
 - Quoted terms
-- Repeated specialized vocabulary
+- Repeated specialized vocabulary (frequency >= 2)
+
+Use script flow:
+
+```bash
+uv run python scripts/term_generate.py --min-frequency 2
+```
 
 Present terms to user for translation confirmation.
 
-### 7. Build Glossary
+### 7. Build Glossary (Single Source of Truth)
 
 Create `glossary.json` with confirmed terms:
 
@@ -257,12 +261,25 @@ Create `glossary.json` with confirmed terms:
 }
 ```
 
+Then run terminology read/check:
+
+```bash
+uv run python scripts/term_edit.py --term "<TERM>" --cal
+uv run python scripts/term_edit.py --term "<TERM>" --set-zh "<ZH>" --status approved --mark-term
+uv run python scripts/term_read.py
+```
+
+Rules:
+- `glossary.json` is the only source of truth.
+- For unmanaged terms, `term_edit.py` must run with `--cal` before editing.
+- Terms marked as managed skip full-site search in later `--cal` runs.
+
 Ask user about style preferences and record in `style-decisions.json`.
 
 ### 8. Split Content
 
 ```bash
-uv run python split_chapters.py
+uv run python scripts/split_chapters.py
 ```
 
 ### 9. Analyze and Split index.md

@@ -1,10 +1,8 @@
 ---
 name: check-completeness
 description: 缺漏校對 - 檢查規則完整性
-arguments:
-  - name: section
-    description: 檢查特定章節（可選）
-    required: false
+user-invocable: true
+disable-model-invocation: true
 ---
 
 # Check Completeness

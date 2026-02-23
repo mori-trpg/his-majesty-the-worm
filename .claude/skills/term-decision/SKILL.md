@@ -1,10 +1,8 @@
 ---
 name: term-decision
 description: 用語權衡 - 術語選擇與全文替換
-arguments:
-  - name: term
-    description: 要處理的術語（可選）
-    required: false
+user-invocable: true
+disable-model-invocation: true
 ---
 
 # Terminology Decision
@@ -17,8 +15,8 @@ Use `terminology-management` skill.
 
 If `$ARGUMENTS` provided, focus on that term.
 Otherwise, list terms needing decisions from:
-- Inconsistent usage found in docs
-- Missing glossary entries
+- Inconsistent usage found in `term_read.py` output
+- Missing glossary entries from `term_generate.py` output
 - User-flagged terms
 
 ### 2. Present Options
@@ -51,6 +49,12 @@ Update `style-decisions.json`:
 ```
 
 Update `glossary.json` with final term.
+For unmanaged terms, run `--cal` first:
+
+```bash
+uv run python scripts/term_edit.py --term "<TERM>" --cal
+uv run python scripts/term_edit.py --term "<TERM>" --set-zh "<ZH>" --status approved --mark-term --notes "<REASON>"
+```
 
 ### 5. Batch Replace
 
@@ -58,6 +62,12 @@ Find all occurrences across `docs/src/content/docs/`:
 - Show preview of changes
 - Confirm with user
 - Apply replacements
+
+After replacement, run:
+
+```bash
+uv run python scripts/term_read.py
+```
 
 ### 6. Verify
 

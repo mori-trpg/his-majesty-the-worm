@@ -4,8 +4,8 @@ PDF 提取工具
 將 PDF 轉換為 Markdown，支援文字與圖片提取
 
 使用方式：
-    python extract_pdf.py <pdf_file>
-    python extract_pdf.py data/rulebook.pdf
+    python scripts/extract_pdf.py <pdf_file>
+    python scripts/extract_pdf.py data/rulebook.pdf
 
 輸出：
     data/markdown/<檔名>.md           - markitdown 提取版本

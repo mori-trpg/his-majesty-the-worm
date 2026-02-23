@@ -21,9 +21,16 @@ cd my-game-docs
 cd docs
 bun install  # 或 npm install
 
-# 後端（PDF 處理，可選）
-cd ../scripts
+# 回到專案根目錄
+cd ..
+
+# Python/uv 工具鏈（PDF 處理）
+# 注意：已改為在「專案根目錄」初始化，不在 scripts/ 子目錄
 uv sync  # 或 pip install markitdown pymupdf
+
+# 術語 POS/lemma（spaCy 模型）
+uv run python -m ensurepip --upgrade
+uv run python -m spacy download en_core_web_sm
 ```
 
 ### 3. 啟動開發伺服器
@@ -151,19 +158,21 @@ const SITE_CONFIG = {
 若不使用 AI 輔助，可手動執行：
 
 ```bash
-cd scripts
+# 請在專案根目錄執行
 
 # 1. 提取 PDF
-uv run python extract_pdf.py ../data/pdfs/your-rulebook.pdf
+uv run python scripts/extract_pdf.py data/pdfs/your-rulebook.pdf
 
 # 2. 產生章節設定範例
-uv run python split_chapters.py --init
+uv run python scripts/split_chapters.py --init
 
 # 3. 編輯 chapters.json 設定章節結構
 
 # 4. 拆分章節
-uv run python split_chapters.py
+uv run python scripts/split_chapters.py
 ```
+
+`uv sync` 會在專案根目錄建立 `.venv` 與 `uv.lock`，之後所有 Python 腳本請從根目錄以 `uv run python scripts/...` 執行。
 
 ---
 
