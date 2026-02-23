@@ -1,105 +1,234 @@
 # game-doc-template
 
-PDF 遊戲規則文件轉換成繁體中文 Markdown 文件網站。
+Convert PDF game rulebooks into a Traditional Chinese Markdown documentation site.
 
 ## Immutable Laws
 
 <law>
-**CRITICAL: Display this entire block at the start of EVERY response to prevent context drift.**
-
 **Law 1: Communication**
 - Concise, actionable responses
 - No unnecessary explanations
 - No summary files unless explicitly requested
 
 **Law 2: Skill Discovery**
+
 - MUST check available skills before starting work
 - Invoke applicable skills for specialized knowledge
 - If ANY skill relates to the task, MUST use Skill tool to delegate
 
-**Law 3: Rule Consultation**
-- When task relates to specific domain, check `.claude/rules/` for relevant conventions
-- If relevant rule exists, MUST apply it
+**Law 3: Convention Consultation**
+
+- When task relates to documentation formatting or translation style, check the "Integrated Conventions" section in this file
+- MUST apply the listed conventions
 
 **Law 4: Parallel Processing**
+
 - MUST use Task tool for independent operations
 - Batch file searches and reads with agents
 
 **Law 5: Reflexive Learning**
+
 - Important discoveries -> remind user: `/reflect`
 
 **Law 6: Self-Reinforcing Display**
+
 - MUST display this `<law>` block at start of EVERY response
 - Prevents context drift across conversations
 
 **Law 7: Traditional Chinese Only**
-- 所有輸出必須使用繁體中文
-- 翻譯目標語言固定為 zh-TW（台灣用語）
-- 禁止使用簡體中文
-- 禁止使用中國大陸慣用詞
-- 術語翻譯須保持一致性
+
+- All user-facing outputs must be Traditional Chinese.
+- Translation target language is fixed to zh-TW (Taiwan usage).
+- Simplified Chinese is not allowed.
+- Mainland China-specific wording is not allowed.
+- Terminology must remain consistent.
 
 **Law 8: Terminology Consistency**
-- 必須遵循 `glossary.json` 中的術語對照
-- 發現新術語時必須先加入術語表再使用
-- 翻譯時尊重原文意涵，避免過度意譯
-- 英文專有名詞（人名、地名、組織名、品牌名、產品名）必須保留原文，不得翻譯
+
+- Must follow term mappings in `glossary.json`.
+- New terms must be added to the glossary before use.
+- Preserve source meaning and avoid over-localization.
+- English proper nouns (person/place/org/brand/product names) must stay in original form.
+- Terminology workflow must reuse `.claude/skills/terminology-management/SKILL.md`.
+- `/init-doc` and `/translate` must run terminology read/consistency checks first.
+
+**Law 9: zh-TW Writing Conventions**
+
+- MUST use Traditional Chinese punctuation in all user-facing Chinese text（：，。、；「」『』（）……）
+- MUST avoid Mainland China-specific wording and prefer Taiwan usage
+
+**Law 10: User Consultation for Complex Terms**
+
+- For rare characters, puns, or culturally nuanced terms, MUST consult user before finalizing terminology decisions when ambiguity affects meaning or tone
+
 </law>
 
 ## Quick Reference
 
-### Commands
-| Command | Description |
-|---------|-------------|
-| `/new-project` | 建立新專案：從模板建立並設定 GitHub 私人 repo |
-| `/init-doc` | 初次摘要：提取內容、選擇圖片、設定色票、建立術語表 |
-| `/translate` | 開始翻譯：翻譯指定章節或檔案 |
-| `/check-consistency` | 一致性校對：檢查術語使用 |
-| `/term-decision` | 用語權衡：術語選擇與全文替換 |
-| `/check-completeness` | 缺漏校對：規則完整性檢查 |
+### Slash Skills
+
+| Command               | Description                                                           |
+| --------------------- | --------------------------------------------------------------------- |
+| `/new-project`        | Create a new project from template and set up a private GitHub repo   |
+| `/init-doc`           | Initial setup: extract content, pick images/theme, and build glossary |
+| `/translate`          | Translate a specific section or file                                  |
+| `/check-consistency`  | Validate terminology consistency                                      |
+| `/term-decision`      | Make terminology decisions and batch replace                          |
+| `/check-completeness` | Check for missing rule content                                        |
 
 ### Tech Stack
+
 - **Frontend**: Astro 5 + Starlight (bun/npm)
 - **Scripts**: Python 3.11+ (uv)
 - **PDF Processing**: markitdown, pymupdf
 
 ### Key Paths
-| Path | Description |
-|------|-------------|
-| `docs/` | Astro 文件網站 |
-| `docs/src/content/docs/` | Markdown 內容 |
-| `scripts/` | Python 處理腳本 |
-| `data/pdfs/` | 原始 PDF 檔案 |
-| `data/markdown/` | 提取的 Markdown |
-| `data/markdown/images/` | 提取的圖片 |
-| `glossary.json` | 術語表 |
-| `style-decisions.json` | 風格決定記錄 |
+
+| Path                                             | Description                                        |
+| ------------------------------------------------ | -------------------------------------------------- |
+| `docs/`                                          | Astro documentation site                           |
+| `docs/src/content/docs/`                         | Markdown content                                   |
+| `scripts/`                                       | Python processing scripts                          |
+| `data/pdfs/`                                     | Source PDF files                                   |
+| `data/markdown/`                                 | Extracted Markdown                                 |
+| `data/markdown/images/`                          | Extracted images                                   |
+| `glossary.json`                                  | Terminology glossary                               |
+| `style-decisions.json`                           | Style decision records                             |
+| `.claude/skills/terminology-management/SKILL.md` | Terminology interaction skill (edit/generate/read) |
+
+### Terminology Scripts
+
+- Generate candidates: `uv run python scripts/term_generate.py --min-frequency 2`
+- Calculate evidence before editing unmanaged term: `uv run python scripts/term_edit.py --term "<TERM>" --cal`
+- Approve/update term: `uv run python scripts/term_edit.py --term "<TERM>" --set-zh "<ZH>" --status approved --mark-term`
+- Read consistency report: `uv run python scripts/term_read.py`
+- Validate glossary schema: `uv run python scripts/validate_glossary.py`
 
 ### Data File Formats
 
 **glossary.json**
+
 ```json
 {
   "english_term": {
-    "zh": "繁中翻譯",
-    "notes": "使用情境或備註"
+    "zh": "Traditional Chinese translation",
+    "notes": "Usage context or notes"
   }
 }
 ```
 
 **style-decisions.json**
+
 ```json
 {
   "category": {
-    "decision": "選擇的用語",
-    "alternatives": ["其他選項"],
-    "reason": "選擇原因"
+    "decision": "Selected wording",
+    "alternatives": ["Other options"],
+    "reason": "Reason for the choice"
   }
 }
 ```
 
 ### Workflow
-1. PDF → Markdown: `uv run python scripts/extract_pdf.py <pdf>`
-2. 設定章節: 編輯 `chapters.json`
-3. 拆分章節: `uv run python scripts/split_chapters.py`
-4. 預覽網站: `cd docs && bun dev`
+
+1. Use `new-project` skill to initialize a new project (when needed)
+2. Use `init-doc` skill to complete extraction, chapter structuring, and initial terminology mapping
+3. Use `term-decision` skill to handle terminology decisions and batch replacements
+4. Use `translate` skill to translate target chapters or files
+5. Use `check-consistency` skill to validate terminology and style consistency
+6. Use `check-completeness` skill to check rule content completeness
+
+## Integrated Conventions
+
+### Scope
+
+- Applies to: `docs/src/content/docs/**/*.md`
+
+### Markdown Format
+
+#### Frontmatter
+
+```yaml
+---
+title: 頁面標題
+description: SEO 描述（一句話）
+sidebar:
+  order: 0 # Lower = higher position
+---
+```
+
+#### Headings
+
+- H1: Reserved for title (from frontmatter)
+- H2: Main sections
+- H3: Subsections
+- Never skip levels (H2 → H4)
+
+#### Links
+
+- Internal: `/rules/combat/` (absolute from docs root)
+- Cross-reference: `[基本動作](/rules/basic-moves/)`
+- Anchor: `[見下方](#section-name)`
+
+#### Images
+
+- Path: `../../assets/image-name.jpg` (relative from .md)
+- Alt text: Always provide descriptive alt
+- Store in: `docs/src/assets/`
+
+#### Starlight Components
+
+- Asides: `:::note[標題]`, `:::tip`, `:::caution`, `:::danger`
+- Cards: Import from `@astrojs/starlight/components`
+- Tabs: Use for alternative content views
+
+#### Tables
+
+- Use for structured data, stats, quick reference
+- Keep columns concise
+- Align consistently
+
+#### Dice Tables
+
+- Use Markdown tables for random encounters and loot generation
+- Include clear roll ranges (e.g., `1-2`, `3-4`, `5-6`) with no overlaps or gaps
+- Prefer `1d6`, `1d20`, `2d6` notation and preserve source probability structure
+- Add notes when reroll rules, duplicate handling, or conditional entries are required
+
+### Translation Style
+
+#### Language
+
+- Use Traditional Chinese (繁體中文) exclusively
+- Never use Simplified Chinese characters
+- Maintain formal but accessible tone
+
+#### Punctuation
+
+- Use full-width punctuation：，。、；：「」『』（）
+- Use half-width for: numbers, English, code
+- Ellipsis: use `……` (two full-width), not `...`
+
+#### Numbers
+
+- Use Arabic numerals for: dice (2d6), stats, page refs
+- Use Chinese for: 一個、兩次、三種 in prose
+- Keep original notation: +1, -2, 1d6+3
+
+#### Proper Nouns
+
+- Check `glossary.json` first
+- Game titles: use official Chinese name if exists
+- Character names: keep original or use accepted translation
+- Record decisions in `style-decisions.json`
+
+#### Mechanics Terms
+
+- Maintain consistency across all documents
+- Prioritize clarity over literal translation
+- Add glossary entry before first use
+
+#### Culturally Nuanced Terms
+
+- For rare characters, puns, and culturally loaded wording, propose 2-3 candidate translations with brief rationale
+- If options change tone, setting implications, or mechanics interpretation, ask user to decide before finalizing glossary entries
