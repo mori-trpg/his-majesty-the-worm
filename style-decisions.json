@@ -16,5 +16,13 @@
       }
     },
     "reason": "使用者要求繼續完成所有翻譯，並以完整可發布內容為目標。"
+  },
+  "repository_link_source_of_truth": {
+    "decision": "Repo 資訊（visibility、url、show_on_homepage）統一存放於 style-decisions.json 的 repository 區塊",
+    "alternatives": [
+      "在首頁文件硬編碼 GitHub URL",
+      "僅在 docs/astro.config.mjs 設定 URL，不記錄於 style-decisions.json"
+    ],
+    "reason": "使用者要求 repo 資訊寫在 style-decisions.json。初始化（/init-doc）時首頁 index.md 需依此資料產生；公開 repo 顯示連結，私人 repo 不顯示。"
   }
 }

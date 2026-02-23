@@ -297,7 +297,21 @@ Ask user about style preferences and record in `style-decisions.json`.
 uv run python scripts/split_chapters.py
 ```
 
-### 9. Analyze and Split index.md
+### 9. Generate Homepage index.md from style-decisions.json
+
+Before chapter splitting, create/update `docs/src/content/docs/index.md` using project metadata and style decisions.
+
+1. Read repository settings from `style-decisions.json`:
+   - `repository.visibility`
+   - `repository.url`
+   - `repository.show_on_homepage`
+2. Write homepage frontmatter and intro content in Traditional Chinese.
+3. Repo link rendering rule:
+   - If `visibility=public` and `show_on_homepage=true`, include a visible `GitHub Repo` link in `index.md`.
+   - If `visibility=private`, do not render repo link.
+4. Keep this logic data-driven: homepage content must follow `style-decisions.json` as source of truth.
+
+### 10. Analyze and Split index.md
 
 After initial split, analyze the generated `index.md` to create proper chapter structure:
 
@@ -333,7 +347,7 @@ After initial split, analyze the generated `index.md` to create proper chapter s
    ---
    ```
 
-### 10. Configure Chapters
+### 11. Configure Chapters
 
 Finalize `chapters.json` after all splits are done:
 1. Show table of contents from PDF and actual generated files
@@ -341,13 +355,13 @@ Finalize `chapters.json` after all splits are done:
 3. Map page ranges and file paths to output files
 4. Ensure order matches `sidebar.order` and actual navigation
 
-### 11. Verify
+### 12. Verify
 
 - Check generated files in `docs/src/content/docs/`
 - Verify sidebar order matches original TOC
 - Preview: `cd docs && bun dev`
 
-### 12. Record Configuration
+### 13. Record Configuration
 
 Save all visual settings to `style-decisions.json`:
 
@@ -368,11 +382,16 @@ Save all visual settings to `style-decisions.json`:
     "secondary_h": 180,
     "tertiary_h": 260,
     "quaternary_h": 200
+  },
+  "repository": {
+    "visibility": "public",
+    "url": "https://github.com/<username>/<project_name>",
+    "show_on_homepage": true
   }
 }
 ```
 
-### 13. Final Cleanup and Sidebar Refresh
+### 14. Final Cleanup and Sidebar Refresh
 
 After cropping and split operations are complete:
 
@@ -392,11 +411,12 @@ After cropping and split operations are complete:
 - [ ] Step 6: 已完成術語盤點，並以繁體中文與使用者確認
 - [ ] Step 7: 已更新 `glossary.json` 與風格決策
 - [ ] Step 8: 已完成初始章節拆分（`split_chapters.py`）
-- [ ] Step 9: 已完成 `index.md` 分析與章節拆分落檔
-- [ ] Step 10: 已完成 `chapters.json` 最終配置，且順序與 sidebar 一致
-- [ ] Step 11: 已完成文件預覽驗證（目錄、連結、顯示）
-- [ ] Step 12: 已更新 `style-decisions.json` 設定紀錄
-- [ ] Step 13: 已移除不必要範例文件並重整 sidebar
+- [ ] Step 9: 已依 `style-decisions.json` 產生首頁 `index.md`（含 repo link 顯示規則）
+- [ ] Step 10: 已完成 `index.md` 分析與章節拆分落檔
+- [ ] Step 11: 已完成 `chapters.json` 最終配置，且順序與 sidebar 一致
+- [ ] Step 12: 已完成文件預覽驗證（目錄、連結、顯示）
+- [ ] Step 13: 已更新 `style-decisions.json` 設定紀錄
+- [ ] Step 14: 已移除不必要範例文件並重整 sidebar
 - [ ] Gate: 已確認全程與使用者互動皆為繁體中文
 
 ## Example Usage
