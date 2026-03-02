@@ -100,6 +100,8 @@ const SITE_CONFIG = {
 本專案已內建：
 
 - `AGENTS.md -> CLAUDE.md`
+- `.codex/skills -> .claude/skills`
+- `.codex/agents -> .claude/agents`
 - `.gemini/settings.json`（`context.fileName = "CLAUDE.md"`）
 - `.gemini/skills -> .claude/skills`
 - `.gemini/commands/*.toml`（將 slash 指令映射到既有 skills）

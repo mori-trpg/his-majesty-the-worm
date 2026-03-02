@@ -11,7 +11,7 @@ Use `pdf-translation` and `terminology-management` skills.
 
 ## Interaction Rules
 
-- Always interact with the user in Traditional Chinese (繁體中文).
+- Always interact with the user in Traditional Chinese (zh-TW).
 - All AskUserQuestion prompts and conversational text shown to the user must be in Traditional Chinese.
 - Do not use Simplified Chinese.
 
@@ -84,24 +84,24 @@ Summarize findings to user:
 
 Use AskUserQuestion to present available Starlight/Markdown features and let user decide which to use:
 
-**Starlight Asides（提示框）**:
+**Starlight Asides (callouts)**:
 - `:::note[標題]` — 補充說明
 - `:::tip[標題]` — 遊戲技巧與建議
 - `:::caution[標題]` — 注意事項
 - `:::danger[標題]` — 嚴重警告
 
-**Card Grid（卡片網格）**:
+**Card Grid**:
 - 適合呈現角色職業、物品列表等並列內容
 - 需 import `<CardGrid>` 和 `<Card>`
 
-**Tabs（分頁籤）**:
+**Tabs**:
 - 適合替代規則、不同人數玩法等切換式內容
 - 需 import `<Tabs>` 和 `<TabItem>`
 
-**Tables（表格）**:
+**Tables**:
 - 結構化數據、屬性表、裝備列表
 
-**Dice Tables（骰表）**:
+**Dice Tables**:
 - 隨機遭遇表、戰利品表等
 
 Ask user to confirm:
@@ -116,31 +116,31 @@ Record confirmed standards in `style-decisions.json` under `document_format`:
 ```json
 {
   "document_format": {
-    "description": "翻譯文件格式化標準",
+    "description": "Formatting standards for translated docs",
     "starlight_asides": {
       "enabled": true,
       "mapping": {
-        "note": "補充說明、設計者備註",
-        "tip": "遊戲技巧、策略建議",
-        "caution": "常見錯誤、注意事項",
-        "danger": "嚴重後果、不可逆動作"
+        "note": "Supplementary notes and designer commentary",
+        "tip": "Gameplay tips and strategy guidance",
+        "caution": "Common mistakes and cautions",
+        "danger": "Severe consequences and irreversible actions"
       }
     },
     "card_grid": {
       "enabled": false,
-      "reason": "此書不需要卡片式排版"
+      "reason": "This book does not need card-based layout"
     },
     "tabs": {
       "enabled": false,
-      "reason": "無替代規則或切換式內容"
+      "reason": "No alternate-rule or switchable content present"
     },
     "tables": {
-      "use_for": ["角色屬性", "裝備列表"],
+      "use_for": ["character attributes", "equipment lists"],
       "notes": ""
     },
     "dice_tables": {
       "enabled": true,
-      "format": "使用 1d6 等標記，含明確骰值範圍"
+      "format": "Use notation like 1d6 with explicit roll ranges"
     },
     "additional_guidelines": []
   }
@@ -465,13 +465,48 @@ Finalize `chapters.json` after all splits are done:
 3. Map page ranges and file paths to output files
 4. Ensure order matches `sidebar.order` and actual navigation
 
-### 14. Verify
+### 14. Create Translation Progress Tracker
+
+After `chapters.json` is finalized, create `data/translation-progress.json` to track per-chapter translation status.
+
+Schema:
+
+```json
+{
+  "_meta": {
+    "description": "Translation progress tracker",
+    "updated": "YYYY-MM-DD",
+    "total_chapters": 0,
+    "completed": 0
+  },
+  "chapters": [
+    {
+      "id": "chapter-slug",
+      "title": "Chapter Title (English source)",
+      "file": "docs/src/content/docs/chapter-slug.md",
+      "source_pages": "1-20",
+      "status": "not_started",
+      "notes": ""
+    }
+  ]
+}
+```
+
+Status values: `not_started` | `in_progress` | `completed` | `reviewed`
+
+Rules:
+- Derive `id` from the output filename (without `.md`).
+- Populate `source_pages` from `chapters.json` page range mapping.
+- Set all chapters to `not_started` on initialization.
+- This file is the single source of truth for translation status; update it manually after each chapter is translated.
+
+### 15. Verify
 
 - Check generated files in `docs/src/content/docs/`
 - Verify sidebar order matches original TOC
 - Preview: `cd docs && bun dev`
 
-### 15. Record Configuration
+### 16. Record Configuration
 
 Save all visual settings to `style-decisions.json`:
 
@@ -495,7 +530,7 @@ Save all visual settings to `style-decisions.json`:
   },
   "proper_nouns": {
     "mode": "official_only",
-    "reason": "使用者偏好官方或通行譯名"
+    "reason": "User prefers official or widely accepted Chinese names"
   },
   "repository": {
     "visibility": "public",
@@ -505,7 +540,7 @@ Save all visual settings to `style-decisions.json`:
 }
 ```
 
-### 16. Final Cleanup and Sidebar Refresh
+### 17. Final Cleanup and Sidebar Refresh
 
 After cropping and split operations are complete:
 
@@ -517,23 +552,24 @@ After cropping and split operations are complete:
 
 ## Completion Checklist (Must Follow in Order)
 
-- [ ] Step 1: 已定位 PDF（`data/pdfs/`）並確認來源檔案
-- [ ] Step 2: 已完成內容抽取（`extract_pdf.py`）並檢查 `data/markdown/` 輸出
-- [ ] Step 3: 已完成 PDF 裁切結果檢查與必要拆分，並確認重新抽取完整
-- [ ] Step 4: 已完成書本內容概覽，並與使用者確認文件格式化標準（寫入 `style-decisions.json.document_format`）
-- [ ] Step 5: 已完成圖片挑選與資產複製（hero/background/og）
-- [ ] Step 6: 已完成視覺主題設定（背景模式、遮罩、色票）
-- [ ] Step 7: 已完成術語盤點，並以繁體中文與使用者確認
-- [ ] Step 8: 已與使用者確認專有名詞翻譯策略並寫入 `style-decisions.json`
-- [ ] Step 9: 已更新 `glossary.json` 與風格決策
-- [ ] Step 10: 已完成初始章節拆分（`split_chapters.py`）
-- [ ] Step 11: 已依 `style-decisions.json` 產生首頁 `index.md`（含 repo link 顯示規則）
-- [ ] Step 12: 已完成 `index.md` 分析與章節拆分落檔
-- [ ] Step 13: 已完成 `chapters.json` 最終配置，且順序與 sidebar 一致
-- [ ] Step 14: 已完成文件預覽驗證（目錄、連結、顯示）
-- [ ] Step 15: 已更新 `style-decisions.json` 設定紀錄
-- [ ] Step 16: 已移除不必要範例文件並重整 sidebar
-- [ ] Gate: 已確認全程與使用者互動皆為繁體中文
+- [ ] Step 1: PDF source located in `data/pdfs/` and confirmed
+- [ ] Step 2: Content extracted via `extract_pdf.py`; outputs in `data/markdown/` verified
+- [ ] Step 3: Cropped PDF quality reviewed; required splits done; re-extraction confirmed complete
+- [ ] Step 4: Book structure overview completed; formatting standards confirmed with user and saved to `style-decisions.json.document_format`
+- [ ] Step 5: Images selected and copied to assets (hero/background/og)
+- [ ] Step 6: Visual theme configured (background mode, overlay, palette)
+- [ ] Step 7: Terminology candidates reviewed and confirmed with user in Traditional Chinese
+- [ ] Step 8: Proper noun translation policy confirmed with user and saved to `style-decisions.json`
+- [ ] Step 9: `glossary.json` and style decisions updated
+- [ ] Step 10: Initial chapter split completed via `split_chapters.py`
+- [ ] Step 11: Homepage `index.md` generated from `style-decisions.json` (including repo link display rules)
+- [ ] Step 12: `index.md` analyzed and chapter split files generated
+- [ ] Step 13: Final `chapters.json` configuration completed; order matches sidebar
+- [ ] Step 14: `data/translation-progress.json` created with all chapters set to `not_started`
+- [ ] Step 15: Docs preview verification completed (navigation, links, rendering)
+- [ ] Step 16: Configuration records updated in `style-decisions.json`
+- [ ] Step 17: Unnecessary sample files removed and sidebar refreshed
+- [ ] Gate: Confirmed all user interactions were in Traditional Chinese
 
 ## Example Usage
 
