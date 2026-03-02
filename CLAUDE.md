@@ -48,7 +48,7 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 - Preserve source meaning and avoid over-localization.
 - Proper noun policy (person/place/org/brand/product names) is user-configurable during `/init-doc`; do not hardcode a single rule.
 - Terminology workflow must reuse `.claude/skills/terminology-management/SKILL.md`.
-- `/init-doc` and `/translate` must run terminology read/consistency checks first.
+- `/init-doc`, `/translate`, and `/super-translate` must run terminology read/consistency checks first.
 
 **Law 8: zh-TW Writing Conventions**
 
@@ -74,6 +74,7 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 | `/new-project`        | Create a new project from template and set up a private GitHub repo   |
 | `/init-doc`           | Initial setup: extract content, pick images/theme, and build glossary |
 | `/translate`          | Translate a specific section or file                                  |
+| `/super-translate`    | Multi-agent translate + review loop (up to 3 iterations) for quality  |
 | `/check-consistency`  | Validate terminology consistency                                      |
 | `/term-decision`      | Make terminology decisions and batch replace                          |
 | `/check-completeness` | Check for missing rule content                                        |
