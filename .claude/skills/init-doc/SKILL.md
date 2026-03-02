@@ -103,26 +103,18 @@ uv run python scripts/validate_glossary.py
 uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 ```
 
-### Step 8: Split Chapters and Build Navigation
+### Step 8: Agent-Driven Chapter Split and Navigation
 
-1. Initial split:
+1. Dispatch chapter split reviewer using `./chapter-split-reviewer-prompt.md` to decide whether splitting is needed and produce `chapters.json` payload.
+2. Write returned `chapters_config` to `chapters.json` (no user confirmation for split decision).
+3. Run split:
 
 ```bash
 uv run python scripts/split_chapters.py
 ```
 
-2. Generate/update homepage index from style decisions.
-3. Ask split confirmation in Traditional Chinese:
-
-```text
-找到以下章節結構：
-1. [章節名稱] - 約 XXX 字
-2. [章節名稱] - 約 XXX 字
-...
-建議拆分為獨立檔案嗎？
-```
-
-4. Finalize split and `chapters.json` mapping.
+4. Generate/update homepage `docs/src/content/docs/index.mdx` from fixed template `./homepage-index-template.mdx`.
+5. Finalize split outputs and `chapters.json` mapping.
 
 ### Step 9: Create Translation Progress Tracker
 
@@ -148,6 +140,26 @@ uv run python scripts/init_handoff_gate.py
 
 If any gate fails, stop and fix before completion.
 
+## Prompt Templates
+
+Prompt templates are colocated with this skill:
+- `./chapter-split-reviewer-prompt.md`
+- `./homepage-index-template.mdx`
+
+## Dispatch Templates
+
+Use this fixed dispatch pattern:
+
+### chapter-split-reviewer
+
+```text
+Task tool (general-purpose):
+  description: "Plan chapter split for <SOURCE_PAGES_FILE>"
+  prompt template: ./chapter-split-reviewer-prompt.md
+  placeholders:
+    <SOURCE_PAGES_FILE>, <OUTPUT_CONFIG_PATH>
+```
+
 ## Progress Sync Contract (Required)
 
 1. Keep TodoWrite updated at every step.
@@ -158,7 +170,7 @@ If any gate fails, stop and fix before completion.
 
 Stop when:
 - source extraction repeatedly fails
-- chapter boundaries are ambiguous and decision-sensitive
+- chapter split reviewer cannot produce a safe non-overlapping page map
 - glossary validation cannot be resolved safely
 - docs build fails with unclear root cause
 
@@ -173,6 +185,7 @@ Return to earlier steps when:
 
 Never:
 - continue after failed validation gates
+- ask user to approve chapter split after reviewer output is available
 - skip user confirmation for formatting/proper noun policy
 - leave progress tracker uninitialized at handoff
 
