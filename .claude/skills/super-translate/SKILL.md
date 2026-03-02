@@ -73,11 +73,11 @@ bash .claude/skills/super-translate/scripts/run_state.sh update \
   --status running
 ```
 
-4. produce draft only (do not overwrite source)
-5. run source reviewer
-6. if fail -> refine -> re-run source reviewer
-7. after source pass, run quality reviewer
-8. if fail -> refine -> re-run quality reviewer
+4. dispatch translator using `./translator-prompt.md` to produce draft only (do not overwrite source)
+5. dispatch source reviewer using `./source-reviewer-prompt.md`
+6. if fail -> dispatch refiner using `./refiner-prompt.md` -> re-run source reviewer
+7. after source pass, dispatch quality reviewer using `./quality-reviewer-prompt.md`
+8. if fail -> dispatch refiner using `./refiner-prompt.md` -> re-run quality reviewer
 9. cap at 3 iterations
 
 If 3 iterations still have critical issues, ask user in Traditional Chinese:
@@ -129,6 +129,125 @@ uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 Invoke `check-consistency` skill to validate terminology consistency across all translated files.
 If any violations are found, resolve them before marking the run complete.
 
+## Prompt Templates
+
+Prompt templates are colocated with this skill:
+- `./translator-prompt.md`
+- `./source-reviewer-prompt.md`
+- `./quality-reviewer-prompt.md`
+- `./refiner-prompt.md`
+
+## Dispatch Templates
+
+Use these fixed dispatch patterns:
+
+### translator
+
+```text
+Task tool (general-purpose):
+  description: "Translate draft for <TARGET_FILE>"
+  prompt template: ./translator-prompt.md
+  placeholders:
+    <TARGET_FILE>, <DRAFT_FILE>
+```
+
+### source-reviewer
+
+```text
+Task tool (general-purpose):
+  description: "Review source fidelity for <TARGET_FILE>"
+  prompt template: ./source-reviewer-prompt.md
+  placeholders:
+    <TARGET_FILE>, <DRAFT_FILE>
+```
+
+### quality-reviewer
+
+```text
+Task tool (general-purpose):
+  description: "Review quality for <TARGET_FILE>"
+  prompt template: ./quality-reviewer-prompt.md
+  placeholders:
+    <TARGET_FILE>, <DRAFT_FILE>
+```
+
+### refiner
+
+```text
+Task tool (general-purpose):
+  description: "Refine draft for <TARGET_FILE>"
+  prompt template: ./refiner-prompt.md
+  placeholders:
+    <TARGET_FILE>, <DRAFT_FILE>, <REVIEW_JSON>
+```
+
+## Example Workflow
+
+```text
+You: Start /super-translate for rules/combat.md and rules/equipment.md
+
+[Step 1] Load scope and verify files
+[Step 2] Create TodoWrite for both targets + batch checkpoint
+[Step 3] Run terminology preflight (validate_glossary + term_read)
+[Step 4] Resolve translation mode
+[Step 5] Initialize run_state
+
+Batch 1: rules/combat.md
+  - translator -> draft file generated
+  - source-reviewer -> found 2 critical issues
+  - refiner -> fixed issues
+  - source-reviewer -> pass
+  - quality-reviewer -> found 1 important style issue
+  - refiner -> fixed style issue
+  - quality-reviewer -> pass
+  - writeback source file
+  - update run_state + translation-progress + TodoWrite
+
+Batch 1: rules/equipment.md
+  - translator -> draft file generated
+  - source-reviewer -> pass
+  - quality-reviewer -> pass
+  - writeback source file
+  - update run_state + translation-progress + TodoWrite
+
+[Batch checkpoint report]
+  - completed: 2 files
+  - blocked: 0
+  - remaining critical: 0
+  - ask user: continue next batch?
+
+[Final verification]
+  - run_state end
+  - validate_glossary + term_read
+  - run check-consistency
+```
+
+## Common Mistakes
+
+**❌ Too early writeback:** overwrite source before source-reviewer and quality-reviewer both pass  
+**✅ Correct:** keep draft isolated until both gates pass
+
+**❌ Skip TodoWrite updates:** only update at the end of the run  
+**✅ Correct:** sync TodoWrite and `translation-progress.json` after each review loop
+
+**❌ Wrong gate order:** run quality-reviewer before source-reviewer  
+**✅ Correct:** source gate first, quality gate second
+
+**❌ Ignore unknown terms:** invent translation directly in draft  
+**✅ Correct:** run `term_edit.py --cal` workflow, then rerun affected file
+
+## Verification
+
+After each batch:
+1. confirm TodoWrite status matches actual file states
+2. confirm `translation-progress.json` status and `_meta` are updated
+3. confirm run_state shows correct `pass|blocked|failed`
+
+After full run:
+1. run `validate_glossary.py`
+2. run `term_read.py --fail-on-missing --fail-on-forbidden`
+3. run `check-consistency` and resolve any remaining violations
+
 ## Progress Sync Contract (Required)
 
 1. Sync TodoWrite and `translation-progress.json` at file start, every review loop, and file close.
@@ -155,4 +274,3 @@ Never:
 - run quality review before source review passes
 - overwrite source with unresolved critical findings
 - use script-generated prose translation
-
