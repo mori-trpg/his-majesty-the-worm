@@ -9,10 +9,10 @@ disable-model-invocation: true
 
 ## Overview
 
-Run iterative translation with reviewer loops and strict state/progress controls.
-Pipeline: `translator -> source-reviewer -> quality-reviewer -> refiner`.
+Run iterative translation with a single reviewer loop and strict state/progress controls.
+Pipeline: `translator -> reviewer -> refiner` (max 2 iterations).
 
-**Core principle:** Source-fidelity gate first, quality gate second, no overwrite unless both pass.
+**Core principle:** Source-fidelity and quality checked in one pass; no overwrite unless reviewer passes.
 
 ## The Process
 
@@ -29,7 +29,7 @@ Pipeline: `translator -> source-reviewer -> quality-reviewer -> refiner`.
 
 Create TodoWrite with:
 - one parent item per target file
-- sub-steps: draft, source review, quality review, refine loop, writeback
+- sub-steps: draft, review, refine (if needed), writeback
 - batch checkpoint and final verification items
 
 ### Step 3: Terminology Preflight (Fail-Closed)
@@ -74,13 +74,11 @@ uv run python .claude/skills/super-translate/scripts/run_state.py update \
 ```
 
 4. dispatch translator using `./translator-prompt.md` to produce draft only (do not overwrite source)
-5. dispatch source reviewer using `./source-reviewer-prompt.md`
-6. if fail -> dispatch refiner using `./refiner-prompt.md` -> re-run source reviewer
-7. after source pass, dispatch quality reviewer using `./quality-reviewer-prompt.md`
-8. if fail -> dispatch refiner using `./refiner-prompt.md` -> re-run quality reviewer
-9. cap at 3 iterations
+5. dispatch reviewer using `./reviewer-prompt.md` (combined source fidelity + quality check)
+6. if fail -> dispatch refiner using `./refiner-prompt.md` -> re-run reviewer
+7. cap at 2 iterations total
 
-If 3 iterations still have critical issues, ask user in Traditional Chinese:
+If 2 iterations still have critical issues, ask user in Traditional Chinese:
 - **保留目前草稿，不覆蓋原始檔，稍後手動修正後再續跑**
 - **停止此檔案，先處理術語或規則歧義再繼續**
 
@@ -97,7 +95,7 @@ Then rerun the file loop.
 
 ### Step 7: Controlled Writeback and State Update
 
-Only if both reviewer gates pass:
+Only if reviewer passes:
 - atomically replace source with draft
 - mark runtime `pass`
 - set chapter `completed`
@@ -114,7 +112,7 @@ If blocked/failed:
 
 After each batch:
 - report completed/blocked/failed files
-- report iteration counts and remaining criticals
+- report iteration counts
 - confirm TodoWrite + progress tracker sync
 - ask whether to continue next batch
 
@@ -133,9 +131,12 @@ If any violations are found, resolve them before marking the run complete.
 
 Prompt templates are colocated with this skill:
 - `./translator-prompt.md`
+- `./reviewer-prompt.md` (combined source + quality review)
+- `./refiner-prompt.md`
+
+Legacy templates (kept for reference, no longer dispatched):
 - `./source-reviewer-prompt.md`
 - `./quality-reviewer-prompt.md`
-- `./refiner-prompt.md`
 
 ## Dispatch Templates
 
@@ -151,22 +152,12 @@ Task tool (general-purpose):
     <TARGET_FILE>, <DRAFT_FILE>
 ```
 
-### source-reviewer
+### reviewer
 
 ```text
 Task tool (general-purpose):
-  description: "Review source fidelity for <TARGET_FILE>"
-  prompt template: ./source-reviewer-prompt.md
-  placeholders:
-    <TARGET_FILE>, <DRAFT_FILE>
-```
-
-### quality-reviewer
-
-```text
-Task tool (general-purpose):
-  description: "Review quality for <TARGET_FILE>"
-  prompt template: ./quality-reviewer-prompt.md
+  description: "Review translation for <TARGET_FILE>"
+  prompt template: ./reviewer-prompt.md
   placeholders:
     <TARGET_FILE>, <DRAFT_FILE>
 ```
@@ -194,26 +185,21 @@ You: Start /super-translate for rules/combat.md and rules/equipment.md
 
 Batch 1: rules/combat.md
   - translator -> draft file generated
-  - source-reviewer -> found 2 critical issues
-  - refiner -> fixed issues
-  - source-reviewer -> pass
-  - quality-reviewer -> found 1 important style issue
-  - refiner -> fixed style issue
-  - quality-reviewer -> pass
+  - reviewer -> found 1 critical issue
+  - refiner -> fixed issue
+  - reviewer -> pass
   - writeback source file
   - update run_state + translation-progress + TodoWrite
 
 Batch 1: rules/equipment.md
   - translator -> draft file generated
-  - source-reviewer -> pass
-  - quality-reviewer -> pass
+  - reviewer -> pass
   - writeback source file
   - update run_state + translation-progress + TodoWrite
 
 [Batch checkpoint report]
   - completed: 2 files
   - blocked: 0
-  - remaining critical: 0
   - ask user: continue next batch?
 
 [Final verification]
@@ -224,29 +210,14 @@ Batch 1: rules/equipment.md
 
 ## Common Mistakes
 
-**❌ Too early writeback:** overwrite source before source-reviewer and quality-reviewer both pass  
-**✅ Correct:** keep draft isolated until both gates pass
+**Wrong:** Overwrite source before reviewer passes
+**Correct:** Keep draft isolated until reviewer passes
 
-**❌ Skip TodoWrite updates:** only update at the end of the run  
-**✅ Correct:** sync TodoWrite and `translation-progress.json` after each review loop
+**Wrong:** Skip TodoWrite updates until end of run
+**Correct:** Sync TodoWrite and `translation-progress.json` after each review loop
 
-**❌ Wrong gate order:** run quality-reviewer before source-reviewer  
-**✅ Correct:** source gate first, quality gate second
-
-**❌ Ignore unknown terms:** invent translation directly in draft  
-**✅ Correct:** run `term_edit.py --cal` workflow, then rerun affected file
-
-## Verification
-
-After each batch:
-1. confirm TodoWrite status matches actual file states
-2. confirm `translation-progress.json` status and `_meta` are updated
-3. confirm run_state shows correct `pass|blocked|failed`
-
-After full run:
-1. run `validate_glossary.py`
-2. run `term_read.py --fail-on-missing --fail-on-forbidden`
-3. run `check-consistency` and resolve any remaining violations
+**Wrong:** Invent translation for unknown terms
+**Correct:** Run `term_edit.py --cal` workflow, then rerun affected file
 
 ## Progress Sync Contract (Required)
 
@@ -260,17 +231,9 @@ Stop when:
 - runtime state script fails unexpectedly
 - subagent output is malformed and not safely recoverable
 
-## When to Revisit Earlier Steps
-
-Return to scope/mode steps when:
-- user changes scope
-- translation mode changes
-- glossary policy changes significantly
-
 ## Red Flags
 
 Never:
 - skip TodoWrite creation
-- run quality review before source review passes
 - overwrite source with unresolved critical findings
 - use script-generated prose translation

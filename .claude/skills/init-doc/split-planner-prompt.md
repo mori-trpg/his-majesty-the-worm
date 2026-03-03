@@ -25,6 +25,17 @@ Task tool (general-purpose):
     - Use contiguous, non-overlapping page ranges derived from TOC boundaries.
     - If splitting is not necessary, produce one section with one `index` file covering full range.
 
+    ## Critical: Page Number Mapping
+
+    Page numbers in `pages` arrays MUST be PDF physical page numbers matching `<!-- PAGE N -->` markers in the source file, NOT print page numbers from the book's TOC or footer.
+
+    To determine correct page numbers:
+    1. Scan the source file for `<!-- PAGE N -->` markers.
+    2. Find which PAGE marker contains each TOC heading or section start.
+    3. Use THAT marker number as the page number.
+
+    Print page numbers and PDF page numbers often differ (e.g., cover, TOC, or blank pages shift the offset). Always verify by locating the actual heading text within the `<!-- PAGE N -->` block.
+
     ## Planning Basis
 
     - Basis is source TOC structure and heading landmarks.
