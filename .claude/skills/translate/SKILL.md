@@ -9,51 +9,75 @@ disable-model-invocation: true
 
 ## Overview
 
-Translate target markdown content to Traditional Chinese with strict glossary compliance and structure preservation.
+Single-pass translation of markdown content to Traditional Chinese with glossary compliance, draft isolation, and progress tracking.
 
-**Core principle:** Translate manually, preserve mechanics, keep formatting stable, and update progress continuously.
+**Core principle:** Draft first, verify before writeback, never overwrite source with unverified output.
 
 ## The Process
 
 ### Step 1: Resolve Scope and Preconditions
 
-1. Resolve target from `$ARGUMENTS` (`single file`, `section`, or `all`).
-2. Ensure required files exist:
-- `glossary.json`
-- `style-decisions.json`
-- `data/translation-progress.json` (if initialized)
-3. Create TodoWrite items for each target file.
+1. Load targets from `$ARGUMENTS` or ask user in Traditional Chinese.
+2. Verify required files:
+   - `glossary.json`
+   - `style-decisions.json`
+   - `data/translation-progress.json`
+3. If missing, stop and ask user to run `/init-doc` first.
 
-### Step 2: Terminology Preflight (Fail-Closed)
+### Step 2: Create Task List
 
-Run:
+Create tasks with:
+- one item per target file
+- a final verification item
+
+### Step 3: Terminology Preflight (Fail-Closed)
 
 ```bash
 uv run python scripts/validate_glossary.py
 uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 ```
 
-If either command fails, stop and resolve terminology issues first.
+If preflight fails, stop and fix terminology first.
 
-### Step 3: Resolve Translation Mode
+### Step 4: Resolve Translation Mode
 
-1. Read `style-decisions.json.translation_mode.mode`.
-2. If missing, ask user in Traditional Chinese:
+Read `style-decisions.json.translation_mode.mode`.
+If missing, ask user in Traditional Chinese:
 - **完整翻譯**：完整翻譯所有內容，保留原始結構與細節
 - **摘要翻譯**：精簡翻譯重點規則，省略範例與冗長說明
-3. Persist mode decision before translating.
 
-### Step 4: Translate Per File
+Persist mode before translating.
 
-For each file:
-1. mark TodoWrite file item `in_progress`
-2. read source content and identify segments
-3. apply glossary + style decisions
-4. translate manually (no script-generated prose)
-5. preserve markdown/frontmatter structure
-6. write translated file
+### Step 5: Prepare Draft Directory
 
-Unknown term flow:
+```bash
+mkdir -p .claude/skills/translate/.state/drafts
+```
+
+### Step 6: Translate Per File
+
+For each target file:
+
+1. Mark task item `in_progress`
+2. Update `translation-progress.json` status to `in_progress`
+3. Read source content, `glossary.json`, and `style-decisions.json`
+4. Translate to draft file (`.claude/skills/translate/.state/drafts/<filename>`)
+   - Traditional Chinese only (Taiwan usage), no Simplified Chinese
+   - Preserve markdown structure exactly (frontmatter, headings, lists, tables, links, code blocks)
+   - Use glossary mappings exactly
+   - Manual translation only (no script-generated prose)
+   - Do NOT overwrite source file; write only to draft path
+5. Self-review the draft against source:
+   - Missing or truncated content?
+   - Glossary violations?
+   - Markdown structure broken?
+   - Full-width punctuation correct?
+   - Fix any issues found in the draft directly
+6. Writeback: replace source with draft
+7. Update `translation-progress.json` status to `completed`, recalculate `_meta.completed`
+8. Mark task item completed
+
+**Unknown term handling:**
 
 ```bash
 uv run python scripts/term_edit.py --term "<TERM>" --cal
@@ -61,23 +85,21 @@ uv run python scripts/term_edit.py --term "<TERM>" --set-zh "<ZH>" --status appr
 uv run python scripts/term_read.py --fail-on-forbidden
 ```
 
-### Step 5: Update Progress and Verify
+Then continue translating with the updated glossary.
 
-After each file:
-- update `data/translation-progress.json` matching chapter status
-- refresh `_meta.updated` and recalculate `_meta.completed`
-- mark TodoWrite file item completed
-
-After batch or scope completion:
+### Step 7: Final Verification
 
 ```bash
-uv run python scripts/term_read.py --fail-on-forbidden
+uv run python scripts/validate_glossary.py
+uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 ```
+
+Mark final verification task item completed.
 
 ## Progress Sync Contract (Required)
 
-1. Keep TodoWrite and `translation-progress.json` in sync per file.
-2. Never delay progress update to end-of-run only.
+1. Sync task list and `translation-progress.json` at file start and file close.
+2. Never defer sync until end-of-run.
 
 ## When to Stop and Ask for Help
 
@@ -88,7 +110,7 @@ Stop when:
 
 ## When to Revisit Earlier Steps
 
-Return to Step 1 or 3 when:
+Return to Step 1 or 4 when:
 - target scope changes
 - translation mode changes
 - glossary decisions change materially
@@ -96,9 +118,10 @@ Return to Step 1 or 3 when:
 ## Red Flags
 
 Never:
+- overwrite source before self-review
 - use regex/batch replacement to generate translated prose
-- overwrite structure accidentally
 - leave progress tracker stale for translated files
+- invent translations for unknown terms (use term_edit.py workflow)
 
 ## Next Step
 
