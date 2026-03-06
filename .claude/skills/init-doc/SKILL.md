@@ -78,12 +78,35 @@ Collect formatting choices (Traditional Chinese):
 
 Persist to `style-decisions.json.document_format`.
 
-### Step 6: Select Images and Theme
+### Step 6: Select Images, Theme, and Homepage Content
 
 1. Ask user to assign extracted images for hero/background/og.
 2. Copy and resize where needed.
 3. Ask theme decisions in Traditional Chinese (mode/overlay/palette).
 4. Update `docs/src/styles/custom.css` and persist style decisions.
+5. Ask for copyright and credits in Traditional Chinese:
+   - Copyright notice text（例：`© 2024 Author Name. All rights reserved.`）
+   - Credits entries as role → name pairs（例：原作者、翻譯、美術設計等）
+   - Whether to show each section on the homepage
+6. Persist to `style-decisions.json`:
+
+```json
+{
+  "copyright": {
+    "text": "<USER_INPUT>",
+    "show_on_homepage": true
+  },
+  "credits": {
+    "entries": [
+      { "role": "原作者", "name": "..." },
+      { "role": "翻譯", "name": "..." }
+    ],
+    "show_on_homepage": true
+  }
+}
+```
+
+`generate_nav.py` will render these as **## 版權宣告** and **## 製作名單** sections on the homepage. If neither is provided, a generic fallback disclaimer is used.
 
 ### Step 7: Build Terminology Baseline
 

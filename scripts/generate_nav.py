@@ -92,10 +92,38 @@ def generate_index(chapters: dict, style: dict) -> str:
         "",
         "---",
         "",
-        "## 聲明",
-        "",
-        "本站內容為規則整理與翻譯文件，僅供個人遊戲參考使用。原文著作權與商標權歸原作者與出版方所有，請支持正版。",
     ]
+
+    copyright_cfg = style.get("copyright", {})
+    credits_cfg = style.get("credits", {})
+    has_copyright = copyright_cfg.get("show_on_homepage") and copyright_cfg.get("text")
+    has_credits = credits_cfg.get("show_on_homepage") and credits_cfg.get("entries")
+
+    if has_copyright:
+        lines += [
+            "## 版權宣告",
+            "",
+            copyright_cfg["text"],
+            "",
+        ]
+    if has_credits:
+        lines += [
+            "## 製作名單",
+            "",
+            "| 職責 | 人員 |",
+            "| --- | --- |",
+        ]
+        for entry in credits_cfg["entries"]:
+            role = entry.get("role", "")
+            name = entry.get("name", "")
+            lines.append(f"| {role} | {name} |")
+        lines.append("")
+    if not has_copyright and not has_credits:
+        lines += [
+            "## 聲明",
+            "",
+            "本站內容為規則整理與翻譯文件，僅供個人遊戲參考使用。原文著作權與商標權歸原作者與出版方所有，請支持正版。",
+        ]
 
     # Add repo link if configured
     repo = style.get("repository", {})
