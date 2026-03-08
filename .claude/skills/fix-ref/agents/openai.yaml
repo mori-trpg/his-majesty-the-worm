@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix Ref"
+  short_description: "Replace printed page references with verified Markdown links"
+  default_prompt: "Convert page-number references into real internal links"
