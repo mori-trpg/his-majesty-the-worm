@@ -105,7 +105,7 @@ For each target file:
    - Image links preserved and kept inside the paragraph flow without splitting the paragraph?
    - Full-width punctuation correct?
    - Content contamination: any paragraph or block that has no corresponding source in the original file?
-   - Untranslated English: any English words left untranslated (excluding code/dice notation such as `1d6`, `+2`)? Terminology must match `glossary.json`; proper nouns follow `style-decisions.json` policy.
+   - Untranslated English: any English left untranslated (excluding code/dice notation such as `1d6`, `+2`)? Covers body text, headings, table cells, and game labels (status conditions, item tags, rule keywords/phrases). Terminology must match `glossary.json`; proper nouns follow `style-decisions.json` policy.
    - Fix any issues found in the draft directly
 6. Writeback:
    ```bash

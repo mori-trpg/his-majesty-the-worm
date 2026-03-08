@@ -51,7 +51,7 @@ Task tool (general-purpose):
     2. Meaning drift in mechanics/rules
     3. Glossary violations and forbidden variants
     4. Content contamination — content that belongs to another page or section must not appear in this draft; flag any paragraph or block that has no corresponding source in `<SOURCE_CONTENT>`
-    5. Untranslated English — every English word in the draft that is not a proper code/notation/dice expression (e.g. `1d6`, `+2`) must be translated; terminology must follow `<GLOSSARY_CONTENT>`; proper nouns must follow the policy in `<STYLE_CONTENT>` (if `proper_nouns.mode == keep_original`, untranslated proper nouns are allowed)
+    5. Untranslated English — every English word in the draft that is not a proper code/notation/dice expression (e.g. `1d6`, `+2`) must be translated; this includes: body text, headings, table cells, game labels (status conditions, item tags, rule keywords/phrases such as "Stunned", "Heavy", "Ongoing", "Hold"); terminology must follow `<GLOSSARY_CONTENT>`; proper nouns must follow the policy in `<STYLE_CONTENT>` (if `proper_nouns.mode == keep_original`, untranslated proper nouns are allowed)
 
     Quality:
     6. zh-TW readability and tone
