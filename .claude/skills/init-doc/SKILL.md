@@ -31,11 +31,20 @@ uv run python scripts/clean_sample_data.py --yes
 
 Then resolve source PDF from `$ARGUMENTS` or ask user in Traditional Chinese. Ensure source is under `data/pdfs/`.
 
+Before extraction, ask user in Traditional Chinese whether to preserve PDF images in the generated docs:
+
+```text
+是否要保留 PDF 內的圖片，並在切分後的 Markdown 文件中保留對應圖片連結？
+```
+
+Record this decision as `preserve_images: true/false` for the rest of the run.
+
 ### Step 2: Create TodoWrite
 
 Create items for:
 - extraction
 - formatting decisions
+- image retention decision
 - image and theme setup
 - terminology bootstrap
 - chapter mapping
@@ -47,13 +56,19 @@ Create items for:
 Run:
 
 ```bash
-uv run python scripts/extract_pdf.py <pdf_path>
+uv run python scripts/extract_pdf.py <pdf_path> --include-images
+```
+
+If `preserve_images` is `false`, run instead:
+
+```bash
+uv run python scripts/extract_pdf.py <pdf_path> --no-include-images
 ```
 
 Validate outputs:
 - `data/markdown/<name>.md`
 - `data/markdown/<name>_pages.md`
-- `data/markdown/images/<name>/`
+- `data/markdown/images/<name>/`（only when `preserve_images = true`）
 
 ### Step 4: Cropping Review and Optional Split
 
@@ -80,18 +95,23 @@ Persist to `style-decisions.json.document_format`.
 
 ### Step 6: Select Images, Theme, and Homepage Content
 
-1. Ask user to assign extracted images for hero/background/og.
-2. Copy and resize where needed.
-3. Ask theme decisions in Traditional Chinese (mode/overlay/palette).
-4. Update `docs/src/styles/custom.css` and persist style decisions.
-5. Ask for copyright and credits in Traditional Chinese:
+1. If `preserve_images = true`, ask user to assign extracted images for hero/background/og.
+2. If `preserve_images = true`, copy and resize where needed.
+3. If `preserve_images = false`, skip extracted image assignment and continue with theme-only setup.
+4. Ask theme decisions in Traditional Chinese (mode/overlay/palette).
+5. Update `docs/src/styles/custom.css` and persist style decisions.
+6. Persist image retention decision to `style-decisions.json.images.preserve_images`.
+7. Ask for copyright and credits in Traditional Chinese:
    - Copyright notice text（例：`© 2024 Author Name. All rights reserved.`）
    - Credits entries as role → name pairs（例：原作者、翻譯、美術設計等）
    - Whether to show each section on the homepage
-6. Persist to `style-decisions.json`:
+8. Persist to `style-decisions.json`:
 
 ```json
 {
+  "images": {
+    "preserve_images": true
+  },
   "copyright": {
     "text": "<USER_INPUT>",
     "show_on_homepage": true
@@ -110,20 +130,29 @@ Persist to `style-decisions.json.document_format`.
 
 ### Step 7: Build Terminology Baseline
 
-1. Generate candidates:
+Invoke `term-decision` skill for terminology bootstrap instead of duplicating the workflow here.
+
+Required handoff to `term-decision`:
+1. Source is the extracted markdown from this init run.
+2. First inspect high-signal terminology sources in the original book:
+   - source glossary / terminology pages
+   - index pages
+   - appendix term lists
+   - playbook / move summary tables that clearly define recurring mechanics terms
+3. Complete one first-pass terminology bootstrap from those sections:
+   - prefill obvious term translations into `glossary.json`
+   - keep wording consistent with `style-decisions.json`
+   - ask the user only about uncertain, culturally nuanced, or mechanics-ambiguous terms
+4. After that first pass, generate and verify the remaining candidates with:
 
 ```bash
 uv run python scripts/term_generate.py --min-frequency 2
-```
-
-2. Ask user to confirm key terms and proper noun policy.
-3. Update glossary safely:
-
-```bash
-uv run python scripts/term_edit.py --term "<TERM>" --set-zh "<ZH>" --status approved --mark-term
+uv run python scripts/term_cal_batch.py
 uv run python scripts/validate_glossary.py
 uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 ```
+
+`init-doc` must not continue to chapter split until the `term-decision` handoff completes cleanly.
 
 ### Step 8: Multi-Agent Chapter Split and Navigation
 
@@ -135,7 +164,30 @@ Pipeline: `toc-planner -> wordcount-planner`.
 2. Dispatch toc planner using `./split-planner-prompt.md` to generate TOC-aligned draft `chapters_config`.
 3. Dispatch wordcount planner using `./split-wordcount-planner-prompt.md` to rebalance file granularity based on word count while preserving TOC order.
 4. If wordcount planner reports unresolved critical issues, stop and ask user in Traditional Chinese before writing `chapters.json`.
-5. Write final config to `chapters.json` (no user confirmation for split decision), then run split and generate navigation:
+5. Before writing `chapters.json`, set image split policy:
+   - if `preserve_images = true`, include:
+
+```json
+{
+  "images": {
+    "enabled": true,
+    "assets_dir": "docs/src/assets/extracted",
+    "repeat_file_size_threshold": 5
+  }
+}
+```
+
+   - if `preserve_images = false`, include:
+
+```json
+{
+  "images": {
+    "enabled": false
+  }
+}
+```
+
+6. Write final config to `chapters.json` (no user confirmation for split decision), then run split and generate navigation:
 
 ```bash
 uv run python scripts/split_chapters.py
@@ -146,7 +198,7 @@ uv run python scripts/generate_nav.py
 - generates `docs/src/content/docs/index.mdx` (homepage with dynamic CardGrid)
 - updates `docs/astro.config.mjs` sidebar to match chapter slugs
 
-6. Finalize split outputs and `chapters.json` mapping.
+7. Finalize split outputs and `chapters.json` mapping.
 
 ### Step 9: Create Translation Progress Tracker
 

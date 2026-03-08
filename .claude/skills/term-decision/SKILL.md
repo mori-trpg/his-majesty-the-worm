@@ -19,6 +19,8 @@ Decide contested terms, record rationale, apply replacements, and verify consist
 
 1. If `$ARGUMENTS` exists, focus on that term.
 2. Otherwise collect candidates from:
+- source glossary / terminology pages in extracted markdown
+- source index / appendix term lists
 - `term_read.py` inconsistency output
 - `term_generate.py` missing candidates
 - user-flagged terminology
@@ -26,8 +28,18 @@ Decide contested terms, record rationale, apply replacements, and verify consist
 
 ### Step 2: Prepare Decision Brief
 
+Before presenting a term to the user, check whether the source book already defines or lists it in:
+- glossary pages
+- index pages
+- summary tables / reference pages
+
+If strong source evidence exists, do one first-pass term translation directly:
+- add obvious, low-ambiguity terms to `glossary.json`
+- reserve user discussion only for uncertain, tone-sensitive, or mechanics-ambiguous terms
+
 For each term, present:
 - source term
+- source glossary/index evidence when available
 - current variants and usage locations
 - 2-3 candidate translations with short rationale
 - related conventions from `style-decisions.json`

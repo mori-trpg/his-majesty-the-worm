@@ -26,6 +26,16 @@ uv run python scripts/validate_glossary.py
 
 ### Step 2: Generate and Classify Candidates
 
+Before running candidate generation, inspect the extracted source markdown for high-signal terminology sources:
+- glossary / terminology sections
+- index pages
+- appendix reference lists
+- summary tables that define recurring mechanics terms
+
+Use those sections to complete a first-pass glossary bootstrap:
+- approve obvious terms first
+- collect ambiguous terms for user discussion
+
 Run:
 
 ```bash
