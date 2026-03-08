@@ -81,6 +81,8 @@ For each target file:
 4. Translate to draft file (`.claude/skills/translate/.state/drafts/<filename>`)
    - Traditional Chinese only (Taiwan usage), no Simplified Chinese
    - Preserve markdown structure exactly (frontmatter, headings, lists, tables, links, code blocks)
+   - Treat `frontmatter.title` as the page title; do not restate it anywhere in the body as a heading of any level (`#`, `##`, etc.)
+   - If the source page opens with an overview/introduction block that has no heading, translate it as plain body content; do not invent a `#` or `## 概覽` heading
    - Preserve image links exactly; if an image link appears within the source flow for a paragraph, keep the same link but place it near the middle of the translated paragraph instead of splitting the paragraph into separate blocks
    - Use glossary mappings exactly
    - Manual translation only (no script-generated prose)
@@ -89,6 +91,8 @@ For each target file:
    - Missing or truncated content?
    - Glossary violations?
    - Markdown structure broken?
+   - Added any heading of any level that simply restates `frontmatter.title`?
+   - Added `概覽`/overview heading that does not exist in the source?
    - Image links preserved and kept inside the paragraph flow without splitting the paragraph?
    - Full-width punctuation correct?
    - Fix any issues found in the draft directly
@@ -168,6 +172,8 @@ Never:
 - use regex/batch replacement to generate translated prose
 - leave progress tracker stale for translated files
 - invent translations for unknown terms (use term_edit.py workflow)
+- add any body heading that restates `frontmatter.title`
+- invent an overview heading that does not exist in the source
 
 ## Next Step
 

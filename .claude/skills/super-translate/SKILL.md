@@ -88,13 +88,17 @@ For each target file:
    - `<GLOSSARY_CONTENT>` = glossary.json content
    - `<STYLE_CONTENT>` = style-decisions.json content
    - `<DRAFT_FILE>` = draft output path
+   - `frontmatter.title` is the page title; translator must not restate it anywhere in the body as a heading of any level (`#`, `##`, etc.)
+   - If the opening overview/introduction block has no heading in the source, translator must keep it as plain body content and must not invent a `概覽` heading
    - If source content contains image markdown in the middle of prose flow, preserve the exact image link and move it into the middle of the translated paragraph without splitting that paragraph into separate blocks
 5. After translator returns, read `DRAFT_CONTENT` = full content of `<DRAFT_FILE>`
 6. dispatch reviewer using `./reviewer-prompt.md`, inline:
    - `<SOURCE_CONTENT>`, `<DRAFT_CONTENT>`, `<GLOSSARY_CONTENT>`, `<STYLE_CONTENT>`
+   - Reviewer must fail the draft if it adds any heading that restates `frontmatter.title`, or invents an overview heading that is not present in the source
    - Reviewer must fail the draft if image links are dropped, altered, or break one paragraph into multiple blocks when they should stay inside the paragraph flow
 7. if fail → dispatch refiner using `./refiner-prompt.md`, inline:
    - `<SOURCE_CONTENT>`, `<DRAFT_CONTENT>`, `<REVIEW_JSON>`, `<GLOSSARY_CONTENT>`, `<STYLE_CONTENT>`
+   - Refiner must remove any added heading that restates `frontmatter.title`, and remove any invented overview heading while preserving the paragraph content below it
    - Refiner must restore the exact image link and place it back into the paragraph body without truncating the surrounding text
    → re-read `DRAFT_CONTENT` from updated draft → re-run reviewer (inline same context)
 8. cap at 2 iterations total
@@ -303,3 +307,5 @@ Never:
 - skip TodoWrite creation
 - overwrite source with unresolved critical findings
 - use script-generated prose translation
+- restate `frontmatter.title` as any body heading
+- invent an overview heading that does not exist in the source

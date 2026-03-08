@@ -51,6 +51,8 @@ Task tool (general-purpose):
     - Fix all critical findings first.
     - Preserve already-correct content.
     - Keep markdown structure intact.
+    - Treat `frontmatter.title` as the only page title. Remove any added body heading of any level that restates it.
+    - If the draft introduced an overview heading that does not exist in the source, remove that heading but keep the translated paragraph content.
     - Preserve image links exactly. If an image belongs inside a paragraph flow, place the same markdown link near the middle of that paragraph and do not split the paragraph around it.
     - Do not introduce new term variants unless approved in the glossary.
     - If a required term is missing from the glossary, flag it in unresolved issues.
