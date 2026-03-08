@@ -161,14 +161,27 @@ class TestExtractPdf(unittest.TestCase):
             self.assertIn("<!-- PAGE 1 -->", content)
             self.assertIn("<!-- PAGE 2 -->", content)
 
-    def test_extract_images_writes_files(self) -> None:
+    def test_extract_images_writes_files_and_manifest(self) -> None:
+        class FakeRect:
+            def __init__(self, x0: float, y0: float, width: float, height: float) -> None:
+                self.x0 = x0
+                self.y0 = y0
+                self.width = width
+                self.height = height
+
         class FakePage:
-            def get_images(self) -> list[tuple[int]]:
+            def get_images(self, full: bool = False) -> list[tuple[int]]:
                 return [(1,), (2,)]
+
+            def get_image_rects(self, xref: int, transform: bool = False) -> list[FakeRect]:
+                return [FakeRect(10 * xref, 20 * xref, 30 * xref, 40 * xref)]
 
         class FakeDoc(list):
             def extract_image(self, xref: int) -> dict[str, object]:
                 return {"image": f"img{xref}".encode("utf-8"), "ext": "png"}
+
+            def close(self) -> None:
+                pass
 
         class FakePyMuPDF:
             @staticmethod
@@ -180,7 +193,16 @@ class TestExtractPdf(unittest.TestCase):
             with patch.object(ep, "pymupdf", FakePyMuPDF):
                 images = ep.extract_images(Path("sample.pdf"), out)
             self.assertEqual(len(images), 2)
-            self.assertTrue(all(p.exists() for p in images))
+            manifest = json.loads(
+                (out / "images" / "sample" / "manifest.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(len(manifest["images"]), 2)
+            self.assertEqual(manifest["images"][0]["page"], 1)
+            self.assertEqual(manifest["images"][0]["x"], 10)
+            self.assertEqual(manifest["images"][0]["file_size"], 4)
+            self.assertTrue(
+                (out / "images" / "sample" / manifest["images"][0]["filename"]).exists()
+            )
 
 
 class TestSplitChapters(unittest.TestCase):
@@ -226,6 +248,114 @@ class TestSplitChapters(unittest.TestCase):
             self.assertIn("description: Desc", data)
             self.assertIn("Hello", data)
             self.assertNotIn("REMOVE", data)
+
+    def test_split_chapters_copies_images_and_skips_repeated_file_sizes(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            src = root / "data" / "markdown" / "book_pages.md"
+            src.parent.mkdir(parents=True)
+            src.write_text(
+                "<!-- PAGE 1 -->\n\nHello\n\n<!-- PAGE 2 -->\n\nWorld",
+                encoding="utf-8",
+            )
+
+            images_dir = root / "data" / "markdown" / "images" / "book"
+            images_dir.mkdir(parents=True)
+            unique_name = "page001_img00_occ00_x10_y20_w120_h180.png"
+            background_name = "page001_img01_occ00_x0_y0_w800_h1000.png"
+            repeated_backgrounds = [
+                background_name,
+                "page002_img01_occ00_x0_y0_w800_h1000.png",
+                "page003_img01_occ00_x0_y0_w800_h1000.png",
+            ]
+            (images_dir / unique_name).write_bytes(b"unique-image")
+            for filename in repeated_backgrounds:
+                (images_dir / filename).write_bytes(b"same-size")
+
+            manifest = {
+                "pdf": "book.pdf",
+                "images_dir": "images/book",
+                "images": [
+                    {
+                        "page": 1,
+                        "filename": unique_name,
+                        "path": f"images/book/{unique_name}",
+                        "x": 10,
+                        "y": 20,
+                        "width": 120,
+                        "height": 180,
+                        "file_size": len(b"unique-image"),
+                    },
+                    {
+                        "page": 1,
+                        "filename": repeated_backgrounds[0],
+                        "path": f"images/book/{repeated_backgrounds[0]}",
+                        "x": 0,
+                        "y": 0,
+                        "width": 800,
+                        "height": 1000,
+                        "file_size": len(b"same-size"),
+                    },
+                    {
+                        "page": 2,
+                        "filename": repeated_backgrounds[1],
+                        "path": f"images/book/{repeated_backgrounds[1]}",
+                        "x": 0,
+                        "y": 0,
+                        "width": 800,
+                        "height": 1000,
+                        "file_size": len(b"same-size"),
+                    },
+                    {
+                        "page": 3,
+                        "filename": repeated_backgrounds[2],
+                        "path": f"images/book/{repeated_backgrounds[2]}",
+                        "x": 0,
+                        "y": 0,
+                        "width": 800,
+                        "height": 1000,
+                        "file_size": len(b"same-size"),
+                    },
+                ],
+            }
+            (images_dir / "manifest.json").write_text(
+                json.dumps(manifest, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+
+            config = {
+                "source": "data/markdown/book_pages.md",
+                "output_dir": "docs/src/content/docs",
+                "images": {
+                    "enabled": True,
+                    "assets_dir": "docs/src/assets/extracted",
+                    "repeat_file_size_threshold": 3,
+                },
+                "chapters": {
+                    "rules": {
+                        "title": "Rules",
+                        "order": 1,
+                        "files": {
+                            "index": {
+                                "title": "Overview",
+                                "description": "Desc",
+                                "pages": [1, 2],
+                                "order": 0,
+                            }
+                        },
+                    }
+                },
+            }
+
+            sc.split_chapters(config, root)
+
+            out = root / "docs" / "src" / "content" / "docs" / "rules" / "index.md"
+            asset = root / "docs" / "src" / "assets" / "extracted" / "book" / unique_name
+            data = out.read_text(encoding="utf-8")
+
+            self.assertTrue(asset.exists())
+            self.assertIn(f"../../assets/extracted/book/{unique_name}", data)
+            self.assertNotIn(repeated_backgrounds[0], data)
 
 
 class TestTermGenerate(unittest.TestCase):

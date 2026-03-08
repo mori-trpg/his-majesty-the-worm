@@ -88,11 +88,14 @@ For each target file:
    - `<GLOSSARY_CONTENT>` = glossary.json content
    - `<STYLE_CONTENT>` = style-decisions.json content
    - `<DRAFT_FILE>` = draft output path
+   - If source content contains image markdown in the middle of prose flow, preserve the exact image link and move it into the middle of the translated paragraph without splitting that paragraph into separate blocks
 5. After translator returns, read `DRAFT_CONTENT` = full content of `<DRAFT_FILE>`
 6. dispatch reviewer using `./reviewer-prompt.md`, inline:
    - `<SOURCE_CONTENT>`, `<DRAFT_CONTENT>`, `<GLOSSARY_CONTENT>`, `<STYLE_CONTENT>`
+   - Reviewer must fail the draft if image links are dropped, altered, or break one paragraph into multiple blocks when they should stay inside the paragraph flow
 7. if fail → dispatch refiner using `./refiner-prompt.md`, inline:
    - `<SOURCE_CONTENT>`, `<DRAFT_CONTENT>`, `<REVIEW_JSON>`, `<GLOSSARY_CONTENT>`, `<STYLE_CONTENT>`
+   - Refiner must restore the exact image link and place it back into the paragraph body without truncating the surrounding text
    → re-read `DRAFT_CONTENT` from updated draft → re-run reviewer (inline same context)
 8. cap at 2 iterations total
 

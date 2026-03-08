@@ -79,6 +79,7 @@ For each target file:
 4. Translate to draft file (`.claude/skills/translate/.state/drafts/<filename>`)
    - Traditional Chinese only (Taiwan usage), no Simplified Chinese
    - Preserve markdown structure exactly (frontmatter, headings, lists, tables, links, code blocks)
+   - Preserve image links exactly; if an image link appears within the source flow for a paragraph, keep the same link but place it near the middle of the translated paragraph instead of splitting the paragraph into separate blocks
    - Use glossary mappings exactly
    - Manual translation only (no script-generated prose)
    - Do NOT overwrite source file; write only to draft path
@@ -86,6 +87,7 @@ For each target file:
    - Missing or truncated content?
    - Glossary violations?
    - Markdown structure broken?
+   - Image links preserved and kept inside the paragraph flow without splitting the paragraph?
    - Full-width punctuation correct?
    - Fix any issues found in the draft directly
 6. Writeback: replace source with draft

@@ -36,6 +36,7 @@ Task tool (general-purpose):
 
     - Traditional Chinese only (Taiwan usage), no Simplified Chinese.
     - Preserve markdown structure exactly (frontmatter, headings, lists, tables, links, code blocks).
+    - Preserve image links exactly. If an image link is part of a paragraph's source flow, keep the exact markdown link but reposition it near the middle of the translated paragraph; do not split that paragraph into separate blocks before and after the image.
     - Preserve mechanics meaning; no rule drift.
     - Use glossary mappings exactly.
     - Manual translation only (no script-generated prose).

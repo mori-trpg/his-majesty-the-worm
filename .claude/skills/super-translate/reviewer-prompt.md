@@ -55,6 +55,7 @@ Task tool (general-purpose):
     4. zh-TW readability and tone
     5. Full-width punctuation correctness
     6. Heading/frontmatter/table/dice format integrity
+    7. Image links are preserved exactly and, when they belong to a paragraph flow, remain inside one paragraph instead of splitting it into separate blocks
 
     ## Output JSON Only
 

@@ -51,6 +51,7 @@ Task tool (general-purpose):
     - Fix all critical findings first.
     - Preserve already-correct content.
     - Keep markdown structure intact.
+    - Preserve image links exactly. If an image belongs inside a paragraph flow, place the same markdown link near the middle of that paragraph and do not split the paragraph around it.
     - Do not introduce new term variants unless approved in the glossary.
     - If a required term is missing from the glossary, flag it in unresolved issues.
     - Write the updated draft back to <DRAFT_FILE>.
