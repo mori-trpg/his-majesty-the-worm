@@ -138,7 +138,7 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 1. Use `new-project` skill to initialize a new project (when needed)
 2. Use `init-doc` skill to complete extraction, chapter structuring, and initial terminology mapping
 3. Use `term-decision` skill to handle terminology decisions and batch replacements
-4. Use `translate` skill to translate target chapters or files
+4. Use `translate` or `super-translate` skill to translate target chapters or files, and create one simple progress commit after each completed batch (`progress: X/Y`)
 5. Use `check-consistency` skill to validate terminology and style consistency
 6. Use `check-completeness` skill to check rule content completeness
 

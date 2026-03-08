@@ -110,6 +110,7 @@ const SITE_CONFIG = {
 
 - 建議流程：`new-project` → `init-doc` → `translate`（或高品質版 `super-translate`）
 - `translate`：單輪線性翻譯，適合快速草稿；`super-translate` (beta)：多 agent 審查循環（最多 2 輪），適合正式發布
+- `translate` 與 `super-translate` 都會在每個 batch 完成後自動建立一個簡短進度 commit（格式：`progress: X/Y`）
 - 翻譯前先確認術語（`glossary.json`），交付前執行一致性與完整性檢查
 
 ### 快速開始
@@ -138,7 +139,7 @@ translate
 super-translate [target]
 ```
 
-多 agent 審查循環（Translator → Reviewer → Refiner），最多迭代 2 輪，自動修正術語不一致、殘留英文、簡體字等問題。(beta)
+多 agent 審查循環（Translator → Reviewer → Refiner），最多迭代 2 輪，自動修正術語不一致、殘留英文、簡體字等問題；每個 batch 完成後會自動提一個簡短進度 commit。(beta)
 
 ### 常用指令對照
 
@@ -177,8 +178,8 @@ super-translate [target]
 
 5. 執行翻譯（套用術語表）
    翻譯時以 `glossary.json` 優先，並保留 Markdown 結構。原理：翻譯不是逐句自由發揮，而是「內容翻譯 + 術語套版」。
-   - `translate`：單輪翻譯，適合快速草稿或已有良好術語表的情況。
-   - `super-translate` (beta)：多 agent 翻譯審查循環，Translator → Reviewer → Refiner 最多迭代 2 輪，自動修正術語不一致、殘留英文、簡體字等問題，適合正式發布前的高品質輸出。
+   - `translate`：單輪翻譯，適合快速草稿或已有良好術語表的情況；每個 batch 完成後會自動建立 `progress: X/Y` 進度 commit。
+   - `super-translate` (beta)：多 agent 翻譯審查循環，Translator → Reviewer → Refiner 最多迭代 2 輪，自動修正術語不一致、殘留英文、簡體字等問題，適合正式發布前的高品質輸出；每個 batch 完成後會自動建立 `progress: X/Y` 進度 commit。
 
 6. 術語校驗與完整性檢查  
    原則：翻譯後再做一次全站術語稽核，收斂不一致。  

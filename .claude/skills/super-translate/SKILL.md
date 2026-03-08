@@ -9,7 +9,7 @@ disable-model-invocation: true
 
 ## Overview
 
-Run iterative translation with a single reviewer loop.
+Run iterative translation with a single reviewer loop and one Git checkpoint commit per completed batch.
 Pipeline: `translator -> reviewer -> refiner` (max 2 iterations).
 
 **Core principle:** Source-fidelity and quality checked in one pass; no overwrite unless reviewer passes.
@@ -134,6 +134,21 @@ After each batch:
 - report completed/blocked/failed files
 - report iteration counts
 - report updated progress: `已完成 X / Y 個章節`
+- run `git status --short` and verify the batch scope before staging
+- stage **only** files touched by this batch:
+  - completed translated source files from this batch
+  - `data/translation-progress.json`
+  - `glossary.json` if changed in this batch
+  - `style-decisions.json` if changed in this batch
+- create exactly one checkpoint commit for the batch:
+
+```bash
+git commit -m "progress: X/Y"
+```
+
+- keep the commit message short and progress-only; do not include filenames or explanations
+- never stage or commit unrelated user changes
+- if no file reached `completed` in this batch, skip the commit
 - confirm TodoWrite + progress tracker sync
 - if remaining `not_started` or `in_progress` files exist: ask user whether to continue with next batch
   - if yes: re-run Step 1 auto-select (resume `in_progress` first, then next `not_started` files in chapter order) → return to Step 6
@@ -242,6 +257,7 @@ Batch 1: rules/equipment.md
 [Step 8 Batch checkpoint]
   - 已完成 3 / 10 個章節
   - completed: 3, blocked: 0
+  - git commit -m "progress: 3/10"
   - 是否繼續下一批？
 
 User: 繼續
@@ -273,6 +289,7 @@ You: /super-translate rules/combat.md rules/equipment.md
 
 1. Sync TodoWrite and `translation-progress.json` at file start, every review loop, and file close.
 2. Never defer sync until end-of-run.
+3. Create the batch checkpoint commit immediately after each completed batch.
 
 ## When to Stop and Ask for Help
 

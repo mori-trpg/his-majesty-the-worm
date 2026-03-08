@@ -9,7 +9,7 @@ disable-model-invocation: true
 
 ## Overview
 
-Single-pass translation of markdown content to Traditional Chinese with glossary compliance, draft isolation, and progress tracking.
+Single-pass translation of markdown content to Traditional Chinese with glossary compliance, draft isolation, progress tracking, and one Git checkpoint commit per completed batch.
 
 **Core principle:** Draft first, verify before writeback, never overwrite source with unverified output.
 
@@ -24,25 +24,27 @@ Single-pass translation of markdown content to Traditional Chinese with glossary
    If any are missing, stop and ask user to run `/init-doc` first.
 
 2. Resolve target files:
-   - If `$ARGUMENTS` specifies concrete file paths or a scoped pattern → use those directly.
+   - If `$ARGUMENTS` specifies concrete file paths or a scoped pattern → use those directly as the current batch.
    - Otherwise (no args, `all`, or `next`) → **auto-select from `translation-progress.json`**:
      1. **Resume first**: collect all files with status `in_progress` (highest priority).
      2. **Then queue**: collect files with status `not_started`, in chapter order.
      3. Display selected files to user in Traditional Chinese before proceeding:
         ```
         翻譯進度：已完成 X / Y 個章節
-        已從進度表自動選取以下檔案：
+        本批次已從進度表自動選取以下檔案：
         - [in_progress 繼續] <file>
         - [not_started 新增] <file>
         …
         是否繼續？或請指定其他範圍。
         ```
      4. Wait for user confirmation or override.
+   - The selected target set for this run is one batch. If only one file is selected, that single file is the batch.
 
 ### Step 2: Create Task List
 
 Create tasks with:
 - one item per target file
+- a batch checkpoint commit item
 - a final verification item
 
 ### Step 3: Terminology Preflight (Fail-Closed)
@@ -107,7 +109,30 @@ uv run python scripts/term_read.py --fail-on-forbidden
 
 Then continue translating with the updated glossary.
 
-### Step 7: Final Verification
+### Step 7: Batch Checkpoint Commit
+
+After all files in the current batch are processed:
+
+1. Run `git status --short` and verify batch scope before staging.
+2. Stage **only** files touched by this batch:
+   - completed translated source files from this batch
+   - `data/translation-progress.json`
+   - `glossary.json` if changed in this batch
+   - `style-decisions.json` if changed in this batch
+3. Create one checkpoint commit for the batch:
+
+```bash
+git commit -m "progress: X/Y"
+```
+
+4. Commit message rules:
+   - keep it short and progress-only
+   - use the current completion count from `translation-progress.json`
+   - do not mention filenames, rationale, or extra prose
+5. Never stage or commit unrelated user changes.
+6. If no file reached `completed` in this batch, skip the commit.
+
+### Step 8: Final Verification
 
 ```bash
 uv run python scripts/validate_glossary.py
@@ -120,6 +145,7 @@ Mark final verification task item completed.
 
 1. Sync task list and `translation-progress.json` at file start and file close.
 2. Never defer sync until end-of-run.
+3. Create the batch checkpoint commit immediately after batch completion; do not postpone it to a later batch.
 
 ## When to Stop and Ask for Help
 

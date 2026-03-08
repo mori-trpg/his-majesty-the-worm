@@ -1,0 +1,13 @@
+description = "翻譯＋多輪審查（映射到 super-translate skill）"
+prompt = """
+Use the `super-translate` skill from workspace skills at `.gemini/skills/super-translate/SKILL.md`.
+Follow that skill exactly end-to-end.
+
+User arguments: {{args}}
+
+Requirements:
+- Interact with user in Traditional Chinese.
+- Run terminology checks before translation according to project rules.
+- Create one simple progress commit after each completed batch using the format `progress: X/Y`.
+- Report concrete file changes and executed commands.
+"""
