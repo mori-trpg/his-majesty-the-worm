@@ -1,6 +1,6 @@
 ---
 name: pdf-translation
-description: Use when processing PDF rulebooks, extracting content, splitting chapters, or preparing translation-ready markdown.
+description: Use when processing PDF rulebooks, extracting raw markdown and image artifacts, or preparing source materials before `chapter-split`, `init-doc`, or translation setup.
 user-invocable: true
 disable-model-invocation: true
 ---
@@ -9,9 +9,9 @@ disable-model-invocation: true
 
 ## Overview
 
-Convert a source PDF into structured markdown chapters ready for translation and review.
+Convert a source PDF into extracted markdown and image artifacts ready for chapter planning and translation setup.
 
-**Core principle:** Extract cleanly, split deterministically, and verify artifacts before translation starts.
+**Core principle:** Extract cleanly and verify raw artifacts before chapter planning starts.
 
 ## The Process
 
@@ -28,102 +28,51 @@ Expected outputs in `data/markdown/`:
 - `<name>_pages.md`
 - `images/<name>/`
 
-### Step 2: Configure Chapter Mapping
-
-1. Initialize template:
-
-```bash
-uv run python scripts/split_chapters.py --init
-```
-
-2. Edit `chapters.json` with source file, section order, file titles, and page ranges.
-
-Mapping rules:
-- Use semantic chapter/file titles and slugs from the source TOC or clear headings.
-- Do not split one long chapter into generic numbered parts like `1`, `2`, `3`, `part-1`, or `一`, `二`, `三` unless those are the real source headings.
-- If a chapter needs internal subdivision, prefer nested file paths such as `lore/factions` so the output uses subdirectories under the same section.
-- If the source does not provide reliable subordinate headings, keep the chapter in one file instead of fabricating numbered chunks.
-
-Reference snippet:
-
-```json
-{
-  "source": "data/markdown/<name>_pages.md",
-  "output_dir": "docs/src/content/docs",
-  "chapters": {
-    "section-slug": {
-        "title": "Chapter Title",
-        "order": 1,
-        "files": {
-          "filename": {
-            "title": "Page Title",
-            "description": "SEO Description",
-            "pages": [1, 10],
-            "order": 0
-          },
-          "subtopic-slug/detail-slug": {
-            "title": "Nested Page Title",
-            "description": "Nested SEO Description",
-            "pages": [11, 18],
-            "order": 1
-          }
-        }
-      }
-  }
-}
-```
-
-### Step 3: Split to Docs Structure
-
-Run:
-
-```bash
-uv run python scripts/split_chapters.py
-```
-
-### Step 4: Validate Output Quality
+### Step 2: Validate Raw Outputs
 
 Validate:
-- heading continuity
-- page coverage completeness
-- image path integrity
-- frontmatter correctness
+- expected files exist
+- page markers are present in `_pages.md`
+- image manifest exists when image extraction is enabled
+- extraction text is readable enough for downstream planning
 
-Preview if needed:
+### Step 3: Re-extract or Fix Source if Needed
 
-```bash
-cd docs && bun dev
-```
+If extraction is garbled or page markers are broken:
+- adjust source PDF
+- re-run extraction
+- do not continue until raw outputs are usable
 
-### Step 5: Handoff
+### Step 4: Handoff
 
-Hand off generated docs to `/init-doc` or `/translate` pipeline.
+Hand off extracted outputs to:
+- `chapter-split` for chapter/file planning and navigation generation
+- `init-doc` when project-level decisions and terminology bootstrap are still pending
 
 ## Progress Sync Contract (Required)
 
-1. Track extraction, mapping, and split steps in TodoWrite.
-2. Mark split complete only after output validation.
+1. Track extraction and raw validation steps in TodoWrite.
+2. Mark extraction complete only after raw output validation.
 
 ## When to Stop and Ask for Help
 
 Stop when:
 - extraction output is unreadable/garbled
-- chapter boundaries are ambiguous
-- split output corrupts structure repeatedly
+- page markers are missing or unreliable
+- repeated extraction attempts still fail
 
 ## When to Revisit Earlier Steps
 
-Return to Step 2 when:
-- chapter strategy changes
-- extracted markdown is regenerated
+Return to Step 1 when:
+- source PDF changes
+- extraction options change
 
 ## Red Flags
 
 Never:
-- split without validating page markers
-- proceed with broken chapter order
-- skip output validation before handoff
+- hand-build chapter mapping here when `chapter-split` is the correct next skill
+- skip raw output validation before handoff
 
 ## Next Step
 
-Continue with `/init-doc` for decisions and tracking setup.
+Continue with `chapter-split` or `/init-doc`.

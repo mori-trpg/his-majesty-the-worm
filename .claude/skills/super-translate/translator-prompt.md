@@ -36,6 +36,7 @@ Task tool (general-purpose):
 
     - Traditional Chinese only (Taiwan usage), no Simplified Chinese.
     - Preserve markdown structure exactly (frontmatter, headings, lists, tables, links, code blocks).
+    - Follow every applicable note in `STYLE_CONTENT.translation_notes`.
     - Treat `frontmatter.title` as the page title. Do not restate it anywhere in the body as a heading of any level (`#`, `##`, etc.).
     - If the page opens with an overview/introduction block that has no heading in the source, translate it as plain body content. Do not invent a `#` heading or `## 概覽`.
     - Preserve image links exactly. If an image link is part of a paragraph's source flow, keep the exact markdown link but reposition it near the middle of the translated paragraph; do not split that paragraph into separate blocks before and after the image.

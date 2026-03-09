@@ -36,6 +36,7 @@ Task tool (general-purpose):
 
     - Traditional Chinese only (Taiwan usage), no Simplified Chinese.
     - Preserve markdown structure exactly (frontmatter, headings, lists, tables, links, code blocks).
+    - Follow every applicable note in `STYLE_CONTENT.translation_notes`.
     - Preserve mechanics meaning; no rule drift.
     - Use glossary mappings exactly.
     - Manual translation only (no script-generated prose).

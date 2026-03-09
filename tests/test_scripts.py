@@ -14,14 +14,18 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 import _term_lib as tl
+import _style_decisions_lib as sdl
 import clean_sample_data as csd
+import draft as dr
 import extract_pdf as ep
 import init_create_progress as icp
 import init_handoff_gate as ihg
 import split_chapters as sc
+import style_decisions as sd
 import term_edit as te
 import term_generate as tg
 import term_read as tr
+import validate_style_decisions as vsd
 import validate_glossary as vg
 
 
@@ -93,6 +97,125 @@ class TestCleanSampleData(unittest.TestCase):
 
 
 class TestExtractPdf(unittest.TestCase):
+    def test_parse_args_defaults_to_auto_strategy(self) -> None:
+        with patch.object(sys, "argv", ["extract_pdf.py", "sample.pdf"]):
+            args = ep.parse_args()
+        self.assertEqual(args.page_text_engine, "auto")
+        self.assertEqual(args.layout_profile, "auto")
+        self.assertFalse(args.skip_full_markitdown)
+
+    def test_classify_page_layout_detects_double_column(self) -> None:
+        words = []
+        for line_no in range(8):
+            y = 10 + line_no * 12
+            left_words = ["left", "column", "body", "sample", "text"]
+            right_words = ["right", "column", "body", "sample", "text"]
+            for word_no, word in enumerate(left_words):
+                x0 = 20 + word_no * 28
+                words.append((x0, y, x0 + 26, y + 8, word, 0, line_no, word_no))
+            for word_no, word in enumerate(right_words):
+                x0 = 240 + word_no * 28
+                words.append((x0, y, x0 + 26, y + 8, word, 1, line_no, word_no))
+
+        result = ep.classify_page_layout(words, page_width=400)
+        self.assertEqual(result["layout_profile"], "double-column")
+
+    def test_classify_page_layout_detects_single_column(self) -> None:
+        words = []
+        for line_no in range(8):
+            y = 10 + line_no * 12
+            line_words = ["single", "column", "body", "sample", "text", "continues", "here"]
+            for word_no, word in enumerate(line_words):
+                x0 = 20 + word_no * 50
+                words.append((x0, y, x0 + 40, y + 8, word, 0, line_no, word_no))
+
+        result = ep.classify_page_layout(words, page_width=400)
+        self.assertEqual(result["layout_profile"], "single-column")
+
+    def test_load_document_extraction_settings_prefers_per_document(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            (root / "style-decisions.json").write_text(
+                json.dumps(
+                    {
+                        "document_format": {
+                            "layout_profile": "single-column",
+                            "documents": {
+                                "Household_1.2": {
+                                    "layout_profile": "double-column",
+                                    "page_text_engine": "markitdown",
+                                }
+                            },
+                        }
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            settings = ep.load_document_extraction_settings(root, "Household_1.2")
+        self.assertEqual(settings["layout_profile"], "double-column")
+        self.assertEqual(settings["page_text_engine"], "markitdown")
+
+    def test_resolve_page_text_strategy_uses_document_override(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            pdf_path = root / "Household_1.2.pdf"
+            pdf_path.write_bytes(b"pdf")
+            (root / "style-decisions.json").write_text(
+                json.dumps(
+                    {
+                        "document_format": {
+                            "documents": {
+                                "Household_1.2": {
+                                    "layout_profile": "double-column",
+                                    "page_text_engine": "markitdown",
+                                }
+                            }
+                        }
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(ep, "MarkItDown", object()):
+                strategy = ep.resolve_page_text_strategy(
+                    pdf_path,
+                    root,
+                    requested_engine="auto",
+                    requested_layout="auto",
+                )
+        self.assertEqual(strategy["layout_profile"], "double-column")
+        self.assertEqual(strategy["page_text_engine"], "markitdown")
+        self.assertEqual(strategy["page_text_engine_source"], "style-decisions")
+
+    def test_resolve_page_text_strategy_auto_detects_double_column(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            pdf_path = root / "sample.pdf"
+            pdf_path.write_bytes(b"pdf")
+            with (
+                patch.object(ep, "MarkItDown", object()),
+                patch.object(
+                    ep,
+                    "detect_layout_profile",
+                    return_value={
+                        "layout_profile": "double-column",
+                        "confidence": 0.9,
+                        "source": "auto-detect",
+                        "sampled_pages": [{"page": 20, "layout_profile": "double-column"}],
+                    },
+                ),
+            ):
+                strategy = ep.resolve_page_text_strategy(
+                    pdf_path,
+                    root,
+                    requested_engine="auto",
+                    requested_layout="auto",
+                )
+        self.assertEqual(strategy["layout_profile"], "double-column")
+        self.assertEqual(strategy["page_text_engine"], "markitdown")
+        self.assertEqual(strategy["layout_profile_source"], "auto-detect")
+
     def test_extract_with_markitdown_missing_dependency(self) -> None:
         with tempfile.TemporaryDirectory() as td:
             out = Path(td)
@@ -116,6 +239,33 @@ class TestExtractPdf(unittest.TestCase):
             self.assertEqual(result.read_text(encoding="utf-8"), "hello")
 
     def test_extract_with_pages_writes_page_markers(self) -> None:
+        class FakePage:
+            def __init__(self, text: str) -> None:
+                self.text = text
+
+            def get_text(self, mode: str = "text", sort: bool = True) -> str:
+                return self.text
+
+        class FakeDoc(list):
+            def close(self) -> None:
+                pass
+
+        class FakePyMuPDF:
+            @staticmethod
+            def open(_: str) -> FakeDoc:
+                return FakeDoc([FakePage("p1"), FakePage("p2")])
+
+        with tempfile.TemporaryDirectory() as td:
+            out = Path(td)
+            with patch.object(ep, "pymupdf", FakePyMuPDF):
+                result = ep.extract_with_pages(Path("sample.pdf"), out)
+            content = result.read_text(encoding="utf-8")
+            self.assertIn("<!-- PAGE 1 -->", content)
+            self.assertIn("<!-- PAGE 2 -->", content)
+            self.assertIn("p1", content)
+            self.assertIn("p2", content)
+
+    def test_extract_with_pages_markitdown_engine_writes_page_markers(self) -> None:
         page_texts = ["p1", "p2"]
 
         class FakeDoc(list):
@@ -156,7 +306,7 @@ class TestExtractPdf(unittest.TestCase):
             out = Path(td)
             with patch.object(ep, "pymupdf", FakePyMuPDF), \
                  patch.object(ep, "MarkItDown", FakeMarkItDown):
-                result = ep.extract_with_pages(Path("sample.pdf"), out)
+                result = ep.extract_with_pages(Path("sample.pdf"), out, page_text_engine="markitdown")
             content = result.read_text(encoding="utf-8")
             self.assertIn("<!-- PAGE 1 -->", content)
             self.assertIn("<!-- PAGE 2 -->", content)
@@ -230,6 +380,310 @@ class TestExtractPdf(unittest.TestCase):
             self.assertTrue(
                 (out / "images" / "sample" / manifest["images"][0]["filename"]).exists()
             )
+
+
+class TestDraftWorkflow(unittest.TestCase):
+    def test_cmd_path_creates_empty_draft_and_manifest_entry(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            with patch.object(dr, "ROOT", root):
+                dr.cmd_path("docs/src/content/docs/rules/basic.md", "translate")
+            draft = (
+                root
+                / ".claude"
+                / "skills"
+                / "translate"
+                / ".state"
+                / "drafts"
+                / "docs"
+                / "src"
+                / "content"
+                / "docs"
+                / "rules"
+                / "basic.md"
+            )
+            self.assertTrue(draft.exists())
+            self.assertEqual(draft.read_text(encoding="utf-8"), "")
+            manifest = json.loads(
+                (
+                    root
+                    / ".claude"
+                    / "skills"
+                    / "translate"
+                    / ".state"
+                    / "draft-manifest.json"
+                ).read_text(encoding="utf-8")
+            )
+            self.assertIn("docs/src/content/docs/rules/basic.md", manifest["entries"])
+
+    def test_cmd_writeback_uses_manifest_and_removes_entry(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "docs" / "src" / "content" / "docs" / "rules" / "basic.md"
+            draft = (
+                root
+                / ".claude"
+                / "skills"
+                / "translate"
+                / ".state"
+                / "drafts"
+                / "docs"
+                / "src"
+                / "content"
+                / "docs"
+                / "rules"
+                / "basic.md"
+            )
+            draft.parent.mkdir(parents=True, exist_ok=True)
+            draft.write_text("---\ntitle: 測試\n---\n內容\n", encoding="utf-8")
+            manifest_path = root / ".claude" / "skills" / "translate" / ".state" / "draft-manifest.json"
+            manifest_path.parent.mkdir(parents=True, exist_ok=True)
+            manifest_path.write_text(
+                json.dumps(
+                    {
+                        "entries": {
+                            "docs/src/content/docs/rules/basic.md": {
+                                "source": "docs/src/content/docs/rules/basic.md",
+                                "draft": ".claude/skills/translate/.state/drafts/docs/src/content/docs/rules/basic.md",
+                                "updated": "2026-03-09T00:00:00+00:00",
+                            }
+                        }
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(dr, "ROOT", root):
+                dr.cmd_writeback("docs/src/content/docs/rules/basic.md", "translate")
+            self.assertTrue(source.exists())
+            self.assertEqual(
+                source.read_text(encoding="utf-8"),
+                "---\ntitle: 測試\n---\n內容\n",
+            )
+            self.assertFalse(draft.exists())
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            self.assertEqual(manifest["entries"], {})
+
+    def test_cmd_writeback_uses_manifest_draft_path(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "docs" / "src" / "content" / "docs" / "rules" / "basic.md"
+            draft = root / "custom-drafts" / "basic.md"
+            draft.parent.mkdir(parents=True, exist_ok=True)
+            draft.write_text("內容\n", encoding="utf-8")
+            manifest_path = root / ".claude" / "skills" / "translate" / ".state" / "draft-manifest.json"
+            manifest_path.parent.mkdir(parents=True, exist_ok=True)
+            manifest_path.write_text(
+                json.dumps(
+                    {
+                        "entries": {
+                            "docs/src/content/docs/rules/basic.md": {
+                                "source": "docs/src/content/docs/rules/basic.md",
+                                "draft": "custom-drafts/basic.md",
+                                "updated": "2026-03-09T00:00:00+00:00",
+                            }
+                        }
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(dr, "ROOT", root):
+                dr.cmd_writeback("docs/src/content/docs/rules/basic.md", "translate")
+            self.assertTrue(source.exists())
+            self.assertEqual(source.read_text(encoding="utf-8"), "內容\n")
+            self.assertFalse(draft.exists())
+
+    def test_cmd_writeback_preserves_image_markdown(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "docs" / "src" / "content" / "docs" / "rules" / "basic.md"
+            draft = (
+                root
+                / ".claude"
+                / "skills"
+                / "translate"
+                / ".state"
+                / "drafts"
+                / "docs"
+                / "src"
+                / "content"
+                / "docs"
+                / "rules"
+                / "basic.md"
+            )
+            draft.parent.mkdir(parents=True, exist_ok=True)
+            expected = (
+                "---\n"
+                "title: 測試\n"
+                "---\n"
+                "段落前。\n\n"
+                "![第 1 頁插圖](../../assets/extracted/book/page001_img00.png)\n\n"
+                "段落後。\n"
+            )
+            draft.write_text(expected, encoding="utf-8")
+            manifest_path = root / ".claude" / "skills" / "translate" / ".state" / "draft-manifest.json"
+            manifest_path.parent.mkdir(parents=True, exist_ok=True)
+            manifest_path.write_text(
+                json.dumps(
+                    {
+                        "entries": {
+                            "docs/src/content/docs/rules/basic.md": {
+                                "source": "docs/src/content/docs/rules/basic.md",
+                                "draft": ".claude/skills/translate/.state/drafts/docs/src/content/docs/rules/basic.md",
+                                "updated": "2026-03-09T00:00:00+00:00",
+                            }
+                        }
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            with patch.object(dr, "ROOT", root):
+                dr.cmd_writeback("docs/src/content/docs/rules/basic.md", "translate")
+            self.assertEqual(source.read_text(encoding="utf-8"), expected)
+
+    def test_cmd_writeback_fails_without_manifest_entry(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            draft = (
+                root
+                / ".claude"
+                / "skills"
+                / "translate"
+                / ".state"
+                / "drafts"
+                / "docs"
+                / "src"
+                / "content"
+                / "docs"
+                / "rules"
+                / "basic.md"
+            )
+            draft.parent.mkdir(parents=True, exist_ok=True)
+            draft.write_text("內容\n", encoding="utf-8")
+            with patch.object(dr, "ROOT", root):
+                with self.assertRaises(SystemExit):
+                    dr.cmd_writeback("docs/src/content/docs/rules/basic.md", "translate")
+
+
+class TestStyleDecisions(unittest.TestCase):
+    def test_cmd_init_creates_default_file(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            style_path = root / "style-decisions.json"
+            schema_path = root / "style-decisions.schema.json"
+            schema_path.write_text(
+                (ROOT / "style-decisions.schema.json").read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
+
+            args = argparse.Namespace(
+                style=style_path,
+                schema=schema_path,
+                force=False,
+                description="測試 style decisions",
+            )
+            sd.cmd_init(args)
+
+            payload = json.loads(style_path.read_text(encoding="utf-8"))
+            self.assertEqual(payload["_meta"]["description"], "測試 style decisions")
+            self.assertEqual(payload["translation_mode"]["mode"], "full")
+
+    def test_cmd_set_document_format_for_document(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            style_path = root / "style-decisions.json"
+            schema_path = root / "style-decisions.schema.json"
+            schema_path.write_text(
+                (ROOT / "style-decisions.schema.json").read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
+            sdl.save_style_decisions(
+                style_path,
+                sdl.default_style_decisions_payload(),
+                schema_path=schema_path,
+            )
+
+            args = argparse.Namespace(
+                style=style_path,
+                schema=schema_path,
+                document_key="Household_1.2",
+                layout_profile="double-column",
+                page_text_engine="markitdown",
+                aside_note=None,
+                aside_tip=None,
+                aside_caution=None,
+                aside_danger=None,
+                cards_usage=None,
+                tabs_usage=None,
+                tables_convention=None,
+                dice_tables_convention=None,
+            )
+            sd.cmd_set_document_format(args)
+
+            payload = json.loads(style_path.read_text(encoding="utf-8"))
+            entry = payload["document_format"]["documents"]["Household_1.2"]
+            self.assertEqual(entry["layout_profile"], "double-column")
+            self.assertEqual(entry["page_text_engine"], "markitdown")
+
+    def test_cmd_add_translation_note_upserts_by_key(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            style_path = root / "style-decisions.json"
+            schema_path = root / "style-decisions.schema.json"
+            schema_path.write_text(
+                (ROOT / "style-decisions.schema.json").read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
+            sdl.save_style_decisions(
+                style_path,
+                sdl.default_style_decisions_payload(),
+                schema_path=schema_path,
+            )
+
+            first = argparse.Namespace(
+                style=style_path,
+                schema=schema_path,
+                document_key=None,
+                key="tone",
+                topic="語氣",
+                note="保持冷靜、正式。",
+            )
+            second = argparse.Namespace(
+                style=style_path,
+                schema=schema_path,
+                document_key=None,
+                key="tone",
+                topic="語氣",
+                note="保持冷靜、正式，避免過度口語。",
+            )
+            sd.cmd_add_translation_note(first)
+            sd.cmd_add_translation_note(second)
+
+            payload = json.loads(style_path.read_text(encoding="utf-8"))
+            notes = payload["translation_notes"]["global"]
+            self.assertEqual(len(notes), 1)
+            self.assertEqual(notes[0]["note"], "保持冷靜、正式，避免過度口語。")
+
+    def test_validate_style_decisions_reports_invalid_payload(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            style_path = root / "style-decisions.json"
+            schema_path = root / "style-decisions.schema.json"
+            style_path.write_text(
+                json.dumps({"_meta": {"description": "x", "updated": ""}, "repository": {"visibility": "internal"}}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            schema_path.write_text(
+                (ROOT / "style-decisions.schema.json").read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
+
+            args = argparse.Namespace(style=style_path, schema=schema_path)
+            with patch.object(vsd, "parse_args", return_value=args):
+                with self.assertRaises(SystemExit):
+                    vsd.main()
 
 
 class TestSplitChapters(unittest.TestCase):
@@ -857,7 +1311,7 @@ class TestTermRead(unittest.TestCase):
             patch.object(tr, "resolve_root", return_value=tr.PROJECT_ROOT),
             patch.object(tr, "load_glossary", return_value={"_meta": {}, "Move": {"status": "approved", "is_term": True}}),
             patch.object(tr, "load_or_build_index", return_value=({}, "fp")),
-            patch.object(tr, "count_term", return_value=(0, {})),
+            patch.object(tr, "count_terms_batch", return_value={"Move": (0, {})}),
             patch.object(tr, "extract_candidates", return_value=[]),
         ):
             with self.assertRaises(SystemExit):
@@ -966,7 +1420,7 @@ class TestInitHandoffGate(unittest.TestCase):
             ok_result = {"cmd": ["python"], "cwd": str(root), "returncode": 0, "stdout": "", "stderr": ""}
             with patch.object(ihg, "parse_args", return_value=args), patch.object(ihg, "run_cmd", return_value=ok_result) as run_cmd:
                 ihg.main()
-            self.assertEqual(run_cmd.call_count, 2)
+            self.assertEqual(run_cmd.call_count, 3)
 
     def test_main_fails_when_command_fails(self) -> None:
         with tempfile.TemporaryDirectory() as td:

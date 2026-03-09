@@ -75,7 +75,7 @@ For each target file:
 
 1. Mark task item `in_progress`
 2. Update `translation-progress.json` status to `in_progress`
-3. Read source content, `glossary.json`, and `style-decisions.json`
+3. Read source content, `glossary.json`, and `style-decisions.json`（特別包含 `translation_notes`）
 4. Translate to draft file (`.Codex/skills/translate/.state/drafts/<filename>`)
    - Traditional Chinese only (Taiwan usage), no Simplified Chinese
    - Preserve markdown structure exactly (frontmatter, headings, lists, tables, links, code blocks)
@@ -88,7 +88,7 @@ For each target file:
    - Markdown structure broken?
    - Full-width punctuation correct?
    - Fix any issues found in the draft directly
-6. Writeback: replace source with draft
+6. Writeback: use `uv run python scripts/draft.py writeback <TARGET_FILE>` so source/draft mapping comes from manifest
 7. **Immediately** update `translation-progress.json`:
    - Set file status to `completed`
    - Recalculate `_meta.completed` (count of completed entries)

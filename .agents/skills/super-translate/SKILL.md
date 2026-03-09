@@ -78,6 +78,7 @@ mkdir -p .Codex/skills/super-translate/.state/drafts
 Read and hold in memory:
 - `GLOSSARY_CONTENT` = full content of `glossary.json`
 - `STYLE_CONTENT` = full content of `style-decisions.json`
+  - includes `translation_notes`; translator/reviewer must treat them as hard constraints
 
 For each target file:
 1. mark TodoWrite item `in_progress`
@@ -113,7 +114,7 @@ Then rerun the file loop.
 ### Step 7: Controlled Writeback
 
 Only if reviewer passes:
-- replace source with draft
+- use `uv run python scripts/draft.py --skill super-translate writeback <TARGET_FILE>` so source/draft mapping comes from manifest
 - **Immediately** update `translation-progress.json`:
   - Set file status to `completed`
   - Recalculate `_meta.completed` (count of completed entries)

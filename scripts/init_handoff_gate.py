@@ -74,6 +74,7 @@ def main() -> None:
     py = sys.executable
     checks = [
         [py, "scripts/validate_glossary.py"],
+        [py, "scripts/validate_style_decisions.py"],
         [py, "scripts/term_read.py", "--fail-on-missing", "--fail-on-forbidden"],
     ]
     if not args.skip_docs_build:

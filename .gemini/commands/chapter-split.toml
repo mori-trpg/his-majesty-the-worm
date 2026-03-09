@@ -1,0 +1,12 @@
+description = "依語意切分章節並重建導覽（映射到 chapter-split skill）"
+prompt = """
+Use the `chapter-split` skill from workspace skills at `.gemini/skills/chapter-split/SKILL.md`.
+Follow that skill exactly end-to-end.
+
+User arguments: {{args}}
+
+Requirements:
+- Interact with user in Traditional Chinese.
+- Treat chapter split as publication structure, not temporary translation chunking.
+- Report concrete file changes and executed commands.
+"""

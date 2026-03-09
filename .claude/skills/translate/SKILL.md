@@ -81,15 +81,16 @@ For each target file:
 
 1. Mark task item `in_progress`
 2. Update `translation-progress.json` status to `in_progress`
-3. Read source content, `glossary.json`, and `style-decisions.json`
+3. Read source content, `glossary.json`, and `style-decisions.json`（特別包含 `translation_notes`）
 4. Get draft path:
    ```bash
    DRAFT_FILE=$(uv run python scripts/draft.py path <TARGET_FILE>)
    ```
    Translate to `$DRAFT_FILE`:
-   - Preserve the `_draft_source` field already in the stub frontmatter; do not remove it
+   - Draft/source mapping is stored in `.claude/skills/translate/.state/draft-manifest.json`; do not add translation metadata to frontmatter
    - Traditional Chinese only (Taiwan usage), no Simplified Chinese
    - Preserve markdown structure exactly (frontmatter, headings, lists, tables, links, code blocks)
+   - Follow every applicable note in `style-decisions.json.translation_notes`
    - Treat `frontmatter.title` as the page title; do not restate it anywhere in the body as a heading of any level (`#`, `##`, etc.)
    - If the source page opens with an overview/introduction block that has no heading, translate it as plain body content; do not invent a `#` or `## 概覽` heading
    - Preserve image links exactly; if an image link appears within the source flow for a paragraph, keep the same link but place it near the middle of the translated paragraph instead of splitting the paragraph into separate blocks
@@ -99,6 +100,7 @@ For each target file:
 5. Self-review the draft against source:
    - Missing or truncated content?
    - Glossary violations?
+   - Violated any item in `style-decisions.json.translation_notes`?
    - Markdown structure broken?
    - Added any heading of any level that simply restates `frontmatter.title`?
    - Added `概覽`/overview heading that does not exist in the source?

@@ -72,11 +72,27 @@ Summarize content to user in Traditional Chinese:
 ```
 
 Collect formatting choices (Traditional Chinese):
+- layout profile for extraction (`auto` / `single-column` / `double-column`)
 - aside mapping (`note/tip/caution/danger`)
 - card/tabs usage
 - table/dice-table conventions
 
-Persist to `style-decisions.json.document_format`.
+Persist via script:
+
+```bash
+uv run python scripts/style_decisions.py init
+uv run python scripts/style_decisions.py set-document-format \
+  --layout-profile "<auto|single-column|double-column>" \
+  --aside-note "<note_component>" \
+  --aside-tip "<tip_component>" \
+  --aside-caution "<caution_component>" \
+  --aside-danger "<danger_component>" \
+  --cards-usage "<cards_usage_note>" \
+  --tabs-usage "<tabs_usage_note>" \
+  --tables-convention "<table_note>" \
+  --dice-tables-convention "<dice_table_note>"
+uv run python scripts/validate_style_decisions.py
+```
 
 ### Step 6: Select Images, Theme, and Homepage Content
 
@@ -84,27 +100,34 @@ Persist to `style-decisions.json.document_format`.
 2. Copy and resize where needed.
 3. Ask theme decisions in Traditional Chinese (mode/overlay/palette).
 4. Update `docs/src/styles/custom.css` and persist style decisions.
-5. Ask for copyright and credits in Traditional Chinese:
+5. Persist image retention decision via `uv run python scripts/style_decisions.py set-images --preserve-images <true_or_false>`.
+6. Ask for site meta in Traditional Chinese and persist via `uv run python scripts/style_decisions.py set-site ...`.
+7. Ask for copyright and credits in Traditional Chinese:
    - Copyright notice text（例：`© 2024 Author Name. All rights reserved.`）
    - Credits entries as role → name pairs（例：原作者、翻譯、美術設計等）
    - Whether to show each section on the homepage
-6. Persist to `style-decisions.json`:
+8. Persist via:
 
-```json
-{
-  "copyright": {
-    "text": "<USER_INPUT>",
-    "show_on_homepage": true
-  },
-  "credits": {
-    "entries": [
-      { "role": "原作者", "name": "..." },
-      { "role": "翻譯", "name": "..." }
-    ],
-    "show_on_homepage": true
-  }
-}
+```bash
+uv run python scripts/style_decisions.py set-copyright \
+  --text "<USER_INPUT>" \
+  --show-on-homepage <true_or_false>
+uv run python scripts/style_decisions.py set-credits \
+  --entry "原作者:..." \
+  --entry "翻譯:..." \
+  --show-on-homepage <true_or_false>
 ```
+
+9. Ask whether there are any translation-wide notes the translator must always follow, and persist each note via:
+
+```bash
+uv run python scripts/style_decisions.py add-translation-note \
+  --key "<short_key>" \
+  --topic "<optional_topic>" \
+  --note "<USER_INPUT>"
+```
+
+10. Run `uv run python scripts/validate_style_decisions.py`.
 
 `generate_nav.py` will render these as **## 版權宣告** and **## 製作名單** sections on the homepage. If neither is provided, a generic fallback disclaimer is used.
 
@@ -125,28 +148,16 @@ uv run python scripts/validate_glossary.py
 uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 ```
 
-### Step 8: Multi-Agent Chapter Split and Navigation
+### Step 8: Chapter Split and Navigation
 
-Run chapter split planning with two focused agents.
-Pipeline: `toc-planner -> wordcount-planner`.
+Invoke `chapter-split` skill instead of duplicating split logic here.
 
-1. Create draft config path:
-   - `.Codex/skills/init-doc/.state/chapters.draft.json`
-2. Dispatch toc planner using `./split-planner-prompt.md` to generate TOC-aligned draft `chapters_config`.
-3. Dispatch wordcount planner using `./split-wordcount-planner-prompt.md` to rebalance file granularity based on word count while preserving TOC order.
-4. If wordcount planner reports unresolved critical issues, stop and ask user in Traditional Chinese before writing `chapters.json`.
-5. Write final config to `chapters.json` (no user confirmation for split decision), then run split and generate navigation:
-
-```bash
-uv run python scripts/split_chapters.py
-uv run python scripts/generate_nav.py
-```
-
-`generate_nav.py` reads `chapters.json` and:
-- generates `docs/src/content/docs/index.mdx` (homepage with dynamic CardGrid)
-- updates `docs/astro.config.mjs` sidebar to match chapter slugs
-
-6. Finalize split outputs and `chapters.json` mapping.
+Required handoff to `chapter-split`:
+1. Source is the extracted `_pages.md` file from this init run.
+2. Reuse the current image retention decision.
+3. Reuse the formatting and terminology decisions already completed in earlier steps.
+4. Generate `chapters.json`, split docs output, and regenerate navigation.
+5. If `chapter-split` reports unresolved critical issues, stop `init-doc` and resolve them before continuing.
 
 ### Step 9: Create Translation Progress Tracker
 
@@ -172,36 +183,6 @@ uv run python scripts/init_handoff_gate.py
 
 If any gate fails, stop and fix before completion.
 
-## Prompt Templates
-
-Prompt templates are colocated with this skill:
-- `./split-planner-prompt.md`
-- `./split-wordcount-planner-prompt.md`
-
-## Dispatch Templates
-
-Use these fixed dispatch patterns:
-
-### toc-planner
-
-```text
-Task tool (general-purpose):
-  description: "Draft TOC-based split config for <SOURCE_PAGES_FILE>"
-  prompt template: ./split-planner-prompt.md
-  placeholders:
-    <SOURCE_PAGES_FILE>, <DRAFT_CONFIG_PATH>
-```
-
-### wordcount-planner
-
-```text
-Task tool (general-purpose):
-  description: "Rebalance split config by wordcount for <SOURCE_PAGES_FILE>"
-  prompt template: ./split-wordcount-planner-prompt.md
-  placeholders:
-    <SOURCE_PAGES_FILE>, <DRAFT_CONFIG_PATH>
-```
-
 ## Progress Sync Contract (Required)
 
 1. Keep TodoWrite updated at every step.
@@ -212,7 +193,7 @@ Task tool (general-purpose):
 
 Stop when:
 - source extraction repeatedly fails
-- chapter split planners cannot produce a usable config
+- `chapter-split` cannot produce a usable config
 - glossary validation cannot be resolved safely
 - docs build fails with unclear root cause
 
@@ -227,7 +208,7 @@ Return to earlier steps when:
 
 Never:
 - continue after failed validation gates
-- ignore TOC order when applying wordcount balancing
+- continue after failed `chapter-split` handoff
 - skip user confirmation for formatting/proper noun policy
 - leave progress tracker uninitialized at handoff
 

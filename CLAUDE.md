@@ -73,6 +73,7 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 | --------------------- | --------------------------------------------------------------------- |
 | `/new-project`        | Create a new project from template and set up a private GitHub repo   |
 | `/init-doc`           | Initial setup: extract content, pick images/theme, and build glossary |
+| `/chapter-split`      | Split extracted Markdown into semantic docs pages and regenerate nav  |
 | `/translate`          | Translate a specific section or file                                  |
 | `/super-translate`    | Multi-agent translate + review loop (up to 3 iterations) for quality  |
 | `/check-consistency`  | Validate terminology consistency                                      |
@@ -143,12 +144,13 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 ### Workflow
 
 1. Use `new-project` skill to initialize a new project (when needed)
-2. Use `init-doc` skill to complete extraction, chapter structuring, and initial terminology mapping
-3. Use `term-decision` skill to handle terminology decisions and batch replacements
-4. Use `translate` or `super-translate` skill to translate target chapters or files, and create one simple progress commit after each completed batch (`progress: X/Y`)
-5. Use `fix-ref` skill to replace printed page references with internal links
-6. Use `check-consistency` skill to validate terminology and style consistency
-7. Use `check-completeness` skill to check rule content completeness
+2. Use `init-doc` skill to complete project-level setup, extraction orchestration, and initial terminology mapping
+3. Use `chapter-split` skill when extracted Markdown needs deterministic chapter/file structuring or re-splitting
+4. Use `term-decision` skill to handle terminology decisions and batch replacements
+5. Use `translate` or `super-translate` skill to translate target chapters or files, and create one simple progress commit after each completed batch (`progress: X/Y`)
+6. Use `fix-ref` skill to replace printed page references with internal links
+7. Use `check-consistency` skill to validate terminology and style consistency
+8. Use `check-completeness` skill to check rule content completeness
 
 ## Integrated Conventions
 

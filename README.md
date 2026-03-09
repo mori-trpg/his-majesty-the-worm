@@ -108,7 +108,7 @@ const SITE_CONFIG = {
 
 ### 使用原則
 
-- 建議流程：`new-project` → `init-doc` → `translate`（或高品質版 `super-translate`）
+- 建議流程：`new-project` → `init-doc` → `translate`（或高品質版 `super-translate`）；若來源更新或要重切章，插入 `chapter-split`
 - `translate`：單輪線性翻譯，適合快速草稿；`super-translate` (beta)：多 agent 審查循環（最多 2 輪），適合正式發布
 - `translate` 與 `super-translate` 都會在每個 batch 完成後自動建立一個簡短進度 commit（格式：`progress: X/Y`）
 - 翻譯前先確認術語（`glossary.json`），交付前執行一致性與完整性檢查
@@ -147,6 +147,7 @@ super-translate [target]
 | -------------------------------- | ---------------------------- |
 | 建立新專案                       | `new-project <pdf-path>`     |
 | 初始化翻譯專案                   | `init-doc`                   |
+| 重新切章與重建導覽               | `chapter-split [source]`     |
 | 翻譯章節或檔案                   | `translate [target]`         |
 | 翻譯＋多輪審查（beta）           | `super-translate [target]`   |
 | 術語一致性檢查                   | `check-consistency`          |
@@ -161,7 +162,7 @@ super-translate [target]
    把規則 PDF 放到 `data/pdfs/`。
 
 2. 初始化專案（建議）  
-   執行 `init-doc`（或手動執行清理、提取、切章），建立可翻譯的初始內容。
+   執行 `init-doc` 建立可翻譯的初始內容。若之後來源更新或章節結構要重切，改用 `chapter-split` 重建 `chapters.json` 與導覽。
 
 3. 提取 PDF 與章節裁切（Python）
    1. `uv run python scripts/extract_pdf.py data/pdfs/your-rulebook.pdf`

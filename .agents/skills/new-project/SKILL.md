@@ -98,8 +98,20 @@ cp "<pdf_path>" data/pdfs/
 
 Update:
 - `docs/astro.config.mjs` title and (if public) GitHub social link
-- `style-decisions.json.repository` metadata
+- initialize and update `style-decisions.json` via scripts
 - `AGENTS.md` project description
+
+Use:
+
+```bash
+uv run python scripts/style_decisions.py init
+uv run python scripts/style_decisions.py set-repository \
+  --slug "<project_name>" \
+  --visibility "<private_or_public>" \
+  --url "<REPO_URL>" \
+  --show-on-homepage <true_or_false>
+uv run python scripts/validate_style_decisions.py
+```
 
 ### Step 7: Verify and Report
 

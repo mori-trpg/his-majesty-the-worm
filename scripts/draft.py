@@ -3,8 +3,8 @@
 Draft management for translation workflow.
 
 Commands:
-    path <source>      Create stub draft with _draft_source frontmatter; print draft path
-    writeback <source> Strip _draft_* frontmatter fields and write draft back to source
+    path <source>      Create empty draft file and register it in manifest; print draft path
+    writeback <source> Write draft back to source using manifest metadata
     clean              Remove all drafts for the specified skill
 
 Options:
@@ -18,9 +18,11 @@ Examples:
 """
 
 import argparse
+import json
 import re
 import shutil
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -33,8 +35,30 @@ def _draft_path(source: Path, skill: str) -> Path:
     return draft_root / source
 
 
+def _manifest_path(skill: str) -> Path:
+    state_root = ROOT / ".claude" / "skills" / skill / ".state"
+    return state_root / "draft-manifest.json"
+
+
+def _now_iso() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
+def _load_manifest(skill: str) -> dict:
+    manifest_path = _manifest_path(skill)
+    if not manifest_path.exists():
+        return {"entries": {}}
+    return json.loads(manifest_path.read_text(encoding="utf-8"))
+
+
+def _save_manifest(skill: str, manifest: dict) -> None:
+    manifest_path = _manifest_path(skill)
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def _strip_draft_fields(content: str) -> str:
-    """Remove lines starting with _draft_ from YAML frontmatter."""
+    """Remove legacy lines starting with _draft_ from YAML frontmatter."""
     match = _FM_RE.match(content)
     if not match:
         return content
@@ -47,15 +71,32 @@ def cmd_path(source_str: str, skill: str) -> None:
     source = Path(source_str)
     draft = _draft_path(source, skill)
     draft.parent.mkdir(parents=True, exist_ok=True)
-    # Write stub so the draft file exists and carries source path in frontmatter
     if not draft.exists():
-        draft.write_text(f"---\n_draft_source: {source_str}\n---\n")
+        draft.write_text("", encoding="utf-8")
+
+    manifest = _load_manifest(skill)
+    entries = manifest.setdefault("entries", {})
+    entries[source_str] = {
+        "source": source_str,
+        "draft": str(draft.relative_to(ROOT).as_posix()),
+        "updated": _now_iso(),
+    }
+    _save_manifest(skill, manifest)
     print(draft)
 
 
 def cmd_writeback(source_str: str, skill: str) -> None:
+    manifest = _load_manifest(skill)
+    entry = manifest.get("entries", {}).get(source_str)
+    if entry is None:
+        print(f"Error: draft manifest entry not found for: {source_str}", file=sys.stderr)
+        sys.exit(1)
     source = Path(source_str)
-    draft = _draft_path(source, skill)
+    draft_str = entry.get("draft")
+    if not draft_str:
+        print(f"Error: draft path missing in manifest for: {source_str}", file=sys.stderr)
+        sys.exit(1)
+    draft = ROOT / Path(draft_str)
     if not draft.exists():
         print(f"Error: draft not found: {draft}", file=sys.stderr)
         sys.exit(1)
@@ -65,16 +106,21 @@ def cmd_writeback(source_str: str, skill: str) -> None:
     abs_source.parent.mkdir(parents=True, exist_ok=True)
     abs_source.write_text(cleaned, encoding="utf-8")
     draft.unlink()
+    manifest["entries"].pop(source_str, None)
+    _save_manifest(skill, manifest)
     print(f"Writeback: {draft.relative_to(ROOT)} → {source}", file=sys.stderr)
 
 
 def cmd_clean(skill: str) -> None:
     draft_dir = ROOT / ".claude" / "skills" / skill / ".state" / "drafts"
+    manifest_path = _manifest_path(skill)
     if draft_dir.exists():
         shutil.rmtree(draft_dir)
         print(f"Cleaned: {draft_dir.relative_to(ROOT)}", file=sys.stderr)
     else:
         print(f"No drafts found for skill '{skill}'", file=sys.stderr)
+    if manifest_path.exists():
+        manifest_path.unlink()
 
 
 def main() -> None:
@@ -91,10 +137,10 @@ def main() -> None:
 
     sub = parser.add_subparsers(dest="command", required=True)
 
-    p_path = sub.add_parser("path", help="Create stub draft and print draft path")
+    p_path = sub.add_parser("path", help="Create draft file, register manifest entry, and print draft path")
     p_path.add_argument("source", help="Source file path relative to project root")
 
-    p_wb = sub.add_parser("writeback", help="Strip _draft_* fields and write draft to source")
+    p_wb = sub.add_parser("writeback", help="Write draft to source using manifest metadata")
     p_wb.add_argument("source", help="Source file path relative to project root")
 
     sub.add_parser("clean", help="Remove all drafts for the specified skill")

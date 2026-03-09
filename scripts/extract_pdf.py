@@ -7,6 +7,9 @@ PDF 提取工具
     python scripts/extract_pdf.py <pdf_file>
     python scripts/extract_pdf.py <pdf_file> --include-images
     python scripts/extract_pdf.py <pdf_file> --no-include-images
+    python scripts/extract_pdf.py <pdf_file> --skip-full-markitdown
+    python scripts/extract_pdf.py <pdf_file> --layout-profile double-column
+    python scripts/extract_pdf.py <pdf_file> --page-text-engine markitdown
 
 輸出：
     data/markdown/<檔名>.md                 - markitdown 提取版本
@@ -17,6 +20,7 @@ PDF 提取工具
 
 import argparse
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -30,6 +34,22 @@ try:
     import pymupdf
 except ImportError:
     pymupdf = None
+
+
+VALID_PAGE_TEXT_ENGINES = {"auto", "pymupdf", "markitdown"}
+VALID_LAYOUT_PROFILES = {"auto", "single-column", "double-column"}
+PAGE_TEXT_ENGINE_ALIASES = {
+    "fitz": "pymupdf",
+    "markdown": "markitdown",
+}
+LAYOUT_PROFILE_ALIASES = {
+    "single": "single-column",
+    "single_column": "single-column",
+    "double": "double-column",
+    "double_column": "double-column",
+    "two-column": "double-column",
+    "two_column": "double-column",
+}
 
 
 def compute_visual_hash(samples: list[int]) -> str | None:
@@ -105,9 +125,48 @@ def analyze_image_bytes(image_bytes: bytes) -> dict[str, object]:
     }
 
 
+def normalize_page_text_engine(value: object) -> str | None:
+    """正規化頁面文字引擎設定。"""
+    if value is None:
+        return None
+    normalized = str(value).strip().lower()
+    normalized = PAGE_TEXT_ENGINE_ALIASES.get(normalized, normalized)
+    if normalized in VALID_PAGE_TEXT_ENGINES:
+        return normalized
+    return None
+
+
+def normalize_layout_profile(value: object) -> str | None:
+    """正規化版面設定。"""
+    if value is None:
+        return None
+    normalized = str(value).strip().lower()
+    normalized = LAYOUT_PROFILE_ALIASES.get(normalized, normalized)
+    if normalized in VALID_LAYOUT_PROFILES:
+        return normalized
+    return None
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="將 PDF 提取成可切分的 Markdown")
     parser.add_argument("pdf_file", help="來源 PDF 檔案")
+    parser.add_argument(
+        "--skip-full-markitdown",
+        action="store_true",
+        help="略過整本 markitdown 提取，只保留 _pages.md 與圖片輸出",
+    )
+    parser.add_argument(
+        "--page-text-engine",
+        choices=("auto", "pymupdf", "markitdown"),
+        default="auto",
+        help="生成 _pages.md 時使用的頁面文字引擎（預設: auto，會依雙欄偵測與文件設定選擇）",
+    )
+    parser.add_argument(
+        "--layout-profile",
+        choices=("auto", "single-column", "double-column"),
+        default="auto",
+        help="文件版面設定（預設: auto；double-column 會偏向 markitdown，single-column 會偏向 pymupdf）",
+    )
 
     include_group = parser.add_mutually_exclusive_group()
     include_group.add_argument(
@@ -156,40 +215,303 @@ def extract_with_markitdown(pdf_path: Path, output_dir: Path) -> Path | None:
     return output_file
 
 
-def extract_with_pages(pdf_path: Path, output_dir: Path) -> Path | None:
-    """使用 markitdown 逐頁提取 PDF 內容（含頁碼標記，用於章節拆分）"""
-    if MarkItDown is None:
-        print("⚠️  markitdown 未安裝，跳過")
-        return None
+def extract_page_text_pymupdf(page) -> str:
+    """使用 pymupdf 直接提取單頁文字。"""
+    try:
+        text = page.get_text("text", sort=True)
+    except TypeError:
+        try:
+            text = page.get_text("text")
+        except TypeError:
+            text = page.get_text()
+    return text.strip()
+
+
+def load_style_decisions(project_root: Path) -> dict:
+    """讀取 style-decisions.json。"""
+    path = project_root / "style-decisions.json"
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        print(f"⚠️  style-decisions.json 解析失敗，忽略文件抽取設定：{exc}")
+        return {}
+
+
+def load_document_extraction_settings(project_root: Path, pdf_stem: str) -> dict[str, str]:
+    """讀取全域與每文件抽取設定。"""
+    style_decisions = load_style_decisions(project_root)
+    document_format = style_decisions.get("document_format", {})
+    if not isinstance(document_format, dict):
+        return {}
+
+    settings: dict[str, str] = {}
+    for key, normalizer in (
+        ("page_text_engine", normalize_page_text_engine),
+        ("layout_profile", normalize_layout_profile),
+    ):
+        normalized = normalizer(document_format.get(key))
+        if normalized is not None:
+            settings[key] = normalized
+
+    documents = document_format.get("documents", {})
+    if isinstance(documents, dict):
+        doc_settings = documents.get(pdf_stem, {})
+        if isinstance(doc_settings, dict):
+            for key, normalizer in (
+                ("page_text_engine", normalize_page_text_engine),
+                ("layout_profile", normalize_layout_profile),
+            ):
+                normalized = normalizer(doc_settings.get(key))
+                if normalized is not None:
+                    settings[key] = normalized
+
+    return settings
+
+
+def classify_page_layout(words: list[tuple], page_width: float) -> dict[str, object]:
+    """根據單頁文字分布判斷是否為雙欄頁。"""
+    if page_width <= 0:
+        return {"layout_profile": "unknown", "confidence": 0.0, "classified_lines": 0}
+
+    lines: dict[tuple[int, int], list[tuple[float, float, str]]] = {}
+    for word in words:
+        if len(word) < 8:
+            continue
+        x0, _y0, x1, _y1, text, block_no, line_no, _word_no = word[:8]
+        text = str(text).strip()
+        if len(re.sub(r"\W+", "", text)) < 2:
+            continue
+        key = (int(block_no), int(line_no))
+        lines.setdefault(key, []).append((float(x0), float(x1), text))
+
+    line_boxes: list[tuple[float, float]] = []
+    for line_words in lines.values():
+        line_words.sort(key=lambda item: item[0])
+        joined = " ".join(text for _x0, _x1, text in line_words).strip()
+        if len(joined) < 24:
+            continue
+        line_boxes.append(
+            (
+                min(x0 for x0, _x1, _text in line_words),
+                max(x1 for _x0, x1, _text in line_words),
+            )
+        )
+
+    if len(line_boxes) < 8:
+        return {"layout_profile": "unknown", "confidence": 0.0, "classified_lines": len(line_boxes)}
+
+    left_boundary = page_width * 0.48
+    right_boundary = page_width * 0.52
+    left_lines = sum(1 for x0, x1 in line_boxes if x1 <= left_boundary)
+    right_lines = sum(1 for x0, x1 in line_boxes if x0 >= right_boundary)
+    spanning_lines = sum(1 for x0, x1 in line_boxes if x0 < left_boundary and x1 > right_boundary)
+    classified_lines = left_lines + right_lines + spanning_lines
+    if classified_lines < 8:
+        return {
+            "layout_profile": "unknown",
+            "confidence": 0.0,
+            "classified_lines": classified_lines,
+        }
+
+    left_ratio = left_lines / classified_lines
+    right_ratio = right_lines / classified_lines
+    spanning_ratio = spanning_lines / classified_lines
+
+    if (
+        left_lines >= 3
+        and right_lines >= 3
+        and left_ratio >= 0.2
+        and right_ratio >= 0.2
+        and spanning_ratio <= 0.2
+    ):
+        confidence = round(min(0.99, (left_ratio + right_ratio) * (1 - spanning_ratio)), 2)
+        return {
+            "layout_profile": "double-column",
+            "confidence": confidence,
+            "classified_lines": classified_lines,
+        }
+
+    if spanning_ratio >= 0.45:
+        return {
+            "layout_profile": "single-column",
+            "confidence": round(min(0.99, spanning_ratio), 2),
+            "classified_lines": classified_lines,
+        }
+
+    return {
+        "layout_profile": "unknown",
+        "confidence": round(max(left_ratio, right_ratio, spanning_ratio), 2),
+        "classified_lines": classified_lines,
+    }
+
+
+def sample_page_indices(total_pages: int, max_samples: int = 12) -> list[int]:
+    """均勻抽樣頁碼索引。"""
+    if total_pages <= 0:
+        return []
+    if total_pages <= max_samples:
+        return list(range(total_pages))
+    return sorted({round(i * (total_pages - 1) / (max_samples - 1)) for i in range(max_samples)})
+
+
+def detect_layout_profile(pdf_path: Path, max_samples: int = 12) -> dict[str, object]:
+    """抽樣頁面，自動判斷單欄或雙欄。"""
+    if pymupdf is None:
+        return {
+            "layout_profile": "single-column",
+            "confidence": 0.0,
+            "source": "fallback",
+            "sampled_pages": [],
+        }
+
+    doc = pymupdf.open(str(pdf_path))
+    try:
+        results: list[dict[str, object]] = []
+        for page_index in sample_page_indices(len(doc), max_samples=max_samples):
+            page = doc[page_index]
+            try:
+                words = page.get_text("words", sort=False)
+            except TypeError:
+                words = page.get_text("words")
+            result = classify_page_layout(words or [], float(page.rect.width))
+            result["page"] = page_index + 1
+            results.append(result)
+
+        known = [result for result in results if result["layout_profile"] != "unknown"]
+        if not known:
+            return {
+                "layout_profile": "single-column",
+                "confidence": 0.0,
+                "source": "auto-detect",
+                "sampled_pages": results,
+            }
+
+        double_votes = sum(1 for result in known if result["layout_profile"] == "double-column")
+        single_votes = sum(1 for result in known if result["layout_profile"] == "single-column")
+        if double_votes > single_votes:
+            layout_profile = "double-column"
+            confidence = round(double_votes / len(known), 2)
+        else:
+            layout_profile = "single-column"
+            confidence = round(single_votes / len(known), 2)
+
+        return {
+            "layout_profile": layout_profile,
+            "confidence": confidence,
+            "source": "auto-detect",
+            "sampled_pages": results,
+        }
+    finally:
+        doc.close()
+
+
+def resolve_page_text_strategy(
+    pdf_path: Path,
+    project_root: Path,
+    requested_engine: str,
+    requested_layout: str,
+) -> dict[str, object]:
+    """綜合 CLI、style-decisions 與自動偵測，決定分頁提取策略。"""
+    pdf_stem = pdf_path.stem
+    settings = load_document_extraction_settings(project_root, pdf_stem)
+
+    page_text_engine = normalize_page_text_engine(requested_engine) or "auto"
+    layout_profile = normalize_layout_profile(requested_layout) or "auto"
+    engine_source = "cli" if page_text_engine != "auto" else None
+    layout_source = "cli" if layout_profile != "auto" else None
+
+    if page_text_engine == "auto":
+        style_engine = settings.get("page_text_engine")
+        if style_engine and style_engine != "auto":
+            page_text_engine = style_engine
+            engine_source = "style-decisions"
+
+    if layout_profile == "auto":
+        style_layout = settings.get("layout_profile")
+        if style_layout and style_layout != "auto":
+            layout_profile = style_layout
+            layout_source = "style-decisions"
+
+    detection: dict[str, object] | None = None
+    if layout_profile == "auto":
+        detection = detect_layout_profile(pdf_path)
+        layout_profile = str(detection.get("layout_profile", "single-column"))
+        layout_source = str(detection.get("source", "auto-detect"))
+
+    if page_text_engine == "auto":
+        page_text_engine = "markitdown" if layout_profile == "double-column" else "pymupdf"
+        engine_source = "layout-profile"
+
+    if page_text_engine == "markitdown" and MarkItDown is None:
+        print("⚠️  需要 markitdown 才能使用雙欄保守路徑，已回退到 pymupdf")
+        page_text_engine = "pymupdf"
+        engine_source = "fallback"
+
+    return {
+        "page_text_engine": page_text_engine,
+        "page_text_engine_source": engine_source or "default",
+        "layout_profile": layout_profile,
+        "layout_profile_source": layout_source or "default",
+        "document_settings": settings,
+        "detection": detection,
+    }
+
+
+def should_print_progress(page_num: int, total_pages: int, progress_every: int) -> bool:
+    """控制分頁提取進度輸出頻率。"""
+    return page_num == 1 or page_num == total_pages or page_num % progress_every == 0
+
+
+def extract_with_pages(
+    pdf_path: Path,
+    output_dir: Path,
+    page_text_engine: str = "pymupdf",
+    progress_every: int = 25,
+) -> Path | None:
+    """提取含頁碼標記的內容，用於章節拆分。"""
     if pymupdf is None:
         print("⚠️  pymupdf 未安裝（需要用於分頁），跳過")
+        return None
+    if page_text_engine == "markitdown" and MarkItDown is None:
+        print("⚠️  markitdown 未安裝，無法使用 markitdown 分頁模式")
         return None
 
     import tempfile
 
-    md = MarkItDown()
     doc = pymupdf.open(str(pdf_path))
-
-    content_parts = []
-    with tempfile.TemporaryDirectory() as tmp_dir:
-        for page_num in range(len(doc)):
-            single = pymupdf.open()
-            single.insert_pdf(doc, from_page=page_num, to_page=page_num)
-            tmp_pdf = Path(tmp_dir) / f"page_{page_num + 1}.pdf"
-            single.save(str(tmp_pdf))
-            single.close()
-
-            result = md.convert(str(tmp_pdf))
-            content_parts.append(
-                f"\n\n<!-- PAGE {page_num + 1} -->\n\n{result.text_content.strip()}"
-            )
-
-    doc.close()
-
+    total_pages = len(doc)
+    progress_every = max(1, progress_every)
     output_file = output_dir / f"{pdf_path.stem}_pages.md"
-    output_file.write_text("".join(content_parts), encoding="utf-8")
+    try:
+        with output_file.open("w", encoding="utf-8") as handle:
+            if page_text_engine == "pymupdf":
+                for page_num, page in enumerate(doc, 1):
+                    page_text = extract_page_text_pymupdf(page)
+                    handle.write(f"\n\n<!-- PAGE {page_num} -->\n\n{page_text}")
+                    if should_print_progress(page_num, total_pages, progress_every):
+                        print(f"↻ 分頁提取進度（pymupdf）: {page_num}/{total_pages}")
+            else:
+                md = MarkItDown()
+                with tempfile.TemporaryDirectory() as tmp_dir:
+                    for page_num in range(total_pages):
+                        single = pymupdf.open()
+                        single.insert_pdf(doc, from_page=page_num, to_page=page_num)
+                        tmp_pdf = Path(tmp_dir) / f"page_{page_num + 1}.pdf"
+                        single.save(str(tmp_pdf))
+                        single.close()
 
-    print(f"✓ 已提取（含頁碼）: {output_file}")
+                        result = md.convert(str(tmp_pdf))
+                        handle.write(
+                            f"\n\n<!-- PAGE {page_num + 1} -->\n\n{result.text_content.strip()}"
+                        )
+                        if should_print_progress(page_num + 1, total_pages, progress_every):
+                            print(f"↻ 分頁提取進度（markitdown）: {page_num + 1}/{total_pages}")
+    finally:
+        doc.close()
+
+    print(f"✓ 已提取（含頁碼，{page_text_engine}）: {output_file}")
     return output_file
 
 
@@ -330,15 +652,42 @@ def main():
     project_root = Path(__file__).parent.parent
     output_dir = project_root / "data" / "markdown"
     output_dir.mkdir(parents=True, exist_ok=True)
+    strategy = resolve_page_text_strategy(
+        pdf_path,
+        project_root,
+        requested_engine=args.page_text_engine,
+        requested_layout=args.layout_profile,
+    )
 
     print(f"\n📄 處理: {pdf_path.name}")
+    print(
+        f"🧭 分頁引擎: {strategy['page_text_engine']} "
+        f"（來源: {strategy['page_text_engine_source']}）"
+    )
+    print(
+        f"🧭 版面設定: {strategy['layout_profile']} "
+        f"（來源: {strategy['layout_profile_source']}）"
+    )
+    if strategy["detection"] is not None:
+        sampled_pages = [
+            f"p.{result['page']}={result['layout_profile']}"
+            for result in strategy["detection"].get("sampled_pages", [])
+            if result.get("layout_profile") != "unknown"
+        ]
+        if sampled_pages:
+            print(f"   自動偵測抽樣: {', '.join(sampled_pages[:8])}")
     print("-" * 50)
 
-    # 使用 markitdown 提取
-    extract_with_markitdown(pdf_path, output_dir)
+    if args.skip_full_markitdown:
+        print("↷ 已略過整本 markitdown 提取")
+    else:
+        extract_with_markitdown(pdf_path, output_dir)
 
-    # 使用 pymupdf 提取（含頁碼）
-    extract_with_pages(pdf_path, output_dir)
+    extract_with_pages(
+        pdf_path,
+        output_dir,
+        page_text_engine=strategy["page_text_engine"],
+    )
 
     include_images = args.include_images
     if include_images is None:

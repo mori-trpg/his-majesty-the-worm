@@ -82,6 +82,7 @@ Use the printed path as `<DRAFT_FILE>` for that file.
 Read and hold in memory:
 - `GLOSSARY_CONTENT` = full content of `glossary.json`
 - `STYLE_CONTENT` = full content of `style-decisions.json`
+  - includes `translation_notes`; translator/reviewer must treat them as hard constraints
 
 For each target file:
 1. mark TodoWrite item `in_progress`
@@ -96,13 +97,15 @@ For each target file:
    - `<GLOSSARY_CONTENT>` = glossary.json content
    - `<STYLE_CONTENT>` = style-decisions.json content
    - `<DRAFT_FILE>` = `$DRAFT_FILE` (from above)
-   - The stub draft already contains `_draft_source` in its frontmatter; translator must preserve it in the output
+   - Draft/source mapping is stored in `.claude/skills/super-translate/.state/draft-manifest.json`; translator must not add translation metadata to frontmatter
+   - Translator must follow every applicable item in `STYLE_CONTENT.translation_notes`
    - `frontmatter.title` is the page title; translator must not restate it anywhere in the body as a heading of any level (`#`, `##`, etc.)
    - If the opening overview/introduction block has no heading in the source, translator must keep it as plain body content and must not invent a `概覽` heading
    - If source content contains image markdown in the middle of prose flow, preserve the exact image link and move it into the middle of the translated paragraph without splitting that paragraph into separate blocks
 5. After translator returns, read `DRAFT_CONTENT` = full content of `<DRAFT_FILE>`
 6. dispatch reviewer using `./reviewer-prompt.md`, inline:
    - `<SOURCE_CONTENT>`, `<DRAFT_CONTENT>`, `<GLOSSARY_CONTENT>`, `<STYLE_CONTENT>`
+   - Reviewer must fail the draft if it violates any applicable item in `STYLE_CONTENT.translation_notes`
    - Reviewer must fail the draft if it adds any heading that restates `frontmatter.title`, or invents an overview heading that is not present in the source
    - Reviewer must fail the draft if image links are dropped, altered, or break one paragraph into multiple blocks when they should stay inside the paragraph flow
 7. if fail → dispatch refiner using `./refiner-prompt.md`, inline:

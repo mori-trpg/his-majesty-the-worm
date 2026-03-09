@@ -41,12 +41,86 @@ cp your-rulebook.pdf data/pdfs/
 
 # 執行提取
 uv run python scripts/extract_pdf.py data/pdfs/your-rulebook.pdf
+
+# 大型 PDF 若只需要切章來源，可略過整本 markitdown
+uv run python scripts/extract_pdf.py data/pdfs/your-rulebook.pdf --skip-full-markitdown
+
+# 明確指定雙欄書
+uv run python scripts/extract_pdf.py data/pdfs/your-rulebook.pdf --layout-profile double-column
+
+# 雙欄或複雜版面若要直接指定較保守路徑
+uv run python scripts/extract_pdf.py data/pdfs/your-rulebook.pdf --page-text-engine markitdown
 ```
 
 輸出：
 - `data/markdown/your-rulebook.md` — 純文字版本
 - `data/markdown/your-rulebook_pages.md` — 含頁碼標記（用於章節拆分）
 - `data/markdown/images/your-rulebook/` — 提取的圖片
+
+說明：
+- `_pages.md` 預設使用 `auto`，會先看 `style-decisions.json` 的每文件設定，否則再抽樣頁面偵測雙欄。
+- 偵測結果偏向單欄時，會用 `pymupdf`；偏向雙欄時，會用 `markitdown`。
+- 若要手動覆蓋，可指定 `--layout-profile single-column|double-column` 或 `--page-text-engine pymupdf|markitdown`。
+- 若大型 PDF 不需要整本 `your-rulebook.md`，可用 `--skip-full-markitdown` 省掉最慢的一步。
+
+每文件設定可寫在 `style-decisions.json`：
+
+```json
+{
+  "document_format": {
+    "layout_profile": "single-column",
+    "documents": {
+      "Household_1.2": {
+        "layout_profile": "double-column",
+        "page_text_engine": "markitdown"
+      }
+    }
+  }
+}
+```
+
+規則：
+- `document_format.layout_profile` 是全域預設。
+- `document_format.documents.<pdf_stem>` 會覆蓋特定文件。
+- `page_text_engine` 可不填；留空時由 `layout_profile` 自動決定。
+
+### style-decisions 管理
+
+`style-decisions.json` 之後應該只透過腳本建立、修改、補充，並搭配 schema 驗證：
+
+```bash
+# 初始化或檢查既有檔案
+uv run python scripts/style_decisions.py init
+
+# 設定 repo 資訊
+uv run python scripts/style_decisions.py set-repository \
+  --slug your-game-docs \
+  --visibility private \
+  --url https://github.com/you/your-game-docs \
+  --show-on-homepage false
+
+# 設定文件格式（可全域，也可指定 document key）
+uv run python scripts/style_decisions.py set-document-format \
+  --layout-profile auto \
+  --cards-usage "僅在比較內容時使用" \
+  --tabs-usage "只在同頁替代內容時使用"
+
+uv run python scripts/style_decisions.py set-document-format \
+  --document-key Household_1.2 \
+  --layout-profile double-column \
+  --page-text-engine markitdown
+
+# 加入翻譯備註
+uv run python scripts/style_decisions.py add-translation-note \
+  --key tone \
+  --topic 語氣 \
+  --note "保持正式、克制，不要擅自增加戲謔感。"
+
+# 驗證
+uv run python scripts/validate_style_decisions.py
+```
+
+`translation_notes` 會集中存放翻譯備註，讓 `translate` / `super-translate` 一次讀完整份 `style-decisions.json` 就能拿到所有全域約束；若是特定文件備註，可用 `--document-key <pdf_stem_or_doc_id>`。
 
 ### 2. 設定章節結構
 
