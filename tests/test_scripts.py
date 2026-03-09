@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 from unittest.mock import patch
 
@@ -97,12 +98,54 @@ class TestCleanSampleData(unittest.TestCase):
 
 
 class TestExtractPdf(unittest.TestCase):
+    @staticmethod
+    def _create_sample_epub(root: Path) -> Path:
+        epub_path = root / "sample.epub"
+        container_xml = """<?xml version="1.0" encoding="UTF-8"?>
+<container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">
+  <rootfiles>
+    <rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/>
+  </rootfiles>
+</container>
+"""
+        content_opf = """<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Sample</dc:title>
+    <dc:identifier id="bookid">sample-book</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="chap1" href="chap1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chap2" href="chap2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="art" href="image/art.png" media-type="image/png"/>
+  </manifest>
+  <spine>
+    <itemref idref="chap1"/>
+    <itemref idref="chap2"/>
+  </spine>
+</package>
+"""
+        chapter_xhtml = """<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><body><p>placeholder</p></body></html>
+"""
+        with zipfile.ZipFile(epub_path, "w") as archive:
+            archive.writestr("mimetype", "application/epub+zip")
+            archive.writestr("META-INF/container.xml", container_xml)
+            archive.writestr("OEBPS/content.opf", content_opf)
+            archive.writestr("OEBPS/chap1.xhtml", chapter_xhtml)
+            archive.writestr("OEBPS/chap2.xhtml", chapter_xhtml)
+            archive.writestr("OEBPS/image/art.png", b"pngdata")
+        return epub_path
+
     def test_parse_args_defaults_to_auto_strategy(self) -> None:
         with patch.object(sys, "argv", ["extract_pdf.py", "sample.pdf"]):
             args = ep.parse_args()
         self.assertEqual(args.page_text_engine, "auto")
         self.assertEqual(args.layout_profile, "auto")
         self.assertFalse(args.skip_full_markitdown)
+
+    def test_detect_source_type_supports_epub(self) -> None:
+        self.assertEqual(ep.detect_source_type(Path("sample.epub")), "epub")
 
     def test_classify_page_layout_detects_double_column(self) -> None:
         words = []
@@ -313,6 +356,21 @@ class TestExtractPdf(unittest.TestCase):
         self.assertEqual(strategy["page_text_engine_source"], "layout-profile")
         self.assertFalse(strategy["quality_probe"]["prefer_markitdown"])
 
+    def test_resolve_page_text_strategy_defaults_for_epub(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            epub_path = self._create_sample_epub(root)
+            strategy = ep.resolve_page_text_strategy(
+                epub_path,
+                root,
+                requested_engine="auto",
+                requested_layout="auto",
+            )
+        self.assertEqual(strategy["source_type"], "epub")
+        self.assertEqual(strategy["page_text_engine"], "markitdown")
+        self.assertEqual(strategy["page_text_engine_source"], "epub-default")
+        self.assertEqual(strategy["layout_profile_source"], "epub-default")
+
     def test_extract_with_markitdown_missing_dependency(self) -> None:
         with tempfile.TemporaryDirectory() as td:
             out = Path(td)
@@ -408,6 +466,35 @@ class TestExtractPdf(unittest.TestCase):
             self.assertIn("<!-- PAGE 1 -->", content)
             self.assertIn("<!-- PAGE 2 -->", content)
 
+    def test_extract_with_pages_epub_writes_virtual_page_markers(self) -> None:
+        markdown_by_name = {
+            "chap1.xhtml": "# Intro\nAlpha\n![art](image/art.png)\n## Details\nBeta",
+            "chap2.xhtml": "# Outro\nGamma",
+        }
+
+        class FakeResult:
+            def __init__(self, text: str) -> None:
+                self.text_content = text
+
+        class FakeMarkItDown:
+            def convert(self, path: str) -> FakeResult:
+                return FakeResult(markdown_by_name[Path(path).name])
+
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            epub_path = self._create_sample_epub(root)
+            out = root / "out"
+            out.mkdir()
+            with patch.object(ep, "MarkItDown", FakeMarkItDown):
+                result = ep.extract_with_pages(epub_path, out)
+            content = result.read_text(encoding="utf-8")
+            self.assertIn("<!-- PAGE 1 -->", content)
+            self.assertIn("<!-- PAGE 2 -->", content)
+            self.assertIn("<!-- PAGE 3 -->", content)
+            self.assertIn("# Intro", content)
+            self.assertIn("## Details", content)
+            self.assertNotIn("![art]", content)
+
     def test_extract_images_writes_files_and_manifest(self) -> None:
         class FakeRect:
             def __init__(self, x0: float, y0: float, width: float, height: float) -> None:
@@ -474,6 +561,51 @@ class TestExtractPdf(unittest.TestCase):
             self.assertEqual(manifest["images"][0]["file_size"], 4)
             self.assertEqual(manifest["images"][0]["visual_hash"], "1111")
             self.assertEqual(manifest["images"][0]["coverage_ratio"], 0.06)
+            self.assertTrue(
+                (out / "images" / "sample" / manifest["images"][0]["filename"]).exists()
+            )
+
+    def test_extract_images_epub_writes_files_and_manifest(self) -> None:
+        markdown_by_name = {
+            "chap1.xhtml": "# Intro\nAlpha\n![art](image/art.png)\n## Details\nBeta",
+            "chap2.xhtml": "# Outro\nGamma",
+        }
+
+        class FakeResult:
+            def __init__(self, text: str) -> None:
+                self.text_content = text
+
+        class FakeMarkItDown:
+            def convert(self, path: str) -> FakeResult:
+                return FakeResult(markdown_by_name[Path(path).name])
+
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            epub_path = self._create_sample_epub(root)
+            out = root / "out"
+            out.mkdir()
+            with (
+                patch.object(ep, "MarkItDown", FakeMarkItDown),
+                patch.object(
+                    ep,
+                    "analyze_image_bytes",
+                    return_value={
+                        "visual_hash": "abcd",
+                        "dominant_color_ratio": 0.5,
+                        "sampled_pixel_count": 64,
+                    },
+                ),
+            ):
+                images = ep.extract_images(epub_path, out)
+
+            self.assertEqual(len(images), 1)
+            manifest = json.loads(
+                (out / "images" / "sample" / "manifest.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(manifest["source_type"], "epub")
+            self.assertEqual(manifest["images"][0]["page"], 1)
+            self.assertEqual(manifest["images"][0]["source_path"], "OEBPS/image/art.png")
+            self.assertEqual(manifest["images"][0]["visual_hash"], "abcd")
             self.assertTrue(
                 (out / "images" / "sample" / manifest["images"][0]["filename"]).exists()
             )
