@@ -235,6 +235,8 @@ Return to Step 1 or 3 when:
 
 After translation, run `/check-consistency` and `/check-completeness` as needed.
 
+If `translation-progress.json` shows all files are `completed` after this batch, invoke the `final-proofread` skill to run the three-gate quality sweep before publishing.
+
 ## Example Usage
 
 ```text

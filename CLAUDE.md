@@ -80,6 +80,7 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 | `/term-decision`      | Make terminology decisions and batch replace                          |
 | `/check-completeness` | Check for missing rule content                                        |
 | `/fix-ref`            | Convert printed page references into internal Markdown links          |
+| `/final-proofread`    | Final quality sweep: frontmatter, content integrity, page-ref audit   |
 
 ### Tech Stack
 
@@ -151,6 +152,7 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 6. Use `fix-ref` skill to replace printed page references with internal links
 7. Use `check-consistency` skill to validate terminology and style consistency
 8. Use `check-completeness` skill to check rule content completeness
+9. Use `final-proofread` skill when all chapters are completed for a three-gate quality sweep before publishing
 
 ## Integrated Conventions
 

@@ -193,6 +193,10 @@ digraph super_translate {
 - Subagent output is malformed and not safely recoverable
 - Unknown term requires user decision (rare characters, puns, culturally nuanced)
 
+## Next Step
+
+If `translation-progress.json` shows all files are `completed` after this batch, invoke the `final-proofread` skill to run the three-gate quality sweep before publishing.
+
 ## References
 
 See `./translator-prompt.md`, `./reviewer-prompt.md`, `./refiner-prompt.md` for full dispatch context and placeholder specifications.
