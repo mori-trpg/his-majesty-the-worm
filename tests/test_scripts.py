@@ -132,6 +132,21 @@ class TestExtractPdf(unittest.TestCase):
         result = ep.classify_page_layout(words, page_width=400)
         self.assertEqual(result["layout_profile"], "single-column")
 
+    def test_analyze_pymupdf_text_noise_flags_layout_noise(self) -> None:
+        noisy_text = "\n".join(
+            f"Body text line {i}                Sidebar Heading" for i in range(20)
+        )
+        clean_text = "\n".join(
+            f"This is a normal body line number {i} with regular spacing." for i in range(20)
+        )
+
+        noisy = ep.analyze_pymupdf_text_noise(noisy_text)
+        clean = ep.analyze_pymupdf_text_noise(clean_text)
+
+        self.assertTrue(noisy["is_noisy"])
+        self.assertGreater(noisy["whitespace_ratio"], 0.08)
+        self.assertFalse(clean["is_noisy"])
+
     def test_load_document_extraction_settings_prefers_per_document(self) -> None:
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
@@ -215,6 +230,88 @@ class TestExtractPdf(unittest.TestCase):
         self.assertEqual(strategy["layout_profile"], "double-column")
         self.assertEqual(strategy["page_text_engine"], "markitdown")
         self.assertEqual(strategy["layout_profile_source"], "auto-detect")
+
+    def test_resolve_page_text_strategy_prefers_markitdown_when_pymupdf_probe_is_noisy(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            pdf_path = root / "sample.pdf"
+            pdf_path.write_bytes(b"pdf")
+            with (
+                patch.object(ep, "MarkItDown", object()),
+                patch.object(
+                    ep,
+                    "detect_layout_profile",
+                    return_value={
+                        "layout_profile": "single-column",
+                        "confidence": 0.9,
+                        "source": "auto-detect",
+                        "sampled_pages": [{"page": 20, "layout_profile": "single-column"}],
+                    },
+                ),
+                patch.object(
+                    ep,
+                    "probe_pymupdf_text_quality",
+                    return_value={
+                        "prefer_markitdown": True,
+                        "source": "pymupdf-quality-probe",
+                        "sampled_pages": [{"page": 20, "is_noisy": True, "whitespace_ratio": 0.22}],
+                        "informative_pages": 6,
+                        "noisy_pages": 4,
+                        "required_noisy_pages": 2,
+                    },
+                ),
+            ):
+                strategy = ep.resolve_page_text_strategy(
+                    pdf_path,
+                    root,
+                    requested_engine="auto",
+                    requested_layout="auto",
+                )
+        self.assertEqual(strategy["layout_profile"], "single-column")
+        self.assertEqual(strategy["page_text_engine"], "markitdown")
+        self.assertEqual(strategy["page_text_engine_source"], "pymupdf-quality-probe")
+        self.assertTrue(strategy["quality_probe"]["prefer_markitdown"])
+
+    def test_resolve_page_text_strategy_keeps_pymupdf_when_pymupdf_probe_is_clean(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            pdf_path = root / "sample.pdf"
+            pdf_path.write_bytes(b"pdf")
+            with (
+                patch.object(ep, "MarkItDown", object()),
+                patch.object(
+                    ep,
+                    "detect_layout_profile",
+                    return_value={
+                        "layout_profile": "single-column",
+                        "confidence": 0.9,
+                        "source": "auto-detect",
+                        "sampled_pages": [{"page": 20, "layout_profile": "single-column"}],
+                    },
+                ),
+                patch.object(
+                    ep,
+                    "probe_pymupdf_text_quality",
+                    return_value={
+                        "prefer_markitdown": False,
+                        "source": "pymupdf-quality-probe",
+                        "sampled_pages": [{"page": 20, "is_noisy": False, "whitespace_ratio": 0.0}],
+                        "informative_pages": 6,
+                        "noisy_pages": 0,
+                        "required_noisy_pages": 2,
+                    },
+                ),
+            ):
+                strategy = ep.resolve_page_text_strategy(
+                    pdf_path,
+                    root,
+                    requested_engine="auto",
+                    requested_layout="auto",
+                )
+        self.assertEqual(strategy["layout_profile"], "single-column")
+        self.assertEqual(strategy["page_text_engine"], "pymupdf")
+        self.assertEqual(strategy["page_text_engine_source"], "layout-profile")
+        self.assertFalse(strategy["quality_probe"]["prefer_markitdown"])
 
     def test_extract_with_markitdown_missing_dependency(self) -> None:
         with tempfile.TemporaryDirectory() as td:

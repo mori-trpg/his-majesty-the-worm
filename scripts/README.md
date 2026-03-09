@@ -59,7 +59,8 @@ uv run python scripts/extract_pdf.py data/pdfs/your-rulebook.pdf --page-text-eng
 
 說明：
 - `_pages.md` 預設使用 `auto`，會先看 `style-decisions.json` 的每文件設定，否則再抽樣頁面偵測雙欄。
-- 偵測結果偏向單欄時，會用 `pymupdf`；偏向雙欄時，會用 `markitdown`。
+- 偵測結果偏向雙欄時，會用 `markitdown`。
+- 偵測結果偏向單欄時，預設會用 `pymupdf`；但若抽樣文字顯示有明顯版面噪訊（例如大量長空白或側欄文字被混入正文），會自動改用 `markitdown`。
 - 若要手動覆蓋，可指定 `--layout-profile single-column|double-column` 或 `--page-text-engine pymupdf|markitdown`。
 - 若大型 PDF 不需要整本 `your-rulebook.md`，可用 `--skip-full-markitdown` 省掉最慢的一步。
 

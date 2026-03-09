@@ -50,6 +50,11 @@ LAYOUT_PROFILE_ALIASES = {
     "two-column": "double-column",
     "two_column": "double-column",
 }
+LONG_SPACE_RUN_RE = re.compile(r" {4,}")
+NOISY_LINE_SPACE_RE = re.compile(r" {8,}")
+MIN_QUALITY_PROBE_CHARS = 400
+PYMUPDF_LAYOUT_NOISE_RATIO = 0.08
+PYMUPDF_LAYOUT_NOISE_LINES = 4
 
 
 def compute_visual_hash(samples: list[int]) -> str | None:
@@ -227,6 +232,31 @@ def extract_page_text_pymupdf(page) -> str:
     return text.strip()
 
 
+def analyze_pymupdf_text_noise(text: str) -> dict[str, object]:
+    """估算 pymupdf 文字是否混入大量版面空白或側欄干擾。"""
+    normalized = text.replace("\x00", "")
+    char_count = len(normalized)
+    long_space_runs = [len(match.group(0)) for match in LONG_SPACE_RUN_RE.finditer(normalized)]
+    long_space_chars = sum(long_space_runs)
+    noisy_lines = sum(1 for line in normalized.splitlines() if NOISY_LINE_SPACE_RE.search(line))
+    whitespace_ratio = round(long_space_chars / char_count, 4) if char_count else 0.0
+    is_noisy = (
+        char_count >= MIN_QUALITY_PROBE_CHARS
+        and (
+            whitespace_ratio >= PYMUPDF_LAYOUT_NOISE_RATIO
+            or noisy_lines >= PYMUPDF_LAYOUT_NOISE_LINES
+        )
+    )
+    return {
+        "char_count": char_count,
+        "long_space_runs": len(long_space_runs),
+        "max_long_space_run": max(long_space_runs) if long_space_runs else 0,
+        "noisy_lines": noisy_lines,
+        "whitespace_ratio": whitespace_ratio,
+        "is_noisy": is_noisy,
+    }
+
+
 def load_style_decisions(project_root: Path) -> dict:
     """讀取 style-decisions.json。"""
     path = project_root / "style-decisions.json"
@@ -356,6 +386,45 @@ def sample_page_indices(total_pages: int, max_samples: int = 12) -> list[int]:
     return sorted({round(i * (total_pages - 1) / (max_samples - 1)) for i in range(max_samples)})
 
 
+def probe_pymupdf_text_quality(pdf_path: Path, max_samples: int = 12) -> dict[str, object]:
+    """抽樣檢查 pymupdf 的文字流是否受版面噪訊污染。"""
+    if pymupdf is None:
+        return {
+            "prefer_markitdown": False,
+            "source": "pymupdf-quality-probe",
+            "sampled_pages": [],
+            "informative_pages": 0,
+            "noisy_pages": 0,
+            "required_noisy_pages": 0,
+        }
+
+    doc = pymupdf.open(str(pdf_path))
+    try:
+        results: list[dict[str, object]] = []
+        for page_index in sample_page_indices(len(doc), max_samples=max_samples):
+            page = doc[page_index]
+            text = extract_page_text_pymupdf(page)
+            result = analyze_pymupdf_text_noise(text)
+            result["page"] = page_index + 1
+            results.append(result)
+
+        informative = [result for result in results if result["char_count"] >= MIN_QUALITY_PROBE_CHARS]
+        noisy = [result for result in informative if result["is_noisy"]]
+        required_noisy_pages = max(2, (len(informative) + 2) // 3) if informative else 0
+        prefer_markitdown = bool(informative) and len(noisy) >= required_noisy_pages
+
+        return {
+            "prefer_markitdown": prefer_markitdown,
+            "source": "pymupdf-quality-probe",
+            "sampled_pages": results,
+            "informative_pages": len(informative),
+            "noisy_pages": len(noisy),
+            "required_noisy_pages": required_noisy_pages,
+        }
+    finally:
+        doc.close()
+
+
 def detect_layout_profile(pdf_path: Path, max_samples: int = 12) -> dict[str, object]:
     """抽樣頁面，自動判斷單欄或雙欄。"""
     if pymupdf is None:
@@ -435,10 +504,21 @@ def resolve_page_text_strategy(
             layout_source = "style-decisions"
 
     detection: dict[str, object] | None = None
+    quality_probe: dict[str, object] | None = None
     if layout_profile == "auto":
         detection = detect_layout_profile(pdf_path)
         layout_profile = str(detection.get("layout_profile", "single-column"))
         layout_source = str(detection.get("source", "auto-detect"))
+
+    if (
+        page_text_engine == "auto"
+        and layout_profile == "single-column"
+        and MarkItDown is not None
+    ):
+        quality_probe = probe_pymupdf_text_quality(pdf_path)
+        if quality_probe.get("prefer_markitdown"):
+            page_text_engine = "markitdown"
+            engine_source = str(quality_probe.get("source", "quality-probe"))
 
     if page_text_engine == "auto":
         page_text_engine = "markitdown" if layout_profile == "double-column" else "pymupdf"
@@ -456,6 +536,7 @@ def resolve_page_text_strategy(
         "layout_profile_source": layout_source or "default",
         "document_settings": settings,
         "detection": detection,
+        "quality_probe": quality_probe,
     }
 
 
@@ -676,6 +757,15 @@ def main():
         ]
         if sampled_pages:
             print(f"   自動偵測抽樣: {', '.join(sampled_pages[:8])}")
+    quality_probe = strategy.get("quality_probe")
+    if quality_probe and quality_probe.get("prefer_markitdown"):
+        noisy_pages = [
+            f"p.{result['page']}={result['whitespace_ratio']}"
+            for result in quality_probe.get("sampled_pages", [])
+            if result.get("is_noisy")
+        ]
+        if noisy_pages:
+            print(f"   文字品質探測：PyMuPDF 版面噪訊偏高，改用 markitdown（{', '.join(noisy_pages[:8])}）")
     print("-" * 50)
 
     if args.skip_full_markitdown:
