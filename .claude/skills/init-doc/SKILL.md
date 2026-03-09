@@ -102,7 +102,7 @@ Summarize content to user in Traditional Chinese:
 
 Collect formatting choices (Traditional Chinese):
 - layout profile for extraction (`auto` / `single-column` / `double-column`)
-- aside mapping (`note/tip/caution/danger`)
+- aside mapping (`note/tip/caution/danger`) — must include a mapping for game examples (game examples should always be rendered as asides)
 - card/tabs usage
 - table/dice-table conventions
 
