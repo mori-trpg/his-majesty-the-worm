@@ -45,6 +45,8 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from _markdown_utils import clean_content, count_page_text_tokens
+
 
 def load_config(config_path: Path) -> dict:
     """載入設定檔"""
@@ -135,18 +137,6 @@ def get_page_range(pages: dict[int, str], start: int, end: int) -> str:
     return "\n\n".join(parts)
 
 
-def clean_content(text: str, patterns: list[str]) -> str:
-    """清理內容"""
-    for pattern in patterns:
-        text = re.sub(pattern, "", text)
-    # 移除多餘空行
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-
-
-def count_page_text_tokens(text: str) -> int:
-    """估算頁面文字量。"""
-    return len(re.findall(r"\S+", text))
 
 
 def generate_frontmatter(title: str, description: str = "", order: int | None = None) -> str:

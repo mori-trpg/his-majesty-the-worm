@@ -30,6 +30,15 @@ from collections import Counter
 from pathlib import Path, PurePosixPath
 from urllib.parse import unquote
 
+from _markdown_utils import (
+    LINKED_MARKDOWN_IMAGE_RE,
+    MARKDOWN_HEADING_RE,
+    MARKDOWN_IMAGE_RE,
+    extract_markdown_image_targets,
+    split_markdown_sections,
+    strip_markdown_images,
+)
+
 try:
     from markitdown import MarkItDown
 except ImportError:
@@ -68,9 +77,6 @@ NOISY_LINE_SPACE_RE = re.compile(r" {8,}")
 MIN_QUALITY_PROBE_CHARS = 400
 PYMUPDF_LAYOUT_NOISE_RATIO = 0.08
 PYMUPDF_LAYOUT_NOISE_LINES = 4
-LINKED_MARKDOWN_IMAGE_RE = re.compile(r"\[!\[[^\]]*]\([^)]+\)]\([^)]+\)")
-MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*]\([^)]+\)")
-MARKDOWN_HEADING_RE = re.compile(r"^#{1,3}\s+\S")
 SAFE_FILENAME_RE = re.compile(r"[^A-Za-z0-9._-]+")
 
 
@@ -312,46 +318,6 @@ def iter_epub_spine_documents(epub_path: Path) -> list[dict[str, object]]:
     ]
 
 
-def strip_markdown_images(text: str) -> str:
-    """移除 Markdown 圖片語法，避免後續依 manifest 再插圖時重複。"""
-    stripped = LINKED_MARKDOWN_IMAGE_RE.sub("", text)
-    stripped = MARKDOWN_IMAGE_RE.sub("", stripped)
-    stripped = re.sub(r"\n{3,}", "\n\n", stripped)
-    return stripped.strip()
-
-
-def extract_markdown_image_targets(text: str) -> list[str]:
-    """擷取 Markdown 中的圖片路徑。"""
-    targets: list[str] = []
-    for match in MARKDOWN_IMAGE_RE.finditer(text):
-        target = match.group(0).split("](", 1)[1].rsplit(")", 1)[0].strip()
-        target = target.split(maxsplit=1)[0].strip("<>")
-        if target:
-            targets.append(unquote(target))
-    return targets
-
-
-def split_markdown_sections(text: str) -> list[str]:
-    """依 heading 將 Markdown 切成較細的虛擬頁碼區塊。"""
-    lines = text.splitlines()
-    sections: list[str] = []
-    current: list[str] = []
-
-    for line in lines:
-        if MARKDOWN_HEADING_RE.match(line) and any(part.strip() for part in current):
-            section = "\n".join(current).strip()
-            if section:
-                sections.append(section)
-            current = [line]
-            continue
-        current.append(line)
-
-    if any(part.strip() for part in current):
-        section = "\n".join(current).strip()
-        if section:
-            sections.append(section)
-
-    return sections or [text.strip()]
 
 
 def sanitize_filename_component(name: str) -> str:
