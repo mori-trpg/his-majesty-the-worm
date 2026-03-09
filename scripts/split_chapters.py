@@ -45,6 +45,14 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from _image_analysis import (
+    image_coverage_ratio,
+    image_dominant_color_ratio,
+    image_file_size_key,
+    image_page_dimensions,
+    image_visual_key,
+    is_background_candidate,
+)
 from _markdown_utils import clean_content, count_page_text_tokens
 
 
@@ -201,47 +209,6 @@ def load_image_manifest(config: dict, project_root: Path) -> tuple[list[dict], P
     )
 
 
-def image_file_size_key(image: dict) -> int | None:
-    """為圖片建立檔案大小去重 key。"""
-    file_size = image.get("file_size")
-    if file_size is None:
-        return None
-    return int(file_size)
-
-
-def image_visual_key(image: dict) -> str | None:
-    """為圖片建立視覺去重 key。"""
-    visual_hash = image.get("visual_hash")
-    if not visual_hash:
-        return None
-    return str(visual_hash)
-
-
-def image_coverage_ratio(image: dict) -> float | None:
-    """讀取圖片覆蓋頁面的比例。"""
-    ratio = image.get("coverage_ratio")
-    if ratio is None:
-        return None
-    return float(ratio)
-
-
-def image_dominant_color_ratio(image: dict) -> float | None:
-    """讀取圖片單色占比。"""
-    ratio = image.get("dominant_color_ratio")
-    if ratio is None:
-        return None
-    return float(ratio)
-
-
-def image_page_dimensions(image: dict) -> tuple[float, float] | tuple[None, None]:
-    """讀取圖片所屬頁面的寬高。"""
-    page_width = image.get("page_width")
-    page_height = image.get("page_height")
-    if page_width is None or page_height is None:
-        return None, None
-    return float(page_width), float(page_height)
-
-
 def build_page_text_stats(pages: dict[int, str], clean_patterns: list[str]) -> dict[int, dict[str, int]]:
     """建立每頁文字量統計。"""
     stats: dict[int, dict[str, int]] = {}
@@ -252,63 +219,6 @@ def build_page_text_stats(pages: dict[int, str], clean_patterns: list[str]) -> d
             "char_count": len(cleaned),
         }
     return stats
-
-
-def is_background_candidate(
-    image: dict,
-    page_text_stats: dict[int, dict[str, int]],
-    policy: dict,
-) -> bool:
-    """判斷圖片是否符合大面積背景候選條件。"""
-    coverage_ratio = image_coverage_ratio(image)
-    if coverage_ratio is None:
-        return False
-
-    page_stat = page_text_stats.get(int(image["page"]), {})
-    text_tokens = int(page_stat.get("text_tokens", 0))
-    if text_tokens < int(policy.get("background_min_text_tokens", 80) or 0):
-        return False
-
-    if coverage_ratio >= float(policy.get("background_min_coverage_ratio", 0.6)):
-        return True
-
-    page_width, page_height = image_page_dimensions(image)
-    image_width = image.get("width")
-    image_height = image.get("height")
-    image_x = image.get("x")
-    image_y = image.get("y")
-    if (
-        page_width is None
-        or page_height is None
-        or image_width is None
-        or image_height is None
-        or image_x is None
-        or image_y is None
-    ):
-        return False
-
-    image_width = float(image_width)
-    image_height = float(image_height)
-    image_x = float(image_x)
-    image_y = float(image_y)
-    edge_margin_ratio = float(policy.get("background_edge_margin_ratio", 0.08))
-    edge_min_area_ratio = float(policy.get("background_edge_min_area_ratio", 0.18))
-    edge_min_span_ratio = float(policy.get("background_edge_min_span_ratio", 0.7))
-
-    touches_left = image_x <= page_width * edge_margin_ratio
-    touches_top = image_y <= page_height * edge_margin_ratio
-    touches_right = (image_x + image_width) >= page_width * (1 - edge_margin_ratio)
-    touches_bottom = (image_y + image_height) >= page_height * (1 - edge_margin_ratio)
-    touches_edge = touches_left or touches_top or touches_right or touches_bottom
-    width_ratio = image_width / page_width if page_width else 0.0
-    height_ratio = image_height / page_height if page_height else 0.0
-    span_ratio = max(width_ratio, height_ratio)
-
-    return (
-        touches_edge
-        and coverage_ratio >= edge_min_area_ratio
-        and span_ratio >= edge_min_span_ratio
-    )
 
 
 def group_images_by_page(
