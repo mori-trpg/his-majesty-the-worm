@@ -13,6 +13,12 @@ Initialize translation baseline from PDF extraction to chaptered docs, style dec
 
 **Core principle:** Build a deterministic, verifiable baseline before any large-scale translation.
 
+## Task Initialization (MANDATORY)
+
+Before ANY action, create tasks using TaskCreate:
+- One task per major phase (extraction, formatting, images/theme, terminology, chapter split, progress tracker)
+- One task for final handoff gate
+
 ## Interaction Rules
 
 - All user interaction must be Traditional Chinese (zh-TW).
@@ -39,9 +45,11 @@ Before extraction, ask user in Traditional Chinese whether to preserve PDF image
 
 Record this decision as `preserve_images: true/false` for the rest of the run.
 
-### Step 2: Create TodoWrite
+**Verification:** Source PDF exists under `data/pdfs/`; `preserve_images` decision recorded; cleanup script exited 0.
 
-Create items for:
+### Step 2: Create Tasks
+
+Create TaskCreate items for:
 - extraction
 - formatting decisions
 - image retention decision
@@ -50,6 +58,8 @@ Create items for:
 - chapter mapping
 - progress tracker creation
 - final handoff gate
+
+**Verification:** All tasks created with correct descriptions; task list matches the phases above.
 
 ### Step 3: Extract and Validate Raw Outputs
 
@@ -70,10 +80,14 @@ Validate outputs:
 - `data/markdown/<name>_pages.md`
 - `data/markdown/images/<name>/`（only when `preserve_images = true`）
 
+**Verification:** All expected output files exist and are non-empty.
+
 ### Step 4: Cropping Review and Optional Split
 
 Review readability and completeness.
 If needed, split large source into parts and re-extract until clean.
+
+**Verification:** Extracted markdown is readable; no garbled text or truncated sections remain.
 
 ### Step 5: Confirm Document Formatting Decisions
 
@@ -108,6 +122,8 @@ uv run python scripts/style_decisions.py set-document-format \
   --dice-tables-convention "<dice_table_note>"
 uv run python scripts/validate_style_decisions.py
 ```
+
+**Verification:** `style-decisions.json` contains `document_format` section; `validate_style_decisions.py` exits 0.
 
 ### Step 6: Select Images, Theme, and Homepage Content
 
@@ -179,6 +195,8 @@ uv run python scripts/validate_style_decisions.py
 
 `generate_nav.py` will render these as **## 版權宣告** and **## 製作名單** sections on the homepage. If neither is provided, a generic fallback disclaimer is used.
 
+**Verification:** `validate_style_decisions.py` exits 0; `style-decisions.json` contains site meta, copyright, credits, and image decisions.
+
 ### Step 7: Build Terminology Baseline
 
 Invoke `term-decision` skill for terminology bootstrap instead of duplicating the workflow here.
@@ -205,6 +223,8 @@ uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 
 `init-doc` must not continue to chapter split until the `term-decision` handoff completes cleanly.
 
+**Verification:** `validate_glossary.py` and `term_read.py --fail-on-missing --fail-on-forbidden` both exit 0.
+
 ### Step 8: Chapter Split and Navigation
 
 Invoke `chapter-split` skill instead of duplicating split logic here.
@@ -215,6 +235,8 @@ Required handoff to `chapter-split`:
 3. Reuse the formatting and terminology decisions already completed in Steps 5-7.
 4. Generate `chapters.json`, split docs output, and regenerate navigation.
 5. If `chapter-split` reports unresolved critical issues, stop `init-doc` and resolve them before continuing.
+
+**Verification:** `chapters.json` exists; split docs generated; nav regenerated.
 
 ### Step 9: Create Translation Progress Tracker
 
@@ -230,6 +252,8 @@ Tracker contract:
 - initial status `not_started`
 - `_meta` fields (`updated`, `total_chapters`, `completed`)
 
+**Verification:** `data/translation-progress.json` exists; contains all chapters from `chapters.json` with status `not_started`; `_meta` fields present.
+
 ### Step 10: Final Gate and Handoff (Fail-Closed)
 
 Run one-shot handoff gate:
@@ -240,11 +264,58 @@ uv run python scripts/init_handoff_gate.py
 
 If any gate fails, stop and fix before completion.
 
+**Verification:** `init_handoff_gate.py` exits 0; all tasks marked `completed`.
+
+## Flowchart
+
+```dot
+digraph init_doc {
+    rankdir=TB;
+    cleanup [label="Cleanup &\nsource validation", shape=box];
+    tasks [label="Create tasks", shape=box];
+    extract [label="Extract PDF", shape=box];
+    img_decision [label="Preserve\nimages?", shape=diamond];
+    extract_img [label="Extract with\n--include-images", shape=box];
+    extract_noimg [label="Extract with\n--no-include-images", shape=box];
+    crop [label="Cropping review\n& optional split", shape=box];
+    format [label="Formatting\ndecisions", shape=box];
+    theme [label="Images, theme\n& homepage", shape=box];
+    term [label="Terminology\nbaseline\n(term-decision)", shape=box];
+    term_ok [label="Term validation\npasses?", shape=diamond];
+    split [label="Chapter split\n(chapter-split)", shape=box];
+    split_ok [label="Split\nsucceeded?", shape=diamond];
+    progress [label="Create progress\ntracker", shape=box];
+    gate [label="Final handoff\ngate", shape=box];
+    gate_ok [label="Gate\npasses?", shape=diamond];
+    done [label="Done →\ntranslate", shape=box];
+    fix [label="Fix & retry", shape=box];
+
+    cleanup -> tasks -> extract;
+    extract -> img_decision;
+    img_decision -> extract_img [label="yes"];
+    img_decision -> extract_noimg [label="no"];
+    extract_img -> crop;
+    extract_noimg -> crop;
+    crop -> format -> theme -> term;
+    term -> term_ok;
+    term_ok -> split [label="yes"];
+    term_ok -> fix [label="no"];
+    fix -> term;
+    split -> split_ok;
+    split_ok -> progress [label="yes"];
+    split_ok -> fix [label="no"];
+    progress -> gate;
+    gate -> gate_ok;
+    gate_ok -> done [label="yes"];
+    gate_ok -> fix [label="no"];
+}
+```
+
 ## Progress Sync Contract (Required)
 
-1. Keep TodoWrite updated at every step.
+1. Keep tasks updated via TaskUpdate at every step.
 2. Mark blockers immediately and include failing command/context.
-3. Close TodoWrite only after final gate passes.
+3. Close tasks only after final gate passes.
 
 ## When to Stop and Ask for Help
 
@@ -263,11 +334,15 @@ Return to earlier steps when:
 
 ## Red Flags
 
-Never:
-- continue after failed validation gates
-- continue after failed `chapter-split` handoff
-- skip user confirmation for formatting/proper noun policy
-- leave progress tracker uninitialized at handoff
+| Thought | Reality |
+|---------|---------|
+| "Validation failed but it's probably fine, keep going" | Fail-closed means stop. Fix the failure before proceeding. |
+| "Skip chapter-split handoff and split manually" | Chapter-split skill ensures deterministic structure. Never bypass. |
+| "User didn't answer about proper nouns, I'll just pick one" | User confirmation is required for formatting and proper noun policy. |
+| "Progress tracker can be created later" | Tracker must be initialized before handoff. No exceptions. |
+| "Skip terminology baseline, we can add terms during translation" | Terminology drift across chapters is costly. Bootstrap first. |
+| "I'll reuse the old glossary without re-validating" | Glossary changes between runs. Always validate. |
+| "One quick formatting change doesn't need style-decisions.json" | All formatting decisions must be persisted. No ad-hoc overrides. |
 
 ## Next Step
 

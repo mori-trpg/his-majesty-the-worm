@@ -13,6 +13,13 @@ Single-pass translation of markdown content to Traditional Chinese with glossary
 
 **Core principle:** Draft first, verify before writeback, never overwrite source with unverified output.
 
+## Task Initialization (MANDATORY)
+
+Before ANY action, create tasks using TaskCreate:
+- One task per target file
+- One task for batch checkpoint
+- One task for final verification
+
 ## The Process
 
 ### Step 1: Resolve Scope and Preconditions
@@ -40,14 +47,9 @@ Single-pass translation of markdown content to Traditional Chinese with glossary
      4. Wait for user confirmation or override.
    - The selected target set for this run is one batch. If only one file is selected, that single file is the batch.
 
-### Step 2: Create Task List
+**Verification:** Target file list confirmed; all required files exist.
 
-Create tasks with:
-- one item per target file
-- a batch checkpoint commit item
-- a final verification item
-
-### Step 3: Terminology Preflight (Fail-Closed)
+### Step 2: Terminology Preflight (Fail-Closed)
 
 ```bash
 uv run python scripts/validate_glossary.py
@@ -56,7 +58,9 @@ uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 
 If preflight fails, stop and fix terminology first.
 
-### Step 4: Resolve Translation Mode
+**Verification:** Both commands exit 0.
+
+### Step 3: Resolve Translation Mode
 
 Read `style-decisions.json.translation_mode.mode`.
 If missing, ask user in Traditional Chinese:
@@ -65,17 +69,21 @@ If missing, ask user in Traditional Chinese:
 
 Persist mode before translating.
 
-### Step 5: Prepare Draft Directory
+**Verification:** `translation_mode.mode` persisted in `style-decisions.json`.
+
+### Step 4: Prepare Draft Directory
 
 For each target file, obtain its draft path (this also creates the directory):
 
 ```bash
-uv run python scripts/draft.py path <TARGET_FILE>
+uv run python scripts/draft.py --skill translate path <TARGET_FILE>
 ```
 
 Use the printed path as `<DRAFT_FILE>` for that file.
 
-### Step 6: Translate Per File
+**Verification:** Draft path returned; directory exists.
+
+### Step 5: Translate Per File
 
 For each target file:
 
@@ -84,7 +92,7 @@ For each target file:
 3. Read source content, `glossary.json`, and `style-decisions.json`（特別包含 `translation_notes`）
 4. Get draft path:
    ```bash
-   DRAFT_FILE=$(uv run python scripts/draft.py path <TARGET_FILE>)
+   DRAFT_FILE=$(uv run python scripts/draft.py --skill translate path <TARGET_FILE>)
    ```
    Translate to `$DRAFT_FILE`:
    - Draft/source mapping is stored in `.claude/skills/translate/.state/draft-manifest.json`; do not add translation metadata to frontmatter
@@ -111,7 +119,7 @@ For each target file:
    - Fix any issues found in the draft directly
 6. Writeback:
    ```bash
-   uv run python scripts/draft.py writeback <TARGET_FILE>
+   uv run python scripts/draft.py --skill translate writeback <TARGET_FILE>
    ```
 7. **Immediately** update `translation-progress.json`:
    - Set file status to `completed`
@@ -129,7 +137,9 @@ uv run python scripts/term_read.py --fail-on-forbidden
 
 Then continue translating with the updated glossary.
 
-### Step 7: Batch Checkpoint Commit
+**Verification:** Self-review checklist passes; writeback exits 0; progress JSON updated.
+
+### Step 6: Batch Checkpoint Commit
 
 After all files in the current batch are processed:
 
@@ -152,7 +162,9 @@ git commit -m "progress: X/Y"
 5. Never stage or commit unrelated user changes.
 6. If no file reached `completed` in this batch, skip the commit.
 
-### Step 8: Final Verification
+**Verification:** `git log -1` shows progress commit.
+
+### Step 7: Final Verification
 
 ```bash
 uv run python scripts/validate_glossary.py
@@ -161,11 +173,49 @@ uv run python scripts/term_read.py --fail-on-missing --fail-on-forbidden
 
 Mark final verification task item completed.
 
+**Verification:** Both validation commands exit 0; all tasks completed.
+
+## Flowchart
+
+```dot
+digraph translate {
+    rankdir=TB;
+    scope [label="Resolve scope\n& preconditions", shape=box];
+    preflight [label="Terminology\npreflight", shape=box];
+    mode [label="Resolve\ntranslation mode", shape=box];
+    translate [label="Translate file\n(self-review loop)", shape=box];
+    writeback [label="Writeback +\nupdate progress", shape=box];
+    checkpoint [label="Batch checkpoint\n& commit", shape=box];
+    more [label="More files?", shape=diamond];
+    verify [label="Final\nverification", shape=box];
+
+    scope -> preflight -> mode -> translate;
+    translate -> writeback;
+    writeback -> checkpoint;
+    checkpoint -> more;
+    more -> translate [label="yes"];
+    more -> verify [label="no"];
+}
+```
+
 ## Progress Sync Contract (Required)
 
 1. Sync task list and `translation-progress.json` at file start and file close.
 2. Never defer sync until end-of-run.
 3. Create the batch checkpoint commit immediately after batch completion; do not postpone it to a later batch.
+
+## Red Flags
+
+| Thought | Reality |
+|---------|---------|
+| "Just overwrite source, I'll review later" | Draft isolation exists for a reason. NEVER overwrite without self-review. |
+| "Skip task updates until the end" | Sync contract is per-file, not per-run. |
+| "I'll invent a translation for this unknown term" | Run `term_edit.py --set-zh` workflow. No exceptions. |
+| "Skip terminology preflight, it was fine last time" | Glossary changes between runs. Always preflight. |
+| "One file left, no need for checkpoint commit" | Every completed batch gets a commit. No exceptions. |
+| "I can batch-replace with regex for speed" | Manual translation only. Script-generated prose is forbidden. |
+| "I'll add a heading to restate the title" | Never restate `frontmatter.title` as a body heading. |
+| "I'll add an overview heading for clarity" | Never invent a heading that does not exist in the source. |
 
 ## When to Stop and Ask for Help
 
@@ -176,20 +226,10 @@ Stop when:
 
 ## When to Revisit Earlier Steps
 
-Return to Step 1 or 4 when:
+Return to Step 1 or 3 when:
 - target scope changes
 - translation mode changes
 - glossary decisions change materially
-
-## Red Flags
-
-Never:
-- overwrite source before self-review
-- use regex/batch replacement to generate translated prose
-- leave progress tracker stale for translated files
-- invent translations for unknown terms (use term_edit.py workflow)
-- add any body heading that restates `frontmatter.title`
-- invent an overview heading that does not exist in the source
 
 ## Next Step
 

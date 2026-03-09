@@ -13,6 +13,11 @@ Create a new game documentation project from template, configure repository meta
 
 **Core principle:** Ask once, create deterministic project state, verify immediately, then hand off.
 
+## Task Initialization (MANDATORY)
+
+Before ANY action, create tasks using TaskCreate:
+- One task per major step (preconditions, user inputs, repo creation, PDF + config, verification)
+
 ## The Process
 
 ### Step 1: Validate Preconditions
@@ -23,6 +28,8 @@ Confirm:
 - source PDF path exists
 
 If any check fails, stop and report exact remediation.
+
+**Verification:** `gh auth status` exits 0; `git config user.name` non-empty; PDF exists.
 
 ### Step 2: Ask User Inputs in Traditional Chinese
 
@@ -44,16 +51,9 @@ Collect via AskUserQuestion:
 - header: `儲存庫類型`
 - question: `GitHub 儲存庫要設為公開還是私有？`
 
-### Step 3: Create TodoWrite
+**Verification:** All four inputs collected and confirmed by user.
 
-Create items for:
-- variable resolution
-- repo creation
-- PDF copy
-- config updates
-- verification and report
-
-### Step 4: Resolve Variables
+### Step 3: Resolve Variables
 
 ```bash
 TEMPLATE_ROOT="<current_workspace_root>"
@@ -66,7 +66,9 @@ REPO_VISIBILITY="<private_or_public>"
 REPO_URL="https://github.com/<username>/<project_name>"
 ```
 
-### Step 5: Create Repository
+**Verification:** All variables resolved to concrete values; no placeholders remain.
+
+### Step 4: Create Repository
 
 Preferred path:
 
@@ -92,7 +94,9 @@ git commit -m "Initial commit from game-doc-template"
 git push -u origin main
 ```
 
-### Step 6: Copy PDF and Apply Configuration
+**Verification:** `git remote -v` shows origin; `gh repo view` accessible.
+
+### Step 5: Copy PDF and Apply Configuration
 
 Copy PDF:
 
@@ -118,7 +122,9 @@ uv run python scripts/style_decisions.py set-repository \
 uv run python scripts/validate_style_decisions.py
 ```
 
-### Step 7: Verify and Report
+**Verification:** PDF exists in `data/pdfs/`; config files updated.
+
+### Step 6: Verify and Report
 
 Verify:
 
@@ -144,9 +150,31 @@ Report in Traditional Chinese:
 2. 執行 /init-doc
 ```
 
+**Verification:** All prior verifications pass; report displayed to user.
+
+## Flowchart
+
+```dot
+digraph new_project {
+    rankdir=TB;
+    preconditions [label="Step 1:\nValidate\npreconditions", shape=box];
+    inputs [label="Step 2:\nCollect user\ninputs", shape=box];
+    variables [label="Step 3:\nResolve\nvariables", shape=box];
+    repo [label="Step 4:\nCreate\nrepository", shape=box];
+    pdf_config [label="Step 5:\nCopy PDF &\napply config", shape=box];
+    verify [label="Step 6:\nVerify &\nreport", shape=box];
+
+    preconditions -> inputs;
+    inputs -> variables;
+    variables -> repo;
+    repo -> pdf_config;
+    pdf_config -> verify;
+}
+```
+
 ## Progress Sync Contract (Required)
 
-1. Update TodoWrite after each major step.
+1. Update tasks via TaskCreate/TaskUpdate after each major step.
 2. Mark blockers immediately with reason.
 3. Do not claim completion with open critical items.
 
@@ -165,10 +193,11 @@ Return to input/variable steps when:
 
 ## Red Flags
 
-Never:
-- create repo with missing required user decisions
-- expose private repo URL in public homepage links
-- skip verification before reporting success
+| Thought | Reality |
+|---------|---------|
+| "Create repo without confirming user decisions" | All required inputs must be collected and confirmed first. |
+| "Expose private repo URL in public homepage links" | Private repo URLs must never appear in public-facing config. |
+| "Skip verification before reporting success" | Every step has a verification gate. Never skip. |
 
 ## Next Step
 

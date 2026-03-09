@@ -7,7 +7,7 @@ Use this template when dispatching the refiner subagent.
 **Note:** All context is inlined by the orchestrator. Do not read any files yourself.
 
 ```text
-Task tool (general-purpose):
+Agent tool (general-purpose):
   description: "Refine draft for <TARGET_FILE>"
   prompt: |
     You are refining a translated markdown draft using reviewer findings.

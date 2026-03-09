@@ -7,7 +7,7 @@ Use this template when dispatching the translator subagent for one target file.
 **Note:** All context is inlined by the orchestrator. Do not read any files yourself.
 
 ```text
-Task tool (general-purpose):
+Agent tool (general-purpose):
   description: "Translate draft for <TARGET_FILE>"
   prompt: |
     You are translating one markdown file from English to Traditional Chinese (zh-TW).

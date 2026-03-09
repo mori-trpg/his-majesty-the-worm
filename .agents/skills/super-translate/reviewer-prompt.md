@@ -7,7 +7,7 @@ Use this template when dispatching the reviewer subagent.
 **Note:** All context is inlined by the orchestrator. Do not read any files yourself.
 
 ```text
-Task tool (general-purpose):
+Agent tool (general-purpose):
   description: "Review translation for <TARGET_FILE>"
   prompt: |
     You are reviewing a translated markdown draft.
