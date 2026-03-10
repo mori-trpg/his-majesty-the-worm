@@ -84,28 +84,28 @@ export default defineConfig({
 			// ============================================
 			sidebar: [
 				{
-					label: '快速參考',
-					autogenerate: { directory: 'reference' },
+					label: '簡介',
+					autogenerate: { directory: 'bilingual/introduction' },
 				},
 				{
-					label: '核心規則',
-					autogenerate: { directory: 'rules' },
+					label: '玩家角色',
+					autogenerate: { directory: 'bilingual/player-characters' },
 				},
 				{
-					label: '角色',
-					autogenerate: { directory: 'characters' },
+					label: '技能與專長',
+					autogenerate: { directory: 'bilingual/skills' },
 				},
 				{
-					label: '物品與裝備',
-					autogenerate: { directory: 'items' },
+					label: '戰鬥與傷害',
+					autogenerate: { directory: 'bilingual/combat' },
 				},
 				{
-					label: '世界設定',
-					autogenerate: { directory: 'world' },
+					label: '魔法',
+					autogenerate: { directory: 'bilingual/magic' },
 				},
 				{
-					label: '主持人指南',
-					autogenerate: { directory: 'guides' },
+					label: '旅行',
+					autogenerate: { directory: 'bilingual/travel' },
 				}
 			],
 			customCss: ['./src/styles/custom.css'],

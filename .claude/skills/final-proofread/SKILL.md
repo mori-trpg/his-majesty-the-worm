@@ -44,11 +44,24 @@ Announce: "Created 5 tasks. Starting execution..."
 
 **Verification:** Scope resolved; progress data loaded.
 
-### Gate 1: Frontmatter Completeness Check
+### Gate 1: Frontmatter & Site Config Completeness Check
 
-**Goal:** Every page has fully translated `title` and `description` frontmatter fields.
+**Goal:** Every user-facing label and description is translated to Traditional Chinese.
 
-For each file in scope:
+#### 1a. Site Configuration Files
+
+Check the following files for untranslated English (proper nouns in `glossary.json` or `style-decisions.json` are exceptions):
+
+1. **`docs/astro.config.mjs`** — sidebar `label` values:
+   - Each sidebar group `label` must be in Traditional Chinese → untranslated English **FAIL**
+2. **`docs/src/content/docs/index.mdx`** (or `index.md`) — homepage elements:
+   - Hero `actions[].text` values → untranslated English **FAIL**
+   - `<LinkCard>` / `<Card>` `title` attributes → untranslated English **FAIL**
+   - `<LinkCard>` / `<Card>` `description` attributes → untranslated English **WARN**
+
+#### 1b. Page Frontmatter
+
+For each Markdown/MDX file in scope:
 
 1. Parse frontmatter block.
 2. Check `title`:
@@ -61,7 +74,7 @@ For each file in scope:
 
 Collect all FAILs and WARNs. Do not stop early.
 
-**Verification (Gate 1):** All files scanned; findings list produced. Mark Gate 1 task `completed`.
+**Verification (Gate 1):** All files scanned (site config + page frontmatter); findings list produced. Mark Gate 1 task `completed`.
 
 ### Gate 2: Content Integrity Check
 
@@ -108,10 +121,14 @@ Produce a single report in Traditional Chinese:
 ```markdown
 ## 最終校對報告
 
-### Gate 1 — Frontmatter 完整性
+### Gate 1 — Frontmatter 與站台設定完整性
 #### FAIL（必須修復）
+- `astro.config.mjs`: sidebar label "Introduction" 未翻譯
+- `index.mdx`: hero action "Introduction" 未翻譯
+- `index.mdx`: LinkCard title "Combat & Damage" 未翻譯
 - `<file>`: title 缺失 / description 為英文
 #### WARN（建議修復）
+- `index.mdx`: LinkCard description 含未翻譯英文
 - `<file>`: description 含未翻譯英文詞彙
 
 ### Gate 2 — 內容完整性
@@ -174,6 +191,7 @@ Mark fix verification task `completed`.
 | "fix-ref already ran before, Gate 3 must be clean" | Always re-scan. New pages may have been added since. |
 | "Gate 3 matches look non-navigational" | Classify explicitly and report. Never silently drop a match. |
 | "The description only has a game title in English" | Check `style-decisions.json` proper noun policy. If no exception, report as WARN. |
+| "Site config and homepage are not translation targets" | Sidebar labels, hero buttons, and card titles are user-facing. They MUST be checked in Gate 1a. |
 
 ## When to Stop and Ask
 
