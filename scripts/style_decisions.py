@@ -305,7 +305,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_format.set_defaults(func=cmd_set_document_format)
 
     p_mode = sub.add_parser("set-translation-mode", help="Update translation mode.")
-    p_mode.add_argument("--mode", required=True, choices=("full", "summary"))
+    p_mode.add_argument("--mode", required=True, choices=("full", "summary", "bilingual"))
     p_mode.add_argument("--reason")
     p_mode.set_defaults(func=cmd_set_translation_mode)
 
