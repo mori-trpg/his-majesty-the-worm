@@ -450,6 +450,11 @@ dependencies = [
     { name = "spacy-lookups-data" },
 ]
 
+[package.optional-dependencies]
+opendataloader = [
+    { name = "opendataloader-pdf" },
+]
+
 [package.dev-dependencies]
 dev = [
     { name = "pytest" },
@@ -460,10 +465,12 @@ requires-dist = [
     { name = "inflect", specifier = ">=7.5.0" },
     { name = "jsonschema", specifier = ">=4.26.0" },
     { name = "markitdown", extras = ["pdf"], specifier = ">=0.1.0" },
+    { name = "opendataloader-pdf", marker = "extra == 'opendataloader'", specifier = ">=2.0.0" },
     { name = "pymupdf", specifier = ">=1.24.0" },
     { name = "spacy", specifier = ">=3.8.11" },
     { name = "spacy-lookups-data", specifier = ">=1.0.5" },
 ]
+provides-extras = ["opendataloader"]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = ">=8.0.0" }]
@@ -881,6 +888,14 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/d8/e0/50db43188ca1c945decaa8fc2a024c33446d31afed40149897d4f9de505f/onnxruntime-1.20.1-cp313-cp313-win_amd64.whl", hash = "sha256:d30367df7e70f1d9fc5a6a68106f5961686d39b54d3221f760085524e8d38e16", size = 11331758, upload-time = "2024-11-21T00:49:31.417Z" },
     { url = "https://files.pythonhosted.org/packages/d8/55/3821c5fd60b52a6c82a00bba18531793c93c4addfe64fbf061e235c5617a/onnxruntime-1.20.1-cp313-cp313t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:c9158465745423b2b5d97ed25aa7740c7d38d2993ee2e5c3bfacb0c4145c49d8", size = 11950342, upload-time = "2024-11-21T00:49:34.164Z" },
     { url = "https://files.pythonhosted.org/packages/14/56/fd990ca222cef4f9f4a9400567b9a15b220dee2eafffb16b2adbc55c8281/onnxruntime-1.20.1-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:0df6f2df83d61f46e842dbcde610ede27218947c33e994545a22333491e72a3b", size = 13337040, upload-time = "2024-11-21T00:49:37.271Z" },
+]
+
+[[package]]
+name = "opendataloader-pdf"
+version = "2.2.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/57/ba/0f113b74908527407a14b230516fb1d6df896b131815ae2488eabc07a48c/opendataloader_pdf-2.2.0-py3-none-any.whl", hash = "sha256:c4328c95f04be86fcebb06b58391f313bb2240527b941f176ba5e569c8b8765c", size = 22441488, upload-time = "2026-03-27T07:28:05.46Z" },
 ]
 
 [[package]]

@@ -45,6 +45,13 @@ from _ocr_lib import (
     render_pdf_page_for_ocr,
     run_tesseract_ocr,
 )
+from _opendataloader_lib import (
+    check_availability as check_opendataloader_availability,
+    is_available as is_opendataloader_available,
+    convert_pdf_pages as opendataloader_convert_pages,
+    convert_pdf_to_markdown as opendataloader_convert_markdown,
+    write_pages_file as opendataloader_write_pages,
+)
 
 try:
     from markitdown import MarkItDown
@@ -57,7 +64,7 @@ except ImportError:
     pymupdf = None
 
 
-VALID_PAGE_TEXT_ENGINES = {"auto", "ocr", "pymupdf", "markitdown"}
+VALID_PAGE_TEXT_ENGINES = {"auto", "ocr", "pymupdf", "markitdown", "opendataloader"}
 VALID_LAYOUT_PROFILES = {"auto", "single-column", "double-column"}
 SUPPORTED_FILE_SOURCE_TYPES = {
     ".pdf": "pdf",
@@ -68,6 +75,8 @@ PAGE_TEXT_ENGINE_ALIASES = {
     "fitz": "pymupdf",
     "markdown": "markitdown",
     "tesseract": "ocr",
+    "odl": "opendataloader",
+    "open-data-loader": "opendataloader",
 }
 LAYOUT_PROFILE_ALIASES = {
     "single": "single-column",
@@ -111,7 +120,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--page-text-engine",
-        choices=("auto", "ocr", "pymupdf", "markitdown"),
+        choices=("auto", "ocr", "pymupdf", "markitdown", "opendataloader"),
         default="auto",
         help="生成 _pages.md 時使用的頁面文字引擎（預設: auto；圖片來源固定使用 ocr；EPUB 固定使用 markitdown）",
     )
@@ -318,6 +327,18 @@ def resolve_page_text_strategy(
             layout_profile = style_layout
             layout_source = "style-decisions"
 
+    # opendataloader 優先：auto 模式下若可用則直接使用
+    if page_text_engine == "auto" and is_opendataloader_available():
+        page_text_engine = "opendataloader"
+        engine_source = "auto-opendataloader"
+        print("ℹ️  偵測到 opendataloader-pdf + Java 11+，優先使用 opendataloader 引擎")
+
+    # 明確指定 opendataloader 但不可用時報錯
+    if page_text_engine == "opendataloader" and not is_opendataloader_available():
+        availability = check_opendataloader_availability()
+        reason = availability.get("reason", "未知原因")
+        raise SystemExit(f"❌ 無法使用 opendataloader 引擎：{reason}")
+
     detection: dict[str, object] | None = None
     quality_probe: dict[str, object] | None = None
     if layout_profile == "auto":
@@ -336,6 +357,11 @@ def resolve_page_text_strategy(
             engine_source = str(quality_probe.get("source", "quality-probe"))
 
     if page_text_engine == "auto":
+        # opendataloader 不可用時的降級路徑
+        if not is_opendataloader_available():
+            availability = check_opendataloader_availability()
+            reason = availability.get("reason", "未知原因")
+            print(f"ℹ️  opendataloader 不可用（{reason}），使用傳統引擎")
         page_text_engine = "markitdown" if layout_profile == "double-column" else "pymupdf"
         engine_source = "layout-profile"
 
@@ -366,6 +392,16 @@ def extract_with_pages(
     source_type = detect_source_type(pdf_path)
     if source_type == "epub":
         return extract_epub_with_pages(pdf_path, output_dir, progress_every=max(1, progress_every // 5))
+
+    if page_text_engine == "opendataloader":
+        output_file = output_dir / f"{pdf_path.stem}_pages.md"
+        pages = opendataloader_convert_pages(pdf_path, progress_every=progress_every)
+        if not pages:
+            print("⚠️  opendataloader 提取失敗，跳過")
+            return None
+        opendataloader_write_pages(pages, output_file)
+        print(f"✓ 已提取（含頁碼，opendataloader）: {output_file}")
+        return output_file
 
     if pymupdf is None:
         print("⚠️  pymupdf 未安裝（需要用於分頁），跳過")
@@ -672,6 +708,21 @@ def main():
                 page_texts,
                 source_label=source_label,
             )
+    elif strategy["page_text_engine"] == "opendataloader":
+        if args.skip_full_markitdown:
+            print("↷ 已略過整本 Markdown 輸出")
+        else:
+            full_md = opendataloader_convert_markdown(source_path, output_dir)
+            if full_md is not None:
+                full_output = output_dir / f"{build_output_stem(source_path, source_type)}.md"
+                full_output.write_text(full_md, encoding="utf-8")
+                print(f"✓ 已提取（整本，opendataloader）: {full_output}")
+
+        extract_with_pages(
+            source_path,
+            output_dir,
+            page_text_engine="opendataloader",
+        )
     else:
         if args.skip_full_markitdown:
             print("↷ 已略過整本 markitdown 提取")
