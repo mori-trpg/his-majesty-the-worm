@@ -1,6 +1,7 @@
 """Tests for merge_multi module."""
 
 import json
+import subprocess
 import pytest
 from pathlib import Path
 
@@ -112,3 +113,22 @@ class TestValidateMerge:
             {"slug": "b", "title": "B", "order": 2, "source": "b.md", "chapters": {}},
         ]
         validate_merge(configs)  # Should not raise
+
+
+class TestMergeMultiCLI:
+    def test_merge_two_files_produces_output(self, tmp_path):
+        c1 = {"slug": "core", "title": "Core", "order": 1, "source": "core_pages.md",
+              "output_dir": "docs/src/content/docs", "mode": "bilingual", "chapters": {}}
+        c2 = {"slug": "exp", "title": "Expansion", "order": 2, "source": "exp_pages.md",
+              "output_dir": "docs/src/content/docs", "mode": "bilingual", "chapters": {}}
+        f1 = tmp_path / "chapters_core.json"; f2 = tmp_path / "chapters_exp.json"
+        out = tmp_path / "chapters.json"
+        f1.write_text(json.dumps(c1), encoding="utf-8")
+        f2.write_text(json.dumps(c2), encoding="utf-8")
+        result = subprocess.run(
+            ["uv", "run", "python", "scripts/merge_multi.py", str(f1), str(f2), "-o", str(out)],
+            capture_output=True, text=True, cwd=str(Path(__file__).resolve().parents[2]))
+        assert result.returncode == 0, f"stderr: {result.stderr}"
+        merged = json.loads(out.read_text(encoding="utf-8"))
+        assert "core" in merged["chapters"]
+        assert "exp" in merged["chapters"]
