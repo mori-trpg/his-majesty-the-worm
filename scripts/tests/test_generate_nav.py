@@ -212,3 +212,35 @@ class TestGenerateSidebarEntries:
         assert "slug: 'bilingual/introduction'" in result
         assert "autogenerate: { directory: 'bilingual/combat' }" in result
         assert "autogenerate: { directory: 'bilingual/introduction' }" not in result
+
+    def test_single_group_with_multiple_leaves_stays_autogenerate(self):
+        chapters = {
+            "core": {
+                "title": "核心規則",
+                "order": 1,
+                "files": {
+                    "combat": {
+                        "title": "戰鬥",
+                        "order": 0,
+                        "files": {
+                            "actions": {
+                                "title": "行動",
+                                "order": 0,
+                                "pages": [1, 2],
+                            },
+                            "damage": {
+                                "title": "傷害",
+                                "order": 1,
+                                "pages": [3, 4],
+                            },
+                        },
+                    },
+                },
+            },
+        }
+
+        result = gn.generate_sidebar_entries(chapters)
+
+        assert "label: '核心規則'" in result
+        assert "autogenerate: { directory: 'core' }" in result
+        assert "slug: 'core/combat/actions'" not in result

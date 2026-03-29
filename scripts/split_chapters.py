@@ -453,7 +453,7 @@ def build_section_content(
 
 
 _page_cache: dict[str, dict[int, str]] = {}
-_manifest_cache: dict[str, tuple[list[dict], Path | None, dict]] = {}
+_manifest_cache: dict[tuple[str, str], tuple[list[dict], Path | None, dict]] = {}
 
 
 def _load_pages_cached(source_path: Path) -> dict[int, str]:
@@ -469,10 +469,12 @@ def _load_manifest_cached(
     source: str, images_config: dict, project_root: Path
 ) -> tuple[list[dict], Path | None, dict]:
     """Load and cache image manifest for a source."""
-    if source not in _manifest_cache:
+    config_key = json.dumps(images_config, sort_keys=True, ensure_ascii=False)
+    cache_key = (source, config_key)
+    if cache_key not in _manifest_cache:
         dummy_config = {"source": source, "images": images_config}
-        _manifest_cache[source] = load_image_manifest(dummy_config, project_root)
-    return _manifest_cache[source]
+        _manifest_cache[cache_key] = load_image_manifest(dummy_config, project_root)
+    return _manifest_cache[cache_key]
 
 
 def process_files(

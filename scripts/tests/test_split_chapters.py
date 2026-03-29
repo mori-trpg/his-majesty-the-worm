@@ -3,6 +3,8 @@
 import pytest
 
 from split_chapters import (
+    _load_manifest_cached,
+    _manifest_cache,
     extract_pages,
     generate_frontmatter,
     get_page_range,
@@ -324,3 +326,21 @@ class TestWriteMetaYml:
         write_meta_yml(tmp_path, entry)
         content = (tmp_path / "_meta.yml").read_text(encoding="utf-8")
         assert "label: New" in content
+
+
+class TestLoadManifestCached:
+    def test_cache_respects_images_config_for_same_source(self):
+        _manifest_cache.clear()
+
+        _load_manifest_cached(
+            "same_pages.md",
+            {"enabled": False, "repeat_file_size_threshold": 1},
+            Path("."),
+        )
+        _, _, second_policy = _load_manifest_cached(
+            "same_pages.md",
+            {"enabled": True, "repeat_file_size_threshold": 99},
+            Path("."),
+        )
+
+        assert second_policy["repeat_file_size_threshold"] == 99

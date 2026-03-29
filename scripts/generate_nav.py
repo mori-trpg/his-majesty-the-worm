@@ -33,6 +33,19 @@ def mode_prefix(mode: str) -> str:
     return "bilingual/" if mode == "bilingual" else ""
 
 
+def _leaf_count(files: dict, limit: int = 2) -> int:
+    """Count leaf nodes recursively, stopping once *limit* is reached."""
+    count = 0
+    for _key, entry in sorted(files.items(), key=lambda x: x[1].get("order", 9999)):
+        if "files" in entry:
+            count += _leaf_count(entry["files"], max(1, limit - count))
+        else:
+            count += 1
+        if count >= limit:
+            return count
+    return count
+
+
 def _first_leaf_slug(base_slug: str, section: dict) -> str:
     """Recursively find the slug of the first leaf node under *section*."""
     files = sorted_files(section)
@@ -239,8 +252,7 @@ def generate_sidebar_entries(chapters: dict, mode: str = "zh_only") -> str:
     entries = []
     for slug, section in sections:
         title = section["title"]
-        files = sorted_files(section)
-        if len(files) == 1:
+        if _leaf_count(section.get("files", {})) == 1:
             primary_slug = section_primary_slug(slug, section, mode)
             entries.append(
                 f"\t\t\t\t{{\n"
