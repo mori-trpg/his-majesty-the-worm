@@ -245,6 +245,23 @@ def resolve_config(chapter_key: str, chapter: dict, top_level: dict) -> dict:
     }
 
 
+def write_meta_yml(directory: Path, entry: dict) -> None:
+    """Write a ``_meta.yml`` file for a group node directory.
+
+    Generates ``label`` from *entry["title"]* and ``order`` from
+    *entry.get("order")*.  The file is compatible with the
+    ``starlight-auto-sidebar`` plugin.
+    """
+    title = entry.get("title", directory.name)
+    lines: list[str] = [f"label: {_yaml_safe(title)}"]
+    order = entry.get("order")
+    if order is not None:
+        lines.append(f"order: {order}")
+    (directory / "_meta.yml").write_text(
+        "\n".join(lines) + "\n", encoding="utf-8"
+    )
+
+
 def load_image_manifest(config: dict, project_root: Path) -> tuple[list[dict], Path | None, dict]:
     """載入圖片 manifest 與設定。"""
     image_config = config.get("images", {})

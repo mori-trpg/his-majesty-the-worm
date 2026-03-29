@@ -10,6 +10,7 @@ from split_chapters import (
     build_page_text_stats,
     normalize_files,
     resolve_config,
+    write_meta_yml,
 )
 from pathlib import Path
 
@@ -290,3 +291,36 @@ class TestResolveConfig:
         chapter = {"source": "s.md"}
         cfg = resolve_config("test", chapter, {})
         assert cfg["images"] == {}
+
+
+# ---------------------------------------------------------------------------
+# write_meta_yml
+# ---------------------------------------------------------------------------
+
+class TestWriteMetaYml:
+    def test_writes_label_and_order(self, tmp_path):
+        entry = {"title": "Combat", "order": 1, "files": {}}
+        write_meta_yml(tmp_path, entry)
+        content = (tmp_path / "_meta.yml").read_text(encoding="utf-8")
+        assert "label: Combat" in content
+        assert "order: 1" in content
+
+    def test_no_order_omits_order(self, tmp_path):
+        entry = {"title": "Combat", "files": {}}
+        write_meta_yml(tmp_path, entry)
+        content = (tmp_path / "_meta.yml").read_text(encoding="utf-8")
+        assert "label: Combat" in content
+        assert "order" not in content
+
+    def test_yaml_special_chars_quoted(self, tmp_path):
+        entry = {"title": "Damage: Conditions & Recovery", "order": 2, "files": {}}
+        write_meta_yml(tmp_path, entry)
+        content = (tmp_path / "_meta.yml").read_text(encoding="utf-8")
+        assert 'label: "Damage: Conditions & Recovery"' in content
+
+    def test_overwrites_existing(self, tmp_path):
+        (tmp_path / "_meta.yml").write_text("old content", encoding="utf-8")
+        entry = {"title": "New", "order": 0, "files": {}}
+        write_meta_yml(tmp_path, entry)
+        content = (tmp_path / "_meta.yml").read_text(encoding="utf-8")
+        assert "label: New" in content
