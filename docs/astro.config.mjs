@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightAutoSidebar from 'starlight-auto-sidebar';
 
 // ============================================
 // 遊戲文件設定
@@ -108,6 +109,7 @@ export default defineConfig({
 					autogenerate: { directory: 'bilingual/travel' },
 				}
 			],
+			plugins: [starlightAutoSidebar()],
 			customCss: ['./src/styles/custom.css'],
 		}),
 	],
