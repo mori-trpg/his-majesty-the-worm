@@ -33,25 +33,64 @@ def load_chapters(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def iter_chapter_files(config: dict[str, Any]) -> list[tuple[str, str, dict[str, Any]]]:
+def iter_chapter_files(
+    config: dict[str, Any],
+) -> list[tuple[str, str, dict[str, Any], str]]:
+    """Walk chapter config recursively.
+
+    Returns list of (section_slug, rel_path, file_cfg, source) for each
+    leaf node.  The 4th element *source* comes from the chapter-level
+    ``source`` field (or top-level fallback).
+    """
     chapter_map = config.get("chapters", {})
     output_dir = config.get("output_dir", "docs/src/content/docs")
+    mode = config.get("mode", "zh_only")
+    base = f"{output_dir}/bilingual" if mode == "bilingual" else output_dir
 
-    rows: list[tuple[int, int, str, str, dict[str, Any]]] = []
-    for section_slug, section in chapter_map.items():
-        section_order = int(section.get("order", 9999))
-        files = section.get("files", {})
-        for filename, file_cfg in files.items():
-            file_order = int(file_cfg.get("order", 9999))
-            rel_path = f"{output_dir}/{section_slug}/{filename}.md"
-            rows.append((section_order, file_order, section_slug, rel_path, file_cfg))
+    results: list[tuple[str, str, dict[str, Any], str]] = []
 
-    rows.sort(key=lambda x: (x[0], x[1], x[2], x[3]))
-    return [(section_slug, rel_path, file_cfg) for _, _, section_slug, rel_path, file_cfg in rows]
+    for section_slug, section in sorted(
+        chapter_map.items(), key=lambda x: x[1].get("order", 9999)
+    ):
+        if section_slug.startswith("_"):
+            continue
+        source = section.get("source", config.get("source", ""))
+        _walk_files(
+            section.get("files", {}),
+            path_prefix=f"{base}/{section_slug}",
+            section_slug=section_slug,
+            source=source,
+            results=results,
+        )
+
+    return results
+
+
+def _walk_files(
+    files: dict,
+    path_prefix: str,
+    section_slug: str,
+    source: str,
+    results: list[tuple[str, str, dict[str, Any], str]],
+) -> None:
+    """Recursively walk files dict, collecting leaf nodes."""
+    for key, entry in sorted(
+        files.items(), key=lambda x: x[1].get("order", 9999)
+    ):
+        current_path = f"{path_prefix}/{key}"
+        if "pages" in entry:
+            results.append((section_slug, f"{current_path}.md", entry, source))
+        elif "files" in entry:
+            _walk_files(
+                entry["files"], current_path, section_slug, source, results
+            )
 
 
 def chapter_id_from_path(rel_path: str) -> str:
-    path = Path(rel_path)
+    # Use PurePosixPath to keep forward slashes on all platforms
+    from pathlib import PurePosixPath
+
+    path = PurePosixPath(rel_path)
     # Keep uniqueness across sections (e.g., many index.md files)
     return str(path.with_suffix("")).replace("/", "-")
 
@@ -64,18 +103,19 @@ def page_range_to_string(pages: Any) -> str:
 
 def build_progress(config: dict[str, Any]) -> dict[str, Any]:
     chapters = []
-    for _, rel_path, file_cfg in iter_chapter_files(config):
+    for _, rel_path, file_cfg, source in iter_chapter_files(config):
         title = str(file_cfg.get("title", Path(rel_path).stem))
-        chapters.append(
-            {
-                "id": chapter_id_from_path(rel_path),
-                "title": title,
-                "file": rel_path,
-                "source_pages": page_range_to_string(file_cfg.get("pages")),
-                "status": "not_started",
-                "notes": "",
-            }
-        )
+        entry: dict[str, Any] = {
+            "id": chapter_id_from_path(rel_path),
+            "title": title,
+            "file": rel_path,
+            "source_pages": page_range_to_string(file_cfg.get("pages")),
+            "status": "not_started",
+            "notes": "",
+        }
+        if source:
+            entry["source"] = source
+        chapters.append(entry)
 
     payload = {
         "_meta": {
