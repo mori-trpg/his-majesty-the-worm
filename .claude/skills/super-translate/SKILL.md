@@ -13,6 +13,8 @@ Iterative translation pipeline: `translator → reviewer → md-reviewer → ref
 
 **Core principle:** No overwrite unless reviewer passes. Draft isolation until quality confirmed.
 
+**Markdown rule:** Source block shape is binding. Translators and refiners must preserve block order and block type, not just the wording.
+
 ## Task Initialization (MANDATORY)
 
 Before ANY action, create tasks using TaskCreate:
@@ -83,14 +85,16 @@ Read `style-decisions.json.translation_mode.mode`. If missing, ask user:
 3. **Dispatch translator** (Agent tool, general-purpose) using `./translator-prompt.md`
    - Inline all context: source, glossary, style, draft path
    - Translator must not read files; all context is pre-inlined
+   - Translator must complete a block-shape self-check before returning: frontmatter, heading levels, list structure, blank-line boundaries, tables, code fences, admonitions, images, and MDX/import blocks must still align with the source
 4. Read draft content after translator returns
 5. **Dispatch reviewer** (Agent tool, general-purpose) using `./reviewer-prompt.md`
    - Inline: source, draft, glossary, style
 6. **Dispatch Markdown reviewer** by invoking the `md-review` skill using `../md-review/reviewer-prompt.md`
    - Inline: source, draft, glossary, style, project conventions from `AGENTS.md`
-   - This gate checks Markdown structure, frontmatter, headings, links, image syntax, Starlight syntax, and zh-TW style rules
+   - This gate checks Markdown structure, frontmatter, heading hierarchy, block boundaries, lists, tables, links, image syntax, Starlight syntax, and zh-TW style rules
 7. If either reviewer fails → **dispatch refiner** using `./refiner-prompt.md`
    - Inline: source, draft, translation review JSON, md review JSON, glossary, style
+   - Refiner must repair structure before wording polish when Markdown findings exist
    - Re-read draft → re-run reviewer → re-run Markdown reviewer. Cap at 2 total iterations.
 8. If 2 iterations still fail, ask user:
    - **保留草稿，稍後手動修正**
@@ -100,7 +104,7 @@ Read `style-decisions.json.translation_mode.mode`. If missing, ask user:
 
 **Parallel dispatch:** When batch has 2+ independent files and no shared terminology conflicts, dispatch multiple translator agents concurrently using Agent tool. Reviewer/refiner remain sequential per file.
 
-**Verification:** Per file: reviewer JSON and md-review JSON both return `"pass": true`, or iteration cap reached and user consulted.
+**Verification:** Per file: reviewer JSON and md-review JSON both return `"pass": true`, and no block-shape mismatch remains; otherwise iteration cap reached and user consulted.
 
 ### Step 5: Controlled Writeback
 

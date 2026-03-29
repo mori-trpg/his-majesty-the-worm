@@ -9,9 +9,11 @@ disable-model-invocation: true
 
 ## Overview
 
-Iterative translation pipeline: `translator → reviewer → refiner` (max 2 iterations).
+Iterative translation pipeline: `translator → reviewer → md-reviewer → refiner` (max 2 iterations).
 
 **Core principle:** No overwrite unless reviewer passes. Draft isolation until quality confirmed.
+
+**Markdown rule:** Source block shape is binding. Translators and refiners must preserve block order and block type, not just the wording.
 
 ## Task Initialization (MANDATORY)
 
@@ -77,21 +79,26 @@ Read `style-decisions.json.translation_mode.mode`. If missing, ask user:
 3. **Dispatch translator** (Agent tool, general-purpose) using `./translator-prompt.md`
    - Inline all context: source, glossary, style, draft path
    - Translator must not read files; all context is pre-inlined
+   - Translator must complete a block-shape self-check before returning: frontmatter, heading levels, list structure, blank-line boundaries, tables, code fences, admonitions, images, and MDX/import blocks must still align with the source
 4. Read draft content after translator returns
 5. **Dispatch reviewer** (Agent tool, general-purpose) using `./reviewer-prompt.md`
    - Inline: source, draft, glossary, style
-6. If reviewer fails → **dispatch refiner** using `./refiner-prompt.md`
-   - Inline: source, draft, review JSON, glossary, style
-   - Re-read draft → re-run reviewer. Cap at 2 total iterations.
-7. If 2 iterations still fail, ask user:
+6. **Dispatch Markdown reviewer** by invoking the `md-review` skill using `../md-review/reviewer-prompt.md`
+   - Inline: source, draft, glossary, style, project conventions from `AGENTS.md`
+   - This gate checks Markdown structure, frontmatter, heading hierarchy, block boundaries, lists, tables, links, image syntax, Starlight syntax, and zh-TW style rules
+7. If either reviewer fails → **dispatch refiner** using `./refiner-prompt.md`
+   - Inline: source, draft, translation review JSON, md review JSON, glossary, style
+   - Refiner must repair structure before wording polish when Markdown findings exist
+   - Re-read draft → re-run reviewer → re-run Markdown reviewer. Cap at 2 total iterations.
+8. If 2 iterations still fail, ask user:
    - **保留草稿，稍後手動修正**
-   - **停止此檔案，先處理術語或規則歧義**
+   - **停止此檔案，先處理術語、格式或規則歧義**
 
 **Unknown terms:** Run `term_edit.py --set-zh` workflow, then rerun file.
 
 **Parallel dispatch:** When batch has 2+ independent files and no shared terminology conflicts, dispatch multiple translator agents concurrently using Agent tool. Reviewer/refiner remain sequential per file.
 
-**Verification:** Per file: reviewer JSON returns `"pass": true`, or iteration cap reached and user consulted.
+**Verification:** Per file: reviewer JSON and md-review JSON both return `"pass": true`, and no block-shape mismatch remains; otherwise iteration cap reached and user consulted.
 
 ### Step 5: Controlled Writeback
 
@@ -133,8 +140,9 @@ Invoke `check-consistency` skill. Resolve violations before marking run complete
 
 Colocated with this skill. Orchestrator inlines all placeholders before dispatch:
 - `./translator-prompt.md` — draft generation
-- `./reviewer-prompt.md` — source fidelity + quality check
-- `./refiner-prompt.md` — apply reviewer findings
+- `./reviewer-prompt.md` — source fidelity + translation quality check
+- `../md-review/reviewer-prompt.md` — markdown structure + style compliance check
+- `./refiner-prompt.md` — apply both review streams
 
 ## Flowchart
 
@@ -146,7 +154,8 @@ digraph super_translate {
     mode [label="Resolve\ntranslation mode", shape=box];
     translate [label="Dispatch\ntranslator", shape=box];
     review [label="Dispatch\nreviewer", shape=box];
-    pass [label="Pass?", shape=diamond];
+    mdreview [label="Dispatch\nmd reviewer", shape=box];
+    pass [label="Both pass?", shape=diamond];
     refine [label="Dispatch\nrefiner", shape=box];
     cap [label="Iteration\ncap?", shape=diamond];
     writeback [label="Writeback +\nupdate progress", shape=box];
@@ -157,7 +166,8 @@ digraph super_translate {
 
     start -> preflight -> mode -> translate;
     translate -> review;
-    review -> pass;
+    review -> mdreview;
+    mdreview -> pass;
     pass -> writeback [label="yes"];
     pass -> cap [label="no"];
     cap -> refine [label="< 2"];
@@ -195,4 +205,4 @@ digraph super_translate {
 
 ## References
 
-See `./translator-prompt.md`, `./reviewer-prompt.md`, `./refiner-prompt.md` for full dispatch context and placeholder specifications.
+See `./translator-prompt.md`, `./reviewer-prompt.md`, `../md-review/reviewer-prompt.md`, and `./refiner-prompt.md` for full dispatch context and placeholder specifications.

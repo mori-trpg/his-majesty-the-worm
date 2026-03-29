@@ -56,7 +56,9 @@ Agent tool (general-purpose):
 
     - Fix all critical findings from both review streams first.
     - Preserve already-correct content.
-    - Keep markdown structure intact.
+    - Keep markdown structure intact. Do not normalize formatting beyond what the findings require.
+    - Preserve every source block in the same order and with the same block type.
+    - Preserve heading levels exactly, and restore any missing list markers, blank lines, or block boundaries before polishing wording.
     - Treat `frontmatter.title` as the only page title. Remove any added body heading of any level that restates it.
     - If the draft introduced an overview heading that does not exist in the source, remove that heading but keep the translated paragraph content.
     - Preserve image links exactly. If an image belongs inside a paragraph flow, place the same markdown link near the middle of that paragraph and do not split the paragraph around it.
@@ -70,6 +72,14 @@ Agent tool (general-purpose):
 
     {
       "draft_path": "<DRAFT_FILE>",
+      "structure_check": {
+        "block_order_preserved": true,
+        "heading_levels_preserved": true,
+        "list_structure_preserved": true,
+        "table_shape_preserved": true,
+        "required_blank_lines_preserved": true,
+        "invented_headings": []
+      },
       "changes": [{ "location": "...", "summary": "..." }],
       "unresolved": [{ "type": "...", "detail": "..." }]
     }

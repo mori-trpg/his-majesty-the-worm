@@ -61,6 +61,9 @@ Agent tool (general-purpose):
     8. Heading/frontmatter/table/dice format integrity
     9. No added heading of any level that restates `frontmatter.title`, and no invented overview heading when the source has no such heading
     10. Image links are preserved exactly and, when they belong to a paragraph flow, remain inside one paragraph instead of splitting it into separate blocks
+    11. Source block order is preserved; no heading, paragraph, list, table, code block, admonition, or image block is silently dropped, duplicated, fused, or reordered
+    12. Lists remain lists, with preserved nesting and item grouping; missing list markers or stray blank lines that break list rendering are critical
+    13. Required blank lines between paragraphs and other block types are present; fused blocks are critical
 
     ## Output JSON Only
 
@@ -71,6 +74,7 @@ Agent tool (general-purpose):
     }
 
     Pass condition: critical must be empty.
-    Only flag issues that genuinely affect accuracy or readability.
+    Treat block-shape breakage as critical even if the translated wording is accurate.
+    Only flag issues that genuinely affect accuracy, rendering, or readability.
     Do not nitpick minor stylistic preferences.
 ```

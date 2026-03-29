@@ -50,8 +50,10 @@ Check and report:
    - no heading of any level that simply restates `frontmatter.title`
    - no skipped heading levels（例如 H2 → H4）
 3. Block integrity:
+   - source block order and block type are preserved when source is available
    - fenced code blocks are closed
    - tables keep consistent column counts
+   - list markers and indentation are preserved; list items are not flattened into paragraphs
    - list items are not split by stray blank lines unless the Markdown construct truly requires a loose list
    - paragraphs that should be separated are not accidentally fused together by missing blank lines
    - admonitions, example blocks, lists, and code fences are not merged into surrounding prose by broken blank-line structure
@@ -89,6 +91,8 @@ Return JSON only:
 ```
 
 Pass condition: `critical` is empty.
+
+Treat block-shape breakage as critical when it changes rendering semantics.
 
 Only flag issues that genuinely affect rendering, navigation, project conventions, or zh-TW style compliance.
 
