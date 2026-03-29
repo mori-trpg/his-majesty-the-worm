@@ -225,6 +225,26 @@ def normalize_files(files: dict) -> dict:
     return result
 
 
+def resolve_config(chapter_key: str, chapter: dict, top_level: dict) -> dict:
+    """Resolve per-chapter config with fallback to top-level defaults.
+
+    Returns a dict with keys: source, clean_patterns, images.
+    Raises ValueError if no source can be determined.
+    """
+    source = chapter.get("source", top_level.get("source"))
+    if not source:
+        raise ValueError(
+            f"Chapter '{chapter_key}' has no 'source' and no top-level 'source' defined"
+        )
+    return {
+        "source": source,
+        "clean_patterns": chapter.get(
+            "clean_patterns", top_level.get("clean_patterns", [])
+        ),
+        "images": chapter.get("images", top_level.get("images", {})),
+    }
+
+
 def load_image_manifest(config: dict, project_root: Path) -> tuple[list[dict], Path | None, dict]:
     """載入圖片 manifest 與設定。"""
     image_config = config.get("images", {})

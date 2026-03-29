@@ -9,6 +9,7 @@ from split_chapters import (
     infer_source_stem,
     build_page_text_stats,
     normalize_files,
+    resolve_config,
 )
 from pathlib import Path
 
@@ -239,3 +240,53 @@ class TestNormalizeFiles:
 
     def test_empty_files(self):
         assert normalize_files({}) == {}
+
+
+# ---------------------------------------------------------------------------
+# resolve_config
+# ---------------------------------------------------------------------------
+
+class TestResolveConfig:
+    def test_chapter_source_overrides_top_level(self):
+        chapter = {"source": "chapter_source.md"}
+        top = {"source": "top_source.md"}
+        cfg = resolve_config("test", chapter, top)
+        assert cfg["source"] == "chapter_source.md"
+
+    def test_fallback_to_top_level_source(self):
+        chapter = {}
+        top = {"source": "top_source.md"}
+        cfg = resolve_config("test", chapter, top)
+        assert cfg["source"] == "top_source.md"
+
+    def test_missing_source_raises(self):
+        with pytest.raises(ValueError, match="test"):
+            resolve_config("test", {}, {})
+
+    def test_chapter_clean_patterns_override(self):
+        chapter = {"source": "s.md", "clean_patterns": ["\\[footer\\]"]}
+        top = {"clean_patterns": ["\\[header\\]"]}
+        cfg = resolve_config("test", chapter, top)
+        assert cfg["clean_patterns"] == ["\\[footer\\]"]
+
+    def test_fallback_clean_patterns(self):
+        chapter = {}
+        top = {"source": "s.md", "clean_patterns": ["\\[header\\]"]}
+        cfg = resolve_config("test", chapter, top)
+        assert cfg["clean_patterns"] == ["\\[header\\]"]
+
+    def test_default_clean_patterns_empty(self):
+        chapter = {"source": "s.md"}
+        cfg = resolve_config("test", chapter, {})
+        assert cfg["clean_patterns"] == []
+
+    def test_chapter_images_override(self):
+        chapter = {"source": "s.md", "images": {"enabled": True}}
+        top = {"images": {"enabled": False}}
+        cfg = resolve_config("test", chapter, top)
+        assert cfg["images"]["enabled"] is True
+
+    def test_default_images_empty(self):
+        chapter = {"source": "s.md"}
+        cfg = resolve_config("test", chapter, {})
+        assert cfg["images"] == {}
