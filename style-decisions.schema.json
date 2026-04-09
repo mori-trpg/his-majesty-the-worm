@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Style Decisions",
+  "type": "object",
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description", "updated"],
+      "properties": {
+        "description": { "type": "string" },
+        "updated": { "type": "string" }
+      }
+    },
+    "translation_mode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode"],
+      "properties": {
+        "mode": { "enum": ["full", "summary", "bilingual"] },
+        "reason": { "type": "string" },
+        "options": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "description"],
+            "properties": {
+              "name": { "type": "string" },
+              "description": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "visibility": { "enum": ["public", "private"] },
+        "url": { "type": "string" },
+        "show_on_homepage": { "type": "boolean" }
+      }
+    },
+    "site": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "tagline": { "type": "string" },
+        "intro": { "type": "string" }
+      }
+    },
+    "images": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "preserve_images": { "type": "boolean" },
+        "hero": { "type": "string" },
+        "background": { "type": "string" },
+        "og": { "type": "string" }
+      }
+    },
+    "theme": {
+      "type": "object",
+      "properties": {
+        "mode": { "type": "string" },
+        "overlay": { "type": "string" },
+        "palette": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "proper_nouns": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": { "type": "string" },
+        "reason": { "type": "string" },
+        "documents": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "mode": { "type": "string" },
+              "reason": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "document_format": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "layout_profile": { "enum": ["auto", "single-column", "double-column"] },
+        "page_text_engine": { "enum": ["auto", "ocr", "pymupdf", "markitdown"] },
+        "aside_mapping": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "note": { "type": "string" },
+            "tip": { "type": "string" },
+            "caution": { "type": "string" },
+            "danger": { "type": "string" }
+          }
+        },
+        "component_usage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cards": { "type": "string" },
+            "tabs": { "type": "string" }
+          }
+        },
+        "table_conventions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "tables": { "type": "string" },
+            "dice_tables": { "type": "string" }
+          }
+        },
+        "documents": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/documentFormatEntry"
+          }
+        }
+      }
+    },
+    "translation_notes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "global": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/translationNote" }
+        },
+        "documents": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/translationNote" }
+          }
+        }
+      }
+    },
+    "copyright": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": { "type": "string" },
+        "show_on_homepage": { "type": "boolean" }
+      }
+    },
+    "credits": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["role", "name"],
+            "properties": {
+              "role": { "type": "string" },
+              "name": { "type": "string" }
+            }
+          }
+        },
+        "show_on_homepage": { "type": "boolean" }
+      }
+    }
+  },
+  "additionalProperties": {
+    "$ref": "#/$defs/decisionRecord"
+  },
+  "$defs": {
+    "decisionRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decision", "reason"],
+      "properties": {
+        "decision": { "type": "string" },
+        "reason": { "type": "string" },
+        "alternatives": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "documentFormatEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "layout_profile": { "enum": ["auto", "single-column", "double-column"] },
+        "page_text_engine": { "enum": ["auto", "ocr", "pymupdf", "markitdown"] },
+        "aside_mapping": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "note": { "type": "string" },
+            "tip": { "type": "string" },
+            "caution": { "type": "string" },
+            "danger": { "type": "string" }
+          }
+        },
+        "component_usage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "cards": { "type": "string" },
+            "tabs": { "type": "string" }
+          }
+        },
+        "table_conventions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "tables": { "type": "string" },
+            "dice_tables": { "type": "string" }
+          }
+        }
+      }
+    },
+    "translationNote": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["note"],
+      "properties": {
+        "key": { "type": "string" },
+        "topic": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}
