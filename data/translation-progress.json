@@ -1,154 +1,379 @@
 {
   "_meta": {
     "description": "Translation progress tracker",
-    "updated": "2026-03-10",
-    "total_chapters": 18,
-    "completed": 0
+    "updated": "2026-04-09",
+    "total_chapters": 41,
+    "completed": 5
   },
   "chapters": [
     {
-      "id": "docs-src-content-docs-introduction-index",
-      "title": "Introduction",
-      "file": "docs/src/content/docs/introduction/index.md",
-      "source_pages": "2-3",
-      "status": "not_started",
-      "notes": ""
+      "id": "docs-src-content-docs-front-matter-index",
+      "title": "前言",
+      "file": "docs/src/content/docs/front-matter/index.md",
+      "source_pages": "1-12",
+      "status": "completed",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-player-characters-index",
-      "title": "Player Characters",
-      "file": "docs/src/content/docs/player-characters/index.md",
-      "source_pages": "4-7",
-      "status": "not_started",
-      "notes": ""
+      "id": "docs-src-content-docs-basics-index",
+      "title": "遊戲基礎",
+      "file": "docs/src/content/docs/basics/index.md",
+      "source_pages": "13-19",
+      "status": "completed",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-skills-index",
-      "title": "Skills & Specialties",
-      "file": "docs/src/content/docs/skills/index.md",
-      "source_pages": "8-9",
-      "status": "not_started",
-      "notes": ""
+      "id": "docs-src-content-docs-basics-tests-and-fate",
+      "title": "命運考驗",
+      "file": "docs/src/content/docs/basics/tests-and-fate.md",
+      "source_pages": "20-26",
+      "status": "completed",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-skills-skill-rolls",
-      "title": "Skill Rolls & Modifiers",
-      "file": "docs/src/content/docs/skills/skill-rolls.md",
-      "source_pages": "10-12",
-      "status": "not_started",
-      "notes": ""
+      "id": "docs-src-content-docs-adventurer-creation",
+      "title": "角色創建",
+      "file": "docs/src/content/docs/adventurer/creation.md",
+      "source_pages": "27-35",
+      "status": "completed",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-skills-skill-list",
-      "title": "The Skills & Specialties",
-      "file": "docs/src/content/docs/skills/skill-list.md",
-      "source_pages": "12-14",
-      "status": "not_started",
-      "notes": ""
+      "id": "docs-src-content-docs-adventurer-advancement",
+      "title": "成長與特質",
+      "file": "docs/src/content/docs/adventurer/advancement.md",
+      "source_pages": "36-45",
+      "status": "completed",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-combat-maps-and-zones",
-      "title": "Maps, Zones & Initiative",
-      "file": "docs/src/content/docs/combat/maps-and-zones.md",
-      "source_pages": "15-16",
+      "id": "docs-src-content-docs-adventurer-gear-and-retirement",
+      "title": "裝備與退休",
+      "file": "docs/src/content/docs/adventurer/gear-and-retirement.md",
+      "source_pages": "46-52",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-combat-actions",
-      "title": "Actions & Movement",
-      "file": "docs/src/content/docs/combat/actions.md",
-      "source_pages": "16-17",
+      "id": "docs-src-content-docs-guild-index",
+      "title": "公會",
+      "file": "docs/src/content/docs/guild/index.md",
+      "source_pages": "53-60",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-combat-close-combat",
-      "title": "Close Combat",
-      "file": "docs/src/content/docs/combat/close-combat.md",
-      "source_pages": "17-18",
+      "id": "docs-src-content-docs-kith-and-kin-index",
+      "title": "族裔總覽",
+      "file": "docs/src/content/docs/kith-and-kin/index.md",
+      "source_pages": "61-63",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-combat-ranged-combat",
-      "title": "Ranged Combat",
-      "file": "docs/src/content/docs/combat/ranged-combat.md",
-      "source_pages": "18-20",
+      "id": "docs-src-content-docs-kith-and-kin-humans",
+      "title": "人類",
+      "file": "docs/src/content/docs/kith-and-kin/humans.md",
+      "source_pages": "64-67",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-combat-damage",
-      "title": "Damage, Conditions & Recovery",
-      "file": "docs/src/content/docs/combat/damage.md",
-      "source_pages": "20-22",
+      "id": "docs-src-content-docs-kith-and-kin-fay",
+      "title": "精靈族",
+      "file": "docs/src/content/docs/kith-and-kin/fay.md",
+      "source_pages": "68-71",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-combat-critical-injuries",
-      "title": "Critical Injuries & Hazards",
-      "file": "docs/src/content/docs/combat/critical-injuries.md",
-      "source_pages": "22-25",
+      "id": "docs-src-content-docs-kith-and-kin-underfolk",
+      "title": "地底民",
+      "file": "docs/src/content/docs/kith-and-kin/underfolk.md",
+      "source_pages": "72-75",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-combat-vehicles-and-chases",
-      "title": "Vehicles & Chases",
-      "file": "docs/src/content/docs/combat/vehicles-and-chases.md",
-      "source_pages": "26-29",
+      "id": "docs-src-content-docs-kith-and-kin-orcs",
+      "title": "獸人",
+      "file": "docs/src/content/docs/kith-and-kin/orcs.md",
+      "source_pages": "76-78",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-magic-casting",
-      "title": "Magic Rules",
-      "file": "docs/src/content/docs/magic/casting.md",
-      "source_pages": "30-31",
+      "id": "docs-src-content-docs-four-paths-index",
+      "title": "四條道途總覽",
+      "file": "docs/src/content/docs/four-paths/index.md",
+      "source_pages": "79-81",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-magic-druid-spells",
-      "title": "Druid Spells",
-      "file": "docs/src/content/docs/magic/druid-spells.md",
-      "source_pages": "32-35",
+      "id": "docs-src-content-docs-four-paths-path-of-swords",
+      "title": "寶劍道途",
+      "file": "docs/src/content/docs/four-paths/path-of-swords.md",
+      "source_pages": "82-84",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-magic-sorcery-spells",
-      "title": "Sorcery Spells",
-      "file": "docs/src/content/docs/magic/sorcery-spells.md",
-      "source_pages": "35-40",
+      "id": "docs-src-content-docs-four-paths-path-of-pentacles",
+      "title": "錢幣道途",
+      "file": "docs/src/content/docs/four-paths/path-of-pentacles.md",
+      "source_pages": "85-88",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-travel-travel-rules",
-      "title": "Travel Rules",
-      "file": "docs/src/content/docs/travel/travel-rules.md",
-      "source_pages": "41-42",
+      "id": "docs-src-content-docs-four-paths-path-of-cups",
+      "title": "聖杯道途",
+      "file": "docs/src/content/docs/four-paths/path-of-cups.md",
+      "source_pages": "89-92",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-travel-driving-and-mounts",
-      "title": "Driving & Mounts",
-      "file": "docs/src/content/docs/travel/driving-and-mounts.md",
-      "source_pages": "42-43",
+      "id": "docs-src-content-docs-four-paths-path-of-wands",
+      "title": "權杖道途",
+      "file": "docs/src/content/docs/four-paths/path-of-wands.md",
+      "source_pages": "93-96",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
     {
-      "id": "docs-src-content-docs-travel-camp-and-survival",
-      "title": "Camp & Survival",
-      "file": "docs/src/content/docs/travel/camp-and-survival.md",
-      "source_pages": "43-45",
+      "id": "docs-src-content-docs-crawl-phase-index",
+      "title": "探索階段概覽",
+      "file": "docs/src/content/docs/crawl-phase/index.md",
+      "source_pages": "97-103",
       "status": "not_started",
-      "notes": ""
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-crawl-phase-hazards",
+      "title": "危險與狀態",
+      "file": "docs/src/content/docs/crawl-phase/hazards.md",
+      "source_pages": "104-113",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-crawl-phase-social-and-example",
+      "title": "社交遭遇與範例",
+      "file": "docs/src/content/docs/crawl-phase/social-and-example.md",
+      "source_pages": "114-118",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-challenge-phase-index",
+      "title": "衝突階段概覽",
+      "file": "docs/src/content/docs/challenge-phase/index.md",
+      "source_pages": "119-127",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-challenge-phase-actions",
+      "title": "衝突行動",
+      "file": "docs/src/content/docs/challenge-phase/actions.md",
+      "source_pages": "128-135",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-challenge-phase-wounds-and-example",
+      "title": "傷勢與範例",
+      "file": "docs/src/content/docs/challenge-phase/wounds-and-example.md",
+      "source_pages": "136-146",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-camp-phase-index",
+      "title": "紮營階段",
+      "file": "docs/src/content/docs/camp-phase/index.md",
+      "source_pages": "147-158",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-city-phase-index",
+      "title": "城市階段概覽",
+      "file": "docs/src/content/docs/city-phase/index.md",
+      "source_pages": "159-167",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-city-phase-city-actions",
+      "title": "城市行動",
+      "file": "docs/src/content/docs/city-phase/city-actions.md",
+      "source_pages": "168-176",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-city-phase-market-and-example",
+      "title": "臍帶市場與範例",
+      "file": "docs/src/content/docs/city-phase/market-and-example.md",
+      "source_pages": "177-186",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-gamemastering-index",
+      "title": "主持指南",
+      "file": "docs/src/content/docs/gamemastering/index.md",
+      "source_pages": "187-199",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-gamemastering-resources",
+      "title": "延伸資源",
+      "file": "docs/src/content/docs/gamemastering/resources.md",
+      "source_pages": "200-208",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-sorcery-rules",
+      "title": "法術規則",
+      "file": "docs/src/content/docs/sorcery/rules.md",
+      "source_pages": "209-216",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-sorcery-spells",
+      "title": "法術列表",
+      "file": "docs/src/content/docs/sorcery/spells.md",
+      "source_pages": "217-240",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-alchemy-index",
+      "title": "煉金術",
+      "file": "docs/src/content/docs/alchemy/index.md",
+      "source_pages": "241-252",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-dungeon-denizens-creature-rules",
+      "title": "生物規則",
+      "file": "docs/src/content/docs/dungeon-denizens/creature-rules.md",
+      "source_pages": "253-264",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-dungeon-denizens-bestiary",
+      "title": "怪物圖鑑",
+      "file": "docs/src/content/docs/dungeon-denizens/bestiary.md",
+      "source_pages": "265-300",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-city-creation-index",
+      "title": "城市建構",
+      "file": "docs/src/content/docs/city-creation/index.md",
+      "source_pages": "301-308",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-city-creation-districts-swords-pentacles",
+      "title": "寶劍與錢幣街區",
+      "file": "docs/src/content/docs/city-creation/districts-swords-pentacles.md",
+      "source_pages": "309-323",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-city-creation-districts-cups-wands",
+      "title": "聖杯與權杖街區",
+      "file": "docs/src/content/docs/city-creation/districts-cups-wands.md",
+      "source_pages": "324-340",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-underworld-creation-index",
+      "title": "地下世界建構",
+      "file": "docs/src/content/docs/underworld-creation/index.md",
+      "source_pages": "341-353",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-underworld-creation-dungeon-seeds",
+      "title": "地城種子",
+      "file": "docs/src/content/docs/underworld-creation/dungeon-seeds.md",
+      "source_pages": "354-376",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-underworld-creation-rooms-and-traps",
+      "title": "房間與陷阱",
+      "file": "docs/src/content/docs/underworld-creation/rooms-and-traps.md",
+      "source_pages": "377-390",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
+    },
+    {
+      "id": "docs-src-content-docs-underworld-creation-tutorial-dungeon",
+      "title": "範例地城：黃金幽靈之墓",
+      "file": "docs/src/content/docs/underworld-creation/tutorial-dungeon.md",
+      "source_pages": "391-411",
+      "status": "not_started",
+      "notes": "",
+      "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     }
   ]
 }
