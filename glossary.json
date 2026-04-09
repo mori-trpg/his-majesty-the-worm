@@ -1,35 +1,20 @@
 {
   "_meta": {
     "description": "術語表 - 英文遊戲術語對照繁體中文翻譯",
-    "updated": "2026-03-10T04:44:26+00:00"
+    "updated": "2026-04-09T20:48:36+00:00"
   },
-  "roll": {
-    "zh": "擲骰",
+  "adventurer": {
+    "zh": "冒險者",
     "status": "approved",
     "is_term": true
   },
-  "die": {
-    "zh": "骰子",
+  "guild": {
+    "zh": "公會",
     "status": "approved",
     "is_term": true
   },
-  "damage": {
-    "zh": "傷害",
-    "status": "approved",
-    "is_term": true
-  },
-  "skill": {
-    "zh": "技能",
-    "status": "approved",
-    "is_term": true
-  },
-  "power": {
-    "zh": "能力",
-    "status": "approved",
-    "is_term": true
-  },
-  "action": {
-    "zh": "行動",
+  "dungeon": {
+    "zh": "地城",
     "status": "approved",
     "is_term": true
   },
@@ -38,33 +23,38 @@
     "status": "approved",
     "is_term": true
   },
-  "attack": {
-    "zh": "攻擊",
+  "talent": {
+    "zh": "天賦",
     "status": "approved",
     "is_term": true
   },
-  "level": {
-    "zh": "等級",
+  "fate": {
+    "zh": "命運",
     "status": "approved",
     "is_term": true
   },
-  "character": {
-    "zh": "角色",
+  "Initiative": {
+    "zh": "先攻",
     "status": "approved",
     "is_term": true
   },
-  "push": {
-    "zh": "強推",
+  "Resolve": {
+    "zh": "決心",
     "status": "approved",
     "is_term": true
   },
-  "stress": {
-    "zh": "壓力",
+  "quest": {
+    "zh": "任務",
     "status": "approved",
     "is_term": true
   },
-  "combat": {
-    "zh": "戰鬥",
+  "sorcerer": {
+    "zh": "術士",
+    "status": "approved",
+    "is_term": true
+  },
+  "monster": {
+    "zh": "怪物",
     "status": "approved",
     "is_term": true
   },
@@ -73,68 +63,323 @@
     "status": "approved",
     "is_term": true
   },
-  "gear": {
-    "zh": "裝備",
+  "damage": {
+    "zh": "傷害",
     "status": "approved",
     "is_term": true
   },
-  "magic": {
-    "zh": "魔法",
+  "armor": {
+    "zh": "護甲",
     "status": "approved",
     "is_term": true
   },
-  "attribute": {
+  "lore": {
+    "zh": "學識",
+    "status": "approved",
+    "is_term": true
+  },
+  "dragon": {
+    "zh": "龍",
+    "status": "approved",
+    "is_term": true
+  },
+  "favor": {
+    "zh": "優勢",
+    "status": "approved",
+    "is_term": true
+  },
+  "trap": {
+    "zh": "陷阱",
+    "status": "approved",
+    "is_term": true
+  },
+  "Health": {
+    "zh": "生命值",
+    "status": "approved",
+    "is_term": true
+  },
+  "Defense": {
+    "zh": "防禦",
+    "status": "approved",
+    "is_term": true
+  },
+  "orc": {
+    "zh": "獸人",
+    "status": "approved",
+    "is_term": true
+  },
+  "goblin": {
+    "zh": "哥布林",
+    "status": "approved",
+    "is_term": true
+  },
+  "creature": {
+    "zh": "生物",
+    "status": "approved",
+    "is_term": true
+  },
+  "district": {
+    "zh": "街區",
+    "status": "approved",
+    "is_term": true
+  },
+  "encounter": {
+    "zh": "遭遇",
+    "status": "approved",
+    "is_term": true
+  },
+  "iron": {
+    "zh": "鐵",
+    "status": "approved",
+    "is_term": true
+  },
+  "pack": {
+    "zh": "背包",
+    "status": "approved",
+    "is_term": true
+  },
+  "Wound": {
+    "zh": "傷勢",
+    "status": "approved",
+    "is_term": true
+  },
+  "Wounds": {
+    "zh": "傷勢",
+    "status": "approved",
+    "is_term": true
+  },
+  "Underworld": {
+    "zh": "地下世界",
+    "status": "approved",
+    "is_term": true
+  },
+  "City": {
+    "zh": "城市",
+    "status": "approved",
+    "is_term": true
+  },
+  "condition": {
+    "zh": "狀態",
+    "status": "approved",
+    "is_term": true
+  },
+  "charge": {
+    "zh": "充能",
+    "status": "approved",
+    "is_term": true
+  },
+  "slot": {
+    "zh": "格位",
+    "status": "approved",
+    "is_term": true
+  },
+  "Worm": {
+    "zh": "蠕蟲",
+    "status": "approved",
+    "is_term": true
+  },
+  "elf": {
+    "zh": "精靈",
+    "status": "approved",
+    "is_term": true
+  },
+  "spider": {
+    "zh": "蜘蛛",
+    "status": "approved",
+    "is_term": true
+  },
+  "Swords": {
+    "zh": "寶劍",
+    "status": "approved",
+    "is_term": true
+  },
+  "Pentacles": {
+    "zh": "錢幣",
+    "status": "approved",
+    "is_term": true
+  },
+  "Cups": {
+    "zh": "聖杯",
+    "status": "approved",
+    "is_term": true
+  },
+  "Wands": {
+    "zh": "權杖",
+    "status": "approved",
+    "is_term": true
+  },
+  "doom": {
+    "zh": "厄運",
+    "status": "approved",
+    "is_term": true
+  },
+  "Meatgrinder": {
+    "zh": "絞肉機",
+    "status": "approved",
+    "is_term": true
+  },
+  "watch": {
+    "zh": "時段",
+    "status": "approved",
+    "is_term": true
+  },
+  "underfolk": {
+    "zh": "地底民",
+    "status": "approved",
+    "is_term": true
+  },
+  "Arête": {
+    "zh": "至善",
+    "status": "approved",
+    "is_term": true
+  },
+  "Crawl": {
+    "zh": "探索",
+    "status": "approved",
+    "is_term": true
+  },
+  "Challenge": {
+    "zh": "挑戰",
+    "status": "approved",
+    "is_term": true
+  },
+  "Camp": {
+    "zh": "紮營",
+    "status": "approved",
+    "is_term": true
+  },
+  "Phase": {
+    "zh": "階段",
+    "status": "approved",
+    "is_term": true
+  },
+  "arcanum": {
+    "zh": "阿爾卡那",
+    "status": "approved",
+    "is_term": true
+  },
+  "bid": {
+    "zh": "投注",
+    "status": "approved",
+    "is_term": true
+  },
+  "path": {
+    "zh": "道途",
+    "status": "approved",
+    "is_term": true
+  },
+  "test": {
+    "zh": "考驗",
+    "status": "approved",
+    "is_term": true
+  },
+  "Attack": {
+    "zh": "攻擊",
+    "status": "approved",
+    "is_term": true
+  },
+  "turn": {
+    "zh": "回合",
+    "status": "approved",
+    "is_term": true
+  },
+  "Bonds": {
+    "zh": "羈絆",
+    "status": "approved",
+    "is_term": true
+  },
+  "Kith": {
+    "zh": "族裔",
+    "status": "approved",
+    "is_term": true
+  },
+  "Affliction": {
+    "zh": "疾患",
+    "status": "approved",
+    "is_term": true
+  },
+  "Stress": {
+    "zh": "壓力",
+    "status": "approved",
+    "is_term": true
+  },
+  "Disposition": {
+    "zh": "立場",
+    "status": "approved",
+    "is_term": true
+  },
+  "Motif": {
+    "zh": "主題",
+    "status": "approved",
+    "is_term": true
+  },
+  "Attribute": {
     "zh": "屬性",
     "status": "approved",
     "is_term": true
   },
-  "success": {
-    "zh": "成功",
+  "Staggered": {
+    "zh": "踉蹌",
     "status": "approved",
     "is_term": true
   },
-  "modifier": {
-    "zh": "調整值",
+  "Injured": {
+    "zh": "受傷",
     "status": "approved",
     "is_term": true
   },
-  "round": {
-    "zh": "輪次",
+  "Omphalic Market": {
+    "zh": "臍帶市集",
     "status": "approved",
     "is_term": true
   },
-  "shift": {
-    "zh": "升階",
+  "Beast Master": {
+    "zh": "馴獸師",
     "status": "approved",
     "is_term": true
   },
-  "break": {
-    "zh": "崩潰",
+  "Fame": {
+    "zh": "聲望",
     "status": "approved",
     "is_term": true
   },
-  "vehicle": {
-    "zh": "載具",
+  "Sigil": {
+    "zh": "徽記",
     "status": "approved",
     "is_term": true
   },
-  "effect": {
-    "zh": "效果",
+  "Cult": {
+    "zh": "教團",
     "status": "approved",
     "is_term": true
   },
-  "target": {
-    "zh": "目標",
+  "Monad": {
+    "zh": "一元神",
     "status": "approved",
     "is_term": true
   },
-  "point": {
-    "zh": "點數",
+  "Wide World": {
+    "zh": "廣闊世界",
     "status": "approved",
     "is_term": true
   },
-  "step": {
-    "zh": "階骰",
+  "byname": {
+    "zh": "別號",
+    "status": "approved",
+    "is_term": true
+  },
+  "Turncloak": {
+    "zh": "叛主者",
+    "status": "approved",
+    "is_term": true
+  },
+  "Wild Hunt": {
+    "zh": "狂野獵夜",
+    "status": "approved",
+    "is_term": true
+  },
+  "livery": {
+    "zh": "行業公會",
     "status": "approved",
     "is_term": true
   }

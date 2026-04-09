@@ -3,7 +3,7 @@
     "description": "Translation progress tracker",
     "updated": "2026-04-09",
     "total_chapters": 41,
-    "completed": 5
+    "completed": 10
   },
   "chapters": [
     {
@@ -56,7 +56,7 @@
       "title": "裝備與退休",
       "file": "docs/src/content/docs/adventurer/gear-and-retirement.md",
       "source_pages": "46-52",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -65,7 +65,7 @@
       "title": "公會",
       "file": "docs/src/content/docs/guild/index.md",
       "source_pages": "53-60",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -74,7 +74,7 @@
       "title": "族裔總覽",
       "file": "docs/src/content/docs/kith-and-kin/index.md",
       "source_pages": "61-63",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -83,7 +83,7 @@
       "title": "人類",
       "file": "docs/src/content/docs/kith-and-kin/humans.md",
       "source_pages": "64-67",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -92,7 +92,7 @@
       "title": "精靈族",
       "file": "docs/src/content/docs/kith-and-kin/fay.md",
       "source_pages": "68-71",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
