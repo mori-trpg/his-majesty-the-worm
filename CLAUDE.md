@@ -20,8 +20,8 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 
 **Law 3: Convention Consultation**
 
-- When task relates to documentation formatting or translation style, check the "Integrated Conventions" section in this file
-- MUST apply the listed conventions
+- When task relates to documentation formatting or translation style, apply established project conventions
+- MUST maintain consistency with existing patterns
 
 **Law 4: Parallel Processing**
 
@@ -104,57 +104,6 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 | `style-decisions.json`                           | Style decision records                             |
 | `.claude/skills/terminology-management/SKILL.md` | Terminology interaction skill (edit/generate/read) |
 
-### Draft Scripts
-
-- Get draft path (creates dir): `uv run python scripts/draft.py [--skill translate|super-translate] path <source>`
-- Split large file at H2 into chunk drafts: `uv run python scripts/draft.py [--skill translate|super-translate] chunk-path <source>`
-- Write back draft (or merge chunks) to source: `uv run python scripts/draft.py [--skill translate|super-translate] writeback <source>`
-- Clean all drafts for skill: `uv run python scripts/draft.py [--skill translate|super-translate] clean`
-
-### Terminology Scripts
-
-- Generate candidates: `uv run python scripts/term_generate.py --min-frequency 2`
-- **Batch-calculate all candidates at once** (run after generate, before approving terms): `uv run python scripts/term_cal_batch.py`
-- Calculate evidence (single term): `uv run python scripts/term_edit.py --term "<TERM>" --cal`
-- Approve/update term (auto-runs `--cal` for unmanaged terms, hits cache if batch was run): `uv run python scripts/term_edit.py --term "<TERM>" --set-zh "<ZH>" --status approved --mark-term`
-- Read consistency report: `uv run python scripts/term_read.py`
-- Validate glossary schema: `uv run python scripts/validate_glossary.py`
-
-### Translation Progress Scripts
-
-- Read progress summary: `uv run python scripts/progress_read.py`
-- Read as JSON: `uv run python scripts/progress_read.py --json`
-- Show next N files to translate: `uv run python scripts/progress_read.py --next 5`
-- Filter by status: `uv run python scripts/progress_read.py --status in_progress`
-- Update file status: `uv run python scripts/progress_edit.py --file "<FILE>" --status completed`
-- Show file entry: `uv run python scripts/progress_edit.py --file "<FILE>" --show`
-- Create progress file (bilingual): `uv run python scripts/progress_edit.py --progress-file data/translation-progress-bilingual.json --create-if-missing`
-
-### Data File Formats
-
-**glossary.json**
-
-```json
-{
-  "english_term": {
-    "zh": "Traditional Chinese translation",
-    "notes": "Usage context or notes"
-  }
-}
-```
-
-**style-decisions.json**
-
-```json
-{
-  "category": {
-    "decision": "Selected wording",
-    "alternatives": ["Other options"],
-    "reason": "Reason for the choice"
-  }
-}
-```
-
 ### Workflow
 
 1. Use `new-project` skill to initialize a new project (when needed)
@@ -167,98 +116,3 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 8. Use `check-completeness` skill to check rule content completeness
 9. Use `final-proofread` skill when all chapters are completed for a three-gate quality sweep before publishing
 
-## Integrated Conventions
-
-### Scope
-
-- Applies to: `docs/src/content/docs/**/*.md`
-
-### Markdown Format
-
-#### Frontmatter
-
-```yaml
----
-title: 頁面標題
-description: SEO 描述（一句話）
-sidebar:
-  order: 0 # Lower = higher position
----
-```
-
-#### Headings
-
-- H1: Reserved for title (from frontmatter)
-- H2: Main sections
-- H3: Subsections
-- Never skip levels (H2 → H4)
-
-#### Links
-
-- Internal: `/rules/combat/` (absolute from docs root)
-- Cross-reference: `[基本動作](/rules/basic-moves/)`
-- Anchor: `[見下方](#section-name)`
-
-#### Images
-
-- Path: `../../assets/image-name.jpg` (relative from .md)
-- Alt text: Always provide descriptive alt
-- Store in: `docs/src/assets/`
-
-#### Starlight Components
-
-- Asides: `:::note[標題]`, `:::tip`, `:::caution`, `:::danger`
-- Cards: Import from `@astrojs/starlight/components`
-- Tabs: Use for alternative content views
-
-#### Tables
-
-- Use for structured data, stats, quick reference
-- Keep columns concise
-- Align consistently
-
-#### Dice Tables
-
-- Use Markdown tables for random encounters and loot generation
-- Include clear roll ranges (e.g., `1-2`, `3-4`, `5-6`) with no overlaps or gaps
-- Prefer `1d6`, `1d20`, `2d6` notation and preserve source probability structure
-- Add notes when reroll rules, duplicate handling, or conditional entries are required
-
-### Translation Style
-
-#### Language
-
-- Use Traditional Chinese (繁體中文) exclusively
-- Never use Simplified Chinese characters
-- Maintain formal but accessible tone
-
-#### Punctuation
-
-- Use full-width punctuation：，。、；：「」『』（）
-- Use half-width for: numbers, English, code
-- Ellipsis: use `……` (two full-width), not `...`
-
-#### Numbers
-
-- Use Arabic numerals for: dice (2d6), stats, page refs
-- Use Chinese for: 一個、兩次、三種 in prose
-- Keep original notation: +1, -2, 1d6+3
-
-#### Proper Nouns
-
-- Check `glossary.json` first
-- If `proper_nouns.mode != keep_original` and a proper noun appears 2+ times, it must be managed as a glossary term
-- Game titles: use official Chinese name if exists
-- Character/proper-name handling: follow `style-decisions.json` policy selected by user during `/init-doc`
-- Record decisions in `style-decisions.json`
-
-#### Mechanics Terms
-
-- Maintain consistency across all documents
-- Prioritize clarity over literal translation
-- Add glossary entry before first use
-
-#### Culturally Nuanced Terms
-
-- For rare characters, puns, and culturally loaded wording, propose 2-3 candidate translations with brief rationale
-- If options change tone, setting implications, or mechanics interpretation, ask user to decide before finalizing glossary entries
