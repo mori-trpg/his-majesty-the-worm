@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "術語表 - 英文遊戲術語對照繁體中文翻譯",
-    "updated": "2026-04-09T20:48:36+00:00"
+    "updated": "2026-04-10T02:24:09+00:00"
   },
   "adventurer": {
     "zh": "冒險者",
@@ -380,6 +380,31 @@
   },
   "livery": {
     "zh": "行業公會",
+    "status": "approved",
+    "is_term": true
+  },
+  "dwarf": {
+    "zh": "矮人",
+    "status": "approved",
+    "is_term": true
+  },
+  "halfling": {
+    "zh": "半身人",
+    "status": "approved",
+    "is_term": true
+  },
+  "troll": {
+    "zh": "巨魔",
+    "status": "approved",
+    "is_term": true
+  },
+  "Shrouded": {
+    "zh": "遮蔽",
+    "status": "approved",
+    "is_term": true
+  },
+  "berserker": {
+    "zh": "狂戰士",
     "status": "approved",
     "is_term": true
   }
