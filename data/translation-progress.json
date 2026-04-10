@@ -3,7 +3,7 @@
     "description": "Translation progress tracker",
     "updated": "2026-04-10",
     "total_chapters": 41,
-    "completed": 20
+    "completed": 25
   },
   "chapters": [
     {
@@ -191,7 +191,7 @@
       "title": "衝突階段概覽",
       "file": "docs/src/content/docs/challenge-phase/index.md",
       "source_pages": "119-127",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -200,7 +200,7 @@
       "title": "衝突行動",
       "file": "docs/src/content/docs/challenge-phase/actions.md",
       "source_pages": "128-135",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -209,7 +209,7 @@
       "title": "傷勢與範例",
       "file": "docs/src/content/docs/challenge-phase/wounds-and-example.md",
       "source_pages": "136-146",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -218,7 +218,7 @@
       "title": "紮營階段",
       "file": "docs/src/content/docs/camp-phase/index.md",
       "source_pages": "147-158",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -227,7 +227,7 @@
       "title": "城市階段概覽",
       "file": "docs/src/content/docs/city-phase/index.md",
       "source_pages": "159-167",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
