@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "術語表 - 英文遊戲術語對照繁體中文翻譯",
-    "updated": "2026-04-10T02:24:09+00:00"
+    "updated": "2026-04-10T06:10:31+00:00"
   },
   "adventurer": {
     "zh": "冒險者",
@@ -405,6 +405,76 @@
   },
   "berserker": {
     "zh": "狂戰士",
+    "status": "approved",
+    "is_term": true
+  },
+  "Blind": {
+    "zh": "失明",
+    "status": "approved",
+    "is_term": true
+  },
+  "Exhausted": {
+    "zh": "疲憊",
+    "status": "approved",
+    "is_term": true
+  },
+  "Piercing": {
+    "zh": "穿刺",
+    "status": "approved",
+    "is_term": true
+  },
+  "Chirurgeon": {
+    "zh": "外科醫",
+    "status": "approved",
+    "is_term": true
+  },
+  "familiar": {
+    "zh": "使魔",
+    "status": "approved",
+    "is_term": true
+  },
+  "reagent": {
+    "zh": "試劑",
+    "status": "approved",
+    "is_term": true
+  },
+  "poultice": {
+    "zh": "藥布",
+    "status": "approved",
+    "is_term": true
+  },
+  "pact": {
+    "zh": "誓約",
+    "status": "approved",
+    "is_term": true
+  },
+  "archwood": {
+    "zh": "靈木",
+    "status": "approved",
+    "is_term": true
+  },
+  "second sight": {
+    "zh": "靈視",
+    "status": "approved",
+    "is_term": true
+  },
+  "megadungeon": {
+    "zh": "巨型地城",
+    "status": "approved",
+    "is_term": true
+  },
+  "dungeon denizen": {
+    "zh": "地城居民",
+    "status": "approved",
+    "is_term": true
+  },
+  "Notched": {
+    "zh": "缺口",
+    "status": "approved",
+    "is_term": true
+  },
+  "Destroyed": {
+    "zh": "損毀",
     "status": "approved",
     "is_term": true
   }

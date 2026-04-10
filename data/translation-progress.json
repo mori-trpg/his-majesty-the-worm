@@ -3,7 +3,7 @@
     "description": "Translation progress tracker",
     "updated": "2026-04-10",
     "total_chapters": 41,
-    "completed": 15
+    "completed": 20
   },
   "chapters": [
     {
@@ -146,7 +146,7 @@
       "title": "聖杯道途",
       "file": "docs/src/content/docs/four-paths/path-of-cups.md",
       "source_pages": "89-92",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -155,7 +155,7 @@
       "title": "權杖道途",
       "file": "docs/src/content/docs/four-paths/path-of-wands.md",
       "source_pages": "93-96",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -164,7 +164,7 @@
       "title": "探索階段概覽",
       "file": "docs/src/content/docs/crawl-phase/index.md",
       "source_pages": "97-103",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -173,7 +173,7 @@
       "title": "危險與狀態",
       "file": "docs/src/content/docs/crawl-phase/hazards.md",
       "source_pages": "104-113",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -182,7 +182,7 @@
       "title": "社交遭遇與範例",
       "file": "docs/src/content/docs/crawl-phase/social-and-example.md",
       "source_pages": "114-118",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
