@@ -1,9 +1,9 @@
 {
   "_meta": {
     "description": "Translation progress tracker",
-    "updated": "2026-04-10",
+    "updated": "2026-04-11",
     "total_chapters": 41,
-    "completed": 25
+    "completed": 34
   },
   "chapters": [
     {
@@ -236,7 +236,7 @@
       "title": "城市行動",
       "file": "docs/src/content/docs/city-phase/city-actions.md",
       "source_pages": "168-176",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -245,7 +245,7 @@
       "title": "臍帶市場與範例",
       "file": "docs/src/content/docs/city-phase/market-and-example.md",
       "source_pages": "177-186",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -254,7 +254,7 @@
       "title": "主持指南",
       "file": "docs/src/content/docs/gamemastering/index.md",
       "source_pages": "187-199",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -263,7 +263,7 @@
       "title": "延伸資源",
       "file": "docs/src/content/docs/gamemastering/resources.md",
       "source_pages": "200-208",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -272,7 +272,7 @@
       "title": "法術規則",
       "file": "docs/src/content/docs/sorcery/rules.md",
       "source_pages": "209-216",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -281,7 +281,7 @@
       "title": "法術列表",
       "file": "docs/src/content/docs/sorcery/spells.md",
       "source_pages": "217-240",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -290,7 +290,7 @@
       "title": "煉金術",
       "file": "docs/src/content/docs/alchemy/index.md",
       "source_pages": "241-252",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -299,7 +299,7 @@
       "title": "生物規則",
       "file": "docs/src/content/docs/dungeon-denizens/creature-rules.md",
       "source_pages": "253-264",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -308,7 +308,7 @@
       "title": "怪物圖鑑",
       "file": "docs/src/content/docs/dungeon-denizens/bestiary.md",
       "source_pages": "265-300",
-      "status": "not_started",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },

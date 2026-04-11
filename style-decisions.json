@@ -1,10 +1,10 @@
 {
   "_meta": {
     "description": "風格決定記錄 - 翻譯用語選擇與原因",
-    "updated": "2026-03-10T04:39:46+00:00"
+    "updated": "2026-04-09T11:30:20+00:00"
   },
   "translation_mode": {
-    "mode": "bilingual",
+    "mode": "full",
     "options": {
       "full": {
         "name": "全文翻譯",
@@ -19,7 +19,7 @@
         "description": "中文翻譯為主，英文原文以 blockquote 附於每段之後"
       }
     },
-    "reason": "使用者選擇雙語模式測試"
+    "reason": "使用者在 init-doc 選擇純中文翻譯模式"
   },
   "repository_link_source_of_truth": {
     "decision": "Repo 資訊（visibility、url、show_on_homepage）統一存放於 style-decisions.json 的 repository 區塊",
@@ -30,7 +30,7 @@
     "reason": "使用者要求 repo 資訊寫在 style-decisions.json。初始化（/init-doc）時首頁 index.md 需依此資料產生；公開 repo 顯示連結，私人 repo 不顯示。"
   },
   "document_format": {
-    "layout_profile": "double-column",
+    "layout_profile": "single-column",
     "aside_mapping": {
       "note": ":::note",
       "tip": ":::tip",
@@ -38,25 +38,51 @@
       "danger": ":::danger"
     },
     "component_usage": {
-      "cards": "用於章節導覽首頁",
-      "tabs": "用於替代規則或可選變體"
+      "cards": "用於章節概覽或技能分類",
+      "tabs": "用於多路徑選項或版本差異"
     },
     "table_conventions": {
-      "tables": "用於屬性、技能、裝備等結構化資料",
-      "dice_tables": "使用 Markdown 表格，保留原文骰值範圍標記"
+      "tables": "用於結構化數據、屬性值、快速參考",
+      "dice_tables": "用於隨機事件與遭遇表；保留塔羅牌符號（大阿爾卡那/小阿爾卡那）"
     }
   },
   "images": {
     "preserve_images": false
   },
   "site": {
-    "title": "Year Zero Engine SRD",
-    "description": "Year Zero Engine 核心規則標準參考文件",
-    "tagline": "快速查閱 YZE 核心規則機制",
-    "intro": "Year Zero Engine 是多款 Free League 桌遊的核心規則系統，本站提供雙語版規則文件供查閱。"
+    "title": "蠕蟲之王",
+    "description": "《蠕蟲之王》是一款以塔羅牌驅動的地城探索桌上角色扮演遊戲繁體中文規則書。",
+    "tagline": "地下世界深處，蠕蟲之王靜候",
+    "intro": "本站為《蠕蟲之王》完整繁體中文規則書，涵蓋四大遊戲階段、角色創建、怪物與法術附錄。"
   },
   "copyright": {
-    "text": "© 2023 Fria Ligan AB. Year Zero Engine Free Tabletop License.",
+    "text": "Copyright © 2023 Joshua McCrowell / Exalted Funeral Press. All rights reserved. 繁體中文版翻譯為非商業用途。",
     "show_on_homepage": true
+  },
+  "credits": {
+    "entries": [
+      {
+        "role": "原作者",
+        "name": "Joshua McCrowell"
+      },
+      {
+        "role": "美術設計",
+        "name": "Pete Borlace, Michael Strange"
+      },
+      {
+        "role": "繁體中文翻譯",
+        "name": "mori-trpg"
+      }
+    ],
+    "show_on_homepage": true
+  },
+  "translation_notes": {
+    "global": [
+      {
+        "note": "使用正式白話文體：流暢、易讀的現代中文，用詞精準，適合規則書閱讀。避免口語化或文言風格。全程使用台灣標準用詞與繁體中文。",
+        "key": "writing-style",
+        "topic": "文體風格"
+      }
+    ]
   }
 }

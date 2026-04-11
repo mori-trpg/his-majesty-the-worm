@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "術語表 - 英文遊戲術語對照繁體中文翻譯",
-    "updated": "2026-04-10T06:27:20+00:00"
+    "updated": "2026-04-11T07:10:37+00:00"
   },
   "adventurer": {
     "zh": "冒險者",
@@ -525,6 +525,71 @@
   },
   "greater doom": {
     "zh": "重大厄運",
+    "status": "approved",
+    "is_term": true
+  },
+  "Displace": {
+    "zh": "位移",
+    "status": "approved",
+    "is_term": true
+  },
+  "Rooted": {
+    "zh": "定根",
+    "status": "approved",
+    "is_term": true
+  },
+  "Tripped": {
+    "zh": "絆倒",
+    "status": "approved",
+    "is_term": true
+  },
+  "Aim": {
+    "zh": "瞄準",
+    "status": "approved",
+    "is_term": true
+  },
+  "Gramarye": {
+    "zh": "秘法術",
+    "status": "approved",
+    "is_term": true
+  },
+  "gnome": {
+    "zh": "地精",
+    "status": "approved",
+    "is_term": true
+  },
+  "All-Watch": {
+    "zh": "全監衛",
+    "status": "approved",
+    "is_term": true
+  },
+  "maleficence": {
+    "zh": "禍兆",
+    "status": "approved",
+    "is_term": true
+  },
+  "Silenced": {
+    "zh": "噤聲",
+    "status": "approved",
+    "is_term": true
+  },
+  "Stunned": {
+    "zh": "暈眩",
+    "status": "approved",
+    "is_term": true
+  },
+  "Inspired": {
+    "zh": "激勵",
+    "status": "approved",
+    "is_term": true
+  },
+  "Knockout": {
+    "zh": "昏迷",
+    "status": "approved",
+    "is_term": true
+  },
+  "Death’s Door": {
+    "zh": "瀕死之門",
     "status": "approved",
     "is_term": true
   }
