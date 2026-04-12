@@ -424,7 +424,7 @@
     "is_term": true
   },
   "Chirurgeon": {
-    "zh": "外科醫",
+    "zh": "外科醫生",
     "status": "approved",
     "is_term": true
   },
@@ -519,12 +519,12 @@
     "is_term": true
   },
   "lesser doom": {
-    "zh": "輕微厄運",
+    "zh": "小厄運",
     "status": "approved",
     "is_term": true
   },
   "greater doom": {
-    "zh": "重大厄運",
+    "zh": "大厄運",
     "status": "approved",
     "is_term": true
   },
@@ -534,7 +534,7 @@
     "is_term": true
   },
   "Rooted": {
-    "zh": "定根",
+    "zh": "定身",
     "status": "approved",
     "is_term": true
   },
@@ -559,7 +559,7 @@
     "is_term": true
   },
   "All-Watch": {
-    "zh": "全監衛",
+    "zh": "全視守衛",
     "status": "approved",
     "is_term": true
   },
@@ -569,7 +569,7 @@
     "is_term": true
   },
   "Silenced": {
-    "zh": "噤聲",
+    "zh": "沉默",
     "status": "approved",
     "is_term": true
   },
