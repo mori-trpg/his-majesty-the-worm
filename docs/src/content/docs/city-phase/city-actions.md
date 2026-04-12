@@ -5,768 +5,294 @@ sidebar:
   order: 1
 ---
 
-6. City Actions
+## 6. 城市行動
 
-When you visit the City, you have some downtime
-in which to pursue your own interests. You might
-relax in the hot springs, track down the answers to
-thorny questions, or feed the poor. These activities are
-represented by City Actions. During each trip made to
-the City, each adventurer can perform one City Action.
+探訪城市期間，你有段空閒時間可以追求個人興趣。你也許會在溫泉中放鬆，追查棘手問題的答案，或接濟窮人。這些活動以城市行動來表示。每次前往城市，每位冒險者可執行一個城市行動。
 
-A list of common City Actions should be provided to the
-players by the GM. In general, the GM will assemble
-this list by combining the standard list of actions (found
-below) with a unique list of actions based on the districts
-of the City discovered by using the rules in Appendix D:
-City Creation, page 296.
+GM 應向玩家提供一份常用城市行動清單。一般而言，GM 會將以下標準行動清單，與根據「附錄 D：城市建構」（第 296 頁）探索規則所發現的城市街區，整合出一份專屬的行動清單。
 
-It would be impossible for the list of City Actions to
-be exhaustive. The City is the largest metropolis in the
-Wide World and, as such, just about anything is possible.
-Players, if you have a weird idea, ask your GM if it’s
-possible. GMs, use your common sense and this list to
-model new actions for your players.
+城市行動的清單不可能面面俱到。城市是廣闊世界中最大的都市，因此幾乎一切皆有可能。玩家，若你有奇特的想法，可以詢問 GM 是否可行。GM，請運用常識並參照此清單，為玩家設計新的行動。
 
-Note that most every action except for Beg and Busk
-requires lump sums of cash to initiate.
+請注意，除了乞討賣藝之外，幾乎所有行動都需要一筆現金才能啟動。
 
-Banking
-Put that money away for a rainy day. Store your extra
-items and coin in Cult-run banks.
+### 存入銀行
 
-• Every City Phase, your total gold investment has a 2%
+把錢存起來以備不時之需。將多餘的物品和金幣存入教團管理的銀行。
 
-return on investment.
+- 每個城市階段，你的總投資金額有 2% 的投資回報。
+- 你的裝備安全無虞。
 
-• Your gear is safe.
+### 乞討賣藝
 
-Beg and Busk
-Sing for coin in streets and winesinks.
+在街頭和酒館賣唱謀生。
 
-• Draw from the minor arcana deck. You gain gold equal
-to the numerical value of your draw + Wands attribute.
+- 從小阿爾卡那牌堆抽取一張。你獲得的金幣等於所抽牌面的數值加上你的權杖屬性。
 
-Build
-Invest your money to build something that will last.
-Something that will calcify and become the bones of the
-City itself.
+### 建造
 
-• Use this action to build statues and fountains, start
-a tavern, buy a house, or create other permanent
-structures in the City.
+投入金錢建造能夠長久留存的事物——某種會固化並成為城市骨架的東西。
 
-• Talk to your GM about what you want. If it’s
+- 使用此行動來建造雕像和噴泉、開設酒館、購置房舍，或在城市中創造其他永久性建築。
+- 與 GM 討論你想要的內容。若請求合理，GM 會告知哪位工匠可以為你設計。
+- 以幾個字描述你的計畫。建造計畫的費用等於描述內容每個音節 50 金幣。範例：外貌酷似你對手的滑稽石像（550 金）、矗立於繁忙廣場的雕像（350 金）、教堂鐘（100 金）、富麗堂皇的修道院（400 金）
 
-reasonable, the GM will tell you which artisan can
-design it for you.
+### 紮營行動
 
-• Describe your project in a few words. The price for
-a building project equals 50 gold per syllable of the
-building’s description. Examples: buffoonish gargoyle
-that looks like your rival (550g), statue in a busy square
-(350g), church bell (100g), extravagant monastery (400g)
+城市行動的規模雖略小，但任何紮營行動（第 137 頁）皆可作為城市行動執行，例如：使用天賦、使用物品等。
 
-Camp Action
-Though somewhat smaller in scope than City Actions,
-any Camp Action (p. 137) can be performed as a City
-Action, e.g., Use a Talent, Use an Item, etc.
+### 縱情狂歡
 
-Carouse
-Spend everything you earned on drinking and whoring.
+把你賺來的一切花在喝酒和尋歡上。
 
-• If you spend 50% of the gold you brought back, you
+- 若你花費帶回金幣的 50%，可獲得 1 經驗值。
+- 若你花費帶回金幣的 100%，可獲得 2 經驗值。
+- 此外，GM 抽取一張大阿爾卡那，並查閱下頁的宿醉表，確認此後是否有任何後遺症。
 
-get 1XP.
+縱情狂歡是一種輕鬆、微量計算就能獲得顯著收益的方式。它模擬了類似柯南，或法赫德與灰鼠俠這類英雄的流派套路——把上次冒險的戰利品花得精光，每個故事都從一文不名開始。
 
-• If you spend 100% of the gold you brought back, you
+---
 
-get 2XP.
+凡括號 [ ] 內的內容均指小阿爾卡那棄牌堆頂端的牌。括號有時提供數值——例如「[ 數值 ] 個金幣」提供的金幣數量等於該牌的數值。括號有時根據牌的花色，在該表目內提供隨機結果。
 
-• In addition, the GM draws a major arcana and consults
-the Hangover table on the next page to see if there are
-any complications later.
+| 牌面 | 宿醉 |
+|------|------|
+| I | 你醒來時頭痛欲裂，口袋裡卻多了 [ 數值 ] 枚金幣。 |
+| II | 有人用鋼鍊將一只牛鈴掛在你脖子上。鍊子太短，無法從頭上取下，而你也沒有鎖的鑰匙。在解決這個問題之前，你走路叮噹作響。 |
+| III | 你在巷弄中醒來。周圍的流浪漢似乎穿著你的衣服和護甲。但你穿著他們的……所以……算公平交換？ |
+| IV | 你醒來時手指上多了一枚婚戒，卻完全不記得與誰成婚。 |
+| V | 你在一個陌生的房間醒來，門外傳來猛烈的敲門聲。門另一側的人憤怒地要求退錢。 |
+| VI | 你醒來時某根手指上多了一枚婚戒。但那根手指不是你的。 |
+| VII | 你醒來時身旁躺著一位 [ 偶數 ] 大祭司 / [ 奇數 ] 大女祭司。他們感謝你幫助他們打破誓言，讓他們體會到幸福的真諦。 |
+| VIII | 你被從常去的酒館窗戶扔了出去。「給我滾出去！」店主補了一句。你被你最愛的酒館列入拒絕往來戶。 |
+| IX | 你醒來時身上多了一個新刺青。刺青位於：[ 寶劍 ] 手臂 \| [ 錢幣 ] 腿部 \| [ 聖杯 ] 臀部 \| [ 權杖 ] 臉上。圖案：[ 1–2 ] 令人不快的冒犯性圖樣 \| [ 3–8 ] 難看又拼錯字 \| [ 9–國王 ] 還挺酷的。 |
+| X | 一封信送到了你的房間。信來自一位當地貴族，他已接受你的決鬥邀請。決鬥將在 [ 數值 ] 天後舉行。 |
+| XI | 你完全不記得自己做了什麼，但從滿街張貼的通緝海報來看，大概不是什麼好事。[ 寶劍 ] 武裝搶劫 \| [ 錢幣 ] 扒竊未遂 \| [ 聖杯 ] 猥褻行為 \| [ 權杖 ] 與黑暗存在勾結 |
+| XII | 你醒來時被關在枷鎖裡，被留在那裡醒酒。有點瘀傷，但沒有大礙。你的公會趁你被放出來之前，有機會嘲笑你並向你扔番茄。 |
+| XIII | 你醒來時只穿著內衣，泡在一個蓄水池的污水中。你身上所有其他物品也一併不翼而飛。 |
+| XIV | 你在腰包裡發現一張發票：「已售：一（1）個靈魂，換一（1）杯啤酒。」你的簽名和一個地獄符文封印了這份契約。 |
+| XV | 你被哭泣聲驚醒。地板上似乎有一位被五花大綁、塞住嘴巴的貴族。真是奇怪。 |
+| XVI | 你為何赤身裸體、戴著一個假牛頭？這家店為何除了破盤子和碎玻璃一無所有？店主和衛兵為何如此憤怒地大吼大叫？ |
+| XVII | 幸好，只有在排尿時才有灼熱感。 |
+| XVIII | 你從斷片中清醒，裹著一件溫暖舒適的長袍，站在燭光搖曳的房間裡。感覺還不錯。「黑暗誓約已然完成，」一個低沉的男中音說道，「去吧，我的兄弟們，確保我們主君的意志得以實現。」……等等，什麼？ |
+| XIX | 你的手在哪裡？為何感覺它在自行爬行？ |
+| XX | 你記得答應了一個賭注。好像跟蠟燭和放屁有關。你發現：[ 寶劍 ] 一個街區燒毀 \| [ 錢幣 ] 兩個街區燒毀 \| [ 聖杯 ] 三個街區燒毀 \| [ 權杖 ] 如聖杯，但一個火靈仍在城市中遊蕩，術士們怒不可遏。 |
+| XXI | 你脖子上一直都有那些圓形刺穿痕跡嗎？我確定沒問題的……吧。 |
 
-Carousing is an easy, micro-math way to get a meaningful
-benefit. It emulates genre staples of heroes like Conan
-or Fafhrd and the Gray Mouser frittering away last
-adventure’s booty and starting each story dead broke.
+### 委託製作
 
-156156
+:::note[計價方式]
+建造和委託製作這兩個行動有特殊的計價規則。讓我們說明一下。
 
-CHAPTER 9     |     THE CITY PHASE
+由於《蠕蟲陛下》以維持費用來概括計價清單，針對特定物品確定「合理」價格可能並不容易。
 
-Anything  in  brackets  [  ]  refers  to  the  top  card  of  the  minor  arcana  discard  pile.
-Sometimes  brackets  provide  numerical  values—for  example,  “[value]  in  gold  coins”
-provides  a  number  of  gold  coins  equal  to  the  value  of  the  card.  Sometimes  brackets
-provide  a  random  result  within  the  table’s  entry  based  on  the  suit  of  the  card.
+不必如此考量：沒有任何價格是公道的。這座冷酷的商業城市是任性資本主義的奴隸。「音節計價法」是一種簡便方式，可以評估從簡單到複雜的各種項目的費用。
 
-carD hangover
+若你在地下世界中設有類似商人的角色（能說話的螯蝦販賣奇珍肉品？販售墓葬遺物的不死鐵匠？），也可以借用這套規則在地下世界設定物價。
+:::
 
-carD hangover
+有什麼東西在臍帶市集找不到嗎？委託訂製一件全新發亮的專屬品。
 
-II.
+- 與 GM 討論你想要的內容。若請求合理，GM 會告知哪位商人可以為你製作。
+- 以幾個字描述它。委託製作的費用如下：
+  - 農民可能擁有的物品：每音節 1 金幣。範例：雕刻煙斗（3 金）、三角帽（3 金）、排笛（2 金）、木製假牙（4 金）
+  - 冒險者可能擁有的物品：每音節 5 金幣。範例：附燭台的頭盔（40 金）、小鬼陷阱（10 金）、銀線蟲網（25 金）
+  - 貴族可能擁有的物品：每音節 10 金幣。範例：鏡面化裝舞會面具（60 金）、金線長裙（40 金）、獅子主題閱兵護甲（70 金）、量身訂製服裝（40 金）
+  - 前所未有的獨特物品：每音節 25 金幣。範例：義肢腿（100 金）、蠍尾獅馬鞍（125 金）、裝飾性哈爾比翅膀（175 金）
 
-III.
+你提供的細節越少，GM 補充的細節就越多。若你心中有清晰的概念，請用物品名稱明確表達你想要的內容。可別說你想要「一套十英尺長的機械式鉸接夾鉗」，卻只說「長夾子」。
 
-I.
+「合理性」由 GM 裁定。我們並不特別鼓勵蒸汽龐克機械或火器之類的設定，但也許你的桌遊有所不同。
 
-You awaken with a headache and [value] new gold
-coins in your pocket.
+若冒險者的主題恰當地確立其為工匠，則冒險者可以親自製作該物品。費用相同：金幣用於租用工坊和採購原料。
 
-XII.
+### 舉辦葬禮
 
-You awaken in the stocks, having been left there
-to sober up. A little bruised, but no worse for wear.
-Your guild has a chance to make fun of you and
-throw tomatoes before you’re let out.
+將陣亡的同伴從地下世界帶出來，說幾句悼念的話。
 
-XIII.
+- 那位玩家的新冒險者保留其前一位冒險者部分的經驗值。
+- 新冒險者每取回 1 經驗值，需花費 100 金幣的葬禮費用。
 
-You awaken in the muck of a cistern wearing only your
-smallclothes. All the other items you had on you are
-missing as well.
+### 準備材料
 
-You don’t remember exactly what you did, but by the
-wanted posters lining the streets you can guess it wasn’t
-good.
-• [SWORDS] armed robbery | [DISKS] attempted pick pocketing |
-[CUPS] lewd acts | [BATONS] consorting with dark entities
+與符咒商交易、參與午夜儀式，並在新月的黑暗中前往城市外採集藥草。使用此行動時，從附錄 A 中盡你所願地將法術材料填滿你的背包。每個材料佔用一個背包格位。
 
-A cowbell has been hung around your neck by
-a steel chain. The chain is too small to remove
-over your head, and you don’t have the key to the
-lock. You clang while you walk until you solve
-this problem.
+### 研究
 
-XIV.
+花錢賄賂圖書館員、買咖啡在漫長的閱讀中保持清醒，並將人灌醉到願意開口——藉此調查你選擇的主題。
 
-You find an invoice in your pouch: “Sold: One (1) soul
-for one (1) beer.” Your signature and an infernal symbol
-seal the contract.
+- 花費 50 金幣進行聖杯考驗。
+- 成功時，你可以就任何主題向 GM 提出一個問題。
+- 若你大成功，則可提出三個問題。
 
-IV.
+### 支援
 
-You awaken with a marriage ring on your finger,
-but no memory of who you married.
+有些行動是一次性的，例如你去賭博，一夜之間輸光了辛苦賺來的金幣。相較之下，支援代表在漫長道路上邁出一步。使用此行動來代表在規模龐大的多步驟計畫上的長期謀劃。
 
-XV.
+:::note[長期計畫]
+支援行動是玩家追求長期計畫的主要工具。
 
-You awaken to the sounds of sobbing. There seems to
-be a nobleman hogtied and gagged on your floor. How
-strange.
+若你熟悉《世界末日》的術語，可以將「複雜度」理解為「時鐘」。你也可以把它想成計畫完成之前需要扣除的「生命值」。
 
-V.
+每個支援步驟藉由花費金幣來完成。
 
-You awaken in a strange room, heavy pounding
-on the door. The people on the other side are very
-angrily demanding their money back.
+- 25 金幣足以產生小幅影響。例如，向孤兒院捐款 25 金可以讓所有孤兒獲得一批新玩具。
+- 50 金幣可以產生謙遜但有意義的影響。例如，50 金可以修補孤兒院漏水的屋頂。
+- 100 金幣可以產生顯著影響。例如，100 金也許足以確保孤兒有足夠的食物度過一個月。
+- 1000 金幣才能留下真正戲劇性的印記。若你想收養所有孤兒並親自供養他們，可能需要花費高達 1000 金。
+:::
 
-XVI.
+- 大型計畫被分為若干步驟。一個計畫需要多少步驟，取決於其複雜度，由 GM 決定。計畫越複雜，所需步驟越多。
+- 複雜度通常介於 2 至 8 之間。簡單的計畫可能只需兩三個步驟，而複雜的計畫則可能需要多達八個步驟。
+- 以某種支持你目標的方式花費金幣，即可完成計畫的一個步驟。玩家必須提出他們打算如何花費金幣以推進目標的方案。GM 必須同意此行動確實能推動其長期計畫，並設定合適的費用。
+- 一旦玩家完成等於計畫複雜度的步驟數，計畫即告完成。
 
-Why are you naked and wearing a fake bull’s head?
-Why does this shop have nothing but broken plates and
-smashed glass? Why are the shopkeeper and constables
-so angry and yelling?
+### 訓練
 
-VI.
+尋訪專家並拜師學藝。與 GM 討論你想學習的天賦。GM 會告知目前有哪些師傅可以訓練你。
 
-You awaken with a marriage ring on a finger. The
-finger isn’t yours.
+- 每花費 50 金幣，可投資 1 經驗值在新天賦上。
+- 準備與你投入的經驗值數量相當的天賦使用次數。
+- 詳細說明請見第 33 頁關於訓練天賦的內容。
 
-XVII. Luckily, it only burns when you pass water.
+:::note[探索型遊戲建議]
+「冒險在荒野，而非城鎮。如 NPC（非玩家角色）的討論中所述……要注意不要將重心轉移到城市冒險而非探索。你可以在城鎮中設置任意數量的 NPC，但請記住重點不在於他們。一旦玩家開始與城鎮 NPC 交談，他們就會有一種強烈的欲望留在城鎮，並在那裡尋找冒險。『城鎮遊戲』在西境行軍中是個貶義詞。……你是靠探索來發現事物，而不是靠待在城鎮——一個積極探索的人，應該比待在城鎮的人更清楚外面有什麼。」
 
-VII.
+——〈偉大實驗：西境行軍〉，班・羅賓斯
+:::
 
-You awaken next to a [even] High Priest / [odd]
-High Priestess. They thank you for helping them
-break their vows, and showing them what it means
-to be happy.
+## 7. 計畫下一次探索
 
-XVIII.
+每位玩家完成城市行動後，GM 在一間酒館設置一個角色扮演場景，讓公會成員齊聚一堂，進行總結、飲酒，並商討下一步計畫。
 
-You back your way out of a blackout wrapped in a warm
-snuggly robe standing in a candle lit room. It’s nice.
-“The dark pact is complete,” a deep baritone voice says,
-“Go forth, my brothers, and see that our lord’s will be
-done.” ... Wait, what?
+酒館設有任務公告欄，張貼各種提供給公會的契約。這些都是城市中的角色委託公會執行的工作，報酬包括金幣、爵位、稀有物品或優勢。在此步驟中，GM 為公會提供四到六份潛在契約供其考慮。公會只需在契約上蓋上印章，即可開始追求（第 46 頁）。
 
-VIII.
+與你的公會夥伴進行角色扮演，共同決定下一步要做什麼。你們是否完成了上一個任務？下一個要追求哪個任務？上一份契約是否已完成？是否有任何現行契約想要追求？
 
-You are thrown through the window of your usual
-watering hole. “And stay out!” the proprietor
-adds. You are banned from your favorite tavern.
+下一頁提供了一些契約範例。
 
-XIX.
+## 8. 重新補充地下世界
 
-Where the hells is your hand? Why can you feel it
-crawling?
+地下世界不斷生長與變動。在城市階段結束到下一個回合開始之間，GM 重新審視其絞肉機和城市事件表，並替換玩家已遭遇過的所有項目。若一頭食人魔被消滅、一個隱藏房間被洗劫，或一個生鏽陷阱被觸發，則用新內容取代這些項目。
 
-You awaken with a new tattoo.
-• The tattoo is on your: [SWORDS] arm | [DISKS] leg | [CUPS]
+GM 應自問：玩家的行動如何改變了地下世界？各派系將重新補充其駐守崗位。其他派系將移入已清空的房間。其他公會則迎來成功或失敗。地下世界是動態的，而非靜止的。在絞肉機表格中添加新內容，以反映不斷變化的地下世界。
 
-backside | [BATONS] face.
+### 契約範例
 
-• It is: [1–2] horribly offensive | [3–8] cringe and
+以下是幾份可能張貼在附近酒館任務公告欄上的契約。抽取約 5 張牌以創建一個任務公告欄。
 
-misspelled | [9–King] pretty sweet.
+| 牌面 | 契約 |
+|------|------|
+| I | 我珍愛的「調皮毛毛」跑進了地下世界的入口！安全帶回我的寶貝，我將給每位公會成員 100 金幣的報酬！我會把你們寫進我的遺囑！——藍弗雷夫人 |
+| II | 米蘭達・克勞爾尋找她的丈夫萊菲特・克勞爾，他已在地下世界中失蹤。若你能將他活著帶回，我將盡我所能給予報酬。 |
+| III | 我親愛的小兒子，人稱「火炬手帕許」，自稱是個冒險者，一去不回。活著帶他回來，你可以保留他的全部冒險裝備。——米里瑪・梅里韋瑟 |
+| IV | 尋找並捕獲（但不得殺傷）一隻雞蛇，供雨果・安德希爾大師收藏於其動物園。牠頭上每掉落一根羽毛，價格就降低一些。若狀態完好，報酬為 1000 金幣。 |
+| V | 將「洋蔥傑克」活著帶給全衛隊隊長巴雷特大人，賞金 500 金幣。 |
+| VI | 殖民地的安希爾達・韋弗需要恐怖蜘蛛絲。報酬為以蜘蛛絲織成的精美服飾。 |
+| VII | 地下世界中有個哥布林叫做「咧嘴格里姆尼爾」，在那裡販賣貨品。他拿了我的一件東西——微不足道的小事——一枚普通的金戒指。將它還給我，我將給予豐厚報酬。——安納塔・贈禮者 |
+| VIII | 若有勇武的戰士尋求加入神話力士團，請將食人魔的頭顱獻給聖廟武士弗朗西斯・奧德伍爾德爵士。每顆食人魔的頭顱可為一位冒險者換取加入這支尊貴騎士團的資格。 |
+| IX | 阿隆茲大師和莎拉・佩尼懷斯女士希望在命運交錯之堡由神話教的神職人員主持婚禮。作為回報，他們將邀請你參加婚禮，並賜予符合你身份的禮物。 |
+| X | 瑪麗・阿爾宗夫人以豐厚財富換取鳳凰羽毛。羽毛必須保持燃燒狀態方有價值。 |
+| 侍從 | 將一罐來自水靈的元素水帶給智慧聖少女教會，換取一則預言。 |
+| 騎士 | 埃爾馬諾斯賢者為製作高林果凍，出價每瓶封存的史萊姆 5 金幣。 |
+| 王后 | 無名之家的尊貴布朗大人已退隱入地下世界，冥思生死之秘。教團尋求其探索的消息。若他仍在人世，請詢問他對「道德運氣問題」的看法並回報。若他已逝，請將其尊貴遺物帶回神話聖所。 |
+| 國王 | 煉金術士公會的湯林・加德納謙遜地請求熟練煉金術士提供在三種不同蘑菇上測試加德納特效配方的實地筆記。報酬與筆記的詳細程度及（或）樣本相稱。 |
 
-XX.
+## 臍帶市集
 
-You remember agreeing to a dare. It had something to
-do with a candle and flatulence.
-• You find that: [SWORDS] a district is burnt down | [DISKS] two
-districts are burnt down | [CUPS] three districts are burnt
-down | [BATONS] as Cups, but a fire spirit is still roaming the
-City, and the sorcerers are pissed.
+沒有任何傳說記載是何種古老力量鑄造了那些普遍存在於地下世界寶庫中、印有星形標記的金幣。但眾所周知，這些金幣已成為城市事實上的通用貨幣。較劣質金屬的錢幣已淪為廢紙。隨著各公會大批搬運閃閃發光的黃金，偉大臍帶市集的商人們只接受地下世界的黃金作為付款。
 
-You awaken in an alley. Hobos around you seem
-to be wearing your clothes and armor. But you’re
-wearing theirs, so… even trade?
+> 「在歡愉廣場，位於沼澤門以南七個街區，從黑暗豐饒噴泉延伸至黑聖母神祠，商店的燈光向上閃爍的亮度，並不勝於繁星向下閃爍的亮度。因為在那裡，販賣藥物的商人、兜售珍奇古玩的行販，以及招攬幽會的叫賣者，用鬼火、螢火蟲和只開一扇小窗的火罐來照亮他們的攤位和蹲伏之所，他們做生意幾乎與繁星做它們的生意一樣悄無聲息。」
+>
+> ——〈奇珍市集〉，法蘭茲・萊伯
 
-A letter is delivered to your room. It’s from a local
-aristocrat and they have accepted your invitation
-to a duel. The duel is in [value] days.
+## 購買新裝備
 
- XXI.
+在城市階段的步驟 5（維持費用）期間，你決定為下一次冒險購買什麼。這些費用是概括計算的。你不需要逐一記錄每支火把、每份口糧或每把匕首的費用。相反地，根據你的維持費用等級（或更低等級）——赤貧、普通或奢華——盡量填滿你的背包。
 
-Did you always have those circular puncture marks on
-your neck? I’m sure it’ll be fiiiine.
+臍帶市集幾乎什麼都能買到。
 
-IX.
+- 赤貧物品是可以在農夫廚房找到的東西。
+- 普通物品是有錢商人家中可能找到的東西。
+- 奢華物品是只有神職人員或貴族才擁有的東西。
 
-X.
+玩家，若你想要一件在清單中找不到的普通日常物品，請詢問 GM。GM 將設定其價格等級（赤貧、普通或奢華）。
 
-XI.
+若你尋找的物品是獨特的，請在城市階段步驟 6 中改用委託製作行動。
 
-Prices
-Both the Build and Commission
-Craft actions have unusual rules for
-pricing. Let’s talk through them.
+背包、腰帶、格位和攜帶容量的規則請見第 37 頁。
 
-Because His Majesty the Worm
-abstracts pricing lists into upkeep,
-it can be hard to know what a “fair”
-price is for a specific item.
+| 赤貧裝備 | 普通裝備 | 奢華裝備 |
+|---------|---------|---------|
+| 動物飼料 | 輕甲（1 腰帶格位） | 煉金工具組（2 格位） |
+| 睡袋（2 格位） | 鐵蒺藜 | 鐵甲（2 腰帶格位） |
+| 蠟燭 | 鎖鏈，10 英尺 | 鋼甲（3 腰帶格位） |
+| 粉筆 | 普通服裝 | 牛黃石 |
+| 破爛衣物 | 炊具 | 空白書本 |
+| 柴火 | 撬棍 | 高級烈酒 |
+| 打火石和火絨 | 釣魚裝備 | 精緻服裝 |
+| 豬油 | 大蒜 | 獵鷹裝備 |
+| 水蛭罐 | 爪鉤 | 沙漏 |
+| 菸斗和菸草 | 鐵鎚 | 提燈 |
+| 10 英尺長桿（超大） | 斧頭 | 手銬 |
+| 藥布 | 頭盔（1 腰帶格位） | 油，一瓶 |
+| 口糧 | 密封瓶 | 鹽 |
+| 宗教法器 | 鐵釘（每格位 6 根） | 重盾 |
+| 繩索 | 開鎖工具（每格位 6 組） | 單眼望遠鏡 |
+| 武器 | 鏡子 | 帳篷（超大） |
+| 鶴嘴鋤（超大） | 樂器 | 靈木法杖 |
+| 輕盾 | 羽毛筆和墨水 | 銀製武器 |
+| 鏟子（超大） | | |
+| 修繕工具組（2 格位） | | |
+| 火炬 | | |
+| 狼毒草 | | |
 
-Don’t think like that: no price is
-fair. The cutthroat, mercantile City
-is a slave to capricious capitalism.
-The “syllable method” is an easy
-way to adjudicate prices that range
-from the simple to the complex.
+:::note[修理與維修裝備]
+缺口或損毀的物品可在城市修復。修復損壞物品所需的維持費用等級，相當於購買新物品的等級。例如，若你的傳家寶銀劍在探索途中損毀，你可以透過購買奢華維持費用等級（購買銀製武器所需的等級）來修復它。
+:::
 
-If you have something like a
-merchant in the Underworld (a
-sentient crawfish that sells exotic
-meats? an undead blacksmith who
-sells scavenged grave goods?), you
-can borrow these rules to set prices
-down there, too.
+## 常見裝備一覽
 
-Commission Craft
-Is there something you want that can’t be found in the Omphalic Market?
-Commission a bespoke version, all shiny and new.
+以下是冒險者常用裝備的基本清單。所有物品佔用 1 格位，除非另有說明。攜帶裝備的規則請見第 37 頁。
 
-• Talk to your GM about what you want. If it’s reasonable, the GM will tell
+**煉金工具組**
+煉金工具組用於將試劑混合成煉金物質（炸彈、藥水、油脂）。這是煉金天賦（第 78 頁）的必備工具。（2 格位）
 
-you which merchant can craft it for you.
+**動物飼料**
+動物飼料對動物的作用類似口糧。每個紮營階段，你必須為每隻動物同伴提供飼料，否則牠們將變得虛弱並停止服從命令。動物飼料針對特定動物（獵犬、獵鷹、馬匹等）。
 
-• Describe it in a few words. The price for a commissioned craft is as follows:
+**護甲**
+護甲是劍刃與你柔軟器官之間的唯一屏障。護甲有多種樣式、構造和材質，其外觀由委託並穿戴它的冒險者決定。
 
-•  1 gold per syllable of the commission if it’s something a farmer might
-have. Examples: scrimshaw pipe (3g), tricorn hat (3g), pan flute (2g),
-wooden dentures (4g)
+護甲分為輕甲、鐵甲和鋼甲。你可以在護甲上標記缺口，以代替承受一次傷勢。每種護甲在損毀之前可承受一定數量的缺口。由於護甲笨重沉重，穿戴時會佔用一定數量的腰帶格位。
 
-•  5 gold per syllable of the commission if it’s something an adventurer might
-have. Examples: helmet with a candle holder (40g), imp trap (10g), silver-
-thread bug net (25g)
+輕甲專為移動和舒適而設計，通常可穿在普通衣物下方，或外觀如同精緻服飾。常見的輕甲形式包括皮革無袖背心、獸人毛皮或骨製護甲。輕甲可承受 1 個缺口。
 
-•  10 gold per syllable of the commission if it’s something a noble might have.
-Examples: mirror masquerade mask (60g), cloth of gold gown (40g), lion-
-themed parade armor (70g), bespoke clothing (40g)
+- 輕甲穿戴時佔用 1 個腰帶格位。
 
-•  25 gold per syllable of the commission if it’s something that nobody has—
-something brand new. Examples: prosthetic leg (100g), manticore saddle
-(125g), decorative harpy wings (175g)
+鋼甲是全套鋼製板甲。鋼甲對魔法的防護不如鐵甲，但能提供理想的防禦以抵禦劍或鎚的打擊。鋼甲可承受 3 個缺口。
 
-The fewer details you provide, the more details the GM will supplement. If you
-have a clear picture in mind, articulate what you want using the name of the
-item. No fair saying you want a “set of ten-foot mechanical articulate tongs”
-by just saying “Long tongs.”
+- 鋼甲穿戴時佔用 3 個腰帶格位。
+- 由於鋼的重量，穿戴鋼甲時無法游泳或潛行。
+- 儘管鋼甲不能抵消定向法術，但由於金屬中潛在的鐵質含量，穿戴鋼甲時仍無法施放法術。
 
-“Reasonableness” is up to the GM. We don’t really truck with steampunk
-machinery or firearms or whatever, but maybe your table is different.
+鐵甲由穿在加厚棉甲外的鐵製鏈甲組成。鐵甲可承受 2 個缺口。
 
-Assuming that the adventurer has an appropriate motif that establishes them
-as a craftsman, the adventurer can be the one actually making the item. The
-prices are the same: the gold is spent on renting a workshop and supplying
-raw materials.
+- 鐵甲是術士的剋星——法術無法鎖定任何穿戴鐵甲的目標；但你仍可能受到法術效果的傷害（例如，被火牆燒傷）。
+- 穿戴鐵甲時無法施放法術。
+- 鐵甲穿戴時佔用 2 個腰帶格位。
+- 由於鐵的重量，穿戴鐵甲時無法游泳或潛行。
 
-Hold a Funeral
-Haul your dead friends out of the Underworld and say some nice words
-over them.
+**睡袋**
+睡袋由毯子和寢具組成。若沒有睡袋或帳篷，在冰冷的地面上睡覺會讓你承受壓力。（2 格位）
 
-• That player’s new adventurer retains a portion of their previous
+**牛黃石**
+牛黃石是在山羊胃中發現的、由毛髮、植物性材料和膽汁組成的結石。若吞服，牛黃石可作為強效解毒劑。在休息與復原期間，其效果計為 8 個已燃燒的充能，用於治療一種疾患（第 137 頁）。
 
-adventurer’s XP.
+**空白書本**
+空白書本適合用於記筆記，甚至撰寫日後出版的回憶錄。
 
-• Each 1XP reclaimed by the new adventurer costs 100 gold worth of
+**高級烈酒**
+高級烈酒是任何優質、烈性且昂貴的酒精飲料。可與地下世界居民交易、作為禮物贈予貴族，或在特殊場合開瓶慶祝。像小麥啤酒、蘋果酒或淡葡萄酒等度數較低的酒精飲料，則被視為口糧的一部分。
 
-funeral expenses.
-
-158158
-
-CHAPTER 9     |     THE CITY PHASE
-
-Long-term projects
-The Support action is the main tool
-that players have to pursue long-
-term projects.
-
-If you speak Apocalypse World
-jargon, think about complexity like
-“clocks.” You can also think about
-it in terms of “hit points” that you
-need to tick off of a project before
-you’re successful.
-
-Each Support step is filled by
-spending gold.
-•	25 gold is enough to make a
-
-small impact. For example, a 25g
-donation to an orphanage may
-buy all the orphans a batch of
-new toys.
-
-•	50 gold can make a humble but
-
-meaningful impact. For example,
-50g can patch the orphanage’s
-leaky roof.
-
-•	100 gold can make a significant
-
-impact. For example, 100g might
-be enough to make sure the
-orphans have enough to eat for a
-month.
-
-•	1000 gold is needed to make a
-
-truly dramatic statement. If you
-want to adopt all the orphans and
-provide for their care personally,
-you might need to spend up to
-1000g.
-
-Prepare Components
-Barter with talismongers, engage in midnight rituals, and venture outside
-the City to gather herbs in the darkness of the new moon. When you use this
-action, fill your pack with as many spell components from Appendix A as you
-wish. Each component takes up one pack slot.
-
-Research
-Investigate a topic of your choice by spending money to pay bribes to
-librarians, buy coffee to stay awake during long reading sessions, and get
-people drunk enough to talk.
-
-• Spend 50 gold to test Cups.
-
-•  On a success, you can ask the GM one question about any subject.
-
-•  If you have a great success, you can ask three.
-
-Support
-Some actions are one-and-done, e.g., you go gambling and lose your hard-
-earned coin all in a night. In contrast, Support involves taking one step on a
-long road. Use this action to represent long-term scheming on large, multi-
-step projects.
-
-• Large projects are broken up into several steps. How many steps a project
-requires is determined by its complexity, as determined by the GM. The
-more complex a project, the more steps that it takes.
-
-•  Complexity usually ranges between 2–8. Simple projects might only need two
-
-or three steps to complete, whereas complex ones need as many as eight.
-
-• You make one step toward project completion by spending money in a way
-that supports your goals. Players must suggest a way that they would spend
-their coin to benefit their goals. The GM must agree that this action will
-move the needle on their long-term project and set an appropriate price.
-
-• Once a player has fulfilled a number of steps equal to the project’s
-
-complexity, the project is complete.
-
-Train
-Seek out an expert and study under them. Talk to the GM about what talent
-you want to learn. The GM will tell you who is available to train you.
-
-• Spend 50 gold per 1XP you want to invest on the new talent.
-
-• Prepare as many uses of that talent as you have XP invested.
-
-• See page 33 for full details about training talents.
-
-159
-
-CHAPTER 9     |     THE CITY PHASE
-
-Advice for Exploration-
-based Games
-“The adventure is in the wilderness,
-not the town. As per the discussion
-of NPCs [non-player characters]
-… be careful not to change the
-focus to urban adventure instead
-of exploration. You can have as
-many NPCs as you want in town,
-but remember it’s not about them.
-Once players start talking to town
-NPCs, they will have a perverse
-desire to stay in town and look for
-adventure there. ‘Town game’ was a
-dirty word in West Marches. … You
-find things by exploring, not sitting
-in town — someone who explores
-should know more about what is
-out there than someone in town.”
-
-- “Great Experiments: West
-Marches,” Ben Robbins
-
-7. Plan the next Crawl
-
-Once every player has resolved their City Action, the GM sets a role-playing
-scene in a tavern where the guild comes together to debrief, drink, and
-determine their next steps.
-
-Taverns have job boards where contracts are offered to guilds. These are
-jobs that characters in the City offer to guilds, with rewards of coin, peerage,
-rare items, or favors. During this step, the GM provides four to six potential
-contracts for the guild to consider. A guild merely needs to affix their seal to
-the contract to start pursuing it (p. 46).
-
-Role-play the conversation with your guild-mates and decide collectively
-what you want to do next. Did you complete your previous quest? What quest
-will you pursue next? Did you complete your previous contract? Are there any
-current contracts you want to pursue?
-
-Some example contracts are offered on the next page.
-
-8. Restock the Underworld
-
-The Underworld grows and shifts. Between the end of the City Phase and the
-start of the next session, the GM revisits their Meatgrinder and City Events
-tables and replaces any entries that the players have already encountered. If an
-ogre is slain, a hidden room looted, or a rusty trap sprung, replace those entries
-with something new.
-
-GMs should ask themselves:
-How has the Underworld been
-changed by the player’s actions?
-Factions will refill their posts.
-Other factions will move
-into cleared rooms. Other
-guilds meet with success or
-failure. The Underworld is
-dynamic, not static. Reflect
-the changing Underworld
-by adding new content to the
-Meatgrinder tables.
-
-160160
-
-CHAPTER 9     |     THE CITY PHASE
-
-Example Contracts
-Here are a few contracts that might be on a job board at your local tavern. Draw ~5 cards to create a job board.
-
-carD contract
-
-I.
-
-II.
-
-III.
-
-IV.
-
-My precious Tricky Woo ran off into the Mouth of the Underworld! I’ll grant 100g to each guild
-member for my precious’s safe return! I’ll put you into my will! - Lady Lumphrey
-
-Miranda Crowell seeks her husband, Lyfitt Crowell, who has disappeared in the Underworld. If you can
-bring him back alive, I will give you what I can.
-
-My sweet young son, called “Pash the Torchier,” has decided that he is an adventurer. Bring him back
-to me alive and you can keep all of his adventuring gear. - Mirima Merriweather
-
-Find and capture (but not kill or injure) a cockatrice for Master Hugo Underhill who desires it for his
-menagerie. Every feather that falls from its head lowers its price. If pristine, 1000 gold.
-
-V.
-
-Bring Onion Jack back alive to Lord Captain Barlett, head of the All-Watch, for a bounty of 500g.
-
-VI.
-
-VII.
-
-Dire spider silk needed by Anhilda Weaver of the Colonies. You will be paid in fine garments woven
-from spider’s silk.
-
-There is a goblin by the name of Grinnin’ Grimnir that peddles wares in the Underworld. He has a
-trinket of mine—the least of things—a simple gold ring. Return it to me and I shall pay you handsomely.
-- Annatar Giftgiver
-
-VIII.
-
-If worthy warriors seek induction into Athleta Mythrii, deliver ogre heads unto Ser Francis Oddwold at
-the Temple Militant. Each ogre’s head will buy one adventurer’s passage into this esteemed order.
-
-IX.
-
-X.
-
-Master Alonz and Mistress Sara Pennywise wish to be wed by a Mythric cleric within the Castle of
-Crossed Destinies. In exchange, they shall invite you to the wedding and give gifts befitting your station.
-
-Lady Mary Arzon searches for a phoenix feather in exchange for great riches. The feather must be kept
-aflame to be worthwhile.
-
-Page.
-
-Bring a jar of elemental water from an undine to the Church of the Maiden Wisdom in exchange for a
-prophecy.
-
-Knight. Hermanos the Wise offers 5 gold per sealed slime bottle, for the purpose of creating Takalashi Jelly.
-
-Queen.
-
-The Revered Brom of House Noname has retreated into the Underworld to meditate on the secret of
-life and death. The Cult seeks news of his quest. If alive, ask him his opinion on the “Problem of Moral
-Luck” and report back. If dead, bring a relic of his esteemed person to the Mythraeum.
-
-King.
-
-Thomlin Gardener of the Alchemist’s Guild humbly requests field notes of a skilled alchemist
-relating to the exposure of Gardener’s Special Formula on three separate types of mushrooms. Pay
-commensurate with detail of notes and/or sample.
-
-161
-
-CHAPTER 9     |     THE CITY PHASE
-
-The Omphalic Market
-
-No tale tells what ancient power minted the ubiquitous star-marked golden coins that
-sit in the treasure hoards of the Underworld. But all know that these coins have become
-the de facto standard of the City. Coinages of lesser metals have become worthless. As
-guilds have hauled back vast quantities of glittering gold, merchants of the great Omphalic
-Market will only accept Underworld gold as payment.
-
-“In the Plaza of Dark Delights, which lies seven blocks south of the Marsh Gate
-and extends from the Fountain of Dark Abundance to the Shrine of the Black
-Virgin, the shop-lights glinted upward no more brightly than the stars glinted down.
-For there the vendors of drugs and the peddlers of curiosa and the hawkers of
-assignations light their stalls and crouching places with foxfire, glowworms, and
-fire-pots with tiny single windows, and they conduct their business
-almost as silently as the stars conduct theirs.”
-
-– “Bazaar of the Bizarre,” Franz Leiber
-
-162162
-
-CHAPTER 9     |     THE CITY PHASE
-
-Buying new gear
-During step 5 of the City Phase (Upkeep), you determine what you purchase for your next adventure. These prices are
-abstracted. You don’t tally your money for each torch, each ration, or each dagger. Rather, you fill your pack—as much
-as it can hold—based on your upkeep level (or lower): impoverished, common, or luxurious.
-Just about anything can be
-| i mpoverisheD |  g ear | c ommon |  g ear | l uxurious |  g ear |     |
-| ------------- | ------ | ------- | ------ | ---------- | ------ | --- |
-purchased at the Omphalic
-Market.
-| Animal Feed |     | Armor, light (1 belt slot) |     | Alchemy kit (2 slots) |     |     |
-| ----------- | --- | -------------------------- | --- | --------------------- | --- | --- |
-• Impoverished items are things
-| Bedroll (2 slots) |     | Caltrops |     | Armor, iron (2 belt slots) |     |     |
-| ----------------- | --- | -------- | --- | -------------------------- | --- | --- |
-you can find inside a cotter’s
-kitchen.
-| Candles |     | Chain, 10’ |     | Armor, steel (3 belt slots) |     |     |
-| ------- | --- | ---------- | --- | --------------------------- | --- | --- |
-• Common items are things
-| Chalk |     | Clothes, common  |     | Bezoar |     |     |
-| ----- | --- | ---------------- | --- | ------ | --- | --- |
-you might find in a wealthy
-merchant’s house.
-| Clothes, rags  |     | Cooking gear |     | Blank book |     |     |
-| -------------- | --- | ------------ | --- | ---------- | --- | --- |
-• Luxurious items are things
-| Firewood |     | Crowbar |     | Booze, fancy |     |     |
-| -------- | --- | ------- | --- | ------------ | --- | --- |
-owned only by the clergy or
-nobility.
-| Flint and tinder |     | Fishing gear |     | Clothes, finery  |     |     |
-| ---------------- | --- | ------------ | --- | ---------------- | --- | --- |
-Players, ask your GM if there’s
-| Lard |     | Garlic |     | Falconry gear  |     |     |
-| ---- | --- | ------ | --- | -------------- | --- | --- |
-a normal, everyday object that
-you want but can’t find listed
-| Leeches, jar of  |     | Grappling hook |     | Hourglass |     |     |
-| ---------------- | --- | -------------- | --- | --------- | --- | --- |
-here. The GM will set its price
-level (impoverished, common,
-| Pipe and pipeweed |     | Hammer |     | Lantern |     |     |
-| ----------------- | --- | ------ | --- | ------- | --- | --- |
-or luxurious).
-| Pole, 10' (oversized) |     | Hatchet |     | Manacles  |     |     |
-| --------------------- | --- | ------- | --- | --------- | --- | --- |
-If the item you’re looking for
-is unique, use the Commission
-| Poultice  |     | Helm (1 belt slot) |     | Oil, flask |     |     |
-| --------- | --- | ------------------ | --- | ---------- | --- | --- |
-Craft action during step 6 of the
-City Phase instead.
-| Rations |     | Hermetic bottle |     | Salt |     |     |
-| ------- | --- | --------------- | --- | ---- | --- | --- |
-See page 37 for rules about
-| Religious paraphernalia |     | Iron spikes (6 per slot) |     | Shield, heavy  |     |     |
-| ----------------------- | --- | ------------------------ | --- | -------------- | --- | --- |
-your pack, belt, slots, and
-carrying capacity.
-| Rope     |     | Lockpicks (6 per slot) |     | Spyglass         |     |                |
-| -------- | --- | ---------------------- | --- | ---------------- | --- | -------------- |
-| Weaponry |     | Mirror                 |     | Tent (oversized) |     | Replacing and  |
-repairing gear
-|     |     | Musical instrument |     | Wand of archwood |     |     |
-| --- | --- | ------------------ | --- | ---------------- | --- | --- |
-Notched or Destroyed items
-|     |     | Quill and ink |     | Weaponry, silver |     |     |
-| --- | --- | ------------- | --- | ---------------- | --- | --- |
-can be repaired in the City.
-The upkeep level needed
-Pick (oversized)
-to repair a damaged item is
-equivalent to buying a new item.
-Shield, light
-For example, if your heirloom
-silver sword is Destroyed during
-Shovel (oversized)
-a Crawl, you may repair it by
-buying the luxurious upkeep
-Tinker’s kit (2 slots)
-level (which is required to
-purchase a silver weapon).
-Torch
-Wolfsbane
-CHAPTER 9     |     THE CITY PHASE
-163
-
-An incomplete list of pretty things
-
-Here is a basic list of gear commonly used by adventurers. All items are 1 slot unless
-otherwise specified. Rules for carrying gear are on page 37.
-
-Alchemy kit
-Alchemy kits are used to mix reagents into alchemical
-substances (bombs, potions, oils). They are a required
-tool for the Alchemy talent (p. 78). (2 slots)
-
-Animal feed
-Animal feed works like rations for animals. Each Camp
-Phase, you must feed each animal companion feed or
-they will become weak and stop following commands.
-Animal feed is specific to a particular animal (hound,
-falcon, horse, etc.).
-
-Armor
-Armor is all that’s between a sword and your soft, soft
-organs. Armor comes in a variety of styles, constructions,
-and materials. Its appearance is up to the adventurer who
-commissions and wears it.
-
-Armor is separated into light armor, iron armor, and
-steel armor. You can Notch armor instead of taking a
-Wound. Each type of armor can take a certain number of
-Notches before it is Destroyed. Because armor is bulky
-and heavy, it takes up a number of belt slots while worn.
-
-Light armor is designed for movement and comfort; it
-can typically be worn under normal clothes—or may have
-the appearance of fine garb. Common forms of light
-armor include leather jerkins, orcish furs, or bone armor.
-Light armor can absorb 1 Notch.
-
-• Light armor takes up 1 belt slot.
-
-Steel armor is a full set of steel plate. Steel does not
-provide the same protection against magic as iron, but
-provides an ideal defense against the blows of sword or
-mace. Steel armor can absorb 3 Notches.
-
-• Steel armor takes up 3 belt slots while worn.
-
-• Due to steel’s weight, it is impossible to swim or sneak
-
-while wearing steel armor.
-
-• Even though steel armor does not cancel targeted
-spells, you cannot cast while wearing it due to the
-latent iron content in the metal.
-
-Bedroll
-Bedrolls consist of blankets and bedding materials.
-Without either a bedroll or a tent, sleeping on the cold
-ground makes you Stressed. (2 slots)
-
-Bezoar
-Bezoars are stones composed of hair, vegetable material,
-and bile found in the stomachs of goats. If swallowed,
-a bezoar acts as a powerful anti-poison. It counts as 8
-burned charges for the purposes of curing an affliction
-while Resting and Recovering (p. 137).
-
-Blank book
-Blank books are useful for taking notes or even
-composing a memoir for later publication.
-
-Iron armor consists of a coat of iron mail worn over a
-padded gambeson. Iron armor can absorb 2 Notches.
-
-• Iron armor is the bane of sorcerers—spells cannot
-
-target anyone wearing iron armor; however, you can
-still be hurt by the effects of spells (e.g., burned by a
-wall of fire).
-
-Booze
-Booze is any alcohol that’s nice, strong, and expensive.
-This can be traded to Underworld denizens, given
-as a gift to a noble, or opened for a special occasion.
-Weak alcohol like small beer, cider, or watery wine is
-considered to be part of a ration.
-
-• You cannot cast spells if wearing iron armor.
-
-• Iron armor takes up 2 belt slots while worn.
-
-• Due to iron’s weight, it is impossible to swim or sneak
-
-while wearing iron armor.
-
-Caltrops
-Caltrops are nails designed to be scattered on the
-ground. They deny areas to your foes, especially cavalry.
-When scattered, any unshod creature walking in the
-zone takes a Wound.
-
-164164
-
-CHAPTER 9     |     THE CITY PHASE
+**鐵蒺藜**
+鐵蒺藜是設計用來散落地面的鐵釘。它們封鎖區域，使敵人——尤其是騎兵——無法通過。散落後，任何未穿鞋的生物踏入該區域都會承受一次傷勢。

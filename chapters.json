@@ -1,208 +1,349 @@
 {
-  "source": "data/markdown/YZE-Standard-Reference-Document_pages.md",
+  "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md",
   "output_dir": "docs/src/content/docs",
+  "images": { "enabled": false },
   "chapters": {
-    "introduction": {
-      "title": "Introduction",
+    "front-matter": {
+      "title": "Front Matter",
+      "order": 0,
+      "files": {
+        "index": {
+          "title": "前言",
+          "description": "版權頁、致謝、序言與遊戲簡介。",
+          "pages": [1, 12],
+          "order": 0
+        }
+      }
+    },
+    "basics": {
+      "title": "The Basics",
       "order": 1,
       "files": {
         "index": {
-          "title": "Introduction",
-          "description": "Overview of the Year Zero Engine: key concepts, dice types, tools of the game, and core design pillars.",
-          "pages": [
-            2,
-            3
-          ],
+          "title": "遊戲基礎",
+          "description": "四個遊戲階段、遊戲流程與 GM 裁決概覽。",
+          "pages": [13, 19],
           "order": 0
+        },
+        "tests-and-fate": {
+          "title": "命運考驗",
+          "description": "大小阿爾卡那、命運考驗、逼近命運、優勢與劣勢、群體考驗與效果。",
+          "pages": [20, 26],
+          "order": 1
         }
       }
     },
-    "player-characters": {
-      "title": "Player Characters",
+    "adventurer": {
+      "title": "The Adventurer",
       "order": 2,
       "files": {
-        "index": {
-          "title": "Player Characters",
-          "description": "Player character creation, attributes, archetypes, skills, health, resolve, gear, encumbrance, and experience advancement.",
-          "pages": [
-            4,
-            7
-          ],
+        "creation": {
+          "title": "角色創建",
+          "description": "冒險者創建：姓名、族裔、屬性、任務、主題、羈絆、至善與語言。",
+          "pages": [27, 35],
           "order": 0
+        },
+        "advancement": {
+          "title": "成長與特質",
+          "description": "狀態、決心、學識、天賦、經驗與動物夥伴。",
+          "pages": [36, 45],
+          "order": 1
+        },
+        "gear-and-retirement": {
+          "title": "裝備與退休",
+          "description": "背包空間、裝備管理、退休條件與新玩家清單。",
+          "pages": [46, 52],
+          "order": 2
         }
       }
     },
-    "skills": {
-      "title": "Skills & Specialties",
+    "guild": {
+      "title": "The Guild",
       "order": 3,
       "files": {
         "index": {
-          "title": "Skills & Specialties",
-          "description": "How skills work in the Year Zero Engine: rolling dice, successes, pushing rolls, modifiers, and gear.",
-          "pages": [
-            8,
-            9
-          ],
+          "title": "公會",
+          "description": "公會名冊、行進序列、職責、契約與事蹟聲望。",
+          "pages": [53, 60],
+          "order": 0
+        }
+      }
+    },
+    "kith-and-kin": {
+      "title": "Kith and Kin",
+      "order": 4,
+      "files": {
+        "index": {
+          "title": "族裔總覽",
+          "description": "可扮演族裔簡介與選擇指引。",
+          "pages": [61, 63],
           "order": 0
         },
-        "skill-rolls": {
-          "title": "Skill Rolls & Modifiers",
-          "description": "Detailed rules for skill rolls: pushing, panic, passive rolls, modifiers, difficulty, advantage, and opposed rolls.",
-          "pages": [
-            10,
-            12
-          ],
+        "humans": {
+          "title": "人類",
+          "description": "人類族裔特質、至善觸發與天賦。",
+          "pages": [64, 67],
           "order": 1
         },
-        "skill-list": {
-          "title": "The Skills & Specialties",
-          "description": "Complete list of the twelve core skills and all specialties available to player characters, including magic specialties.",
-          "pages": [
-            12,
-            14
-          ],
+        "fay": {
+          "title": "精靈族",
+          "description": "精靈族族裔特質、至善觸發與天賦。",
+          "pages": [68, 71],
+          "order": 2
+        },
+        "underfolk": {
+          "title": "地底民",
+          "description": "地底民族裔特質、至善觸發與天賦。",
+          "pages": [72, 75],
+          "order": 3
+        },
+        "orcs": {
+          "title": "獸人",
+          "description": "獸人族裔特質、至善觸發與天賦。",
+          "pages": [76, 78],
+          "order": 4
+        }
+      }
+    },
+    "four-paths": {
+      "title": "The Four Paths",
+      "order": 5,
+      "files": {
+        "index": {
+          "title": "四條道途總覽",
+          "description": "道途介紹與選擇指引。",
+          "pages": [79, 81],
+          "order": 0
+        },
+        "path-of-swords": {
+          "title": "寶劍道途",
+          "description": "寶劍道途的天賦與能力。",
+          "pages": [82, 84],
+          "order": 1
+        },
+        "path-of-pentacles": {
+          "title": "錢幣道途",
+          "description": "錢幣道途的天賦與能力。",
+          "pages": [85, 88],
+          "order": 2
+        },
+        "path-of-cups": {
+          "title": "聖杯道途",
+          "description": "聖杯道途的天賦與能力。",
+          "pages": [89, 92],
+          "order": 3
+        },
+        "path-of-wands": {
+          "title": "權杖道途",
+          "description": "權杖道途的天賦與能力。",
+          "pages": [93, 96],
+          "order": 4
+        }
+      }
+    },
+    "crawl-phase": {
+      "title": "Crawl Phase",
+      "order": 6,
+      "files": {
+        "index": {
+          "title": "探索階段概覽",
+          "description": "探索階段流程、地圖與時段。",
+          "pages": [97, 103],
+          "order": 0
+        },
+        "hazards": {
+          "title": "危險與狀態",
+          "description": "絞肉機、光線、壓力、物品耐久、墜落與疾患。",
+          "pages": [104, 113],
+          "order": 1
+        },
+        "social-and-example": {
+          "title": "社交遭遇與範例",
+          "description": "立場、社交互動與探索階段範例流程。",
+          "pages": [114, 118],
           "order": 2
         }
       }
     },
-    "combat": {
-      "title": "Combat & Damage",
-      "order": 4,
+    "challenge-phase": {
+      "title": "Challenge Phase",
+      "order": 7,
       "files": {
-        "maps-and-zones": {
-          "title": "Maps, Zones & Initiative",
-          "description": "Combat zones, range categories, rounds, initiative, and surprise rules.",
-          "pages": [
-            15,
-            16
-          ],
+        "index": {
+          "title": "衝突階段概覽",
+          "description": "衝突階段流程、場景設定、先攻順序與次要行動。",
+          "pages": [119, 127],
           "order": 0
         },
         "actions": {
-          "title": "Actions & Movement",
-          "description": "Slow and fast actions, movement, retreat, ambushes, and sneak attacks.",
-          "pages": [
-            16,
-            17
-          ],
+          "title": "衝突行動",
+          "description": "寶劍、錢幣、聖杯、權杖及雜項行動，以及撤退規則。",
+          "pages": [128, 135],
           "order": 1
         },
-        "close-combat": {
-          "title": "Close Combat",
-          "description": "Close combat mechanics: attacks, blocking, special attacks, and modifiers.",
-          "pages": [
-            17,
-            18
-          ],
+        "wounds-and-example": {
+          "title": "傷勢與範例",
+          "description": "傷勢、生死之際與衝突階段範例流程。",
+          "pages": [136, 146],
+          "order": 2
+        }
+      }
+    },
+    "camp-phase": {
+      "title": "Camp Phase",
+      "order": 8,
+      "files": {
+        "index": {
+          "title": "紮營階段",
+          "description": "紮營行動、共享食糧、復原、陸路旅行選用規則與範例。",
+          "pages": [147, 158],
+          "order": 0
+        }
+      }
+    },
+    "city-phase": {
+      "title": "City Phase",
+      "order": 9,
+      "files": {
+        "index": {
+          "title": "城市階段概覽",
+          "description": "城市階段流程、死亡稅金、事蹟與城市事件。",
+          "pages": [159, 167],
+          "order": 0
+        },
+        "city-actions": {
+          "title": "城市行動",
+          "description": "繳交契約、維持費用、城市行動與下一次探索計畫。",
+          "pages": [168, 176],
+          "order": 1
+        },
+        "market-and-example": {
+          "title": "臍帶市場與範例",
+          "description": "臍帶市場、精美物品清單、武器與城市階段範例。",
+          "pages": [177, 186],
+          "order": 2
+        }
+      }
+    },
+    "gamemastering": {
+      "title": "Gamemastering",
+      "order": 10,
+      "files": {
+        "index": {
+          "title": "主持指南",
+          "description": "GM 宣言與主持四大階段的建議。",
+          "pages": [187, 199],
+          "order": 0
+        },
+        "resources": {
+          "title": "延伸資源",
+          "description": "改編其他遊戲規則與啟發性閱讀清單。",
+          "pages": [200, 208],
+          "order": 1
+        }
+      }
+    },
+    "sorcery": {
+      "title": "Sorcery",
+      "order": 11,
+      "files": {
+        "rules": {
+          "title": "法術規則",
+          "description": "遠界、施法、魔法效果、鐵質反制與惡咒。",
+          "pages": [209, 216],
+          "order": 0
+        },
+        "spells": {
+          "title": "法術列表",
+          "description": "荒野、林地、奇異與天界四系法術。",
+          "pages": [217, 240],
+          "order": 1
+        }
+      }
+    },
+    "alchemy": {
+      "title": "Alchemy",
+      "order": 12,
+      "files": {
+        "index": {
+          "title": "煉金術",
+          "description": "煉金工具、試劑、釀製行動與煉金物質列表。",
+          "pages": [241, 252],
+          "order": 0
+        }
+      }
+    },
+    "dungeon-denizens": {
+      "title": "Dungeon Denizens",
+      "order": 13,
+      "files": {
+        "creature-rules": {
+          "title": "生物規則",
+          "description": "生物數值、行動類型、主題與威脅等級。",
+          "pages": [253, 264],
+          "order": 0
+        },
+        "bestiary": {
+          "title": "怪物圖鑑",
+          "description": "地城怪物完整數值與能力列表。",
+          "pages": [265, 300],
+          "order": 1
+        }
+      }
+    },
+    "city-creation": {
+      "title": "City Creation",
+      "order": 14,
+      "files": {
+        "index": {
+          "title": "城市建構",
+          "description": "地圖製作、核心勢力、街區設計與常數。",
+          "pages": [301, 308],
+          "order": 0
+        },
+        "districts-swords-pentacles": {
+          "title": "寶劍與錢幣街區",
+          "description": "寶劍花色與錢幣花色街區描述。",
+          "pages": [309, 323],
+          "order": 1
+        },
+        "districts-cups-wands": {
+          "title": "聖杯與權杖街區",
+          "description": "聖杯花色與權杖花色街區描述。",
+          "pages": [324, 340],
+          "order": 2
+        }
+      }
+    },
+    "underworld-creation": {
+      "title": "Underworld Creation",
+      "order": 15,
+      "files": {
+        "index": {
+          "title": "地下世界建構",
+          "description": "製作巨型地城的流程、起源與佈局生成。",
+          "pages": [341, 353],
+          "order": 0
+        },
+        "dungeon-seeds": {
+          "title": "地城種子",
+          "description": "二十二張大阿爾卡那對應的地城主題。",
+          "pages": [354, 376],
+          "order": 1
+        },
+        "rooms-and-traps": {
+          "title": "房間與陷阱",
+          "description": "有趣房間設計、陷阱類型與安全地點。",
+          "pages": [377, 390],
           "order": 2
         },
-        "ranged-combat": {
-          "title": "Ranged Combat",
-          "description": "Ranged combat mechanics: aimed fire, modifiers, ammunition, full-auto fire, and overwatch.",
-          "pages": [
-            18,
-            20
-          ],
+        "tutorial-dungeon": {
+          "title": "範例地城：黃金幽靈之墓",
+          "description": "教學地城建構範例與完整地圖。",
+          "pages": [391, 411],
           "order": 3
-        },
-        "damage": {
-          "title": "Damage, Conditions & Recovery",
-          "description": "Weapons, damage, stress, body armor, cover, conditions, broken state, and recovery rules.",
-          "pages": [
-            20,
-            22
-          ],
-          "order": 4
-        },
-        "critical-injuries": {
-          "title": "Critical Injuries & Hazards",
-          "description": "Critical injury tables, death, healing crits, trauma, and other hazards: darkness, fire, explosions, falling, poison, disease, cold, and more.",
-          "pages": [
-            22,
-            25
-          ],
-          "order": 5
-        },
-        "vehicles-and-chases": {
-          "title": "Vehicles & Chases",
-          "description": "Vehicle stats, vehicle damage, repairs, critical vehicle damage, chase rules, and chase obstacles.",
-          "pages": [
-            26,
-            29
-          ],
-          "order": 6
-        }
-      }
-    },
-    "magic": {
-      "title": "Magic",
-      "order": 5,
-      "files": {
-        "casting": {
-          "title": "Magic Rules",
-          "description": "How magic works in the Year Zero Engine: learning magic, spells, spell ranks, casting, mishaps, rituals, and general spells.",
-          "pages": [
-            30,
-            31
-          ],
-          "order": 0
-        },
-        "druid-spells": {
-          "title": "Druid Spells",
-          "description": "Druidic magic disciplines: Awareness, Healing, and Shapeshifting spell lists.",
-          "pages": [
-            32,
-            35
-          ],
-          "order": 1
-        },
-        "sorcery-spells": {
-          "title": "Sorcery Spells",
-          "description": "Sorcery disciplines: Blood Magic, Death Magic, Elementalism, and Symbolism spell lists.",
-          "pages": [
-            35,
-            40
-          ],
-          "order": 2
-        }
-      }
-    },
-    "travel": {
-      "title": "Travel",
-      "order": 6,
-      "files": {
-        "travel-rules": {
-          "title": "Travel Rules",
-          "description": "Travel maps, terrain types, tasks, weather, marching, forced march, and navigation rules.",
-          "pages": [
-            41,
-            42
-          ],
-          "order": 0
-        },
-        "driving-and-mounts": {
-          "title": "Driving & Mounts",
-          "description": "Driving rules, driving at night, mishaps, fuel, mounts, and driving mishap tables.",
-          "pages": [
-            42,
-            43
-          ],
-          "order": 1
-        },
-        "camp-and-survival": {
-          "title": "Camp & Survival",
-          "description": "Keeping watch, foraging, hunting, making camp, camp mishaps, cooking, sleeping, exploring, resting, and water travel.",
-          "pages": [
-            43,
-            45
-          ],
-          "order": 2
         }
       }
     }
-  },
-  "mode": "bilingual",
-  "images": {
-    "enabled": false
   }
 }

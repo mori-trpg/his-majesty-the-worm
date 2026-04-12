@@ -5,678 +5,383 @@ sidebar:
   order: 2
 ---
 
-165
+**蠟燭**
+蠟燭為攜帶者提供明亮的光源，但不為附近的同伴提供任何光線。因此，當公會整體傾向於潛行時，蠟燭更為適用。蠟燭可以吹滅並重新點燃（而火炬則不行）。蠟燭掉落時會熄滅。蠟燭在耗盡之前可閃爍 2 次（第 95 頁）。
 
-CHAPTER 9     |     THE CITY PHASE
+**鎖鏈**
+鎖鏈每格位長度為 10 英尺。鎖鏈適用於各種捆綁和拖拉用途。
 
-Candle
-Candles provide bright light for the person carrying them, but don’t provide
-any light for those nearby. As such, they are used when the guild—as a whole—
-prefers stealth. Candles can be snuffed out and relit (whereas torches cannot
-be). Candles go out when dropped. Candles can flicker 2 times before they’re
-used up (p. 95).
+**粉筆**
+粉筆幾乎可以在任何地方留下記號——對於在迷宮中標記路線、提醒同伴注意陷阱，或粗糙地描繪你對手的尊容，都十分有用。
 
-Chain
-Chain comes in 10’ lengths per slot. Chain is useful for all sorts of bindings
-and haulings.
+**服裝**
+服裝有幾種類型。
 
-Chalk
-Chalk can make marks almost anywhere—useful for plotting your way around
-a maze, warning fellow adventurers about traps, or making crude drawings of
-your rivals’ mothers.
+- 破爛衣物維護了你基本的尊嚴，但讓你看起來像最底層的農民。
+- 普通服裝不會讓你在宴會上受人青睞，但實用耐穿，適合骯髒的工作。
+- 精緻服裝使你從普通人群中脫穎而出。不過要小心；冒險往往會讓你又髒又血。
 
-Clothes
-Clothes come in several varieties.
-
-• Rags preserve your basic dignity, but make you look like the worst sort of
-
-peasant.
-
-• Common clothes won’t make you popular at parties, but they’re serviceable
-
-and good for dirty work.
-
-• Finery sets you apart from the general rabble. Be careful, though;
-
-adventuring has a tendency to make you dirty and bloody.
-
-The clothes that you’re wearing aren’t in your pack and don’t take up any slots.
-Spare sets of clothes take 1 slot in your pack.
-
-Cooking gear
-Cooking gear is needed to prepare hunted game into edible food during the
-Camp Phase.
-
-Crowbar
-Crowbars are used to pry open doors and chests by testing Swords. Less subtle
-than a lockpick, doing so breaks the door in question.
-
-Falconry gear
-Falconry gear includes gloves, tethers, hoods, and everything needed to enjoy
-the royal sport of hawking.
-
-Fishing gear
-Fishing gear is needed to fish and gather food on bodies of water—like in the
-deadly Boundless Moat.
-
-166166
-
-CHAPTER 9     |     THE CITY PHASE
-
-Firewood
-Firewood allows you to build campfires even when in the
-deepest dungeon.
-
-Iron spike
-Iron spikes can be used to wedge doors closed, serve as
-pitons for climbing, or be driven through the heart of
-the undead. (Stackable 6 per slot)
-
-Flint and tinder
-Flint and tinder let you start fires.
-
-Garlic
-Garlic wards away certain types of undead and impure
-spirits. If brandished, test Wands. If successful,
-Displace one affected creature. In a Challenge,
-brandishing garlic is a Wands action.
-
-Grappling hook
-Grappling hooks, when combined with rope, let you
-climb sheer surfaces without testing fate. A grappling
-hook takes up its own slot, separate from the rope.
-
-Hammer
-Hammers are used to drive in spikes and pitons, break
-things that don’t want to be broken, and are generally
-useful tools. It should be noted that trying to smash
-things open with weapons generally results in a Notched
-or Destroyed weapon.
-
-Hatchet
-Hatchets are used to fell wood, cut ropes, and smash
-open doors. It should be noted that trying to smash
-things open with weapons generally results in a Notched
-or Destroyed weapon.
-
-Helm
-Helms can turn aside deadly blows. A helm can absorb 1
-Notch before being Destroyed. (1 belt slot)
-
-Hermetic bottle
-Hermetic bottles keep alchemical reagents fresh and
-potent. They are used to hold alchemical substances
-like bombs, oils, and potions. An essential tool for the
-Alchemy talent (p. 78).
-
-Hourglass
-Hourglasses are one of the best ways to track time in the
-strange Underworld. Even then, adventurers will notice
-that time flows curiously. An hour in the Underworld
-might be a day in the City.
-
-Lantern
-Lanterns provide bright light to the person holding
-them and dim light for everybody else in the guild.
-Lanterns are lit by oil, which must be carried separately.
-Lanterns shatter when they are dropped. You can tie a
-lantern to your belt, but if you take a Wound the lantern
-shatters and you’re covered in oil. A lantern can flicker 4
-times before their oil is used up (p. 95).
-
-Lard
-Lard is the fat of a pig. It burns well, can be used as a
-grease to lubricate tools and surfaces, and can even be
-used as soap. You can also eat it like a ration in a pinch to
-keep from starving.
-
-Leeches
-Leeches draw out bad blood and let good yellow phlegm
-and bile reign in your poisoned body. You can apply
-leeches to another adventurer with the Use an Item
-Camp Action. If you do so, draw a card. If you draw a
-Swords or Pentacles card, nothing happens. If you draw
-a Cups or Wands card, the leeched adventurer counts as
-having burned 2 charges to cure an affliction (p. 97).
-
-Lockpick
-Lockpicks can be used to pick a lock with a successful
-test of Pentacles. If you fail, one of your lockpicks
-breaks. (Stackable 6 per slot)
-
-Manacles
-Manacles are used to restrain people, usually to haul
-them back to the City for a reward.
-
-Mirror
-Mirrors are kept by those still trying to keep up a
-semblance of hygiene, or just to reflect a monster’s dread
-gaze back onto itself.
-
-Musical instrument
-Musical instruments are often carried by adventurers,
-as song keeps campfires merry in a dark and oppressive
-environment. These could be lutes, harps, flutes, viols,
-drums, or anything else found in the Wide World.
-
-167
-
-CHAPTER 9     |     THE CITY PHASE
-
-Oil
-Oil, usually carried in a flask, is used to fuel lanterns. It
-can also fuel other fires, or be used as lubrication. A flask
-of oil provides 4 flickers to a lantern.
-
-Rope
-Rope comes in lengths of 50’. Every adventurer worth
-their salt carries a bit of rope on them.
-
-Pick
-Picks are tools used for digging. (Oversized)
-
-Pipe and pipeweed
-Pipe and pipeweed are a great way to relax, clear your
-mind, and make the camp smell nice. Smoking all of your
-pipeweed clears the Stressed condition.
-
-Pole, 10’
-10’ poles are helpful, too-long walking sticks that
-you can use to prod and poke for traps and hazards.
-(Oversized)
-
-Poultice
-Poultices are bandages infused with healthful herbs.
-They have a few different uses:
-
-• You can expend a poultice to try and save a character at
-Death’s Door. The injured character test Wands; this
-test has favor if the person applying it has a medical
-motif. If successful, the Death’s Door condition is
-cured and the character returns to consciousness. If
-it is a failure, the character dies. See page 126 for the
-full rules.
-
-• Poultices are also necessary for the use of the
-
-Chirurgeon talent (p. 78).
-
-Quill and ink
-Quill and ink are necessary tools for the journey into
-literary fame.
-
-Ration
-Rations consist of hardtack, dried fruit, and dried meats.
-It might not be delicious, but it’s better than starving.
-Each ration contains a canteen with a day’s worth of
-water or swill alcohol.
-
-Religious paraphernalia
-Religious paraphernalia is a catchall term for the icons,
-amulets, or rosaries used to ward away certain types of
-undead or spirits. If brandished, test Wands. If successful,
-Displace one affected creature. During a Challenge,
-brandishing a religious icon is a Wands action.
-
-168168
-
-Salt
-Expend a slot of salt to turn hunted game into rations.
-Salt also dries out oozes and jellies if thrown at them.
-This is treated as an Attack, and inflicts two Wounds
-to ooze monsters on a success. Every adventurer worth
-their rope carries a bit of salt on them.
-
-Shield
-Shields come in a variety of styles and methods of
-construction, but are considered either light or heavy.
-Shields take one of your hand slots.
-
-• Light shields are made from wood. They can absorb 1
-
-Notch.
-
-• Heavy shields are made of metal or similarly sturdy
-
-materials and can absorb 2 Notches.
-
-In a Challenge, ties go to the attacker unless the
-defender carries a shield.
-
-If you have a shield, you may replace your Initiative
-with any card from your hand as a miscellaneous action.
-Your old Initiative is discarded.
-
-Shovel
-Shovels are tools used for digging. Like picks. But
-different. (Oversized)
-
-Spyglass
-Spyglasses magnify things up to five times.
-
-Tent
-Tents provide shelter and comfortable sleeping for up to
-two people. Without a bedroll or tent, sleeping on the
-cold ground makes you Stressed. (Oversized)
-
-Tinker’s kit
-Tinker’s kits are metal-working tools and scrap metal.
-You can repair damaged equipment with a tinker’s kit by
-performing the Use an Item Camp Action to remove 1
-Notch. Destroyed equipment cannot be salvaged in this
-manner. (2 slots)
-
-CHAPTER 9     |     THE CITY PHASE
-
-Torch
-Torches provide bright light to the person holding them and dim light
-for everybody else in the guild. Torches have a 50% chance to go out when
-dropped. Torches that are extinguished are almost impossible to relight.
-Torches can flicker 3 times before they’re used up (p. 95).
-
-Wand of archwood
-Wands of archwood are ritual implements that allow sorcerers to focus their
-magical potential. If you have the Gramarye talent (p. 82), you may use an
-archwood wand as a missile weapon to create blasts of magical energy up to a
-zone away.
-
-Weaponry
-Weaponry includes any basic arms and ammo listed in the Weapons section on
-the following page.
-
-• Silver weaponry is expensive, but silver is often useful against lycanthropes,
-
-spirits, and certain types of undead. Silver weaponry is soft and easily damaged,
-however. Silver weapons can only absorb 1 Notch before being Destroyed.
-
-Wolfsbane
-Wolfsbane repels wolves and lycanthropes. If brandished, test Wands. If
-successful, Displace one affected creature. During a Challenge, brandishing
-wolfsbane is a Wands action.
-
-“To train with the sword, first master sweeping. When you have
-mastered sweeping, you must master the way of drawing water.
-Once you have learned how to draw water, you must split wood.
-Once you have split wood, you must learn the arts of finding the
-fine herbs in the forest, the arts of writing, the arts of paper
-making, and poetry writing. You must become familiar with the
-awl and the pen in equal measure. When you have mastered all
-these things you must master building a house. Once your house
-is built, you have no further need for a sword, since it is an ugly
-piece of metal and its adherents idiots.”
-
-– Kill Six Billion Demons, Tom Parkinson-Morgan
-
-169
-
-CHAPTER 9     |     THE CITY PHASE
-
-Weapons
-
-Weapons come in a variety of flavors. Each weapon has a
-special property during a Challenge based on its type.
-
-Most weapons are 1 slot items except for polearms
-(which take 2 slots). All melee weapons can be wielded
-two-handed for the purposes of the Two-handed Focus
-talent except for daggers.
-
-The weapon types are:
-
-Axes
-
-Blades
-
-Daggers
-
-Flails
-
-Bows
-(Arrows stack 12 per slot)
-
-Hammers and maces
-
-Crossbows
-(Bolts stack 12 per slot)
-
-Polearms (2 slots)
-
-Axe
-Axes include all types of chopping weapons, such as
-battle axes, bardiches, or mattocks. When an axe Attack
-takes down an enemy, you may use the same Attack
-value against another opponent in the same zone.
-
-Blade
-Blades include all types of swords, from short swords to
-longswords. When you successfully Riposte with a blade,
-you deal 2 Wounds instead of 1 Wound.
-
-Bow
-Bows are ranged weapons that use arrows. When
-wielding a bow, you gain access to the special Aim
-Challenge Action.
-
-• Aim is a Swords action. Declare who you’re targeting
-and play your card facedown. When you next Attack
-with your bow, you may reveal the card and add its
-value to your total Attack.
-
-If you are attacked with a melee weapon while wielding a
-missile weapon, the attacker has favor against you.
-
-Crossbow
-Crossbows are mechanized ranged weapons with
-a locking mechanism to keep the bowstring taut.
-All Attacks with a crossbow deal Piercing damage.
-However, your crossbow must be reloaded and cranked
-as a miscellaneous action after firing.
-
-If you are attacked with a melee weapon while wielding a
-missile weapon, the attacker has favor against you.
-
-Arrows and bolts
-You must keep track of your arrows and bolts. They
-come in quivers of 12 per slot. Any arrow that hits a
-target is Destroyed (your opponent breaks off the shaft
-in combat, the bolt head is blunted on bone, etc.). Any
-arrow that misses may be recovered after the Challenge.
-Use the Fletch Arrows Camp Action to replace
-Destroyed arrows/bolts.
-
-Dagger
-Daggers are short, bladed weapons that include stilettos,
-gladiuses, and dirks. Daggers deal Piercing damage
-against targets who are unarmed, Rooted, or Tripped.
-Daggers may be thrown to Attack targets in your zone
-without engaging them.
-
-Flail
-Flails include any flexible weapon, such as morning stars
-or ball-and-chain. Flail Attacks cannot be absorbed by
-shields and always win ties with Initiative.
-
-Hammer or mace
-Hammers and maces include any type of smashing
-weapon. When your Attack value is at least twice that
-of your opponent’s Initiative, your hammer deals 2
-Wounds instead of 1 Wound.
-
-Polearm
-Polearms are long-hafted weapons that include spears,
-halberds, and quarterstaffs. Ripostes are interrupts when
-wielding a polearm. (2 slots)
-
-170170
-
-CHAPTER 9     |     THE CITY PHASE
-
-Example City Phase
-
-Muddy and bloody, the Four Aces stagger back to the
-surface. The guild consists of Weela Longtoes the bug
-keeper (gnome, Path of Cups), Alisander the morbid
-necromancer (human, Path of Wands), and Lucind the
-archaeologist (troll, Path of Cups). They are well aware
-that there’s only three members of the Four Aces—they
-think it’s funny.
-
-Lucind: We learned about the primordial elephant
-people by investigating the ancient elephant shrine. I
-don’t think anybody in the City knew anything about
-the elephant people before us.
+你穿在身上的服裝不在背包裡，也不佔用任何格位。備用服裝在背包中佔 1 格位。
 
-GM: Hmm. I mean, I agree that this is interesting lore
-and new information, but it’s probably not noteworthy.
+**炊具**
+炊具是在紮營階段將獵物處理成可食用食物所必需的工具。
 
-Step 1. Death and taxes
-GM: As you return topside, you are met at the gates of
-the Underworld by the All-Watch. By this point, you’re
-familiar with the red painted eye on their full-face helms.
-Do you all pay your taxes?
+**撬棍**
+撬棍可用於通過寶劍考驗來撬開門和箱子。雖然不如開鎖工具精細，但此舉會破壞所撬的門。
 
-Weela is carrying 120g total and an elephant idol statue. She
-erases 60g from her adventurer sheet.
+**獵鷹裝備**
+獵鷹裝備包括手套、繩索、頭套，以及享受行獵這項皇家運動所需的一切器具。
 
-Alisander is carrying 26g, six rubies pried out of the elephant
-idol, and a variety of dire whale scrimshaws depicting a
-profane ritual. He erases 13g.
+**釣魚裝備**
+釣魚裝備是在水域——例如致命的無邊護城河——中捕魚覓食所必需的。
 
-Lucind is carrying 51g and an old, torn-up book titled Ye
-Gorgonic Ecstasies. She erases 25g.
+**柴火**
+柴火讓你即使在最深的地城中也能生火。
 
-After pausing for a moment for everybody to do their
-bookkeeping, the GM continues to facilitate the rest of the phase.
+**鐵釘**
+鐵釘可用於楔住門關閉、充當攀岩固定釘，或釘穿不死生物的心臟。（每格位可疊放 6 根）
 
-Step 2. Noteworthy deeds
-GM: OK, where’s your guy’s guild roster? What
-noteworthy deeds did you accomplish this delve?
+**打火石和火絨**
+打火石和火絨讓你能夠生火。
 
-At the start of the City Phase, the guild has 2 Fame. When the
-guild arrives at the surface, the GM picks up the guild roster
-and erases the oldest deed accomplished (reducing their Fame to
-1). Each guild member brainstorms a little.
+**大蒜**
+大蒜能驅除某些類型的不死生物和不潔精靈。若揮舞大蒜，進行權杖考驗。若成功，對一隻受影響的生物施加位移效果。在挑戰階段，揮舞大蒜是一個權杖行動。
 
-Weela: Well, we successfully stole the eggs from that
-basilisk, which is pretty impressive.
+**爪鉤**
+爪鉤與繩索配合使用，讓你無需進行命運考驗即可攀登垂直表面。爪鉤單獨佔用一個格位，與繩索分開計算。
 
-GM: Definitely.
+**鐵鎚**
+鐵鎚可用於敲入釘子和固定釘、打破不想被打破的東西，是個通用工具。值得注意的是，試圖用武器砸開東西通常會導致武器出現缺口或損毀。
 
-Weela updates the guild roster. This sets their Fame back to 2.
+**斧頭**
+斧頭可用於砍伐木材、切斷繩索和砸開門。值得注意的是，試圖用武器砸開東西通常會導致武器出現缺口或損毀。
 
-Alisander thinks a little bit and doesn’t have anything
-meaningful to contribute.
+**頭盔**
+頭盔可以抵擋致命的打擊。頭盔在損毀之前可承受 1 個缺口。（1 腰帶格位）
 
-The guild remains at Fame 2.
+**密封瓶**
+密封瓶能保持煉金試劑的新鮮和效力。它們用來盛放炸彈、油脂和藥水等煉金物質，是煉金天賦（第 78 頁）不可或缺的工具。
 
-Step 3. City Events
-The GM draws from the major arcana deck and consults
-the City Events table. They draw the Hanged Man [XII],
-which gives a rumor:
+**沙漏**
+沙漏是追蹤奇特地下世界中時間流逝的最佳工具之一。即便如此，冒險者們仍會注意到時間流動得格外詭異。地下世界的一個小時，也許在城市裡已是整整一天。
 
-A fallen star dwells on an island in the Boundless Moat,
-and his daughter came with him into exile. Both star-beings
-struggle adorably with human culture. The star wishes for
-someone to marry his daughter. As a dowry, the star will grant
-a wish to anybody who marries her. However, the daughter will
-interpret the wish. It would be wise to keep her happy unless you
-want the wish to go sour.
+**提燈**
+提燈為持燈者提供明亮的光線，為公會中其他所有人提供昏暗的光線。提燈以油料為燃料，油料必須另外攜帶。提燈掉落時會碎裂。你可以將提燈掛在腰帶上，但一旦你承受傷勢，提燈就會碎裂，油液會濺到你身上。提燈在油料耗盡之前可閃爍 4 次（第 95 頁）。
 
-The GM makes a mental note of this.
+**豬油**
+豬油是豬的脂肪。它燃燒性良好，可作為潤滑工具和表面的油脂，甚至可以用作肥皂。緊急情況下也可以像口糧一樣食用，以防止挨餓。
 
-Step 4. Turn in contracts
-GM: OK, step 4—contracts. You have the eggs you were
-hired to get. Are you going back to Hugo Underhill, the
-master of the Malign Menagerie?
+**水蛭**
+水蛭能吸出壞血，讓良好的黃色痰液和膽汁主導你中毒的身體。你可以在紮營行動「使用物品」中，將水蛭敷用到另一位冒險者身上。若你這樣做，抽取一張牌。若你抽到寶劍或錢幣牌，則什麼都不發生。若你抽到聖杯或權杖牌，接受治療的冒險者計為燃燒了 2 個充能以治療一種疾患（第 97 頁）。
 
-Weela: Yes! Absolutely. I have the eggs in hand and grin
-real big when we see him.
+**開鎖工具**
+開鎖工具可通過成功的錢幣考驗來開鎖。若你失敗，一套開鎖工具就會折斷。（每格位可疊放 6 套）
 
-The guild delivers the six basilisk eggs they managed to procure
-and are paid 50g per egg. Per their guild roster, the guild splits
-the loot evenly—a cool 100 gold apiece.
+**手銬**
+手銬用於束縛人，通常是為了將其押回城市領取賞金。
 
-The GM role-plays Master Underhill’s delight at this new
-addition to his menagerie. Master Underhill goes on to tell
-the guild about a rumor that he’s heard concerning a fallen star
-and star-daughter dwelling in the Underworld, and their
-purported wish-granting capabilities.
+**鏡子**
+鏡子由那些仍試圖保持些許衛生習慣的人攜帶，或僅僅用來將怪物可怕的目光反射回其自身。
 
-Because they fulfilled a contract, each guild member gains 1XP.
+**樂器**
+樂器常被冒險者隨身攜帶，因為在黑暗壓抑的環境中，歌聲能讓篝火旁的氣氛更加歡快。這些可以是魯特琴、豎琴、笛子、古提琴、鼓，或廣闊世界中能找到的任何其他樂器。
 
-171
+**油**
+油通常盛放在一個燈油瓶中，用於為提燈提供燃料。也可以為其他火源提供燃料，或用作潤滑劑。一瓶油可為提燈提供 4 次閃爍。
 
-CHAPTER 9     |     THE CITY PHASE
+**繩索**
+繩索長度為 50 英尺。每個值得信賴的冒險者都應隨身攜帶一段繩索。
 
-Step 5. Upkeep
-GM: OK, you just got paid. What upkeep level is
-everybody going to get?
+**鶴嘴鋤**
+鶴嘴鋤是用於挖掘的工具。（超大）
 
-Alisander: I have some things I want to sell first.
+**菸斗和菸草**
+菸斗和菸草是一種放鬆身心、清醒思緒、讓紮營地瀰漫香氣的好方法。抽完所有菸草可清除「壓力」狀態。
 
-GM: Sure.
+**10 英尺長桿**
+10 英尺長桿是實用的超長行走手杖，可用來探測陷阱和危險。（超大）
 
-During this step, each adventurer tries to liquidate their assets
-by selling them at the Omphalic Market.
+**藥布**
+藥布是浸泡了健康草藥的繃帶。它有以下幾種用途：
 
-Alisander: I have six rubies and some dire whale
-scrimshaw.
+- 你可以消耗一塊藥布，嘗試拯救一位處於瀕死之門的角色。受傷的角色進行權杖考驗；若施用者具有醫療相關的主題，此考驗有優勢。若成功，「瀕死之門」狀態被治癒，角色恢復意識。若失敗，角色死亡。詳細規則見第 126 頁。
+- 藥布也是使用外科醫天賦（第 78 頁）的必要條件。
 
-GM: Remind me where you got the rubies?
+**羽毛筆和墨水**
+羽毛筆和墨水是邁向文學聲名之旅的必備工具。
 
-Alisander: From the elephant idol.
+**口糧**
+口糧由硬餅乾、乾果和肉乾組成。也許不算美味，但總比挨餓好。每份口糧都附有一個裝著一天份飲用水或淡薄酒精的水壺。
 
-GM: Right, right.
+**宗教法器**
+宗教法器是一個統稱，涵蓋各種用於驅除特定類型不死生物或精靈的聖像、護身符或念珠。若揮舞宗教法器，進行權杖考驗。若成功，對一隻受影響的生物施加位移效果。在挑戰階段，揮舞宗教聖像是一個權杖行動。
 
-Lucind: I’m just going to save my money. I’m not
-spending anything on upkeep.
+**鹽**
+消耗一格鹽，可將獵物製成口糧。鹽也能讓黏液和凍凍乾燥，若向它們投擲鹽。這被視為一次攻擊，成功時對黏液類怪物造成兩點傷勢。每個值得信賴的冒險者都應隨身攜帶一些鹽。
 
-Alisander: I’ll pay for you if you want.
+**盾牌**
+盾牌有多種樣式和製作方式，分為輕盾或重盾。盾牌佔用你的一個手部格位。
 
-Lucind: No, that’s okay. I’m in pretty good shape,
-actually.
+- 輕盾由木材製成，可承受 1 個缺口。
+- 重盾由金屬或類似堅固材料製成，可承受 2 個缺口。
 
-Lucind doesn’t pay anything so is destitute. She starts the next
-Crawl Phase Stressed and buys nothing during this phase.
+在挑戰階段，平局時攻擊者獲勝，除非防禦者持有盾牌。
 
-Step 6. City Actions
-GM: What City Actions does everybody do?
+若你持有盾牌，可以在一個雜項行動中將你的先攻替換為手牌中的任意一張。舊的先攻牌被棄置。
 
-Weela has been cultivating a species of dream moths in the
-City. She has brought back some rare flowers that she wants to
-feed the dream caterpillars. This has been an ongoing Support
-action. The GM has (secretly) determined that hatching the
-dream moths requires six steps of Support.
+**鏟子**
+鏟子是用於挖掘的工具。和鶴嘴鋤類似。但不同。（超大）
 
-The GM had noted the prices these treasures would bring in
-their notes, and quickly looks them up.
+**單眼望遠鏡**
+單眼望遠鏡可將景物放大最多五倍。
 
-Weela: I want to feed the flowers I found in the Spires to
-my dream caterpillar colony.
+**帳篷**
+帳篷可為最多兩人提供遮風避雨的舒適睡眠場所。若沒有睡袋或帳篷，在冰冷的地面上睡覺會讓你承受壓力。（超大）
 
-GM: OK, Alisander the scrimshaw goes for 20 gold and
-the gems are 30 gold each. That’s, uh…
+**修繕工具組**
+修繕工具組是金屬加工工具和廢金屬材料的組合。你可以使用修繕工具組，通過執行紮營行動「使用物品」來移除 1 個缺口，從而修復損壞的裝備。損毀的裝備無法以此方式修復。（2 格位）
 
-Alisander: 200 gold.
+**火炬**
+火炬為持燈者提供明亮的光線，為公會中其他所有人提供昏暗的光線。火炬掉落時有 50% 的機率熄滅。已熄滅的火炬幾乎不可能重新點燃。火炬在耗盡之前可閃爍 3 次（第 95 頁）。
 
-GM: Thanks. Anybody else?
+**靈木法杖**
+靈木法杖是讓術士集中其魔法潛能的儀式法器。若你擁有秘法術天賦（第 82 頁），可以將靈木法杖作為投射武器，對最遠一個區域外的目標創造魔法能量爆發。
 
-Weela: I want to sell the elephant idol.
+**武器**
+武器涵蓋以下武器章節（第 169 頁）中列出的各種基本武器和彈藥。
 
-GM: A merchant will give you 150 gold for it.
+- 銀製武器造價昂貴，但銀對狼人、精靈和某些類型的不死生物往往十分有效。然而銀製武器質地較軟，容易損壞。銀製武器只能承受 1 個缺口就會損毀。
 
-Lucind: What about this book I got? I’ll sell it.
+**狼毒草**
+狼毒草可驅退狼和狼人。若揮舞狼毒草，進行權杖考驗。若成功，對一隻受影響的生物施加位移效果。在挑戰階段，揮舞狼毒草是一個權杖行動。
 
-GM: A bookseller appraises this as a modern volume
-merely meant to look ancient. She offers you 3 gold in a
-condescending way.
+---
 
-Lucind: Eh. I’ll just keep it. Maybe I can sell it to
-someone stupider later.
+> 「要學習劍道，先要掌握掃地之術。當你掌握了掃地，你必須掌握打水之道。學會打水之後，你必須劈柴。劈柴之後，你必須學會在森林中尋找細草的技藝、書寫之術、造紙之術，以及作詩之道。你必須對錐子和筆同樣熟稔。當你掌握了這一切，你必須掌握建造房屋之術。一旦你的房屋建成，你對劍便再無需求，因為它不過是一塊醜陋的金屬，而其追隨者皆為蠢人。」
+>
+> ——《殺死六十億惡魔》，湯姆・帕金森—摩根
 
-GM: OK. Upkeep?
+## 武器
 
-Weela: Common.
+武器種類繁多。每種武器在挑戰階段都有基於其類型的特殊屬性。
 
-Weela pays 50g for common upkeep. She refills her pack with
-items from the impoverished and common equipment lists.
+大多數武器佔用 1 格位，長柄武器除外（佔用 2 格位）。除匕首外，所有近戰武器均可雙手持握，用於「雙手專注」天賦。
 
-Using flowers found in the Underworld is clever, but the
-GM thinks that some gold should also be spent. They lower the
-cost of the Support action as a reward for the flowers.
+武器類型如下：
 
-GM: OK! Sure. The flowers are a good idea. You’ll also
-need to spend 10 gold for basic maintenance in terms of
-water, care, and space.
+- 斧系武器
+- 刃劍系武器
+- 匕首系武器
+- 連枷系武器
+- 弓系武器（箭矢每格位疊放 12 支）
+- 錘鎚系武器
+- 弩系武器（弩矢每格位疊放 12 支）
+- 長柄武器（2 格位）
 
-Weela pays the cost and adjusts her gold totals. The GM
-updates their notes that Weela has taken another Support step
-on her moth project.
+### 斧
 
-Lucind: Because I’m destitute, I’ll Beg and Busk.
+斧涵蓋所有劈砍類武器，例如戰斧、戟斧或鶴嘴鋤。當斧的攻擊擊倒一個敵人時，你可以將同一個攻擊值用於同一區域中的另一個對手。
 
-GM: What does that look like for you?
+### 刃劍
 
-Lucind: Well, I’m primarily an academic, so I’m going
-to stand on the City’s squares and rant and rave about
-academic subjects.
+刃劍涵蓋所有類型的劍，從短劍到長劍。當你成功使用刃劍進行反擊時，造成 2 點傷勢而非 1 點。
 
-Everybody has a pretty good laugh at this image. Weela and
-Alisander both have the ally Bond with Lucind, so Lucind’s
-player charges her Bonds with those two characters.
+### 弓
 
-Lucind draws from the minor arcana deck and gets a Knight of
-Swords. Since knights have a value of 12, she adds her Wands 1
-for a total of 13 gold in donations from her public performance.
+弓是使用箭矢的遠程武器。持弓時，你可以使用特殊的瞄準挑戰行動。
 
-Alisander: Alisander is flush with cash. He’s going to live
-the life of luxury that he’s accustomed to.
+- 瞄準是寶劍行動。宣告你的目標，將牌面朝下打出。下次你以弓進行攻擊時，可以翻開這張牌並將其點數加入你的總攻擊值。
 
-GM: Alisander?
+若你持有投射武器時被近戰武器攻擊，攻擊者對你具有優勢。
 
-Alisander pays 100g. He refills his pack with anything from
-the Omphalic Market’s lists.
+### 弩
 
-Alisander: I’m going to Prepare Components.
+弩是配備鎖定機構以保持弓弦拉緊的機械化遠程武器。所有弩的攻擊均造成穿刺傷害。然而，發射後你必須以一個雜項行動重新上弦並裝填。
 
-172172
+若你持有投射武器時被近戰武器攻擊，攻擊者對你具有優勢。
 
-CHAPTER 9     |     THE CITY PHASE
+### 箭矢與弩矢
 
-Alisander chooses the spells Brainfever, Control Undead,
-and Necromancy. He writes these components down on his
-adventurer sheet, with each component taking a slot.
+你必須追蹤你的箭矢和弩矢。它們以每格位 12 支的箭袋形式攜帶。任何命中目標的箭都會損毀（你的對手在戰鬥中折斷箭桿，弩矢頭部在骨骼上變鈍等）。任何未命中的箭矢都可以在挑戰階段結束後回收。使用紮營行動「製箭」來補充損毀的箭矢/弩矢。
 
-Step 7. Plan the next Crawl
-GM: OK, so everybody has their actions done. Uh, let’s
-see. You all meet back up at a tavern. Do you want to go
-back to the Rat Cellar?
+### 匕首
 
-Weela: Ha ha, yes yes.
+匕首是短刃武器，包括細刃刀、格鬥短劍和蘇格蘭短劍。對手無寸鐵、定根或絆倒的目標，匕首造成穿刺傷害。匕首可以投擲，攻擊同一區域內的目標而無需接敵。
 
-GM: OK, you descend the familiar crumbling stairs down
-into the basement bar. You get your cups and pull yourself
-a draft of the terrible, licorice-smelling liquor called rat’s
-milk. The same unsavory characters as always are there—
-arm wrestling, getting in spitting contests. There’s a job
-board in the corner. A big rat is gnawing on the cork of
-the board. What do you all do?
+### 連枷
 
-Lucind: I go over, try and pet the rat, then read the
-job board.
+連枷涵蓋任何軟性武器，例如晨星或鐵球鏈。連枷的攻擊無法被盾牌抵消，且在與先攻平局時永遠獲勝。
 
-The GM has pre-constructed a table of contracts. They draw 5
-cards and read the corresponding contracts to the guild.
+### 錘或鎚
 
-The guild role-plays together. None of the contracts sound
-particularly appetizing to them for one reason or another. They
-did not complete Alisander’s quest last Crawl, so they will
-continue pursuing that goal. They briefly discuss what they
-think their leads are. The guild decides to try to go towards the
-Sepulcher of Titans dungeon.
+錘和鎚涵蓋任何類型的砸擊武器。當你的攻擊值至少是對手先攻的兩倍時，你的錘造成 2 點傷勢而非 1 點。
 
-Step 8. Restock the Underworld
-After the session, the GM opens up their notes document and
-goes into their random tables—specifically, their Meatgrinder
-table and their City Events table.
+### 長柄武器
 
-They delete the entries on the Meatgrinder table that have been
-drawn. After thinking a little about how the factions in the
-Underworld have changed because of the guild’s actions, they
-write some new Meatgrinder entries.
+長柄武器是帶有長柄的武器，包括長矛、戟和四分杖。持有長柄武器時，反擊為插斷行動。（2 格位）
 
-They delete the old City Event rumor about the star-daughter.
-They write a new rumor based on the Meatgrinder entries they
-just wrote.
+## 城市階段範例
 
-The GM looks over their maps and makes sure they’re all
-up to date.
+泥濘且帶傷，四 A 公會踉蹌著回到地面。公會成員包括：蟲類飼育師薇拉・長趾（地精，聖杯道途）、陰鬱的死靈術士阿里桑德（人類，權杖道途），以及考古學家露辛德（巨魔，聖杯道途）。他們很清楚四 A 公會只有三個成員——他們覺得這很有趣。
 
-In general, the GM doesn’t create new “plot.” They
-just think about the environment and make notes about
-potentially interesting consequences that could arise from
-the adventurers’ actions.
+**露辛德：** 我們通過調查那個古老的象族神祠，了解到了原始象族人的事。我認為城市裡沒有人在我們之前知道象族人的存在。
 
-173
+**GM：** 嗯。我是說，我同意這是有趣的學識，是新資訊，但它可能稱不上值得記錄的事蹟。
 
-CHAPTER 9     |     THE CITY PHASE
+**步驟 1. 死亡與稅金**
+
+**GM：** 當你們返回地面，全衛軍在地下世界的城門前等待你們。到現在你們已經很熟悉他們全臉頭盔上的紅色眼睛圖案了。大家都繳稅嗎？
+
+薇拉共攜帶 120 金和一座象族偶像雕像。她從冒險者卡上劃掉 60 金。
+
+阿里桑德攜帶 26 金、從象族偶像上撬下來的六顆紅寶石，以及各種描繪褻瀆儀式的巨鯨刻骨藝術品。他劃掉 13 金。
+
+露辛德攜帶 51 金和一本破舊的古書《高嗡狂喜之術》。她劃掉 25 金。
+
+在稍作停頓讓大家完成記帳後，GM 繼續主持本階段的剩餘部分。
+
+**步驟 2. 卓越事蹟**
+
+**GM：** 好的，你們的公會名冊在哪？這次潛入你們完成了哪些值得記錄的事蹟？
+
+城市階段開始時，公會擁有 2 點聲望。公會抵達地面時，GM 拿起公會名冊，抹去最舊的一項事蹟（將聲望降至 1）。每位公會成員各自進行一番思考。
+
+**薇拉：** 嗯，我們成功從那隻蛇髮女妖身上偷走了蛋，這相當了不起。
+
+**GM：** 確實。
+
+薇拉更新公會名冊。這使他們的聲望恢復至 2。
+
+阿里桑德想了一會兒，卻沒有任何有意義的事蹟可以貢獻。
+
+公會維持在聲望 2。
+
+**步驟 3. 城市事件**
+
+GM 從大阿爾卡那牌堆中抽取一張，並查閱城市事件表。他們抽到倒吊人牌（XII），得到一則傳聞：
+
+一顆墜落的星辰棲居於無邊護城河的一座島嶼上，他的女兒也隨之流亡而來。這對星辰生命在笨拙卻可愛地適應人類文化。星辰希望有人娶其女兒，並以一個願望作為嫁妝。然而，願望將由女兒來詮釋，因此最好讓她保持心情愉快，除非你希望願望變了味。
+
+GM 在心中記下這一點。
+
+**步驟 4. 繳交委託**
+
+**GM：** 好的，步驟 4——契約。你們拿到了受雇要取回的蛋。你們要去找惡意動物園的主人雨果・安德希爾大師嗎？
+
+**薇拉：** 是的！當然。我手持著蛋，見到他時咧嘴大笑。
+
+公會交付了他們設法取得的六顆蛇髮女妖蛋，每顆獲得 50 金。按照公會名冊的規定，公會平分戰利品——每人各得一百金。
+
+GM 角色扮演安德希爾大師對這批新成員加入他的動物園感到欣喜若狂。安德希爾大師繼而向公會講述了他聽說的一個傳聞，關於一顆墜落的星辰和星辰之女棲居在地下世界，以及他們據說能夠實現願望的能力。
+
+由於他們完成了一份契約，每位公會成員獲得 1 經驗值。
+
+**步驟 5. 生活費**
+
+**GM：** 好的，你們剛剛領了薪酬。大家要選哪個生活費等級？
+
+**阿里桑德：** 我有些東西想先出售。
+
+**GM：** 當然。
+
+在此步驟中，每位冒險者嘗試通過在臍帶市集出售資產來變現。
+
+**阿里桑德：** 我有六顆紅寶石和一些巨鯨刻骨藝術品。
+
+**GM：** 提醒我，你的紅寶石是從哪裡得來的？
+
+**阿里桑德：** 從象族偶像上。
+
+**GM：** 對，對。
+
+**露辛德：** 我就打算存錢。我不花任何生活費。
+
+**阿里桑德：** 如果你想的話，我可以替你付。
+
+**露辛德：** 不，沒關係。其實我狀態相當不錯。
+
+露辛德什麼都不付，因此淪為赤貧。她以壓力狀態開始下一個探索階段，且在本階段什麼都不購買。
+
+**步驟 6. 城市行動**
+
+**GM：** 大家要執行什麼城市行動？
+
+薇拉一直在城市中培育一種夢蛾。她帶回了一些稀有花卉，想餵給夢蝴蝶幼蟲。這一直是一個持續進行中的支援行動。GM（暗中）已決定孵化夢蛾需要六個步驟的支援。
+
+GM 記錄了這些寶藏的市場價值，並迅速查閱了他的筆記。
+
+**薇拉：** 我想把我在尖塔中找到的花卉餵給我的夢毛毛蟲群落。
+
+**GM：** 好的，阿里桑德，刻骨藝術品賣 20 金，寶石每顆賣 30 金。那就是……
+
+**阿里桑德：** 200 金。
+
+**GM：** 謝謝。還有人要賣東西嗎？
+
+**薇拉：** 我想賣掉象族偶像。
+
+**GM：** 一個商人願意出 150 金購買它。
+
+**露辛德：** 我得到的這本書呢？我要賣掉它。
+
+**GM：** 一個書商將這本書鑑定為僅是外表古舊的現代書籍。她以傲慢的態度出價 3 金。
+
+**露辛德：** 呃。我就留著吧。也許之後能賣給某個更好騙的傻瓜。
+
+**GM：** 好的。生活費呢？
+
+**薇拉：** 普通。
+
+薇拉支付 50 金以購買普通生活費。她從赤貧和普通裝備清單中補充物品填滿背包。
+
+在地下世界中找到的花卉是個聰明的想法，但 GM 認為還需要花費一些金幣。他們以此為獎勵，降低了支援行動的費用。
+
+**GM：** 好的！當然。花卉是個好主意。你還需要花費 10 金用於基本的灑水、照料和空間費用。
+
+薇拉支付費用並調整金幣總數。GM 在筆記中更新薇拉在她的飛蛾計畫上又完成了一個支援步驟。
+
+**露辛德：** 因為我赤貧，我要去乞討賣藝。
+
+**GM：** 對你來說，那是什麼樣子？
+
+**露辛德：** 嗯，我主要是學術研究者，所以我打算站在城市的廣場上，對著大眾滔滔不絕地講述學術課題。
+
+大家對這個畫面都感到相當好笑。薇拉和阿里桑德都與露辛德有盟友羈絆，因此露辛德的玩家為與那兩個角色的羈絆充能。
+
+露辛德從小阿爾卡那牌堆中抽取一張，得到寶劍騎士。由於騎士的點數為 12，她加上她的權杖屬性 1，共獲得 13 金的路人捐款。
+
+**阿里桑德：** 阿里桑德財源滾滾。他要過上他習慣的奢靡生活。
+
+**GM：** 阿里桑德？
+
+阿里桑德支付 100 金。他從臍帶市集的清單中補充任意物品填滿背包。
+
+**阿里桑德：** 我要去準備材料。
+
+阿里桑德選擇了法術「腦熱」、「操控不死」和「死靈術」。他將這些材料記錄在冒險者卡上，每個材料佔一個格位。
+
+**步驟 7. 規劃下一次探索**
+
+**GM：** 好的，大家的行動都完成了。呃，讓我看看。你們重新在一家酒館集合。你們想回鼠窖嗎？
+
+**薇拉：** 哈哈，好好。
+
+**GM：** 好的，你們沿著熟悉的破舊樓梯走下地下酒吧。你們拿起杯子，給自己倒了一杯那種難喝的、有甘草氣味的烈酒，叫做鼠奶。和以往一樣，那些不三不四的人在那裡——扳手腕、互相比賽吐口水。角落裡有一塊任務公告欄。一隻大老鼠正在啃咬公告欄的木塞。你們都怎麼做？
+
+**露辛德：** 我走過去，試著摸摸那隻老鼠，然後讀公告欄。
+
+GM 已預先構建好一張契約表格。他們抽取 5 張牌並將對應的契約念給公會聽。
+
+公會一起進行角色扮演。由於各種各樣的原因，沒有一份契約讓他們特別心動。他們上次探索中未完成阿里桑德的任務，因此將繼續追求那個目標。他們簡短討論了他們認為現有的線索。公會決定嘗試前往泰坦陵寢地城。
+
+**步驟 8. 補充地下世界**
+
+遊戲結束後，GM 打開他們的筆記文件，進入隨機表格——具體來說，是絞肉機表和城市事件表。
+
+他們刪除絞肉機表中已被抽到的條目。在稍加思索玩家的行動如何影響地下世界中的各派系後，他們撰寫了一些新的絞肉機條目。
+
+他們刪除了關於星辰之女的舊城市事件傳聞，並根據他們剛剛寫的絞肉機條目寫了一則新傳聞。
+
+GM 查閱了他們的地圖，確保所有地圖都是最新的。
+
+一般而言，GM 不會憑空創造新的「情節」。他們只是思考環境，並記錄冒險者的行動可能引發的潛在有趣後果。

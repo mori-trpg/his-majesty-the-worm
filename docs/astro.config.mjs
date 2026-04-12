@@ -10,7 +10,7 @@ import starlightAutoSidebar from 'starlight-auto-sidebar';
 
 const SITE_CONFIG = {
 	// 網站標題（顯示在導航列）
-	title: 'Cairn',
+	title: '蠕蟲之王',
 	// 預設語言
 	defaultLocale: 'zh-TW',
 	localeLabel: '繁體中文',
@@ -85,28 +85,68 @@ export default defineConfig({
 			// ============================================
 			sidebar: [
 				{
-					label: 'Introduction',
-					slug: 'bilingual/introduction',
+					label: 'Front Matter',
+					slug: 'front-matter',
 				},
 				{
-					label: 'Player Characters',
-					slug: 'bilingual/player-characters',
+					label: 'The Basics',
+					autogenerate: { directory: 'basics' },
 				},
 				{
-					label: 'Skills & Specialties',
-					autogenerate: { directory: 'bilingual/skills' },
+					label: 'The Adventurer',
+					autogenerate: { directory: 'adventurer' },
 				},
 				{
-					label: 'Combat & Damage',
-					autogenerate: { directory: 'bilingual/combat' },
+					label: 'The Guild',
+					slug: 'guild',
 				},
 				{
-					label: 'Magic',
-					autogenerate: { directory: 'bilingual/magic' },
+					label: 'Kith and Kin',
+					autogenerate: { directory: 'kith-and-kin' },
 				},
 				{
-					label: 'Travel',
-					autogenerate: { directory: 'bilingual/travel' },
+					label: 'The Four Paths',
+					autogenerate: { directory: 'four-paths' },
+				},
+				{
+					label: 'Crawl Phase',
+					autogenerate: { directory: 'crawl-phase' },
+				},
+				{
+					label: 'Challenge Phase',
+					autogenerate: { directory: 'challenge-phase' },
+				},
+				{
+					label: 'Camp Phase',
+					slug: 'camp-phase',
+				},
+				{
+					label: 'City Phase',
+					autogenerate: { directory: 'city-phase' },
+				},
+				{
+					label: 'Gamemastering',
+					autogenerate: { directory: 'gamemastering' },
+				},
+				{
+					label: 'Sorcery',
+					autogenerate: { directory: 'sorcery' },
+				},
+				{
+					label: 'Alchemy',
+					slug: 'alchemy',
+				},
+				{
+					label: 'Dungeon Denizens',
+					autogenerate: { directory: 'dungeon-denizens' },
+				},
+				{
+					label: 'City Creation',
+					autogenerate: { directory: 'city-creation' },
+				},
+				{
+					label: 'Underworld Creation',
+					autogenerate: { directory: 'underworld-creation' },
 				}
 			],
 			plugins: [starlightAutoSidebar()],
