@@ -38,7 +38,7 @@ def check_required_files(root: Path) -> list[str]:
 
 
 def run_cmd(cmd: list[str], cwd: Path) -> dict[str, Any]:
-    proc = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, encoding="utf-8", errors="replace")
+    proc = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
     return {
         "cmd": cmd,
         "cwd": str(cwd),

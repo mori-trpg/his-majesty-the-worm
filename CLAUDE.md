@@ -20,8 +20,8 @@ Convert PDF game rulebooks into a Traditional Chinese Markdown documentation sit
 
 **Law 3: Convention Consultation**
 
-- When task relates to documentation formatting or translation style, check the "Integrated Conventions" section in this file
-- MUST apply the listed conventions
+- When task relates to documentation formatting or translation style, apply established project conventions
+- MUST maintain consistency with existing patterns
 
 **Law 4: Parallel Processing**
 
