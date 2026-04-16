@@ -1,9 +1,9 @@
 {
   "_meta": {
     "description": "Translation progress tracker",
-    "updated": "2026-04-12",
+    "updated": "2026-04-16",
     "total_chapters": 41,
-    "completed": 35
+    "completed": 36
   },
   "chapters": [
     {
@@ -326,7 +326,7 @@
       "title": "寶劍與錢幣街區",
       "file": "docs/src/content/docs/city-creation/districts-swords-pentacles.md",
       "source_pages": "309-323",
-      "status": "in_progress",
+      "status": "completed",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -344,7 +344,7 @@
       "title": "地下世界建構",
       "file": "docs/src/content/docs/underworld-creation/index.md",
       "source_pages": "341-353",
-      "status": "not_started",
+      "status": "in_progress",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -353,7 +353,7 @@
       "title": "地城種子",
       "file": "docs/src/content/docs/underworld-creation/dungeon-seeds.md",
       "source_pages": "354-376",
-      "status": "not_started",
+      "status": "in_progress",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -362,7 +362,7 @@
       "title": "房間與陷阱",
       "file": "docs/src/content/docs/underworld-creation/rooms-and-traps.md",
       "source_pages": "377-390",
-      "status": "not_started",
+      "status": "in_progress",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     },
@@ -371,7 +371,7 @@
       "title": "範例地城：黃金幽靈之墓",
       "file": "docs/src/content/docs/underworld-creation/tutorial-dungeon.md",
       "source_pages": "391-411",
-      "status": "not_started",
+      "status": "in_progress",
       "notes": "",
       "source": "data/markdown/His Majesty the Worm (digital edition)_pages.md"
     }

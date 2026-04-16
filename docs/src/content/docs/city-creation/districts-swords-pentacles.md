@@ -5,844 +5,506 @@ sidebar:
   order: 1
 ---
 
-Swords
-
-I OF SWORDS
-The Mortuary of the God-Kings
-When the ancient god-kings died, their holy bodies were interred in the
-Mortuary of the God-Kings to be worshiped. When the Mythric faith took hold
-of the City, this pagan shrine was re-dedicated to martyrs and martyrdom. As
-such, it is a common place of pilgrimage for would-be crusaders.
-
-The building is a testament to the limits of architecture. It boasts an enormous,
-free-standing dome and a veranda of Doric columns. Beneath the flagstones, all
-of the god-kings of old are buried. Enormous statues bearing their stylized half-
-animal, half-human seemings are set in alcoves around the main dome.
-
-Sensations:
-Echoing voices. You can hear the prayers of supplicants hundreds of yards away. Enormous
-statues with bestial faces. Incense and smoke mingle together in the air, leaking their way
-out of the bright oculus in the center of the dome.
-
-Special City Action:
-• Pale prophecies: Sometimes, the old deified kings murmur things at night. If
-you spend the night in the Mortuary, you might hear the kings whisper their
-sad and perplexing prophecies to each other.
-
-II OF SWORDS
-The Temple of Strength
-A sacred gymnasium dedicated to the eighth incarnation of the Monad. Exercise
-and games of all kinds are practiced here. Participants in the City’s public games
-gather here to train and socialize. It is a spectacle of aesthetics aspiring toward
-peak physical perfection.
-
-For the most part, those entering the Temple of Strength disrobe completely.
-Artists and sculptors linger here to perform anatomical studies on the athletes.
-
-Sensations:
-The scents of sweat, oil, and analgesic mingle in the air. Men and women strain in
-concert, in conflict, or alone. Sand scrapes against the floor as two wrestlers attempt to
-gain purchase against each other. A gymnasiarch counts rhythmically to structure some
-exercise. The air is cool and damp from the bath steam.
-
-Special City Actions:
-• Get autographs: One of the most celebrated athletes in the City is willing to give
-autographs to promising young athletes who frequent the Temple of Strength.
-
-• Wrestle Hereclus: Nobody is able to defeat Hereclus the Strong in wrestling
-as long as his feet are on solid ground. There is a standing prize of 500g for
-whoever is able to beat him. So far, no one has been successful.
-
-297
-
-APPENDIX D     |     CITY CREATION
-
-III OF SWORDS
-Hangman’s Hill
-Hangman’s Hill is the district that executioners have historically used for their
-grim work. At the hill’s summit, an ancient, hunchbacked gallows stands. Peasants
-and princes, heretics and saints have all found death here.
-
-Whenever there’s an execution, folk from all over the City attend. The
-district’s street vendors and thermopolia are particularly famous because of
-this. Otherwise, the district is somewhat lonesome. The few natives are strange,
-reclusive, and just a little canny.
-
-Sensations:
-In the dying red sunlight, old women spit at you ritualistically. A crow’s cage creaks,
-its skeletal inhabitant partially spilling out of the iron bars. The tang of rust, iron, and
-excrement lingers here. Distantly, a dog howls.
-
-Special City Action:
-• Explore Hangman’s Hill: By all accounts, Hangman’s Hill is haunted. If
-
-you’re brave enough, you can journey into this district at night and see if the
-dead have anything of any worth.
-
-IV OF SWORDS
-Iron Street
-A squat black hill where the City’s smithies are housed. Here, you can purchase
-exquisite works wrought in iron and steel. Fitted armor and bespoke weaponry,
-beyond what one can purchase at the second-hand retailers in the Omphalic
-Market, are available here. The higher you climb on Iron Street, the better
-quality and more expensive the shops.
-
-This is where you go if you want an iron helm shaped like a bull, a pair of swords
-with Venus de Milo nudes as hilts, or a set of armor to fit your weird hunchback.
-
-Due to the proliferation of iron in the titular street, no magic can be cast on
-Iron Street.
-
-Sensations:
-The street is crowded and meandering. Ruined, rusty swords form mundane shapes: sign
-posts, weather vanes, hand-rails. The black smoke of a thousand smithies hangs over this
-hill. There is the smell of a dozen different fire accelerants. It tastes like a licked penny.
-Hammers ring like chiming bells day and night. An awful confluence of aggravating
-elements to the nose, eye, and tongue.
-
-Rumor:
-It is said that an elf named Tistusket Wrath-of-God is the greatest swordsmith
-of all time, forging as many as three magic swords. It’s also said he fucked off
-down to the Underworld. Several people are paying a high bounty for him to be
-brought back alive.
-
-Special City Action:
-• Duel: Sword nerds hang out on Iron Street and argue about sword theory. If
-you get in an argument with them, they’ll challenge you to a duel. If you win,
-you get their sword. Some of them carry pretty sweet swords.
-
-298298
-
-APPENDIX D     |     CITY CREATION
-
-V OF SWORDS
-The Vinegar District
-The City has taverns and winesinks at just about every corner and intersection.
-However, by far the greatest concentration of bars is in the Vinegar District.
-Extending thirteen blocks, the Vinegar District is famous for fermented
-food and beverages of all kinds, with each tavern having its own specialty.
-Somewhere in this district, you can buy fermented rat’s milk as well as “distilled
-regret,” “mermaid’s tears,” and “literal human blood.” You’re not sure that the
-bartenders are joking about those names.
-
-Sensations:
-Open vats of fermenting food and drink create a powerful ammonia-like smell. Clouds
-of fruit flies thicken the air. A few streets away, a conga line of dancers make their way
-toward you. There is a sound of breaking glass as a barroom brawl spills into the streets.
-
-Special City Action:
-• Loosen lips: Taking patrons to the Vinegar District is an excellent way to
-
-loosen their tongues about sensitive subjects. Test fate to ask a GM character a
-direct question they normally wouldn’t answer. Instead of adding an attribute,
-spend gold. You get +1 to this test of fate for each 20g you spend, max +5. On a
-success, they give you an honest answer.
-
-VI OF SWORDS
-The Bridge of Mourning
-The Bridge of Mourning is supported by nineteen irregular arches over the River
-Grey. Houses and buildings crowd its span, like Old London Bridge. There are
-over two-hundred buildings, some over seven stories high. It is separated into
-two lanes, one going west and one going east. The gatehouse on the east bank is
-notorious for its displays of the City’s justice: the severed, wax-coated heads of
-criminals rot on spikes in the hot sun.
-
-Sensations:
-The rotting heads at the gatehouse, along with the emptying of the public latrines into the
-river, create a potent stench. You hear the sound of two chatting old aunties shouting at
-each other across the narrow lane. Nearby, an emptied bucket of night soil sloshes over the
-side of the bridge into the Grey. The sound of flowing water is constant.
-
-Rumor:
-The legend says that long ago, a pious king rode from the City to fight a holy
-war against the orcs. During this war, a false report of his death was reported to
-his queen, who leapt from a bridge in despair. When the king finally returned
-home victorious and learned of his consort’s death, he forswore Mythrys and also
-leapt from the bridge. It is said the king was cursed for his blasphemy and still
-haunts this bridge. It is for this sad story the bridge is named.
-
-Special City Action:
-• Seek the Cursed King: If you seek the Cursed King, you might learn the secret
-of his blasphemous immortality. Test Wands. On a success, the Cursed King
-approaches you and gives you a terrible choice. On a failure, you begin to think
-that he is merely a legend.
-
-299
-
-APPENDIX D     |     CITY CREATION
-
-VII OF SWORDS
-The Shrine of Teeth
-In the shadow of one of the City’s many hills sits the Shrine of Teeth. The name
-is taken from the shrines in this district where parents offer their children’s milk
-teeth to pray for their health. Said to be a place of healing springs in ancient
-times, the district is still a place where leechcraft is practiced (though the volcanic
-vents have shifted and left the springs cold).
-
-During the early days of the Underworld, the Cult turned the wayside shrines
-found in this district into hospitals for crusaders. Though active Crusades are no
-longer happening, the hospitals remain—though now defunded by the Cult.
-
-Sensations:
-The cries of crippled beggars follow you down the street. Clay jars filled with milk teeth
-sit half-buried in the earth. Digging into the hill like maggots, homeless leechwives make
-crude shelters. You can smell the lingering scent of brimstone and briny water.
-
-Rumors:
-It’s whispered that those who dwell at the Shrine of Teeth know some magic that
-can shape animate limbs from the clay of that place—for a price.
-
-Special City Action:
-• Fit prosthetics: If you’ve lost a limb, you can find a (crude) prosthetic at the
-
-Shrine of Teeth. Leechwives will measure you for peg legs, affix hooks to your
-stump, and paint false eyes. There is no cost for this prosthetic outside of the
-use of a City Action.
-
-VIII OF SWORDS
-Bellringer’s District
-The Bellringer’s District is home to the bulk of copper- and tin-smithing in
-the City. The Bellringer’s District is also home to much gossip. Barbers, using
-freshly-honed copper scissors, trade the day’s news with the men to whom they
-give their morning shave. Messengers from the sovereign of the City often come
-here to cry their master’s proclamations so that they are quickly shared to all
-corners of the City.
-
-Sensations:
-Each hour, dozens of smiths toll bells in testament to the sturdiness of their wares. At
-the canonical hours—morning, noon, and evening—an especially elaborate noise is made.
-(Redsmiths are given a tax credit for keeping time of the holy hours in this way.)
-
-Special City Actions:
-• Keep an ear to the ground: If you spend time in the Bellringer’s District, you’ll
-
-hear rumors of all sorts. The GM tells you one of the rumors on their City
-Events table.
-
-• Spread rumors: You can tell all sorts of tall tales in the Bellringer’s District and
-find them repeated to you a month later as Mythrys’s own truth. Test fate to
-spread a rumor. Instead of adding an attribute, spend gold. You get +1 to this
-test of fate for each 20g you spend, max +5. On a success, you start a rumor that
-is counted as credible among less discerning citizens.
-
-300300
-
-APPENDIX D     |     CITY CREATION
-
-IX OF SWORDS
-The Grey Docks
-If the River Grey is the lifeblood of the City, the Grey Docks is the carcinogenic
-tumor on the heart. It is a nest of pirates and scoundrels who, unfortunately,
-control all of the sea-borne commerce of the City. The All-Watch rarely comes
-to this district, and the maritime merchants pay hefty bribes to keep it this way.
-Despite the anarchy and occasional savagery, the Grey Docks contain a sense of
-high adventure.
-
-Sensations:
-The Docks are a ship graveyard lashed together into a floating town. Hundreds of
-decrepit figureheads stare at each other across the unplanned expanse. It constantly
-bobs in the flood of the Grey. As it floats, the ships grind together: the barnacle-coated
-timber groans and complains. The air is heavy with the sweet smell of butchered whale
-viscera, the brackish stink of the river, and last night’s drinking binge. Pirate shanties
-are sung by gondolieri as they pull their flat-bottomed river boats. The taste of salt
-lingers palpably in the air.
-
-Rumor:
-It’s said that contacts in the Grey Docks can help you navigate the Underworld’s
-ocean, the Boundless Moat. If you grease the appropriate palms with gold, they
-will tell you the location of a hidden tavern inside the Underworld where you can
-book passage across those ever-dark waters.
-
-Special City Action:
-• Get tattoos: The tattoo subculture by the river is unrivaled, and all the best
-
-artists congregate there. This action grants you a cool tattoo.
-
-X OF SWORDS
-The Silent Quarter
-The Silent Order is a sect of the Cult of Mythrys that believes that the Monad
-manifests in the world as Death. This holy order serves as the City’s undertakers.
-They maintain the Ossuary, carefully cleaning the bones of the deceased and
-arranging them in beautiful patterns. In a metropolis as large as the City, their
-task is ceaseless.
-
-The Silent Quarter is one of the entrances to the Ossuary. By visiting this
-district, the aggrieved may pay respects to fallen comrades or purchase lavish
-funerals to bring honor and fame to the departed.
-
-Sensations:
-The Silent Order is bound by vows of silence, and thus an ominous stillness hangs over
-this district. Tall, basalt temples reflect the sound of footsteps down the streets and
-corridors in an eerie echo. The scent of preserving oils and incense hangs over the district.
-You hear the tolling of bells.
-
-Special City Action:
-• Visit grave: Visit the bones of a comrade in arms you’ve had a Funeral for (p.
-158). Pay 100g in grave gifts. Cry. Achieve catharsis. You cure one Curse effect,
-with the GM’s permission.
-
-301
-
-APPENDIX D     |     CITY CREATION
-
-PAGE OF SWORDS
-The Court Martial
-Officially, the Cult handles matters of temporal justice. Priests of high initiation
-interpret the City’s laws and mete out punishment or clemency. However, there is
-one authority higher than even the Cult in matters of justice: the Court Martial.
-
-The accused may seek a trial at the hazard of their body. Defendants will find
-themselves declared innocent on all charges if they manage to find themselves
-alive at the end of the day. However, the Court Martial is neither fair nor
-impartial. Combatants may be forced to fight in desperate attitudes: denied
-weapons, with one hand tied behind their back, facing six man-eating griffins, etc.
-
-Sensations:
-A fortress of daunting size, horseshoed around a tournament-ready courtyard. Battle-
-barristers, with their traditional white wigs, iron gavels, and armored robes, are often
-seen strolling the battlements and discussing the finer points of chivalric law. Nearby, you
-hear the loud arguments of justice being traded between three heartbroken lovers.
-
-Special City Action:
-• Trial by combat: If you are accused of breaking the City’s peace, you may
-demand a trial by combat at the Court Martial. The GM decides how guilty
-you seem in the eyes of the nobles of the City and sets the strictures of the
-tournament based on this perception. Arguing for yourself in Chivalric will
-definitely help you out here. Then, the GM divvies up roles to other players for
-the tournament and arbitrates a Challenge. If you survive, you will be declared
-innocent. If you fail, you will be found guilty and dead.
-
-KNIGHT OF SWORDS
-The Temple Militant
-There are many orders of knighthood: the vampire-worshiping Order of the
-Red Maw, the miserly gold-hoarding Order of Golden Splendor, the sky-clad
-polygamist Order of the Blue Kite. There is no order as famous and infamous,
-however, as the Order of the Athleta Mythrii—often called “templars.”
-
-The templars rose to power during the Crusades. The threat of incursion
-from the Underworld caused their ranks to swell with young men and women
-desperate to protect their homes. During the Crusades, the Order of the Athleta
-Mythrii won much renown for heroic deeds. However, after the Crusades, the
-City found they had an army prepared for holy war—and no wars left to fight.
-
-Sensations:
-The muezzin from the tall towers of the Temple Militant pierces through the bustle of the
-City below. The clank of armored knights slowly winding their way up the hill to answer
-the call to prayer. The scent of horse stables mixes with the lingering smoke of incense.
-
-Special City Action:
-• Seal away: It is the charge of the Order of the Athleta Mythrii to seal away the
-unholy abominations of the Underworld and keep creation pure (until Mythrys
-comes again and breaks the Demiurge’s works and reforges it anew). Beneath
-the Temple, there are deep caves that have been made into prisons. Anything
-you bring to the templars can be sealed into these prisons, as long as you can
-convince the holy knights that you are working Mythrys’s will.
-
-302302
-
-APPENDIX D     |     CITY CREATION
-
-QUEEN OF SWORDS
-The Brothel of Battle
-The Swordwhores are a free mercenary company who are one of the most
-powerful—and wealthiest—independent powers in the City. Members pay
-dues to the Swordwhores and, in return, are outfitted with the best ironwork
-that collective bargaining can buy. In theory, when called, the Swordwhores
-are expected to go to war—a ready army for whatever noble house buys them.
-In practice, the Swordwhores make enough gold through their independent
-conquests that they are able to refuse any contract.
-
-The Swordswhores station themselves in the Brothel of Battle, a small district
-catering to the unwholesome appetites of the violent. The cobblestone streets
-are crammed with taverns with tough and queer sounding names (“SWORD
-GRINDER!” “The Bridle and Harness”).
-
-Sensations:
-The streets are narrow and the buildings lean against each other. Prostitutes call out prices
-and preferences down from balconies. Two get into a disagreement, and one hops the small
-distance between their balconies to start a brawl. A crowd of appreciative Swordwhores
-gathers. A ribald tune is sung in a nearby tavern. The streets smell like old piss and ale.
-
-Special City Action:
-• Join the Swordwhores: For 100g in dues, you can join the Swordwhores.
-Thereafter, you may purchase iron and steel armor with an impoverished
-upkeep during the City Phase (p. 163).
-
-KING OF SWORDS
-The Court of Swords
-The blood games are one of the oldest, most popular, and most respected
-traditions of the City. In the Court of Swords, combatants display their
-courage, wit, and strength as they contest in the mortal arts. Victors are hailed as
-champions and given honors and riches. Losers are given funerals.
-
-Fights in the Court of Swords are considered profoundly religious by nature
-(though the practice predates the Cult of Mythrys). Death in the pit is framed in
-terms of sacrifice; those who die become blood offerings to the City itself.
-
-Sensations:
-Throughout the district, you can hear the cheers of the crowd. A thousand voices cry
-with a sound that rivals the thunder or the ocean. The gates of the Court of Swords are
-fashioned in the likeness of two combatants, each slaying the other. Passing beneath them,
-a huge inverted bell rings with the sound of battle.
-
-Special City Action:
-• Fight!: You can fight in the fighting pits and bet on yourself. How much
-
-money you earn depends on whether you win or lose. For brevity and respect
-for everybody’s table time, the fight is abstracted using blackjack.
-
-First, make a bet. Then, play a hand of blackjack against the GM. If you win, you
-win +25% of your bet. If you lose, you begin the next Crawl Phase Stressed. If
-you bust, you suffer a number of Wounds equal to your bust, less your Swords, to
-a minimum of 1 Wound. If this would cause you to check Death’s Door, you die.
-
-303
-
-APPENDIX D     |     CITY CREATION
-
-Pentacles
-
-304304
-
-I OF PENTACLES
-Licehouse
-There is a maze of twisted, ramshackle houses in the swamps called Licehouse,
-and it is the poorest district of the City. The people that live there dwell in abject
-poverty. In this district, those of the lowest class professions ply their trade:
-gong farmers, tanners, and knackermen. Orphans and lepers crowd the street,
-alternating between begging for alms and petty theft. Winesinks sell meat pies of
-dubious origin that are lovingly called “chewies.”
-
-Sensations:
-Tanneries and pigsties rot under the hot sun. The smell of stagnant swamp and open
-sewer is all-consuming. The stink seems to manifest in rolling banks of greenish fog that
-come off of the river and linger in the tumbledown alleyways. It’s a smell you can see. It’s
-a smell you can taste.
-
-Special City Action:
-• Dispose of bodies: The pig keepers of Licehouse will take body-shaped
-bundles of meat, no questions asked. If you have a body that you need
-disappeared, take it to Licehouse.
-
-II OF PENTACLES
-Orphanarium
-The terrible Orphanarium district is populated almost entirely by unsupervised
-children. Child gangs roam the streets—packs of sometimes beggars, sometimes
-thieves. Older children take care of the younger ones. The All-Watch are fearful
-to enter. It’s like Ender’s Game meets Lord of the Flies.
-
-How did a shantytown fall under the jurisdiction of orphans? It’s a confusing and
-contested history. Most scholars explain it as a reaction to how the Mythric Cult
-handled traditions of sacrifice and circumcision descended down from the days of
-the ancient god-kings. History aside, the little fuckers are right over there and
-they’re coming this way.
-
-Sensations:
-Children everywhere: squatting in doorsteps, crouched in alleyways, crying inside the
-shacks. The sounds of a quarrel. Dogs barking. Games abound: stick and hoop, dice (they
-gamble with baby teeth), ball and cup, you name it. Pastel-colored, simplistic graffiti.
-Smells like a locker room and greasy, burned sausages.
-
-Rumor:
-It’s said that a monster named the Bag Man lurks in the Orphanarium, kidnapping
-urchins. The Bag Man rides nightmares like horses, and uses them to travel easily
-between the Underworld and the City. If you could defeat the Bag Man, you
-might learn the secret of how he traverses between these two places.
-
-Special City Action:
-• Adopt: Delving into the Underworld makes some people sentimental. These
-people can adopt a child from the Orphanarium. Adopted children don't
-accompany the guild into the Underworld, but may be used as support staff in the
-City. You may note on the guild roster sheet that your adopted ward is your sole
-inheritor and may, if you wish, play as your ward if your current adventurer dies.
-
-APPENDIX D     |     CITY CREATION
-
-III OF PENTACLES
-The Gambol
-The Gambol is a district perched like a carrion crow atop the City. It consists of
-ramshackle bridges spanning chimneys, attics, and garrets. Its residents spend
-days, perhaps even weeks, never setting foot on solid ground. There’s an old
-adage that runs, “People never look up.” As such, the Gambol is favored by
-those who want to disappear: debtors, revolutionaries, and deposed tyrants from
-foreign lands. Other than the fact that it is an aerial district populated by the
-incognito, the Gambol is a normal place. It participates in commerce, celebrates
-weddings, and pays taxes like every other district.
-
-Special procedure:
-If you draw the III of Pentacles while mapping the City, draw again and place
-that district directly below the Gambol. The Gambol is the “top story” and the
-second district is the “bottom story.”
-
-Sensations:
-The wind whistles, shrieks, and howls between the buildings. Kites serve as street signs
-and mailboxes. Webs of rope provide scrambles between houses repurposed from steeples
-and chimneys. Bats chase moths across the pale night sky. It’s cold.
-
-Special City Action:
-• Lay high: Hide out in the Gambol and let the heat die down. If you do,
-
-someone that’s angry at you will waste their time and money failing to find you.
-For most offended parties, that will be the end of it. The GM should be upfront
-about how long you need to “lay high,” depending on the circumstances.
-
-IV OF PENTACLES
-The Curio Curia
-Everybody knows that anything can be bought or sold at the Omphalic Market.
-However, that’s not entirely true. Some things are illegal, even in the eagerly
-permissive City. Seditious materials, false coinage, human chattel, and dangerous
-sorcerous artifacts are never traded in the Omphalic Market. The answer to
-economic constraint is the black market. In the City, this takes the form of the
-Curio Curia, a shadow economy for any illicit good. Some of the things traded
-here are truly vile.
-
-Sensations:
-Cramped stalls in dim lighting. A giggling man with few teeth promises to show you
-something remarkable if you’ll step behind the curtain of his stall. Disabled waifs offer
-you half-dead chameleons for an outrageous price. The shrill cry of a rooster dying in a
-cockfight. A slaver extorts the virtues of the human body on the auction block. The scent of
-sickeningly sweet perfume. The clink of money exchanged.
-
-Special City Action:
-• Fence goods: If you come into a possession that would be unwise to sell
-
-through traditional channels, you may fence the goods at the Curio Curia.
-If you do so, the GM will set a “fair” price using the procedure described by
-“Prices” of page 158.
-
-305
-
-APPENDIX D     |     CITY CREATION
-
-V OF PENTACLES
-Little Birds’ District
-The City doesn’t have a formal postal service, but it does have the Little Birds.
-This mercantile company delivers messages within the City and to almost
-anywhere in the Wide World. The hilly neighborhood around their headquarters
-is named (aptly enough) the Little Birds’ District. Little Birds are marked by
-their silver bird brooches, slide whistles, and the feathers in their phrygian caps.
-Their reputation for discretion and success cannot be rivaled.
-
-Sensations:
-The bustling of messengers moving up and down the high hill. Savory smells from the
-street carts selling a variety of spicy food. The music of street performers and buskers. You
-hear a play being performed. The pear trees lining the street are in bloom; they do not
-smell particularly good.
-
-Special City Action:
-• Send letter: The Little Birds will deliver a letter to anywhere in the Wide
-
-World for the low, low rate of 10g. It’s a flat rate, whether within the City or
-without. Discretion is assured. The letter has a 1 in 14 chance of failing to arrive
-due to the hazards of travel.
-
-VI OF PENTACLES
-Lampwright’s Street
-In the City, light is a constant concern; in the Underworld, it is literally a matter
-of light and death. Lampwright’s Street caters to these concerns. Chandlers,
-tallow-mongers, lamplighters, oil producers, candlestick makers, pyromancers,
-and linkboys are all piled on top of each other: the narrow streets are crowded
-with hawkers giving elaborate demonstrations in light-craft.
-
-Lampwright’s Street is one of the few districts fully illuminated at night. As such,
-it is considered “good sport” by many thieves guilds. (This has sparked a rivalry
-between the chandlers and the thieves; the rivalry is more or less friendly.)
-
-Sensations:
-The stink of rendering whale fat. The smell of sulfur byproduct. Storefronts lit by
-a thousand lights; lamps, candles, votives, torches, candelabras, menorahs, lanterns;
-fueled by tallow, butter, fish-oil, olive-oil; casings made of stained glass, iron, white
-gold, painted wood, bronze.
-
-Rumor:
-Certain ingenious lampwrights are incorporating Underworld materials into their
-new designs. Several enterprising entomologists are attempting to breed a strain
-of Underworld inframoths that can survive on the surface. Other lampwrights are
-trying to lure will o’ wisps into lamps filled with corpse fat. These lampwrights will
-pay good coin for novel sources of illumination discovered in the Underworld.
-
-Special City Action:
-• Purchase fireworks: You can purchase fireworks for 25g per rocket by using this
-City Action. They can be set off during a Challenge to great effect—Blinding
-lights or Piercing Wounds, depending on how close the explosion occurred.
-
-•  Fireworks are fickle. There is a 25% chance that fireworks will misfire in some
-
-way: rocketing backwards, exploding prematurely, or fizzling out.
-
-306306
-
-APPENDIX D     |     CITY CREATION
-
-VII OF PENTACLES
-The Cloaca Maxima
-The guts of the City. There is a massive sewer that stretches beneath the streets.
-The center of the sewer is called the Cloaca Maxima. It houses the mechanisms
-that keep the sewer functional.
-
-It’s not much of a stretch to call the Cloaca Maxima a district. The City’s
-population is larger than its walls can contain. Even here, in the churning midst
-of the City’s excrement, people eke out a little existence. A universally poor, sad
-existence—but an existence, nevertheless. Unfortunately, those who dwell too
-long in the vile aqueducts that run beneath the City rarely come out...unchanged.
-
-Sensations:
-It stinks. I mean, it literally smells like shit. A smell so potent you can basically taste it.
-The grey sluice is always trickling, sometimes flowing, sometimes gushing: the eternally
-repeated sound of moving water. The walls drip with mold and brightly colored slime. In
-the darkness, something moves.
-
-Special City Action:
-• Mutation: Why are you hanging out in the sewer? You know what? Go ahead
-and get a random mutation. There are dozens of great random mutation tables
-out there. Go to a blog you like and grab one. Roll on it. Boom. Now you’re a
-mutant. Hope you learned your lesson about hanging out in gross old holes.
-
-VIII OF PENTACLES
-The Mount of Broken Amphorae
-The City’s trash heap is called the Mount of Broken Amphorae for good reason:
-clayware is by far the largest type of refuse that the City produces. Here, broken
-crockery is heaped high into piles. These hills are deadly sharp; a fall from their
-heights is death. It is frequently used as a place of executions by criminal gangs.
-
-The Mount is inhabited by a population of homeless people and a large breed of
-terrible albino cats; they are bitter rivals. Both groups sift through and scavenge
-the City’s garbage. The homeless sell scavenged bits to merchants of the
-Omphalic Market. Nobody knows what the cats do with the things they collect.
-
-Sensations:
-The terrible reek of refuse: not just garbage, but hot garbage. Flies buzz in thick clouds.
-An albino cat, daintily walking down one of the hills of broken clay triggers a small
-avalanche. The tinkling sound of breaking earthenware and shattering glass.
-
-Rumor:
-The cats have a marketplace of their own in the far realm of the Weird.
-Sometimes, they trade the garbage of the Mount of Broken Amphorae for things
-lost in the Underworld, then hoard these things in their dens.
-
-Special City Action:
-• Doodlebug: To go searching among the broken refuse is called
-
-“doodlebugging.” Declare that you’re looking for one item that you
-lost in the Underworld—not an item that was destroyed, given away, or
-stolen—legitimately lost. You have a 50% chance to find this exact item while
-doodlebugging.
-
-307
-
-APPENDIX D     |     CITY CREATION
-
-IX OF PENTACLES
-The Lichyard Market
-The Lichyard Market is the main meat market, a gourmand’s delight, and a
-grotesque spectacle. It houses some of the finest taverns, popular thermopolia,
-and cesspools of biowaste in the City.
-
-Sensations:
-The open-air market is a riot of smells. Flies cloud the air. The ground is sticky with
-blood. Everything Upton Sinclair wrote is true here. The taverns are another matter.
-Foreign music and obscure languages wafting through the windows. Intoxicating smells:
-wine, garlic, butter. Raucous laughter. Someone is thrown through a window.
-
-Rumor:
-Miss Kinsey’s Dining Club lives in barely-tolerated infamy. At Miss Kinsey’s,
-no food is forbidden. Everything from rare flailsnails to ogre testicles to purple
-shrieker mushrooms are cooked, eaten, savored, and discussed. Here, you can
-enjoy the other, other, other white meat.
-
-Special City Action:
-• Attend Miss Kinsey’s Dining Club: The cost of entry is: One steak of meat
-
-from a strange monster or beast, to be shared by those assembled. If the cost is
-paid, you join Miss Kinsey for dinner with other adventuring guilds. You may
-ask any one question about the Underworld and hear something resembling a
-helpful rumor on the subject in question.
-
-X OF PENTACLES
-Master Hugo Underhill’s Menagerie
-Hugo Underhill is a corpulent glutton that sponsors a large circus and
-menagerie. His main attractions are monsters and fantastic beasts captured and
-brought up from the Underworld. These attractions are hosted on his private
-estate, a large natural preserve and greenspace in the utterly urbanized center of
-the Wide World.
-
-Is it incredibly irresponsible to jam some of the deadliest and most magical
-creatures into cages and let the public come view them for a few gold? Absolutely.
-Still, here we are.
-
-Sensations:
-You hear: See Master Underhill’s Marvelous Menagerie! Be educated by his diverse
-fables. Be delighted by his animal players. Do not be frightened, ladies.
-
-You see: Behind a (very low, rickety) fence, there is a hydra. There is a heavy chain
-around the main trunk of its snake-like body. It looks starved. It sits in its own shit.
-Down the path, a sorcerer has cast a spell to make it seem like the mantyger is friends with
-the lion; both are shaking and obviously terrified.
-
-Special City Action:
-• Harvest alchemical reagents: You can harvest alchemical reagents from
-
-monsters in the menagerie for a cost of 25g per reagent. These reagents may be
-transformed into alchemical substances through the Alchemy talent (p. 78).
-
-308308
-
-APPENDIX D     |     CITY CREATION
-
-PAGE OF PENTACLES
-The Colonies
-The Colonies are an ethnic enclave for the City’s minority underfolk population.
-Here, their folkways are practiced: cooking, music, jokes, fashion, and traditions.
-It forms an essential stepping stone for underfolk immigrants to the City—a place
-where interpersonal relationships, employment, and housing can be established
-in the human world. The Colonies also house the underfolk consulate, called the
-Embassy of Bronze. The Embassy of Bronze hosts the members of the Council
-of Liveries when they come to the City on diplomatic missions.
-
-Special Procedure:
-If you draw the Page of Pentacles while mapping the City, draw again and place
-that district directly above the Colonies. The Colonies are beneath whichever
-district is drawn second.
-
-Sensations:
-Lanterns shed pools of soft, yellow light at standard intervals throughout the underground
-complex. A wedding is happening down the corridor and you can smell the roast mushrooms
-and hear the recitations of the Book of Traditions. Nearby, two halflings argue over the
-price of fortified versus non-fortified wine.
-
-Special City Action:
-• Commission dwarven mastercraft: The cost of dwarven craft is 50g per syllable
-
-of the commission. The commissioned item is in some way better than a
-standard item, as determined by the GM. As an example, a dwarven weapon
-or piece of armor may be Notched one additional time. A dwarven lamp may
-flicker one additional time.
-
-KNIGHT OF PENTACLES
-Whorestown
-Its official name is the “People’s Republic of Pussy,” but most folks call it
-Whorestown. The whores of Whorestown rebelled against the central authorities
-two years ago. Everybody has been so busy with the coming of the Underworld,
-nobody has yet expended the resources to return this district to the yoke. In some
-ways, Whorestown is a tiny political experiment in the midst of feudalism. The
-women and men who make their living there are experimenting with philosophies
-that are hitherto absent in this pseudo-historical fantasy kitchen sink.
-
-Sensations:
-Fake, squealing moans. Political slogans and catcalls mixed together. Drunken songs
-floating through the night. Clouds of thick, cloying perfume. Brothels painted with bright,
-warm colors. Lewd graffiti.
-
-Rumor:
-Despite the ubiquity of their services, prostitution is not socially acceptable for the
-ruling or clerical classes. As such, it’s rumored that there are literally secret tunnels
-to Whorestown from every other district in the City. If you’re looking for a secret
-path into a particular area of the City, there’s probably one in Whorestown.
-
-Special City Action:
-• Pillow talk: Spend 10g to gossip with the whores as you lie spent, sticky, and
-sweaty. You may ask the GM for one City character’s likes or dislikes (p. 180).
-They will tell you a rumor about that character’s predilections.
-
-309
-
-APPENDIX D     |     CITY CREATION
-
-QUEEN OF PENTACLES
-The Street of Beggars
-The most impoverished residents of the City live on the wretched Street of
-Beggars. It hosts leper houses, orphanages, religious mendicants, and a vast
-homeless population.
-
-Despite its residents being in abject poverty, the Street of Beggars is the home
-to one of the City’s most powerful factions: the Beggars Guild. The Beggars
-Guild regulates all petty crime. All pickpockets, racketeers, highway bandits, and
-river pirates pay tithes to the Beggars Guilds. The thieves who don’t quickly find
-themselves turned inside out and dumped into the Grey.
-
-Is every beggar you see some expert thief? Of course not. But it’s possible they
-pay dues to some faux-beggar that is. If they see something worth reporting they
-might get a kickback. That’s why it’s risky to speak about clandestine matters
-in the City streets: you never know what lurking leper might overhear you and
-report back to their masters.
-
-Sensations:
-If you’re not from the district, it’s almost impossible to move through it without a sturdy
-honor guard: the lame, widowed, disenfranchised, and orphaned cluster around you.
-Lice and fleas are stirred by your steps down the street. It smells of dust. Twisted brown
-mushrooms grow from the wooden planks of the dilapidated houses. You hear the ringing
-of hand bells warning you that a leper colony is coming up behind you.
-
-Rumor:
-The Beggars’ House is an almshouse providing squalid shelter to the homeless
-population of the district. It is also the (not so) secret headquarters of the
-powerful Beggars Guild. Everybody knows this.
-
-People don’t know that the Beggars’ House also hides a secret entrance to the
-Underworld. This is how members of the Beggars Guild transport booty back
-from the Underworld while avoiding the City’s adventuring taxes.
-
-However, anybody using this portal is subject to a more insidious tariff. The
-ancient masters of the Beggars Guild are entombed in the catacombs of Beggars’
-House. The thieves that pass through their domain must pay the strange price
-demanded by these unliving things.
-
-Special City Action:
-• Join the Beggars Guild: For 100g in dues, you can join the Beggars Guild.
-Thereafter, you may use the Beggars Guild’s secret entrance into the
-Underworld. The Beggars Guild does not impose a 50% coin tax. They do,
-however, require that you “donate” one item of their choice whenever you use
-their secret portal. This might be your most precious artifact. This might be an
-item of no consequence.
-
-310310
-
-APPENDIX D     |     CITY CREATION
-
-KING OF PENTACLES
-The Court of Coins
-In a lonely quarter of the City is a foreboding building: a strange temple to an
-unworshipped god. This is the Court of Coins. The name refers both to the fane
-itself and the organization that dwells there.
-
-The Court of Coins is the preeminent guild of assassins. (There are a few others—
-the Drownies, the Hashashin, the Cat’s Paws—but none as ancient, noble, or
-famous.) They reasonably claim that all things have a price—even a life. If they are
-given the appropriate fee for the life, they consider that life forfeit. It is said they
-have never failed. However, the fees they ask are enormous. You could usually
-raise a small mercenary army for the price of a humble merchant’s head.
-
-Sensations:
-A temple with a majestic dome squatting in the center of an ugly island in the middle of
-the Grey. Its gates are framed in elephant’s ivory, its doors are carved of heavy onyx. The
-temple is completely hushed; none dare speak. You do hear the bubbling of a fountain in the
-inner sanctuary. It is dark. Butter candles sit in recesses in the walls but offer little light.
-Moths flutter about. There is a sweet smell, like formaldehyde.
-
-Rumor:
-Members of the Court of Coins demarcate themselves by one sign only: the
-possession of a rare double-headed coin. Before they assassinate anybody, they
-slip this coin into the pocket of their intended target. By the time their targets
-find this coin and cast it away, it is already too late: they have been marked.
-
-If this double-headed coin is given freely away it can pay for almost any service.
-Anybody in possession of such a coin cannot be targeted by the Court of Coins.
-“You cannot have two coins,” it is said.
-
-It is further rumored that the original assassin cannot continue their work until
-their original coin is recovered.
-
-Special City Action
-• Contract assassination: If you travel to the Court of Coins and state the name
-
-of your target, a non-descript man will quote you a price. This price is probably
-patently ridiculous, but can range from 5,000g to a dragon’s egg. If you pay it,
-the man will consent to your request. Within the month, this named person will
-be dead.
-
-The Court of Coins will only target someone in the Wide World. They do not
-enter the Underworld.
-
-311
-
-APPENDIX D     |     CITY CREATION
+## 寶劍
+
+### 寶劍一：神王停屍間
+
+古代神王駕崩後，其神聖遺體被安葬於神王停屍間，以供信徒朝拜。密特里斯信仰傳入城市後，這座異教聖祠被重新獻給殉道者與殉道精神。因此，此地成為有志聖戰者常見的朝聖之所。
+
+這座建築是建築極限的見證——它擁有一座巨大的獨立穹頂，以及一排多立克式廊柱的門廊。石板之下，所有上古神王皆長眠於此。主穹頂四周的壁龕中，矗立著巨大雕像，呈現神王們半獸半人的神聖形象。
+
+**感官描述：**
+
+回聲繚繞。數百碼外的祈禱聲清晰可聞。巨大的異獸面孔雕像矗立四周。香煙在空中交融，從穹頂中央明亮的圓窗緩緩飄散而出。
+
+**特殊城市行動：**
+
+- 蒼白的預言：有時，那些已被奉若神明的古王會在深夜低語。若你在停屍間過夜，或許能聽見神王們彼此低聲交換那些哀傷而令人費解的預言。
+
+---
+
+### 寶劍二：力量神殿
+
+一座獻給一元神第八化身的神聖體育館，各式運動與競技皆在此地進行。城市公開競技大會的參賽者聚於此處訓練與交流。這裡是追求極致體能的美學奇觀。
+
+進入力量神殿者，通常會褪去全部衣物。藝術家與雕塑家流連於此，對運動員進行解剖學研究。
+
+**感官描述：**
+
+汗水、油脂與止痛藥膏的氣味在空中混合。男男女女或齊心協力，或相互對抗，或獨自苦練。兩名角力手試圖取得制衡，腳踩沙地發出摩擦聲響。體育館長以規律的節奏計數，引導某項訓練。浴蒸的濕氣讓空氣涼意陣陣。
+
+**特殊城市行動：**
+
+- 索取簽名：城市中最受稱頌的運動員之一，願意為時常光顧力量神殿的優秀年輕運動員親筆簽名。
+
+- 與海瑞克魯斯角力：只要腳踩實地，就沒有人能在角力中擊敗大力士海瑞克魯斯。至今仍有一筆 500 金的常設懸賞，等待有人能打敗他——而至今從未有人成功。
+
+---
+
+### 寶劍三：絞刑丘
+
+絞刑丘是歷來行刑者執行死刑的街區。山丘頂端矗立著一座佝僂的古老絞架，農民與王公、異端與聖徒皆曾在此走向終點。
+
+每逢行刑，城市各處的居民都會前來圍觀。正因如此，此街區的路邊攤販與熱食店格外有名。其他時候，這裡則顯得有些冷清——少數原住民性情怪異、喜愛獨居，並帶著幾分精明。
+
+**感官描述：**
+
+在垂死的紅色夕陽下，老婦人們向你儀式性地吐口水。一個烏鴉籠隨風嘎嘎作響，骸骨般的棲居者有一部分從鐵欄杆縫隙中探了出來。這裡瀰漫著鏽味、鐵腥與排泄物的氣息。遠處，一隻狗在嚎叫。
+
+**特殊城市行動：**
+
+- 探索絞刑丘：傳說絞刑丘鬧鬼。若你有膽量，可以在夜間前往此街區，看看亡者是否留有任何值得一探的東西。
+
+---
+
+### 寶劍四：鐵器街
+
+城市的鐵匠舖群集於一座低矮的黑色山丘之上。此地可購得精湛的鐵器與鋼製工藝品——精製護甲與訂製武器，品質遠超臍帶市集的二手貨。越往鐵器街高處走，店家的品質越高，價格也越昂貴。
+
+若你想要一頂形如公牛的鐵盔、一對以維納斯裸像為護手的雙劍，或一套為你那奇特的駝背身形量身訂製的護甲，這裡就是你的目的地。
+
+由於鐵器街上鐵器遍布，此街無法施展任何魔法。
+
+**感官描述：**
+
+街道人潮擁擠、曲折蜿蜒。破損的鏽劍被拿來充作路標、風向標、扶手等平凡用途。千座鐵匠舖的黑煙籠罩山丘。各式助燃材料的氣味混雜其中，入口像在舔一枚銅板的滋味。鐵錘聲日夜如鐘鳴響。這裡對鼻子、眼睛和舌頭來說，是一場令人難受的感官折磨。
+
+**傳言：**
+
+據說有位名叫提斯塔斯凱特‧神怒的精靈是古往今來最偉大的劍匠，曾鍛造出多達三把魔法劍。也有人說他已跑去了地下世界。有幾個人正以高額賞金懸賞將他活著帶回來。
+
+**特殊城市行動：**
+
+- 決鬥：劍術狂熱者聚集在鐵器街，爭論劍術理論。若你與他們起了爭執，他們會向你發起決鬥。若你獲勝，你可以得到他們的劍——其中有些人帶著相當不錯的寶劍。
+
+---
+
+### 寶劍五：醋醃街區
+
+城市的每個街角與路口幾乎都有酒館和廉價酒館。然而，酒館密度最高的地方，非醋醃街區莫屬。醋醃街區綿延十三個街區，以各式發酵食品與飲料聞名，每家酒館各有其招牌特色。在這個街區某個角落，你可以買到發酵鼠乳，以及「蒸餾的遺憾」、「美人魚的眼淚」和「真實的人血」。你不確定那些酒保說的是玩笑話。
+
+**感官描述：**
+
+發酵食物與飲料的大型開放桶散發出強烈的阿摩尼亞氣味。蚊果蠅成群在空中打轉。幾條街外，一排跳康茄舞的舞者正朝你蜿蜒而來。不遠處傳來玻璃碎裂聲，酒吧群架蔓延到了街上。
+
+**特殊城市行動：**
+
+- 鬆動嘴巴：帶人到醋醃街區是讓他們對敏感話題開口的絕佳方式。考驗命運，向一位主持人角色提問一個他們平時不會回答的問題。不是加屬性，而是花費金幣。每花費 20 金，此次命運考驗獲得 +1，最高 +5。成功時，他們給你一個誠實的答案。
+
+---
+
+### 寶劍六：哀橋
+
+哀橋以十九道不規則拱門橫跨灰河之上。橋面上房屋與建築密集，宛如舊日的倫敦橋。橋上有逾兩百棟建築，部分高達七層。橋面分為兩條車道，一往西、一往東。東岸的城門樓以展示城市正義著稱：罪犯的首級被塗上蠟、釘在尖樁上，在烈日下腐爛。
+
+**感官描述：**
+
+城門樓的腐爛頭顱，加上公共廁所直接排入河中的穢物，散發出濃烈的惡臭。你聽見兩位嘮叨的老太太隔著狹窄的車道互相大喊。旁邊，一桶夜壺的穢物嘩地潑過橋邊，落入灰河之中。流水聲不曾間斷。
+
+**傳言：**
+
+傳說久遠之前，一位虔誠的國王騎馬出城，對獸人發動聖戰。戰爭期間，有人誤報國王陣亡，王后聞訊絕望，從橋上縱身一躍。當國王最終凱旋歸來，得知愛侶已逝，他憤而棄絕密特里斯，也從橋上躍下。據說國王因褻瀆神明而遭到詛咒，至今仍徘徊於此橋之上。這座橋便以這段悲傷的故事命名。
+
+**特殊城市行動：**
+
+- 尋訪受咒之王：若你前去尋訪受咒之王，或許能得知他那褻瀆神明的不死之秘。考驗權杖。成功時，受咒之王會主動靠近你，給你一個可怕的抉擇。失敗時，你開始認為他不過是個傳說。
+
+---
+
+### 寶劍七：牙齒聖祠
+
+城市某座山丘的陰影中，座落著牙齒聖祠。此名源自街區內的眾多聖龕——父母會在此奉上孩子的乳牙，祈求孩子健康。此地據說在古時是治癒泉的所在地，至今仍有人在此行醫（儘管火山通道已位移，泉水也已冰冷）。
+
+在地下世界的早期歲月，教團將此街區各處的路邊神龕改建為供十字軍使用的醫院。雖然主動的十字軍行動已不復存在，這些醫院仍留存——只是已被教團撤除資助。
+
+**感官描述：**
+
+殘疾乞丐的哭喊聲沿街追隨著你。裝著乳牙的陶罐半埋在土裡。無家可歸的醫婆像蛆蟲一般鑽入山丘，搭起簡陋的庇身之所。你能聞到殘留的硫磺與鹹水氣息。
+
+**傳言：**
+
+有人私下傳說，居住在牙齒聖祠的人們掌握某種魔法，能以此地的黏土塑造出有生命的肢體——但需要付出代價。
+
+**特殊城市行動：**
+
+- 安裝義肢：若你失去了某條肢體，可在牙齒聖祠找到（粗製的）義肢。醫婆們會為你量製木腿、在殘肢上裝上鉤子，並描繪假眼。此義肢無需金幣，只需消耗一個城市行動。
+
+---
+
+### 寶劍八：鐘聲街區
+
+鐘聲街區是城市大多數銅器與錫器工藝的聚集地，同時也是流言蜚語的溫床。理髮師用磨利的銅剪替人晨間剃鬚時，順手交換著當日的新聞。城市君主的使者時常來此宣讀主上的告示，使消息迅速傳遍城市各個角落。
+
+**感官描述：**
+
+每個整點，數十位工匠敲響銅鐘，以此見證自家貨品的品質。在規定的時辰——清晨、正午與傍晚——鐘聲尤其繁複壯觀。（銅器匠以這種方式報時守候神聖時辰，可獲得稅務減免。）
+
+**特殊城市行動：**
+
+- 留心動靜：若你在鐘聲街區消磨時光，將會聽聞各式各樣的流言。主持人會告訴你他們城市事件表上的其中一則傳言。
+
+- 散播謠言：你可以在鐘聲街區大肆說些荒誕不經的故事，一個月後，它們又會原封不動地傳回你的耳裡，成了「密特里斯的真諦」。考驗命運以散播謠言。不是加屬性，而是花費金幣。每花費 20 金，此次命運考驗獲得 +1，最高 +5。成功時，你散播出一則謠言，在辨別能力較差的市民之間被視為可信的消息。
+
+---
+
+### 寶劍九：灰色碼頭
+
+若說灰河是城市的生命之血，灰色碼頭便是那心臟上的惡性腫瘤。這是一座海盜與惡棍的巢穴，而他們不幸地掌控著城市所有的海上貿易。全監衛鮮少踏足此街區，海上商人也花費重金賄賂，以維持現狀。儘管無法無天、偶有暴行，灰色碼頭仍瀰漫著一股豪情冒險的氣息。
+
+**感官描述：**
+
+碼頭是一座由破爛船隻拼湊而成的船隻墓場，連綴成一座漂浮的城鎮。數百個破舊船首像在雜亂無章的空間中彼此對視。它在灰河的洪流中不停顛簸，船隻互相研磨發出聲響——覆滿藤壺的木材呻吟抱怨。空氣中瀰漫著剖開的鯨魚內臟的甜膩氣味、河水的鹹腥，以及昨夜狂飲的餘味。貢多拉船夫划著平底河船，唱著海盜船歌。空氣中有鹹味，真實可嚐。
+
+**傳言：**
+
+據說在灰色碼頭的人脈可以幫助你穿越地下世界的海洋——無盡深淵。若你打通了關係，花費一定金幣疏通，他們會告訴你地下世界深處一間隱藏酒館的位置，在那裡你可以預訂橫越那片永黑之海的船票。
+
+**特殊城市行動：**
+
+- 刺青：河邊的刺青文化舉世無雙，最優秀的藝術家都聚集在此。此行動讓你獲得一個酷炫的刺青。
+
+---
+
+### 寶劍十：靜默區
+
+靜默修會是密特里斯教團的一個派別，相信一元神以死亡的形式在世間顯現。這個神聖修會擔任城市的送葬者，負責維護骨骸庫——仔細清洗逝者的骸骨，並將其排列成美麗的圖案。在城市這樣一座大都會中，這項工作永無止盡。
+
+靜默區是進入骨骸庫的入口之一。造訪此街區，哀痛者可向戰死的同袍致意，或購置奢華的葬禮儀式，為逝者帶來榮耀與聲望。
+
+**感官描述：**
+
+靜默修會立有沉默誓約，因此一股肅殺的靜謐籠罩著整個街區。高聳的玄武岩神殿將腳步聲沿著街道與迴廊折射，留下詭異的回響。防腐油與薰香的氣味瀰漫街區。你聽見鐘聲低鳴。
+
+**特殊城市行動：**
+
+- 探訪墓地：探訪你曾為其舉辦葬禮的戰友骸骨（第 158 頁）。獻上 100 金的墓葬供品。痛哭一場，達到心靈的淨化。在主持人同意下，你消除一個詛咒效果。
+
+---
+
+### 寶劍侍者：軍事法庭
+
+正式而言，城市中的世俗正義事務由教團處理。高階聖職人員詮釋城市法律，裁決懲罰或寬赦。然而，在正義事務上，有一個權威凌駕於教團之上，那便是軍事法庭。
+
+被告可以豁出身家，尋求庭審。只要在當天結束時還活著，被告便可獲宣告所有罪名無罪。然而，軍事法庭既不公平，也不中立——戰士可能被迫在極不利的態勢下戰鬥：被剝奪武器、一手反綁、面對六隻食人獅鷲等。
+
+**感官描述：**
+
+一座氣勢懾人的堡壘，呈馬蹄形圍繞著一座適合比武的庭院。戰鬥出庭律師身著傳統白假髮、手持鐵製法槌、穿戴鎧甲長袍，時常在城牆上踱步，探討騎士法律的精妙之處。不遠處，你聽見三個心碎的戀人激烈爭辯著公義。
+
+**特殊城市行動：**
+
+- 決鬥庭審：若你被指控破壞城市和平，可向軍事法庭請求決鬥庭審。主持人根據城市貴族眼中你的罪孽深淺，決定你的觀感，並據此設定比賽的規則。在庭上以騎士語為自己辯護，絕對大有幫助。隨後，主持人將角色分配給其他玩家參與比武，並仲裁一場挑戰。若你存活，你將被宣告無罪。若你落敗，你將被判定有罪並死亡。
+
+---
+
+### 寶劍騎士：戰士神殿
+
+騎士團的種類繁多：崇拜吸血鬼的紅爪騎士團、守財積金的黃金榮耀騎士團、裸體多妻的藍風箏騎士團。然而，沒有哪個騎士團比神學武士團（又稱「聖殿騎士」）更為舉世聞名，亦更為聲名狼藉。
+
+聖殿騎士在十字軍東征期間崛起。來自地下世界的入侵威脅，使大批渴望保家衛國的年輕男女湧入其中。在十字軍時代，神學武士團以英勇事蹟贏得了極高聲望。然而十字軍東征結束後，城市才驚覺手中養著一支準備好打聖戰的軍隊，而戰爭卻已無從打起。
+
+**感官描述：**
+
+戰士神殿高塔上的宣禮聲穿透城市下方的喧囂。盔甲騎士緩緩沿山而上，回應禮拜的召喚，甲胄叮噹作響。馬廄的氣味與薰香煙霧的餘味混合交融。
+
+**特殊城市行動：**
+
+- 封印：神學武士團的使命是封印地下世界的不潔邪物，保護創世的純淨（直到密特里斯再臨，打碎造物主的作品並重鑄一切）。神殿之下有深邃的洞窟，已被改建為牢獄。只要你能說服這些聖騎士相信你是在履行密特里斯的旨意，任何帶來的東西都可以被封印其中。
+
+---
+
+### 寶劍皇后：戰場妓院
+
+劍妓傭兵團是城市中最強大也最富裕的獨立勢力之一。團員繳納會費，換取集體議價所能買到的最佳鐵器裝備。理論上，一旦被召喚，劍妓們便應出征——充當任何出得起錢的貴族之家的現成軍隊。實際上，劍妓們靠自行征戰賺取了充足的金幣，足以拒絕任何合約。
+
+劍妓們的據點設在戰場妓院——一個迎合暴力人士不雅口味的小型街區。鵝卵石街道上擠滿了名字粗獷奇特的酒館（「劍磨機！」「轡與馬具」）。
+
+**感官描述：**
+
+街道狹窄，建築互相倚靠。妓女們從陽台向下報價，吆喝著各自的喜好。兩人起了爭執，其中一人躍過陽台間的窄小間距，開始互毆。一群劍妓圍觀喝彩。附近的酒館裡傳來猥褻的歌聲。街道散發著陳年尿液與麥酒的氣味。
+
+**特殊城市行動：**
+
+- 加入劍妓傭兵團：繳納 100 金的會費，即可加入劍妓傭兵團。此後，你可以在城市階段用貧困維護費購買鐵器與鋼製護甲（第 163 頁）。
+
+---
+
+### 寶劍國王：寶劍王庭
+
+血腥競技是城市最古老、最受歡迎也最受尊崇的傳統之一。在寶劍王庭，戰士們在生死搏殺的競技中展示勇氣、智慧與力量。勝者被奉為冠軍，獲授榮耀與財富；敗者則被贈予葬禮。
+
+寶劍王庭的搏鬥被視為具有深刻的宗教意義（儘管這一習俗早於密特里斯教團）。競技場上的死亡以獻祭的形式被詮釋——死者成為獻給城市本身的血祭供品。
+
+**感官描述：**
+
+整個街區都能聽見觀眾的歡呼聲，千聲齊鳴，聲浪堪比雷鳴或海浪。寶劍王庭的城門以兩位相互斬殺的戰士形象鑄成。穿過城門時，一口巨大的倒置銅鐘以戰鬥之聲轟鳴作響。
+
+**特殊城市行動：**
+
+- 出戰！：你可以在競技場中搏鬥，並以自己為對象下注。你能贏得多少金幣，取決於勝負結果。為了節省時間、尊重所有人的桌遊時光，搏鬥以二十一點牌局的形式抽象呈現。
+
+首先下注，然後與主持人進行一局二十一點。若你贏了，你贏得下注金額的 25%。若你輸了，下一個探索階段開始時你處於承壓狀態。若你爆牌，你承受的傷勢等於爆牌點數減去你的寶劍屬性，最低 1 點傷勢。若此舉會讓你需要確認瀕死之門，你即告死亡。
+
+---
+
+## 錢幣
+
+### 錢幣一：蝨舍
+
+沼澤之中有一片歪斜破舊的房屋迷宮，名為蝨舍，是城市最貧困的街區。居住於此的人們生活在極端貧困之中。城市中最底層職業的從業者在此謀生：清糞夫、制革工人與屠馬人。孤兒與痲瘋病患擠滿街道，乞討施捨與小偷小摸交替進行。廉價酒館賣著來路不明的肉餡餅，被親切地稱為「嚼嚼」。
+
+**感官描述：**
+
+制革廠與豬圈在烈日下腐爛。沼澤積水與露天下水道的氣味令人窒息，惡臭似乎化成滾滾綠霧從河面升起，徘徊在破爛的小巷間。這是一種看得見的氣味，一種嚐得到的氣味。
+
+**特殊城市行動：**
+
+- 處理屍體：蝨舍的豬農不問任何問題，願意接收任何肉塊狀的包裹。若你需要讓一具屍體消失，送去蝨舍即可。
+
+---
+
+### 錢幣二：孤兒院街區
+
+可怕的孤兒院街區，幾乎完全由無人監管的孩子所居。童黨在街上遊蕩——有時是乞丐，有時是小偷。年長的孩子照顧年幼的孩子。全監衛對此也心存畏懼，不敢輕易涉入。這裡像是《安德的遊戲》遇上《蒼蠅王》的場景。
+
+這片貧民窟究竟如何落入孤兒管轄，是一段混亂而眾說紛紜的歷史。多數學者將其解釋為密特里斯教團處理古代神王時代流傳下來的獻祭與割禮習俗的一種反應。撇開歷史不談，那些小混蛋就在那兒，而且正朝這邊走來。
+
+**感官描述：**
+
+孩子無處不在：蹲在門廊、藏在小巷、在棚屋裡哭泣。爭吵聲。狗吠聲。各種遊戲無處不在：滾鐵圈、賭博（他們用乳牙當賭注）、套杯戲法，不一而足。粉彩色調、風格簡樸的塗鴉。氣味像更衣室和油膩的烤香腸。
+
+**傳言：**
+
+據說有個名叫袋人的怪物潛伏在孤兒院街區，專門綁架街頭流浪兒。袋人以夢魘作為坐騎，藉此輕易往來於地下世界與城市之間。若你能打敗袋人，或許能得知他穿越兩界的秘密。
+
+**特殊城市行動：**
+
+- 收養：深入地下世界讓某些人變得感性。這些人可以從孤兒院街區收養一個孩子。被收養的孩子不會隨公會進入地下世界，但可作為城市中的後勤人員使用。你可以在公會名冊上備注，你收養的孩子是你唯一的繼承人，若你現有的冒險者死亡，你可以選擇以你的孩子繼續遊玩。
+
+---
+
+### 錢幣三：空中街區
+
+空中街區像一隻腐食鴉俯瞰著整個城市。它由橫跨煙囪、閣樓與頂樓的簡陋橋板搭建而成。此地居民可以數天、甚至數週不踏上實地。有句古諺說得好：「人們從不抬頭望。」因此，空中街區深受想要銷聲匿跡的人所青睞：負債者、革命者，以及來自異國的被推翻暴君。除了它是一個由匿名者居住的高空街區外，空中街區是個平凡正常的地方——它參與商業活動、慶祝婚禮，並像其他街區一樣繳稅。
+
+**特殊程序：**
+
+若你在繪製城市地圖時抽到了錢幣三，再抽一張牌並將那個街區直接置於空中街區之下。空中街區是「頂層」，第二張牌的街區是「底層」。
+
+**感官描述：**
+
+風在建築之間呼嘯、尖叫、怒吼。風箏充當路標與信箱。繩索組成的網絡讓人在改建自鐘塔與煙囪的房屋之間攀爬穿梭。蝙蝠在蒼白的夜空中追逐飛蛾。天氣寒冷。
+
+**特殊城市行動：**
+
+- 躲藏高處：躲入空中街區，讓風頭過去。若你這樣做，某個對你心懷不滿的人將會白費時間與金錢，徒勞地找不到你。對大多數憤恨的當事人而言，這便到此為止。主持人應坦白告知你需要「躲藏高處」多久，視情況而定。
+
+---
+
+### 錢幣四：奇珍議事廳
+
+人人都知道臍帶市集什麼都買得到、賣得掉。然而，這並非完全正確。即便在從不拘謹的城市裡，某些東西仍是違禁的。煽動性材料、偽造錢幣、人口買賣，以及危險的巫術器物，從不在臍帶市集流通。黑市正是經濟管制的解答。在城市裡，黑市以奇珍議事廳的形式存在——一個容納各種非法商品的地下經濟體。此地交易的某些東西，真的令人不齒。
+
+**感官描述：**
+
+昏暗燈光下的窄小攤位。一個缺牙的男人咯咯笑著，承諾只要你願意走進他攤位的帘子後面，就讓你見識一件了不起的東西。殘疾的小乞兒用離譜的高價向你兜售奄奄一息的變色龍。一隻鬥雞的尖叫聲從鬥雞場傳來。一個奴隸販子在拍賣台上滔滔不絕地誇耀人體的價值。令人作嘔的甜香水氣息。金幣交換時的叮噹聲。
+
+**特殊城市行動：**
+
+- 銷贓：若你持有一件透過正規管道出售並不明智的贓物，可以在奇珍議事廳銷贓。此時，主持人將依第 158 頁「定價」程序，為你設定一個「合理」的價格。
+
+---
+
+### 錢幣五：信鳥街區
+
+城市沒有正式的郵政服務，但有信鳥使者。這家商業公司負責在城市內部及廣闊世界幾乎所有地方傳遞消息。他們總部附近的丘陵街坊因此得名——信鳥街區。信鳥使者以銀鳥胸針、滑哨，以及弗里吉亞帽上的羽毛為標誌，其謹慎與成功的聲譽無人能及。
+
+**感官描述：**
+
+信使來來往往，在高高的山丘上忙碌穿梭。路邊攤販售賣各式香辣食物，香氣四溢。街頭表演者與賣藝人奏樂助興。你聽見一齣戲劇正在上演。沿街的梨樹正值花季，香氣卻並不特別好聞。
+
+**特殊城市行動：**
+
+- 寄送信件：信鳥使者以每封 10 金的低廉費率，將信件送達廣闊世界的任何地方。無論是城內或城外，費率一律相同，並保證保密。信件有 1/14 的機率因旅途風險而未能送達。
+
+---
+
+### 錢幣六：燈匠街
+
+光線在城市中是一項持續的關切；在地下世界，它更是事關生死的問題。燈匠街正是回應這些需求的所在。蠟燭商、脂油商、點燈人、製油者、燭台匠、火術士與提燈童，全都密密麻麻地擠在一起：狹窄的街道上，叫賣者正進行著各式各樣精彩的燈具示範。
+
+燈匠街是少數夜間也全面照明的街區之一。因此，許多盜賊公會視此為「好下手的地方」。（這引發了蠟燭商與盜賊之間的宿怨；不過這場宿怨大體上是友善的。）
+
+**感官描述：**
+
+提煉鯨脂的腥臭。硫磺副產品的氣味。店面以千盞燈火點亮——油燈、蠟燭、供燈、火把、燈架、燭台、七燈燭台、提燈；以牛脂、黃油、魚油、橄欖油為燃料；燈罩以彩繪玻璃、鐵、白金、彩繪木料、銅鑄成。
+
+**傳言：**
+
+某些富有創意的燈匠正將地下世界的材料融入新設計。幾位富於進取精神的昆蟲學者正試圖培育一種能在地面存活的地下世界紅外夜蛾。其他燈匠則嘗試將鬼火誘入填滿屍脂的燈籠之中。這些燈匠願意以好價錢收購在地下世界發現的新型光源。
+
+**特殊城市行動：**
+
+- 購買煙火：使用此城市行動，可以每枚 25 金的價格購買煙火。在挑戰中施放煙火可收奇效——依爆炸距離遠近，造成失明或穿刺傷勢。
+
+- 煙火多變難料。煙火有 25% 的機率以某種方式失控：倒射、提前引爆，或啞火。
+
+---
+
+### 錢幣七：大下水道
+
+城市的腸道所在。城市街道之下延伸著一條巨大的下水道，其中央部位稱為大下水道，容納著維持下水道運作的各式機關。
+
+說大下水道是一個街區，並不誇張。城市人口已超出城牆所能容納的上限。即便在城市排泄物的翻湧之中，人們也在此勉強謀得一點生存空間。一種普遍貧困、悲慘的生存——但終究是生存。遺憾的是，在城市底下那些骯髒的水道裡流連太久的人，鮮少能毫髮無傷地走出來……
+
+**感官描述：**
+
+臭。我是說，它真的聞起來像糞。一種濃烈到幾乎可以嚐到的臭味。灰色污水時而滴落，時而流淌，時而奔湧：流水聲永無止盡地重複著。牆壁上滲出黴斑與色彩鮮豔的黏液。黑暗中，有什麼東西在移動。
+
+**特殊城市行動：**
+
+- 變異：你在下水道閒晃做什麼？好吧，去擲一個隨機變異。外面有大量精彩的隨機變異表。去你喜歡的某個部落格找一個，擲骰，就這樣。你現在是個突變體了。希望你從此學到了不要在骯髒的舊洞裡閒逛的教訓。
+
+---
+
+### 錢幣八：碎陶山
+
+城市的垃圾場之所以叫做碎陶山，是有充分理由的：陶器是城市產生最多的廢棄物，沒有之一。此地破碎的陶器堆積成山，這些山丘利如刀鋒；從高處跌落便是死亡。此地常被犯罪幫派當作處決場所。
+
+碎陶山居住著一群無家可歸者，以及一批龐大的可怕白化貓；兩者是死對頭。雙方都在翻揀城市的垃圾。無家可歸者將撿來的物品轉賣給臍帶市集的商人。沒有人知道那些貓拿那些收藏品作什麼用。
+
+**感官描述：**
+
+垃圾的可怕惡臭：不只是垃圾，而是在烈日下烘烤的熱垃圾。蒼蠅成群嗡嗡盤旋。一隻白化貓優雅地踏過一堆碎陶，引發小規模的陶片崩塌。破碎陶器與碎玻璃相互撞擊的叮噹聲。
+
+**傳言：**
+
+貓咪們在「詭異之境」的遙遠界域擁有自己的集市。有時，牠們以碎陶山的垃圾換取在地下世界中遺失的東西，然後把這些東西藏入巢穴之中。
+
+**特殊城市行動：**
+
+- 淘貨：在破碎垃圾中翻找東西叫做「淘貨」。宣告你正在尋找一件你在地下世界遺失的物品——不是被摧毀、送出或被竊的，而是真正遺失的物品。你有 50% 的機率在淘貨時找到這件確切的物品。
+
+---
+
+### 錢幣九：骨殖市場
+
+骨殖市場是城市的主要肉品市場，是美食家的天堂，也是令人毛骨悚然的奇觀。此地容納了城市最優秀的部分酒館、人氣熱食店，以及生物廢棄物的汙穢淵藪。
+
+**感官描述：**
+
+露天市場是一片氣味的喧嚷。蒼蠅在空中漫天飛舞。地面被鮮血染得黏稠。厄普頓‧辛克萊筆下的一切，在這裡都是真的。酒館則是另一番景象。異國音樂與難懂的語言從窗戶飄出。令人陶醉的氣味：葡萄酒、大蒜、奶油。豪放的笑聲。有人被人從窗戶扔了出去。
+
+**傳言：**
+
+金賽小姐的饗宴俱樂部以勉強被容忍的臭名存活著。在金賽小姐那裡，沒有禁忌食材。從稀有的連枷蝸牛到食人魔睾丸，再到紫色尖叫菇，一切皆被烹調、享用、細細品味並大加品評。在這裡，你可以嚐到那「另類、另另類、另另另類的白肉」。
+
+**特殊城市行動：**
+
+- 參加金賽小姐的饗宴俱樂部：入場費為：一塊取自奇特怪物或野獸的肉排，供在場所有人分享。費用付清後，你與金賽小姐及其他冒險者公會一同赴宴。你可以就地下世界的任何問題提出一個疑問，並就該問題收到一條類似有用傳言的消息。
+
+---
+
+### 錢幣十：雨果‧安德山大師的奇獸苑
+
+雨果‧安德山是一位身形肥碩的貪食者，贊助了一座大型馬戲團與奇獸苑。他的主要賣點是從地下世界捕捉並帶上地面的怪物與奇異生物。這些表演項目設於他的私人莊園——一處位於廣闊世界完全都市化中心的大型自然保護區與綠地。
+
+把一些世界上最致命、最神奇的生物關進籠子裡讓公眾付費參觀，這是否極度不負責任？絕對是。但現實就是如此。
+
+**感官描述：**
+
+你聽見：「快來觀賞安德山大師的驚奇奇獸苑！讓牠們多元的奇聞軼事令你大開眼界！讓他的動物演員令你心花怒放！女士們請放心，不必害怕。」
+
+你看見：在一道（非常低矮、搖搖欲墜的）柵欄後面，有一條九頭蛇。其蛇狀軀體的主幹上纏著一條粗重鐵鏈。牠看起來飢腸轆轆，坐在自己的糞便之中。沿路再走，一位術士施了法術，讓人覺得獅身人面獸和獅子是好朋友；但兩隻都在發抖，顯然極為恐懼。
+
+**特殊城市行動：**
+
+- 採集煉金試劑：你可以以每份 25 金的費用從奇獸苑的怪物身上採集煉金試劑。這些試劑可透過煉金天賦（第 78 頁）轉化為煉金物質。
+
+---
+
+### 錢幣侍者：殖民區
+
+殖民區是城市少數民族地底民人口的族裔聚居地。此地保存著他們的生活方式：烹飪、音樂、玩笑、時尚與傳統習俗。它是地底民移民前往城市的重要跳板——一個可以在人類世界建立人際關係、謀職就業與安居落戶的地方。殖民區同時設有地底民領事館，稱為青銅大使館。青銅大使館接待行業公會委員會成員前來城市進行外交任務時的接待工作。
+
+**特殊程序：**
+
+若你在繪製城市地圖時抽到了錢幣侍者，再抽一張牌並將那個街區直接置於殖民區之上。殖民區位於第二張牌所抽到的街區之下。
+
+**感官描述：**
+
+燈籠在地下長廊各處定距投下柔和的黃色光暈。走廊一端正在舉行婚禮，你能聞到烤蘑菇的香氣，聽見《傳統之書》的吟誦聲。旁邊，兩個半身人正為強化葡萄酒與非強化葡萄酒的價格爭論不休。
+
+**特殊城市行動：**
+
+- 委託矮人精工：矮人工藝的費用是每個音節 50 金。委託的物品在某方面優於標準物品，由主持人裁定。舉例而言，矮人武器或護甲可以額外多一個缺口；矮人燈籠可以額外多閃爍一次。
+
+---
+
+### 錢幣騎士：娼妓城
+
+官方名稱為「人民的……共和國」，但大多數人叫它娼妓城。娼妓城的妓女們在兩年前發動了反抗中央當局的起義。每個人都忙於應付地下世界的到來，至今尚無人願意耗費資源讓這個街區重回軛下。就某些方面而言，娼妓城是封建制度中一個微型的政治實驗。在此謀生的男男女女正在嘗試一些在這個仿歷史奇幻大雜燴中前所未有的哲學思想。
+
+**感官描述：**
+
+假裝的嬌吟聲。政治口號與調情的吆喝聲混雜在一起。醉漢的歌聲在夜間飄蕩。濃郁而令人窒息的香水雲霧。妓院以明亮的暖色調粉刷。淫穢的塗鴉。
+
+**傳言：**
+
+儘管性服務到處都是，賣春對統治階級或教士階級而言在社會上並不被接受。因此，傳說從城市每個街區都有秘密隧道通往娼妓城。若你想找一條潛入某個特定城區的秘密通道，娼妓城裡很可能就有一條。
+
+**特殊城市行動：**
+
+- 枕邊密談：花費 10 金，在酣暢後躺著與妓女們八卦閒聊。你可以詢問主持人某位城市角色的喜好或厭惡（第 180 頁），他將告訴你一則關於該角色癖好的傳言。
+
+---
+
+### 錢幣皇后：乞丐街
+
+城市最貧困的居民生活在悲慘的乞丐街。此地設有痲瘋病收容所、孤兒院、宗教托缽修士，以及龐大的遊民人口。
+
+儘管居民生活在赤貧之中，乞丐街卻是城市最強大派系之一的所在地：乞丐公會。乞丐公會管理所有輕微犯罪活動。所有扒手、敲詐勒索者、攔路強盜與河上海盜，都要向乞丐公會繳納什一稅。不繳稅的小偷很快就會被翻個裡外，屍體丟進灰河。
+
+你見到的每個乞丐，未必都是身懷絕技的賊？當然不是。但他們有可能向某個假扮乞丐的人繳了會費。若他們看到什麼值得回報的事，可能就拿了一點好處費。這就是為什麼在城市街道上談論隱秘事務是有風險的——你永遠不知道哪個藏身在附近的痲瘋病人可能偷聽到了你的話，並向他們的上頭匯報。
+
+**感官描述：**
+
+若你不是本地人，在此地穿行幾乎不可能不帶一支強壯的護衛隊：跛腳的、守寡的、被剝奪公民權的，以及孤兒們，會在你走過街道時群聚而來。你的腳步驚起蝨子與跳蚤。空氣中瀰漫著塵土氣息。扭曲的褐色菇菌從破爛房屋的木板上長出。你聽見手鈴響起，警告你後面有痲瘋病人的聚落即將到來。
+
+**傳言：**
+
+乞丐之家是一處為街區遊民提供簡陋庇護的濟貧院，同時也是勢力強大的乞丐公會（不那麼）秘密的總部。人人都知道這件事。
+
+人們不知道的是，乞丐之家還隱藏著一條通往地下世界的秘密入口。公會成員正是藉此將地下世界的戰利品運回，以規避城市的冒險稅。
+
+然而，任何使用這個傳送門的人，都要承受一種更為隱秘的稅。乞丐公會的古老首領被安葬在乞丐之家的地下墓穴中。凡穿越其領地的盜賊，都必須向這些不死之物繳納他們所索取的奇異代價。
+
+**特殊城市行動：**
+
+- 加入乞丐公會：繳納 100 金的會費，即可加入乞丐公會。此後，你可以使用乞丐公會的秘密入口進入地下世界。乞丐公會不徵收 50% 的金幣稅，但要求你每次使用其秘密通道時，「捐獻」一件由他們指定的物品。這可能是你最珍貴的神器，也可能是一件無足輕重的東西。
+
+---
+
+### 錢幣國王：錢幣王庭
+
+城市一個偏僻的角落裡，矗立著一座令人望而生畏的建築——一座獻給未被崇拜之神的奇異神殿。這便是錢幣王庭。此名既指神殿本身，也指居於其中的組織。
+
+錢幣王庭是最頂尖的刺客公會（還有幾個其他的——溺水者、哈薩辛、貓爪——但沒有一個比它更古老、更高貴或更有名）。他們有理有據地宣稱，萬物皆有定價——包括一條人命。若收到了相應的費用，他們便視那條生命為可沒收之物。據說他們從未失手。然而他們索取的費用極為龐大——你通常可以用刺殺一個普通商人的價格，組建一支小型傭兵軍隊。
+
+**感官描述：**
+
+一座雄偉的穹頂神殿，蹲踞在灰河中央一座醜陋孤島的正中。神殿大門以象牙為框，殿門以厚重的縞瑪瑙雕成。神殿內鴉雀無聲，無人敢出聲。你確實聽見內殿泉水的汩汩流聲。光線幽暗，牛脂蠟燭嵌在牆壁的凹洞中，卻幾乎不能提供什麼照明。飛蛾在四周撲翅飛舞。有一股甜甜的氣味，像甲醛。
+
+**傳言：**
+
+錢幣王庭的成員只以一個標誌表明身分：持有一枚稀有的雙頭硬幣。他們在刺殺任何人之前，都會將這枚硬幣悄悄放入目標的口袋中。等到目標發現並將此幣拋棄之時，已為時太晚——他們已被標記。
+
+若這枚雙頭硬幣是自由給予的，它幾乎可以支付任何服務。任何持有此幣的人，都無法被錢幣王庭列為目標。「你不能同時持有兩枚硬幣，」有人如此說道。
+
+進一步的傳言稱，原始的刺客在找回其原始硬幣之前，無法繼續其工作。
+
+**特殊城市行動：**
+
+- 委託暗殺：若你前往錢幣王庭並說出目標的名字，一個面目平凡的男子會為你報價。這個價格可能荒謬到令人咋舌，但可能介於 5,000 金到一枚龍蛋之間。若你付清，此人將答應你的請求。在一個月內，這位被點名的人將死去。
+
+錢幣王庭只以廣闊世界中的人為目標，他們不進入地下世界。
