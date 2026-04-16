@@ -5,845 +5,446 @@ sidebar:
   order: 0
 ---
 
-Appendix E
+附錄E
 
-Underworld
-      reation
+地下世界建構
 
-“Through me you pass into the city of woe:
-Through me you pass into eternal pain:
-Through me among the people lost for aye.
-Justice the founder of my fabric moved:
-To rear me was the task of Power divine,
-Supremest Wisdom, and primeval Love.
-Before me things create were none, save things
-Eternal, and eternal I endure.
-All hope abandon, ye who enter here.”
+「穿過我，進入悲慘之城；
+穿過我，進入永恆之痛；
+穿過我，加入萬劫不復的亡魂。
+正義感召我的締造者，
+神聖的力量、至高的智慧，
+以及太初之愛，創造了我。
+在我之前，萬物皆不存，
+唯永恆之物獨存；我亦與之永恆。
+所有進入者，放棄一切希望吧。」
 
-– The Inferno, Dante Alighieri
+——《神曲·地獄篇》，但丁·阿利吉耶里
 
-329
+附錄E | 地下世界建構
 
-APPENDIX E     |     UNDERWORLD CREATION
+## 建構你的巨型地城
 
-Making Your Megadungeon
+地下世界是一座巨型地城：由彼此相連的諸多地城所構成。每一座獨立的地城都代表地下世界中具有特定主題的區域，而每座地城又由各個房間組成，其中充滿了有趣的事物、怪物、陷阱與寶藏。
 
-The Underworld is a megadungeon: a collection of interconnected dungeons. Each discrete
-dungeon acts as a thematic region of the Underworld. Each constituent dungeon is made
-up of individual rooms, populated with interesting things, monsters, traps, and treasures.
+身為GM，建構一座地下世界巨型地城或許令人望而生畏，但它其實不過是一系列小型的獨立任務。建構地下世界的過程，與其說是打造一座龐大的巨型地城，不如說是創造一系列有趣的房間，再在它們之間建立有趣的連結。這個創建過程對GM而言充滿樂趣，而探索的過程對玩家而言同樣令人著迷。
 
-As a GM, creating an Underworld megadungeon can seem daunting, but
-it’s really just a series of small, discrete tasks. The process of creating your
-Underworld is less about making one huge megadungeon and more about
-creating a series of interesting rooms and then creating interesting connections
-between them. The creation process is fun for the GM and the discovery
-process is fun for the players.
+由於地下世界是遊戲的核心，它需要足夠廣闊，以維持玩家一週又一週的興趣與投入。本附錄提供了建構地下世界的流程。只需依照以下步驟進行，幾個小時後你便能擁有一座可以運作的地下世界。
 
-Because the Underworld is the focus of the game, it needs to be large enough
-to keep players interested and engaged week after week. This appendix
-contains a procedure for creating your Underworld. By following these steps,
-you’ll have a working Underworld with a few hours of work.
+1. 地下世界的起源
+你必須了解地下世界的本質真相，即使這些學識對玩家保密。
 
-1. Origins of the Underworld
-You must understand the essential truths about the Underworld, even if this
-lore is kept secret from the players.
+2. 生成地下世界的佈局
+建立一系列地城，並繪製各地城層之間的連結關係。
 
-2. Generate an Underworld Layout
-Create a series of dungeons and map out the connections between each
-dungeon level.
+3. 繪製地圖
+為每座地城的每個房間繪製帶有標記的地圖。這些地圖是玩家可見的，即便其中的內容要等到玩家親自探索才能揭曉。
 
-3. Create Maps
-Create a keyed map of each dungeon’s rooms. These maps are player-facing
-even if the contents won’t be discovered until the players explore them.
+4. 撰寫房間描述
+為每個房間寫下值得玩家互動的有趣事物。
 
-4. Write Room Descriptions
-Write down something interesting in each room for the players to interact with.
+5. 建立絞肉機
+為每一個獨立的地城層建立一張絞肉機（第91頁）。
 
-5. Create the Meatgrinder
-Create a Meatgrinder (p. 91) for each individual dungeon level.
+步驟1和2針對整個地下世界只需進行一次。步驟3至5則須針對每個地城層重複執行。從小規模開始，一遍又一遍地重複，直到你的地下世界真正達到神話般的規模。
 
-Steps 1 and 2 are done once for the entire Underworld. Steps 3-5 are repeated
-for each dungeon level. Start at a small scale and repeat, over and over, until
-your underworld is truly mythic.
+此外，我們提供了地城種子作為啟發靈感的提示，適用於你地下世界的不同層級——詳見第343頁。你可以使用這些地城種子來點燃想像力，也可以完全按照自己的構思來建構地下世界。
 
-Additionally, we provide dungeon seeds as inspirational prompts for the
-different levels of your Underworld—see page 343. You can use these dungeon
-seeds to jumpstart your imagination or create an Underworld entirely of your
-own devising.
+附錄E | 地下世界建構
 
-330330
+## 1. 地下世界的起源
 
-APPENDIX E     |     UNDERWORLD CREATION
+地下世界是一個彼此相連、古老得難以想像的王國——在過去，每個區域都在整體的宏大規劃中承擔著特定的功能。如今，地下世界被篡位的怪物和探索者所占據，其方式與最初的設計背道而馳。
 
-1. Origins of the Underworld
+這兩個現實之間的張力，是地下世界所提供的種種刺激的根本驅動力。
 
-The Underworld is an interconnected and impossibly ancient kingdom—in the
-past, each section had its own purpose in the greater scheme of the whole. The
-Underworld is currently occupied by usurping monsters and explorers in a way
-contradictory to its intended use.
+你必須決定你的地下世界的本質，以及它所蘊含的真相。選擇一個既令人振奮、又能引發大量開放性問題的設定。
 
-The tension between these two truths drives much of the excitement the
-Underworld offers.
+- 它是地獄本身嗎？是讓邪惡的靈魂在諷刺性懲罰中永久受苦的監獄嗎？
 
-You must decide the nature of your Underworld and what truths it holds.
-Choose something that feels inspiring but prompts a lot of open-ended
-questions.
+- 它是人類的第一個王國嗎？人類與龍之間是什麼關係？兄弟姊妹？主人與奴隸？
 
-• Is it Hell itself? Is it a prison for wicked souls to languish for eternity in
+- 它是被遠古術士篡奪的天堂嗎？他們的入侵對輪迴的循環造成了什麼影響？
 
-ironic punishments?
+- 它是伊甸園，生命之樹與知識之樹佇立其中央嗎？那些陷阱是上帝親手設計的，用以確保人類永遠無法重返樂園嗎？
 
-• Is it the first kingdom of humanity? What is humanity’s relationship with
+- 它是上帝之墓嗎？上帝為何自殺？
 
-dragons? Siblings? Master and slave?
+- 它是世界巨人的屍骸嗎？其骨骸化為大地，其血液化為海洋？
 
-• Is it a heaven usurped by ancient sorcerers? What repercussions did their
+- 它是一系列被掠奪的城市，一座疊著一座嗎？統治這些城市的神秘姊妹們有何目的？為何她們永遠不能再見到太陽？
 
-intrusion cause for the cycle of death and rebirth?
+你對地下世界起源所做的決定，將影響你對地下世界當前內容的判斷。因此，當你一層一層地建構地下世界時，其根基將始終引導著你的方向。
 
-• Is it the Garden of Eden, with the Trees of Knowledge and Life at the
+### 地城學識
 
-center? Are the traps designed by God Himself to ensure humanity never
-returned to paradise?
+還記得《聖戰奇兵》裡的陷阱嗎？將學識與信息嵌入地下世界的每一層。陷阱可以反映它所守護之物的主題，或暗示其製造者的身分。寶藏也許描繪著一段歷史事件或近代事件的場景。金幣或許鑄有遠古女神的容顏。廢墟中也許保有殘缺的羅塞塔石碑，供人翻譯未知的失落語言。讓你的學識在黑暗之處熠熠生輝。
 
-• Is it the Tomb of God? Why did God commit suicide?
+最終，玩家也許會將這一切視為單純的背景風味一筆帶過。這也無妨——遊戲的核心終究是玩家的選擇。但與此同時，如果你反覆地將學識碎片呈現在玩家面前，他們便會開始建立連結。那些起初看似偶然的描述，會在某個時刻突然被想起。玩家將擁有「啊，原來如此！」的頓悟時刻。他們會有種破解謎題的快感——這對所有人來說都是一種樂趣。
 
-• Is it the corpse of the World Giant, whose bones became the earth and
+附錄E | 地下世界建構
 
-blood became the oceans?
+## 2. 生成地下世界的佈局
 
-• Is it a series of stolen cities, each piled on each? What is the purpose of the
-mysterious Sisters who rule these stolen cities? Why must they never again
-see the sun?
+若要隨機生成你的地下世界佈局，取出大阿爾卡那牌組並抽取幾張牌。牌的數值可對應第343頁中的地城種子。這個流程讓你同時獲得地下世界的一個橫截面與縱深剖面：
 
-Your decisions about the origins of the Underworld will color your decisions
-about what the Underworld currently contains. Thus, as you build out the
-levels of your Underworld, you’ll be guided by its foundations.
+1. 抽取數量等同於你所希望的地城數量的大阿爾卡那牌。
 
-Dungeon lore
-Remember the traps in Indiana Jones and the Last Crusade? Embed lore and
-information into each level of your Underworld. A trap can reflect the theme
-of what it guards or its maker. Treasure might depict the scene of a historical
-or recent event. The gold might be minted with the faces of ancient goddesses.
-Ruins might have partial Rosetta Stones that allow the translation of unknown
-and forgotten languages. Let your lore shine in dark places.
+   - 至少應有三座地城，但上限只取決於你的野心。五座是個不錯且可實現的數字。
 
-Ultimately, players might ignore all this as just a bit of flavor. And that’s okay—
-the game is ultimately about the player’s choices. But, at the same time, if you
-repeatedly hit your players over the head with bits of lore, they’ll begin to form
-connections. Things that seemed like one-off bits of description will suddenly
-be remembered. Players will have “aha” moments. They’ll feel like Sherlock
-Holmes—and that’s fun for everybody.
+2. 將數值最低的牌放到桌上。這座地城包含通往地下世界的主要入口。
 
-331
+3. 若有任何數值為I至V的牌，將它們全部垂直於入口牌擺放。這些地城同樣各有通往地面的入口。
 
-APPENDIX E     |     UNDERWORLD CREATION
+4. 決定這些入口各自是可通行且已知的，還是封閉且秘密的。
 
-2. Generate an Underworld Layout
+5. 將數值最高的牌放在入口牌的下方，中間留有空間放置其餘的牌。這是地下世界最深的層級。
 
-To randomly generate your Underworld layout, grab
-the major arcana deck and draw a few cards. The values
-of the card can correspond to the dungeon seeds from
-page 343. This procedure gives you both a snapshot and a
-cross-section of your Underworld:
+6. 將其餘的牌置於有入口的地城與最深地城之間。
 
-1.  Draw a number of major arcana cards equal to the
+7. 確定各層之間的連結。
 
-number of dungeons you want for your Underworld.
+附錄E | 地下世界建構
 
-•  You should have at least three dungeons, but the
-upper limit is only determined by your ambition.
-Five is a good, achievable number.
+### 入口
 
-3.  If you have any cards with values I–V, place them all
-perpendicular to the entrance card. Each of these
-dungeons also have entrances to the surface.
+地下世界的某些部分必須能夠從城市進入。有些入口是已知且容易進入的。有些入口可能目前未知且難以進入。秘密入口可以透過進取的公會努力發現，為地下世界開創新的路線。提供不同的地下世界入口方式，能讓玩家做出有趣的選擇。
 
-4. Decide if each of these other entrances are traversable
+### 地城深度
 
-and known or sealed and secret.
+距離入口越遠的地城層越難進入。前往這些層級需要消耗更多火炬和口糧。你可以考慮在這些地城中加入更艱難的風險和更豐厚的獎勵。
 
-5. Place the card with the highest number below the
-entrance card(s), leaving space in between for
-the remaining cards. This is the deepest level of
-the Underworld.
+而那最深的地城，距離出口最遠的地方，又潛伏著什麼？難道是蠕蟲陛下？
 
-6.  Place the rest of the cards between the dungeons with
+### 連結
 
-2. Place the card with the lowest number onto the
+連結提供了從一個地城層通往另一個地城層的路徑。
 
-entrances and the deepest dungeon.
+- 桌上任何實體相鄰的兩張牌之間都有連結。
 
-table. This dungeon contains the main entrance to
-the Underworld.
+- 任何數值相連的牌之間都有連結（例如，第IV號和第V號地城相連，第V號和第VI號地城也相連）。
 
-7.  Determine connections between the levels.
+- 任何數值可以整除另一張牌的牌之間都有連結（例如，第XII號地城與第II、III、IV和VI號地城相連）。
 
-332332
+連結可以是任何形式：走廊、傳送裝置、天然洞穴、地下河流等。在生成佈局時，明確定義不同地城層之間的連結方式。
 
-APPENDIX E     |     UNDERWORLD CREATION
+尖塔
 
-Entrances
-Some parts of the Underworld must be accessible to the
-City. Some entrances are known and easy to access. Some
-entrances might be currently unknown and difficult to
-access. Secret entrances can be uncovered through the
-efforts of an enterprising guild, creating new routes
-through the Underworld. Having different ways to enter
-the Underworld gives players interesting choices.
+命運交叉之城堡
 
-Dungeon depth
-Dungeon levels farther away from the entrances are
-more difficult to access. It requires more torches and
-more rations to journey to reach these levels. You
-may consider adding more difficult risks and more
-extravagant rewards to these dungeons.
+蘆葦原野
 
-And what lurks inside the deepest dungeon, farthest
-away from egress? Could it be His Majesty the Worm?
+白色花園
 
-Connections
-Connections provide pathways from one dungeon level
-to another.
+龍骨紀念地
 
-• Any card that is physically next to another card on the
+## 3. 繪製地圖
 
-table has a connection.
+一旦你對地下世界的樣貌有了基本構想，就需要為地城的每一層繪製地圖。你可以借用外部資源的地圖，也可以自己繪製。
 
-• Any card with a value sequential to another has a
+如果你想使用現成的地圖，目前有大量優秀的製圖師正在創作相關內容。請支持他們。本書中每個地城種子都附有一張示範地圖。使用能激發你靈感的地圖吧。
 
-connection (e.g., dungeons IV and V are connected, as
-are V and VI).
+如果你想自行繪製地圖，請依照以下步驟：
 
-• Any card with a value evenly divisible by another card
-has a connection (e.g., dungeon XII is connected to
-dungeons II, III, IV, and VI).
+1. 用形狀來代表不同的區域。
 
-Connections can be anything: hallways, teleporters,
-natural caverns, underground rivers, etc. As you generate
-your layout, explicitly define how different dungeon
-levels are connected.
+   - 用方形代表房間，圓形代表塔樓，雲朵形代表林地等。
 
-The Spires
+   - 在各區域之間留出空隙。
 
-Castle of Crossed Destinies
+2. 在這些房間之間繪製通道（走廊、橋樑、小路、樓梯）。
 
-Field of Reeds
+3. 為地圖標上索引鍵。
 
-White Gardens
+### 房間與通道
 
-Dragonbone Memorial
+地城不應是線性的。記住，遊戲之所以有趣，在於它提供一系列選擇。如果地城中只有一條路，你就無法讓玩家做出選擇。如果他們每次都必須依序通過房間A和B才能到達C，那將令人感到乏味。
 
-3. Create Maps
+- 應有捷徑。
 
-Once you have a basic idea of what your Underworld
-looks like, you’ll need to create a map for each level of
-your dungeon. You can borrow a map from an outside
-source or create your own.
+- 應有咽喉要道。
 
-If you want to use premade maps, there are tons of great
-cartographers creating content right now. Give them
-your support. For each dungeon seed in this book, we’ve
-also included a sample map. Use maps that inspire you.
+- 應有迴路。
 
-If you want to create your own maps, follow these steps:
+### 為地圖標索引鍵
 
-1. Draw shapes to represent different areas.
+玩家應擁有一張標有房間編號的地圖，對應地城的每一層。當玩家說「我們前往122號房間」時，你應能輕鬆在筆記中找到該房間編號。
 
-• Draw squares to represent rooms, circles for towers,
+我們使用兩組數字作為索引標識符。第一組數字對應層級（第1層、第2層、第3層等），第二組數字對應房間本身。實際上，這通常是一個三位數的代碼：502（第5層，第2號房間）、213（第2層，第13號房間）等。
 
-cloud-shapes for forested spaces, etc.
+層級編號對應地城牌在桌上擺放的順序。你的入口是第1層。地下世界最深的層級是你的最後一個序數（例如，若有五個層級，則為第5層）。總之，怎麼方便你理解房間索引鍵就怎麼用。
 
-• Leave some space between each area.
+### 角色扮演視角地圖
 
-2.  Draw pathways (halls, bridges, paths, stairways)
+記住，玩家會收到這張地圖的基本版本，讓桌上所有人都能掌握大致情況！創建一份地圖副本，其中包含玩家在進入時能察覺到的大多數房間和通道輪廓，以及你索引鍵中對應的房間編號（但不包含任何內容資訊）。務必留出充裕的空白區域，供玩家繪製他們發現的其他房間和秘密。詳見第90頁。
 
-between these rooms.
+## 4. 撰寫房間描述
 
-3.  Key the map.
+房間描述定義了地城的永久性特徵：其危險、寶藏與居民。玩家在這些房間中可能遭遇的非永久性特徵，由絞肉機（第340頁）負責處理。為每座地城中的每個房間創造值得玩家互動的有趣事物。
 
-Rooms and pathways
-Dungeons should not be linear. Remember, a game
-is fun because it’s a series of choices. If there’s only
-one path through the dungeon, you’re not allowing
-your players to make choices. If they always have to go
-through room A and B to get to C, it’s boring.
+探索的核心要素是有意義的選擇。要讓選擇具有意義，獎勵和風險必須清晰可辨。想想你可以在地城中放置什麼線索，來廣播其內容的本質。例如，如果你將寶藏藏在一具石棺中，你可以透過描述墓穴周圍被肢解的冒險者屍體，來清楚地表明它設有陷阱。
 
-• There should be shortcuts.
+在撰寫關於你的實體、陷阱、寶藏、怪物等時，決定將它們放置在地圖的哪個位置。一開始，就放在看起來最合適的地方。之後你可以移動它們，如果需要的話甚至可以重繪部分地圖。
 
-• There should be choke points.
+每座地城每個層級的每個房間，至少應包含以下其中一項：
 
-• There should be feedback loops.
+- 一個探索的理由
 
-Keying the map
-The players should have a map with room numbers for
-each level of the dungeon. When the players say “We
-head towards 122,” you should be able to easily reference
-that room number in your notes.
+- 一個喘息的理由
 
-We key maps with two designator digits. The first digits
-correspond to the level (Level 1, Level 2, Level 3, etc.)
-and the second digits correspond to the room itself. In
-practice, this usually looks like a three-digit code: 502
-(Level 5, Room 2), 213 (Level 2, Room 13), etc.
+- 一個逃跑的理由
 
-The level number corresponds to the order the dungeon
-card was laid out on the table. Your entrance is Level 1.
-The deepest level of the Underworld would be your last
-ordinal number (e.g., if you have five levels, it would be
-Level 5). Really, whatever works for you. It only matters
-as far as your room keys are easy for you to understand.
+- 一個交談的理由
 
-In-character maps
-Remember, the players are given a basic copy
-of this map so that everybody at the table is on
-the same page! Create a copy of your map that
-contains outlines of a majority of the rooms
-and passages that the players would be aware
-of going in, along with the corresponding
-room numbers from your key (but no
-information on the contents). Be sure to leave
-plenty of blank, open space for the players to
-draw additional rooms and other secrets they
-discover. See page 90 for details.
+- 一個戰鬥的理由
 
-4. Write Room Descriptions
+- 一個實驗的理由
 
-Room descriptions define the permanent features of a dungeon: its dangers,
-its treasures, and its denizens. Non-permanent features players may encounter
-in such rooms are handled by the Meatgrinder (p. 340). Create something
-interesting for players to interact with for each room in each dungeon.
+- 一個驚喜的理由
 
-A key component of exploration is meaningful choice. For a choice to be
-meaningful, the rewards and risks must be clear. Imagine what clues you can
-place in the dungeon that broadcast the nature of its contents. For example, if
-you hide treasure inside a stone sarcophagus, you can clearly demonstrate that
-it’s trapped by describing the bodies of mangled adventurers around the tomb.
+- 一個回訪的理由
 
-As you write about your entities, traps, treasures, monsters, etc., decide where
-to place them on the map. At first, just place them where it seems best. You can
-move them around later, or even redraw parts of the map if you need.
+在撰寫自己的房間描述時，以這些元素作為清單逐一核對。我們從第365頁起提供了示範地城特徵和陷阱供你參考使用。
 
-Each room in each dungeon level should have at least one of the following:
+### 撰寫實用的筆記
 
-• A reason to explore
+在撰寫房間描述時，你需要提供足夠的細節，以便日後能記起自己原本的構想。但同時，把每個角落和縫隙都詳細描述出來對你沒有好處——你的即興發揮能力，往往勝過冗長的描述。
 
-• A reason to breathe easy
+首先，決定標準的照明程度。是完全黑暗？還是有微弱光源？決定這個層級中其他標準的身體感覺（溫度、氣味、聲音）。
 
-• A reason to flee
+在撰寫描述時，將重要的或可互動的詞語加粗。這樣你一眼就能看出最初會描述什麼內容。
 
-• A reason to talk
+使用項目符號來嵌套那些玩家只有透過與房間互動才能發現的資訊。這讓你能快速區分最初描述的內容，與玩家調查特定區域時才描述的內容；詳見第183頁的「我能看到什麼？」。
 
-• A reason to fight
+附錄E | 地下世界建構
 
-• A reason to experiment
+### 探索的理由
 
-• A reason to be surprised
+每座地城都應有玩家想要的東西。這可能是黃金、裝備、情報、有幫助的角色，或有益的地城特徵。
 
-• A reason to return
+玩家在寫下他們的任務（第24頁）時，已經告訴了你他們想要什麼。你的地城獎勵可以與這些任務相關，也可以更普遍地適用。例如：
 
-Use these elements as a checklist as you write your own room descriptions.
-We’ve provided example dungeon features and traps that you can use, starting
-on page 365.
+- 無垠護城河的魚人族有一尊奇異魚神的偶像，偶像的眼睛是珍貴的祖母綠。
 
-Creating usable notes
-When writing room descriptions,
-you’ll want to provide enough detail
-that you’ll remember what you
-intended. At the same time, you do
-yourself a disservice writing down
-long room descriptions absolutely
-detailing every nook and cranny—
-your improvisational skills will serve
-you better than long descriptions.
+- 地獄市集的精靈正在出售一把魔劍，能開啟地下墓穴中的任何門。
 
-First, decide on a standard level
-of lighting. Is it pitch dark? Are
-there sources of low light? Decide
-what other physical sensations
-(temperature, smell, sound) are
-standard in this level.
+- 蘆葦原野的鷹身女妖是相當不錯的聊天對象，而且對地下世界的傳言知之甚多。只是最好別在她們飢餓的時候遇上她們。
 
-While writing your descriptions,
-bold words that are important or
-can be interacted with. This will
-allow you to tell, at a glance, what
-you initially describe.
+- 一位劍聖已退隱至廢墟之城。若你前去朝聖，她將傳授你她的技藝。
 
-Use bullet points to nest
-information that players can only
-discover by interacting with the
-room. This allows you to quickly
-parse what you first describe
-versus what you describe as players
-investigate specific areas; see “What
-Can I See?” on page 183.
+- 傳說尖塔中有一座能治癒任何傷勢的水池，但你只能沐浴一次。
 
-335
+### 逃跑的理由
 
-APPENDIX E     |     UNDERWORLD CREATION
+不是每場戰鬥都能取勝。玩家偶爾應該面對無法透過正面戰鬥擊敗的敵人。在每座地城中放置一些龐大、壓倒性或擁有強大魔力的生物，以保持危險感。
 
-A reason to explore
-Each dungeon should have something the players want.
-This might be gold, equipment, information, helpful
-characters, or beneficial dungeon features.
+例如：
 
-The players have told you what they want when they
-wrote down their quests (p. 24). Your dungeon’s boons
-can relate to these quests or they can be more broadly
-applicable. For example:
+- 龍
 
-• The finfolk of the Boundless Moat have an idol to
+- 認真的，在你的地城裡放一條龍
 
-their weird fish god whose eyes are precious emeralds.
+### 交談的理由
 
-• The genii of the Hellmarkt are selling a magic sword
+如果每個生物見面就攻擊，遊戲很快就會變得沉悶。如果玩家能與幾乎所有事物交談，遊戲會有趣得多。（更多互動方式＝更多選擇。選擇讓遊戲有趣。）
 
-that can open any door in the Undertomb.
+對地下世界的每一層，決定目前掌控該層的派系或多個派系。然後回答：
 
-• The harpies of the Field of Reeds are pretty good
-conversationalists and know a lot of rumors about
-the Underworld. You just better not meet them when
-they’re hungry.
+- 他們想要什麼？
 
-• A sword-saint has retired to the City of Ruin. If you
-make a pilgrimage to her, she will teach you her skills.
+- 他們不想要什麼？
 
-• The Spires are rumored to contain a pool that can heal
+透過回答這兩個問題，你就有了框架社交互動的方式。能夠迎合這些需求的洞察性角色扮演，應能提供化解敵意或取得籌碼的機會。
 
-any wound, but you can only bathe in it once.
+例如：
 
-A reason to flee
-Not every battle can be won. The players should
-occasionally be faced with a foe who cannot be
-defeated through honest combat. Place some large,
-overwhelming, or magically potent creatures into each
-dungeon to keep things dangerous.
+- 一群在網狀掛毯中編織歷史的恐怖蜘蛛姊妹會：
 
-For example:
+  - 她們想要精美的藝術品、活的地獄蒼蠅來吃，以及有趣的故事。
 
-• Dragons
+  - 她們不希望冒險者攜帶明火（對她們的掛毯有危險），也不希望鷹身女妖找到她們的巢穴。
 
-• Seriously put a dragon in your dungeon
+- 一個自認為出身皇族的仇外食屍鬼家族：
 
-A reason to talk
-If every creature attacks on sight, the game quickly
-becomes a slog. It’s much more interesting if players can
-talk to just about everything. (More ways to interact =
-more choices. Choices are fun.)
+  - 他們想要新鮮的骨頭來啃噬，希望被奉承，以及他們的遠古寶藏被歸還。
 
-For each level of your Underworld, decide on a faction or
-factions that currently hold power there. Then answer:
+  - 他們不希望他們的廳堂被更低等的存在（例如公會）所玷污。
 
-• What do they want?
+即使是充滿敵意的力量，也能提供豐富的角色扮演機會：透過喊叫的侮辱，玩家可以了解敵人的動機、當前計劃、信仰體系，或該地城層的整體情況。
 
-• What do they not want?
+在規劃社交遭遇時，不要忽視城市中使用的眾多語言（第29頁）。讓不同的生物說不同的語言——或根據對方使用的語言提供情境不同的資訊——可以獎勵冒險者的語言廣度，並讓不同的玩家各有發光的時刻。
 
-By answering these two questions, you have a way to
-frame social interactions with this faction. Insightful
-role-playing that appeals to these wants should provide
-opportunities to avoid hostility or gain leverage.
+附錄E | 地下世界建構
 
-For example:
+### 實驗的理由
 
-• A sisterhood of dire spiders who weave their history
+創造有趣的互動對象。這些可以是危險的，也可以是有益的，但應該是顯眼的、明顯的且奇異的。這些特徵本身就很有趣，但它們也提供了地城元素相互反應的機會。例如，當玩家把一顆無法摧毀的龍蛋放進退化矮人的液壓機裡，會發生什麼事？
 
-into their web tapestries:
+隨著玩家遭遇這些特徵，他們會透過實驗來了解它們的運作方式。克服障礙將帶來成就感，玩家將為此津津樂道。同樣地，如果玩家設法將危險的東西變成有益的東西，成就感將會更加深刻。
 
-•  They want pieces of fine art, living hellflies to eat,
+大多數地城至少從一些相當瘋狂的東西中受益。寫下一些瘋狂的想法。刪除那些看起來愚蠢或難以向玩家傳達的。
 
-and interesting stories.
+例如：
 
-•  They don’t want adventurers to carry open flame
+- 一尊機械神的偶像，雙手合攏等待供奉。任何放入雙手中的物品都會被分解成其組成部分。
 
-(dangerous for their tapestries) or for the harpies to
-find their nest.
+- 一個巨大的螺母繞著一根巨大的螺紋柱旋轉。如果適當地提供動力，螺母將旋轉以創建一個在地城層之間上下移動的電梯。
 
-• A family of xenophobic ghouls who believe themselves
+- 一架由鐘乳石製成的管風琴。不同的樂曲對當地鬼魂種群有不同的影響。
 
-descended from royalty:
+一旦聰明的玩家了解了某個特徵的運作方式，他們就能將這些資訊轉化為優勢。例如，如果玩家弄清楚如何觸發一個陷阱，他們就可以引誘怪物進入，或用陷阱砸開上鎖的寶箱。
 
-•  They want fresh bones to gnaw, to be flattered, and
+### 戰鬥的理由
 
-their ancient treasures to be restored to them.
+並不是所有事情都能透過談判解決。有趣的戰鬥可以令人心跳加速。
 
-•  They don’t want their halls to be tainted with lesser
+在每座地城中放置一些預設立場為攻擊性的生物。這可能是一種將冒險者視為食物的無智慧生物（如黏液），或一種世界觀與公會直接衝突的生物（如骷髏，將血肉生物視為不公正地囚禁其同胞的奴隸主）。
 
-beings (such as the guild).
+例如：
 
-Even hostile forces can provide rich role-playing
-opportunities: through shouted insults, players can learn
-about an enemy’s motivations, current plans, belief
-systems, or the dungeon level in general.
+- 小惡魔（透過暴力繁殖）
 
-When planning social encounters, don’t neglect to
-address the myriad languages spoken in the City (p. 29).
-Having different creatures speak different languages—
-or providing contextually different information
-based on the language spoken to them—can reward
-adventurers’ linguistic ranges and give different players
-a time to shine.
+- 鏽蟲（飢餓地渴望公會的金屬）
 
-336336
+- 憤怒的鬼魂（對公會的生命力心懷怨恨）
 
-APPENDIX E     |     UNDERWORLD CREATION
+- 那普斯惡棍（一個地精連環殺手；就是個真正的混蛋）
 
-A reason to experiment
-Create things that are interesting to interact with. These
-can be dangerous or helpful, but should be big, obvious,
-and weird. These features can be interesting on their
-own merits, but they also provide opportunities for
-dungeon elements to react to each other. What happens
-when a player puts an unbreakable dragon egg into the
-degenerate dwarves’ hydraulic press, for example?
+### 喘息的理由
 
-As the players encounter these features, they’ll
-experiment with them to learn how they work.
-Overcoming obstacles will create a sense of
-accomplishment that your players will savor. Similarly, if
-the players manage to transform something dangerous
-into something helpful, the sense of accomplishment will
-be all the deeper.
+地城應有安全的空間。空曠的房間在探索的緊張節奏中提供了喘息的機會。安全空間是暫停休息、紮營、守住陣線、設置伏擊，或靜靜謀劃的好地方。
 
-Most dungeons benefit from at least a few things that are
-pretty gonzo. Write out some crazy ideas. Cut the ones
-that seem silly or hard to communicate to your players.
+有些房間之所以安全，是因為它們是秘密的、特別易守的，或受到某種魔力保護。其他房間安全，單純是因為沒有永久的居民。（如果絞肉機判定有隨機遭遇或其他危險進入房間，這些房間就可能變得危險。）
 
-For example:
+在你的地圖上，標記少數幾個房間為安全房間。在你的筆記中寫下一兩個詞描述房間的基本外觀和氛圍。
 
-• An idol to the machine god, hands cupped to receive
-offerings. Any item placed into the hands is broken
-down into its constituent parts.
+「我的名字叫奧西曼提亞斯，
+萬王之王：
+看我的傑作吧，你們這些強者，
+然後絕望吧。」
 
-• A huge nut spinning around a huge, threaded column.
-If appropriately powered, the nut will turn to create
-an elevator that moves up and down between the
-dungeon levels.
+——《奧西曼提亞斯》，珀西·比希·雪萊
 
-• A pipe organ made out of stalactites. Different songs
-have different effects on the local ghost population.
+附錄E | 地下世界建構
 
-Once clever players understand how a feature works,
-they can turn this information to their advantage. For
-example, if the players figure out how to trigger a trap,
-they can lure monsters into it or use the trap to smash
-open locked chests.
+### 驚喜的理由
 
-A reason to fight
-Not everything can be negotiated with. Interesting
-combats can be thrilling.
+儘管資訊讓玩家能夠做出有意義的選擇，但留有探索、發現和驚喜的機會仍然至關重要。並非所有事情都應該一眼就能看透。創造一些秘密，讓玩家保持對調查地城的投入。
 
-Place some creatures in each dungeon whose default
-Disposition is aggressive. This might be a non-sentient
-creature that sees the adventurers as food (like a slime)
-or a creature whose worldview directly conflicts with the
-guild’s (like a skeleton who sees meat creatures as slave
-drivers unfairly imprisoning their brethren).
+例如：
 
-For example:
+- 一扇藏在珊妮亞巨幅油畫後面的秘密門。
 
-• Imps (procreate through violence)
+- 牆上一個巨大的X記號，顯示術士應在哪裡放置隨身孔洞法術來進入秘密術士酒館。
 
-• Rust grubs (hungry for the guild’s metal)
+- 一個裝滿表面空白書本的房間。這些書的文字只能在月亮特定盈虧相位的光線下才能閱讀。
 
-• Angry ghosts (resentful of the guild’s life)
+接下來，創造指向這些秘密的線索。好的線索在表面上並不立刻顯眼，但事後看來卻顯而易見——就像謎語的答案一樣。
 
-• Jack of Napes (a gnome serial killer; just a real jerk)
+線索可以透過規律識別來建立。例如：
 
-A reason to breathe easy
-Dungeons should have safe spaces. Empty rooms provide
-lacunas in the frenetic pace of the Crawl. Safe spaces are
-a chance to pause, camp, hold the line, set ambushes, or
-scheme in peace.
+- 想像四條走廊形成一個正方形。三條走廊右側各有一扇門，通往一間10×10呎的房間；其中一條走廊沒有。善於觀察的玩家應能看出地圖上有一個應該存在房間但實際上並不存在的地方。
 
-Some rooms are safe because they are secret, particularly
-defensible, or protected by some magical force. Others
-are safe simply because they are empty of permanent
-residents. (These rooms can become dangerous if the
-Meatgrinder determines a random encounter or other
-danger enters the room.)
+- 一排四隻猴子雕像：一隻遮住眼睛，一隻遮住嘴巴，一隻摀住耳朵，一隻做出粗魯的手勢。如果玩家調查做粗魯手勢的那隻，會在其底座發現一批硬幣。
 
-On your map, mark a handful of rooms as safe. Put a
-word or two in your notes that describe the room’s basic
-look and feel.
+線索也可以嵌入感官資料中。例如：
 
-“My name is Ozymandias,
-king of kings:
-Look on my works, ye mighty,
-and despair.”
+- 一條有秘密門的走廊有奇怪的穿堂風。
 
-– Ozymandias, Percy Bysshe Shelley
+- 一條有隱藏火焰陷阱的走廊，其觸發裝置周圍有煤灰黑跡，且散發出強烈的油脂氣味。
 
-337
+### 回訪的理由
 
-APPENDIX E     |     UNDERWORLD CREATION
+一個地城層並非孤立存在：它只是一個相互連結的巨型地城的一部分。創造讓公會多次造訪每個層級的理由。
 
-A reason to be surprised
-Though information allows the players to make
-meaningful choices, it’s essential there are still
-opportunities for exploration, discovery, and surprise.
-Not everything should be obvious at first glance.
-Create some secrets that keep players invested in
-investigating the dungeon.
+例如：
 
-For example:
+- 一扇巨大的門只有轉動一個巨輪才能打開。把另一個層級的巨大倉鼠引誘到輪子旁來打開門。
 
-• A secret door behind a huge oil painting of Xania.
+- 廢墟之城的一部分被淹沒，因為無垠護城河的水正滲漏進來。擊敗控制廢墟城下水道的青蛙惡魔以阻止滲漏。
 
-• A large X on the wall that shows where a sorcerer
-should place their portable hole to enter the secret
-wizard’s tavern.
+- 尖塔的森林女巫只有在你將一封信帶給她的姊妹——無垠護城河的海洋女巫——之後才願意幫助你。送達信件以獲得她的援助。
 
-• A room full of apparently blank books. The books’
+- 一個石像鬼能回答你的問題，但它的耳朵已經斷裂，藏在這個地城的另一個房間裡。找到石像鬼的耳朵才能與它交談。
 
-text can only be read in the light of a particular phase
-of the moon.
+「我意識到，對知識的探尋，促使我們把這座房子想成一種謎題，等待被解開；一段文本，等待被詮釋。而假如有朝一日我們發現了知識，那將彷彿價值從房子中被奪走，所剩的，不過是幾幅佈景。」
 
-Next, create clues that point to these secrets. Good clues
-aren’t immediately obvious on the surface, but seem
-obvious in retrospect—like the answer to a riddle.
+——《皮拉內西》，蘇珊娜·克拉克
 
-Clues can be built from pattern recognition. For example:
+附錄E | 地下世界建構
 
-• Picture four halls in a square block. Three have a door
+## 5. 建立絞肉機
 
-on the right that opens into a 10’ x 10’ room; one hallway
-doesn’t. Observant players should see there’s a place
-where a room should be, but isn’t present on the map.
+每個不同的地城都應有一張配套的絞肉機表，以代表一個能動態反應的地下世界。
 
-• A row of four monkey statues: one hiding its eyes, one
-hiding its mouth, one plugging its ears, one making
-a rude gesture. If the players investigate the rudely
-gesturing one, they’ll find a cache of coins at its base.
+下一頁有一張空白的絞肉機範本可供填寫。注意第91頁描述了不同絞肉機結果的功能。在此，我們將談談創作流程是什麼樣子的。
 
-Clues can also be embedded in sensory data. For example:
+### 火炬熄滅
 
-• A hallway with a secret door has a strange draft.
+火炬熄滅（I至V）事件是絞肉機表的基礎。它是確保公會快速行動的重要工具；拖延太久就會被飢餓的黑暗所吞噬。
 
-• A hallway with a hidden fire trap has soot blackened
+地下世界的大多數地方都沒有光——漆黑一片。然而，也並非全然如此：有些地方有發光的蘑菇田野，以及鬼火縈繞的森林。當光源不是有限的資源時，你必須考慮如何最好地填補絞肉機上的這個位置。
 
-around its trigger and smells strongly of oil.
+- 你可以簡單地說I至V欄位是「什麼都沒發生」。這稍微有些無聊，但給了公會短暫的喘息機會。它在地下世界中製造了一種安全感。
 
-A reason to return
-A single dungeon level does not exist in isolation: it is
-just one part of an interconnected megadungeon. Create
-reasons for the guild to visit each level multiple times.
+- 將這些規則改用於地下世界以外的冒險時，你可以將火炬熄滅欄位改為飢餓欄位，提示每位冒險者需要消耗一份口糧。
 
-For example:
+最好讓玩家在旅途中感到壓力。這迫使他們做出有趣的選擇（這正是火炬熄滅結果的意義所在）。
 
-• A gargantuan door can only be opened if a huge wheel
-is turned. Lure the giant hamster from another level to
-the wheel to open the door.
+### 奇觀
 
-• A section of the City of Ruin is flooded because the
-Boundless Moat is leaking into it. Defeat the frog
-demon that controls Ruin’s sewers to stop the leak.
+奇觀（VI至X）讓你為地下世界的這個區域增添色彩。你可以利用這個欄位來預告玩家在旅途事件或隨機遭遇中將會遇到的危險。例如，如果這個地城中潛伏著一隻會吃人的蠍獅，奇觀或許能讓你發現蠍獅的糞便中摻雜著人類骨骼碎片。這讓玩家獲得資訊，以便做出有根據的決策。
 
-• The forest witch of the Spires will only help you if
-you take a letter to her sister, the sea witch of the
-Boundless Moat. Deliver the letter to get her aid.
+### 旅途事件
 
-• A gargoyle can answer your questions, but its ears
-are broken off and hidden in another room of this
-dungeon. Find the gargoyle’s ears to talk to it.
+旅途事件（XI至XV）代表公會資源的緩慢消耗，例如：
 
-“I realised that the search for the
-Knowledge has encouraged us to think of
-the House as if it were a sort of riddle
-to be unraveled, a text to be interpreted,
-and that if ever we discover the
-Knowledge, then it will be as if the Value
-has been wrested from the House and all
-that remains will be mere scenery.”
+- 某位隨機冒險者的資源受到打擊：口糧遺失、護甲出現缺口、密封瓶因墜落而破碎等。
 
-– Piranesi, Susanna Clarke
+- 公會必須做出艱難的選擇才能繼續前進：走X路線並承受Y代價，或走A路線並承受B代價——或者折返。
 
-338338
+- 一位或多位冒險者必須想出解決方案，或進行命運考驗以避開某個危險的隱患。最典型的例子就是陷阱。詳見第370頁關於在遊戲中使用陷阱的論述。
 
-APPENDIX E     |     UNDERWORLD CREATION
+### 隨機遭遇
 
-339
+在隨機遭遇（XVI至XX）期間，公會遇上了一個GM角色或一群GM角色。地下世界中的大多數角色預設並非充滿敵意；如有疑問，GM應隨機決定初始立場（第100頁）。
 
-5. Create the Meatgrinder
+寫成「[棄牌]數量的哥布林出現」是很無趣的。這些哥布林在做什麼？他們為什麼在那裡？將這種創作性工作融入絞肉機欄位。不要只讓哥布林「出現」，而要讓他們積極地忙於地城探索的日常事務。
 
-Each different dungeon should have an accompanying
-Meatgrinder table to represent a reactive Underworld.
+### 任務傳言
 
-The following page has a blank Meatgrinder template to
-fill out. Note that page 91 describes the function of the
-different Meatgrinder results. Here, we’ll talk through
-what the creative process looks like.
+最後，任務傳言在地下世界的不同層級之間實際上不會有太大改變：只有詮釋方式會有所不同。規劃公會完成任務所需的三到五個步驟。當你在絞肉機上抽到XXI時，讓當前地城層的某個元素以傳言的形式透露任務下一步的線索。向玩家揭示：
 
-Torches gutter
-The torches gutter (I-V) event is the base of the
-Meatgrinder table. It is an important tool to ensure that
-the guild moves quickly; tarry too long and be swallowed
-up by the hungry dark.
+- 他們可能面臨的危險
 
-Most of the Underworld is lightless—pitch black.
-However, not all of it is: there are fields of glowing
-mushrooms and will o’ wisp haunted forests. When light
-is not a limited resource, you must consider how best to
-fill this slot on the Meatgrinder.
+- 他們需要前往的地點
 
-• You might simply say that entries I–V are “nothing
+- 他們所需的物品或工具
 
-happens.” This is slightly boring, but gives the guild a
-brief moment of respite. It creates a sense of safety in
-the Underworld.
+附錄E | 地下世界建構
 
-• Adapting these rules for adventuring outside of the
+## 絞肉機
 
-Underworld, you might convert torches gutter entries
-into hunger entries, prompting the need for each
-adventurer to eat one of their rations.
-
-It’s best for the players to feel pressure on them as they
-travel. This forces them to make interesting choices
-(which is the point of the torches gutter result).
-
-Curiosities
-Curiosities (VI-X) allow you to create color for this
-section of the Underworld. You can use this entry to
-broadcast the dangers that the players will find in travel
-events or random encounters. For example, if there’s
-a man-eating manticore lurking in this dungeon, a
-curiosity might let you find manticore fewmets speckled
-with human bone fragments. This gives information to
-the players so they can make informed decisions.
-
-Travel events
-Travel events (XI-XV) represent the dull grinding down
-of the guild’s resources, such as:
-
-• One random adventurer has a tax on their resources:
-
-rations are lost, armor is Notched, hermetic bottles are
-broken by a fall, etc.
-
-• The guild must make a tough choice to move forward:
-go X and suffer Y, or go A and suffer B—or turn around.
-
-• One or more adventurers must think up a solution or
-test fate to avoid some treacherous hazard. The classic
-example of this is a trap. See page 370 for a treatise on
-using traps in your game.
-
-Random encounter
-During a random encounter (XVI-XX), the guild comes
-upon a GM character or a group of GM characters.
-Most characters in the Underworld are not hostile by
-default; if there’s uncertainty, the GM should determine
-a random starting Disposition (p. 100).
-
-It’s boring to write: “[Discard] number of goblins
-appear.” What are the goblins doing? Why are
-they there? Incorporate this creative work into the
-Meatgrinder entry. Don’t just have goblins “appear.”
-Have them be actively engaged in the business of
-dungeon delving.
-
-Quest rumors
-Lastly, quest rumors probably won’t actually change
-between the different levels of the Underworld: only their
-interpretation will change. Plan three to five steps that the
-guild will need to complete to achieve their quest. When
-you draw a XXI on the Meatgrinder, let some element
-local to the current dungeon level give a rumor as to the
-next step of the quest. Reveal to the players:
-
-• A hazard they might face
-
-• Where they’ll have to travel to
-
-• An item or tool they’ll need
-
-340340
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-The Meatgrinder
-
-carD meatgrinDer event
-
-I.
-
-II.
-
-Torches gutter
-
-Torches gutter
-
-III.
-
-Torches gutter
-
-IV.
-
-Torches gutter
-
-V.
-
-Torches gutter
-
-VI.
-
-[Curiosity]
-
-VII.
-
-[Curiosity]
-
-VIII.
-
-[Curiosity]
-
-IX.
-
-[Curiosity]
-
-X.
-
-[Curiosity]
-
-XI.
-
-[Travel event]
-
-XII.
-
-[Travel event]
-
-XIII.
-
-[Travel event]
-
-XIV.
-
-[Travel event]
-
-XV.
-
-[Travel event]
-
-XVI.
-
-[Random encounter]
-
-XVII.
-
-[Random encounter]
-
-XVIII.
-
-[Random encounter]
-
-XIX [Random encounter]
-
-XX
-
-[Random encounter]
-
-XXI.
-
-[Quest Rumor]
+| 牌 | 絞肉機事件 |
+| --- | --- |
+| I. | 火炬熄滅 |
+| II. | 火炬熄滅 |
+| III. | 火炬熄滅 |
+| IV. | 火炬熄滅 |
+| V. | 火炬熄滅 |
+| VI. | ［奇觀］ |
+| VII. | ［奇觀］ |
+| VIII. | ［奇觀］ |
+| IX. | ［奇觀］ |
+| X. | ［奇觀］ |
+| XI. | ［旅途事件］ |
+| XII. | ［旅途事件］ |
+| XIII. | ［旅途事件］ |
+| XIV. | ［旅途事件］ |
+| XV. | ［旅途事件］ |
+| XVI. | ［隨機遭遇］ |
+| XVII. | ［隨機遭遇］ |
+| XVIII. | ［隨機遭遇］ |
+| XIX. | ［隨機遭遇］ |
+| XX. | ［隨機遭遇］ |
+| XXI. | ［任務傳言］ |
