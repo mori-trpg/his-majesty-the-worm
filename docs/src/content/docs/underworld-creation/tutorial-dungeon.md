@@ -9,7 +9,7 @@ The Tomb of Golden Ghosts
 
 走廊一片漆黑，由天然石灰岩洞窟塑形而成，除非另有說明。你可以聽見北方有條河在湍流。散發著潮濕土壤的氣息。
 
-遊戲主持人版地圖如下，玩家版地圖在第389頁。
+遊戲主持人版地圖如下，玩家版地圖在[教學地城](/underworld-creation/tutorial-dungeon/)。
 
 379
 
@@ -93,7 +93,7 @@ XVIII.
 
 XIX.
 
-[隨機遭遇] 一對對手冒險者Finch（一名木精靈博物學家）和Justin Pepperoni（一名半身人廚師）正被[捨牌數]隻巨型蜈蚣追趕。兩人狀況很糟。若獲救，他們會贈送一枚印章戒指（價值20金）和一個裝有黏液炸彈的密封瓶（見第238頁）。
+[隨機遭遇] 一對對手冒險者Finch（一名木精靈博物學家）和Justin Pepperoni（一名半身人廚師）正被[捨牌數]隻巨型蜈蚣追趕。兩人狀況很糟。若獲救，他們會贈送一枚印章戒指（價值20金）和一個裝有黏液炸彈的密封瓶（[煉金術](/alchemy/)）。
 
 XX.
 
@@ -137,7 +137,7 @@ they might guess that they all have hidden doors.
 103 – 蜈蚣前廳
 一個長方形的房間。地面被翻得鬆軟，散發著腐爛的臭味。
 
-• 若公會進入此房間，3隻巨型蜈蚣從地面竄出。牠們不會讓冒險者通過，但除非受到激怒，否則不會追趕公會離去。巨型蜈蚣的數值在第387頁。
+• 若公會進入此房間，3隻巨型蜈蚣從地面竄出。牠們不會讓冒險者通過，但除非受到激怒，否則不會追趕公會離去。巨型蜈蚣的數值在[教學地城](/underworld-creation/tutorial-dungeon/)。
 
 104 – 一具屍體
 一具臭氣熏天的屍體，大部分已被吃掉，癱倒在角落。一個撕破的背包躺在屍體旁。
@@ -173,8 +173,8 @@ Strategist template, too, because we're not
 afraid to change "official" rules. For the puppet-
 mummies, we'll rebrand the zombie stats.
 For centipedes, we'll make a new creature by
-combining the beast theme (Appendix C, p. 247)
-and minion threat (Appendix C, p. 250).
+combining the beast theme (Appendix C, [生物規則](/dungeon-denizens/creature-rules/))
+and minion threat (Appendix C, [生物規則](/dungeon-denizens/creature-rules/)).
 
 The stats for all creatures used in this dungeon
 are on page 386.
@@ -215,7 +215,7 @@ Symbolism
 For our playtest games, we use the implied
 setting hinted at in the kith and kin descriptions
 (chapter 4). This meant using the motif of the
-Tripartite (p. 54) and their astrological symbols.
+Tripartite ([精靈族](/kith-and-kin/fay/)) and their astrological symbols.
 Using recurring symbolism allows players to
 slowly connect the dots in lore. If the players do
 not understand how to solve a puzzle on their
@@ -236,7 +236,7 @@ the secret door in the mural in 116 if it was opened.
 • 壁畫隱藏著一個暗銷，通往116號的暗門。此門只能從另一側開啟，無法從本房間打開。
 
 Not everything needs stats
-You can use wraith stats (Appendix C, p. 284) for
+You can use wraith stats (Appendix C, [怪物圖鑑](/dungeon-denizens/bestiary/)) for
 the ghosts, but not every creature needs a way to
 be defeated in the Challenge Phase. Just because
 it has a mythological name—a will o' wisp, a
@@ -274,7 +274,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 109 – 傀儡木乃伊守衛室
 這個長形房間約10英尺寬、30英尺長。房間北端崩塌入一條河流中。
 
-• 公會進入時，數量等同冒險者人數的傀儡木乃伊顫抖著發動攻擊。傀儡木乃伊的數值在第387頁。
+• 公會進入時，數量等同冒險者人數的傀儡木乃伊顫抖著發動攻擊。傀儡木乃伊的數值在[教學地城](/underworld-creation/tutorial-dungeon/)。
 
 • Kodi Dove-devourer正從幻象牆後方操控這些傀儡木乃伊。
 
@@ -345,7 +345,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 注意：六個死亡面具在111號的寶箱中。一個死亡面具在Kodi Dove-devourer在117號的巢穴中。黃金幽靈在七個死亡面具全部歸還之前不會得到安撫。
 
-• 若任何冒險者吃了苔蘚，他們會發現它出乎意料地美味——幾乎像青蔥。只夠一餐，但它可作為一份提供治癒效果的口糧（第12頁）。
+• 若任何冒險者吃了苔蘚，他們會發現它出乎意料地美味——幾乎像青蔥。只夠一餐，但它可作為一份提供治癒效果的口糧（[命運考驗規則](/basics/tests-and-fate/)）。
 
 東牆上有一幅壁畫，描繪著一個面容嚴肅、頭戴如自由女神冠冕（日冕式）的女人，用一根棒杖訓斥一個綠皮膚的男人。
 
@@ -356,7 +356,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 Landmark, hidden, secret
 The snail is a good example of the different
 levels of information given to players as
-they explore (p. 183). At first, there's nothing
+they explore ([主持人指南](/gamemastering/)). At first, there's nothing
 to indicate that the moss has any beneficial
 properties. If a player asks about the snail, the
 GM can drop a hint that the snail is brightening
@@ -373,7 +373,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 113 – 骨骸深坑
 一個寬闊、陰暗的天然洞窟。地面不平坦，鐘乳石滴水，地上積著水坑。一條50英尺深的狹窄裂縫如傷口般貫穿此洞窟。深坑中散發著惡臭。
 
-• 一個黏液怪住在坑中，以丟棄的垃圾為食。任何調查此坑的人都將遭到攻擊。在此房間逗留超過一個時段的人也會遭到攻擊。黏液怪的數值在第388頁。
+• 一個黏液怪住在坑中，以丟棄的垃圾為食。任何調查此坑的人都將遭到攻擊。在此房間逗留超過一個時段的人也會遭到攻擊。黏液怪的數值在[教學地城](/underworld-creation/tutorial-dungeon/)。
 
 114 – 魔法實驗室與星孩
 腦蜘蛛的實驗室——一張書桌，以及裝滿試劑、材料和奧術工具的架子。
@@ -382,7 +382,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 • 這個巨型嬰兒是一個星孩，完全是意外地墜落地球，目前正在冬眠。
 
-• 若玩家試圖喚醒星孩，它會裂開一隻眼，用一隻手結出一個手印，唱出一個在他們骨子裡迴響的「嗡」聲。發生這種情況時，抽取一張隨機禍兆（見附錄A，第202頁）。星孩隨後重新入睡。
+• 若玩家試圖喚醒星孩，它會裂開一隻眼，用一隻手結出一個手印，唱出一個在他們骨子裡迴響的「嗡」聲。發生這種情況時，抽取一張隨機禍兆（見附錄A，[法術規則](/sorcery/rules/)）。星孩隨後重新入睡。
 
   - 星孩只引發環境性禍兆效果；若某個效果會特別針對某個玩家，請重新抽取。
 
@@ -415,7 +415,7 @@ See "How much treasure?" on page 182.
 116 – Glaura的巢穴
 一個寬敞的房間，到處覆蓋著蜘蛛網。牆壁上貼著一堆籃球大小的卵，以黏稠的白色蜘蛛網固定在洞窟壁上。南牆上有一幅破舊的壁畫，其內容已破損得無法辨認。
 
-• 這是Glaura Glossalalia的私人住所。Glaura的數值在第386頁。
+• 這是Glaura Glossalalia的私人住所。Glaura的數值在[教學地城](/underworld-creation/tutorial-dungeon/)。
 
 • 除非另有遭遇，Glaura Glossolalia在第一次探索此房間時在這裡。若小阿爾卡那棄牌堆頂部有人物牌，則Kodi和Glaura都在這裡。若Kodi目前不在房間中，任何騷動的聲音都會讓他趕來支援Glaura。
 
@@ -424,7 +424,7 @@ See "How much treasure?" on page 182.
 117 – Kodi的巢穴
 一個寬敞的房間，到處覆蓋著蜘蛛網。幾個肥大的蜘蛛網袋從天花板上懸掛下來。
 
-• 這是Kodi Dove-devourer的私人住所。Kodi的數值在第386頁。
+• 這是Kodi Dove-devourer的私人住所。Kodi的數值在[教學地城](/underworld-creation/tutorial-dungeon/)。
 
 • 除非另有遭遇，Kodi Dove-devourer在第一次探索此房間時在這裡。若小阿爾卡那棄牌堆頂部有人物牌，則Kodi和Glaura都在這裡。若Glaura目前不在房間中，任何騷動的聲音都會讓她趕來支援Kodi。
 
@@ -527,14 +527,14 @@ Greater dooms
 • Sorcery. The brain spiders can cast spells using the rules
 in Appendix A. They both have the component for a
 seven-faceted prism to cast the Illusion spell (Appendix
-A, p. 218). Cast spells by playing a lesser doom Speak
+A, [法術列表](/sorcery/spells/)). Cast spells by playing a lesser doom Speak
 Incantations action and discarding a greater doom card
 instead of spending Resolve. Each additional greater
 doom card discarded counts as an additional +1 Resolve.
 
 • Tactics. Discard a greater doom card to turn a standard
 
-Challenge Action into an interrupt (p. 114).
+Challenge Action into an interrupt ([挑戰階段](/challenge-phase/)).
 
 • Web. When the brain spider Attacks, discard a
 
@@ -632,7 +632,7 @@ the slime. Additionally, at the beginning of their turn,
 the target automatically takes 1 Wound, and all worn
 gear and items on their belt are Notched. The target
 must test Swords to try and escape; this uses the rules
-for the Test Fate action (p. 120).
+for the Test Fate action ([挑戰行動](/challenge-phase/actions/)).
 
 Greater dooms
 • Grind. Discard a greater doom card to automatically

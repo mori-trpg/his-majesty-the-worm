@@ -20,18 +20,11 @@ Dungeon Seeds
 
 - 《巴別圖書館》，豪爾赫·路易斯·博爾赫斯
 
-ecause staring at a blank page can be intimidating, here are twenty-one dungeon seeds to
-serve as inspirational prompts for your dungeon levels. Each dungeon seed provides some
+面對空白頁面有時令人卻步，因此這裡提供了二十一個地城種子，作為設計地城樓層的靈感提示。每個地城種子提供一些充滿想像力的胡言亂語，以及對應不同地城樓層的空白地圖。此外，這裡還收錄了二十一個房間特色與各式各樣的陷阱。
 
-B
-inspiring nonsense and a blank map for different dungeon levels. There are also twenty-one room
-features and a variety of traps included here.
+「地城之主」和「常見怪物」等參照並非定論，只是幫助你開始思考地城各房間與絞肉機內容的起點。
 
-References to things like "Dungeon lords" and "Common monsters" aren't intended to be
-definitive, just a starting place to help you start thinking about the contents of the dungeon's
-rooms and Meatgrinder.
-
-Use these resources as a starting point or discard them as your own ideas seem more appealing.
+將這些資源作為出發點，或在你的靈感更充沛時將其拋諸腦後。
 
 343
 

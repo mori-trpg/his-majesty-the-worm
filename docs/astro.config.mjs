@@ -85,67 +85,67 @@ export default defineConfig({
 			// ============================================
 			sidebar: [
 				{
-					label: 'Front Matter',
+					label: '前言',
 					slug: 'front-matter',
 				},
 				{
-					label: 'The Basics',
+					label: '基本規則',
 					autogenerate: { directory: 'basics' },
 				},
 				{
-					label: 'The Adventurer',
+					label: '冒險者',
 					autogenerate: { directory: 'adventurer' },
 				},
 				{
-					label: 'The Guild',
+					label: '公會',
 					slug: 'guild',
 				},
 				{
-					label: 'Kith and Kin',
+					label: '族裔',
 					autogenerate: { directory: 'kith-and-kin' },
 				},
 				{
-					label: 'The Four Paths',
+					label: '四大道途',
 					autogenerate: { directory: 'four-paths' },
 				},
 				{
-					label: 'Crawl Phase',
+					label: '探索階段',
 					autogenerate: { directory: 'crawl-phase' },
 				},
 				{
-					label: 'Challenge Phase',
+					label: '挑戰階段',
 					autogenerate: { directory: 'challenge-phase' },
 				},
 				{
-					label: 'Camp Phase',
+					label: '紮營階段',
 					slug: 'camp-phase',
 				},
 				{
-					label: 'City Phase',
+					label: '城市階段',
 					autogenerate: { directory: 'city-phase' },
 				},
 				{
-					label: 'Gamemastering',
+					label: '主持人指南',
 					autogenerate: { directory: 'gamemastering' },
 				},
 				{
-					label: 'Sorcery',
+					label: '法術',
 					autogenerate: { directory: 'sorcery' },
 				},
 				{
-					label: 'Alchemy',
+					label: '煉金術',
 					slug: 'alchemy',
 				},
 				{
-					label: 'Dungeon Denizens',
+					label: '地城居民',
 					autogenerate: { directory: 'dungeon-denizens' },
 				},
 				{
-					label: 'City Creation',
+					label: '城市建構',
 					autogenerate: { directory: 'city-creation' },
 				},
 				{
-					label: 'Underworld Creation',
+					label: '地下世界建構',
 					autogenerate: { directory: 'underworld-creation' },
 				}
 			],
