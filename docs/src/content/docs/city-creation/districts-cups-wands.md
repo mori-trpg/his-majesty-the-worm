@@ -5,213 +5,114 @@ sidebar:
   order: 2
 ---
 
-Cups
+聖杯
 
 312312
 
-I OF CUPS
+APPENDIX D     |     CITY CREATION
+
+聖杯一
 The Thermae
-Citizens of all social classes bathe daily at one of the hundreds of public baths
-in the City. The largest of these is the Thermae, one of the largest civic projects
-ever built. It dominates a dozen city blocks and can accommodate up to 3,000
-bathers at once.
+城市所有社會階層的市民都會每天在城中數百座公共浴場之一沐浴。規模最大的是 The Thermae，這是有史以來最龐大的公共建設之一，佔地十餘個街區，可同時容納多達三千名沐浴者。
 
-Entrance to the basic pools of the Thermae is affordable for the average citizen:
-only one or two quartered coins. However, the upper classes have refined bathing
-into a fine art. Each step of the bathing process—undressing, steaming, cold-
-water bathing, hot-water bathing, scraping, massaging, relaxation, dressing—has
-been made into an elaborate ritual. (These elegant spa experiences are available
-for those who purchase the luxurious upkeep.)
+入場費對一般市民而言相當親民，只需一、兩枚零錢即可使用基本浴池。然而上流階層已將沐浴昇華為一門精緻藝術。更衣、蒸氣浴、冷水浴、熱水浴、刮垢、按摩、休憩、更衣——每個步驟都有其繁複的禮儀。（這些高雅的水療體驗僅供購買豪華服務的賓客享用。）
 
-Sensations:
-The bathhouses are designed to give the feeling of immense, open space. Voices echo off
-of the lofty halls. You hear the sound of splashing in a pool nearby and the rumbling of
-rushing water from the aqueduct. The tiles are set in elaborate mosaics; they are warm to
-the touch from the volcanic hot springs running beneath them. Clouds of steam. The air is
-hot and dry. There’s a lingering sulphuric smell.
+感官印象：
+浴場設計令人感受到廣闊無垠的空間。聲音在高聳的廳堂間迴響。你能聽見附近浴池的濺水聲，以及引水渠中湍流的轟鳴。地磚鑲嵌著精緻的馬賽克圖案，從其下的火山溫泉汲取熱氣，摸起來溫熱。蒸汽瀰漫。空氣炎熱而乾燥，空氣中有一股揮之不去的硫磺氣息。
 
-Special City Action:
-• Makeover: Is it time to have a dramatic change? Let the masters of the
+特殊城市行動：
+• 煥然一新：是時候改頭換面了嗎？讓 The Thermae 的名匠為你效勞。花費 10g，完全重塑你的外貌。
 
-Thermae take care of you. Spend 10g to totally rewrite your appearance.
-
-II OF CUPS
+聖杯二
 The Perfume District
-Most agricultural processes (milling, butchering, rendering, composting, etc.)
-are done outside the walls in the farms and fields that support the engine of
-metropolitan life. When these things cannot be done outside the City, they are
-done inside the Perfume District.
+大多數農業加工程序（磨坊、屠宰、煉製、堆肥等）都在城牆外的農莊與田野中進行，以支撐都市生活的運轉。當這些事情無法在城外處理時，便移至 The Perfume District 進行。
 
-The Perfume District is so named for the incredible stink it produces. The work
-done in the Perfume District is grisly. Here, animal carcasses are turned into bone
-meal feed, fertilizer, tallow candles, soap, bleach, lye, and glue. (Some of the
-ambergris from rendered Grey river whales does eventually go to the perfumists,
-but distilling perfumes is not done here. The name is purely ironic.)
+The Perfume District 因其驚人的惡臭而得名。此地的工作令人不寒而慄。動物屍體在這裡被製成骨粉飼料、肥料、獸脂蠟燭、肥皂、漂白劑、鹼液與膠水。（部分從灰色河鯨提煉出的龍涎香確實會流向香水商，但在這裡並不進行蒸餾香水的工作。這個名字純粹是一種諷刺。）
 
-Sensations:
-The Perfume District is a gruesome place: they use everything of the hog but the
-squeal. The streets are perpetually churned with mud and bloody runoff from the
-slaughterhouses. You hear the blast of the rendering furnaces and see the belch
-of smoke. The Grey river is choked with the corpses of animals. A visible fog of
-miasma lays over the district. And the stench. Oh Mythrys, the stench.
+感官印象：
+The Perfume District 是個令人不快的所在：他們對豬的每個部位都物盡其用，唯獨用不上的是豬的叫聲。街道被泥濘和屠宰場流出的血水永無止盡地翻攪著。你能聽見煉製熔爐的爆鳴，看見濃煙噴湧而出。灰色河被動物屍體所窒塞。一層可見的瘴氣籠罩著整個街區。還有那股惡臭。哦，Mythrys，那股惡臭。
 
-Special City Action:
-• Beg for scraps: If you are destitute, you may beg for scraps. Fill your pack with
-as many disgusting rations as you want. Use them as rations in a pinch, but they
-are nauseating. They work equally well for animal feed.
+特殊城市行動：
+• 乞討殘羹：若你一貧如洗，你可以乞討殘羹。在你的背包裡裝入任意數量令人作嘔的口糧。必要時可作為口糧使用，但這些食物極度噁心。它們同樣適合作為牲畜飼料。
 
 APPENDIX D     |     CITY CREATION
 
-III OF CUPS
+聖杯三
 Stone
-Stone boasts the most skillful architects and masons in the Wide World. The
-district is their workshop and their showroom. Each architect displays their
-masterpieces in the district’s squares, forums, and thoroughfares. The bridges of
-Stone are colossal statues providing egress; the public fountains are instruments
-that play music as they burble; the apartment buildings rise as high as cathedrals.
+Stone 擁有廣闊世界中最技藝精湛的建築師與泥瓦匠。這個街區既是他們的工作坊，也是他們的展示廳。每位建築師都在街區的廣場、論壇與大道上展示自己的傑作。Stone 的橋樑是提供通行的巨型雕像；公共噴泉是在流水聲中演奏音樂的樂器；公寓樓宇高聳入雲，宛如大教堂。
 
-Sensations:
-Massive monoliths tower around you. Triumphal arches detail conquests of human noble
-houses. The white marble flagstones kick up the sun’s light and heat, but long shadows of
-towering statues provide islands of cool air. Cathedral-like skyscrapers grow up from busy
-public squares. Grotesque faces poke out from the sides of the building, leering down at you.
+感官印象：
+巨大的獨立岩石高聳環繞。凱旋門記載著人類貴族世家的征服事蹟。白色大理石路面反射著陽光的光與熱，但高聳雕像投下的長影提供了片片涼爽的庇蔭。教堂般的摩天大樓從繁忙的公共廣場中拔地而起。醜陋的面孔從建築物側面探出，向下俯視著你，面露猙獰。
 
-Rumor:
-The gargoyles are not what they seem. Some of them are devils with stone skin
-that hide amongst the statuary during the day but creep out to do wickedness at
-night. Adventurers brought them up from the Underworld, they did.
+傳聞：
+石像鬼並非看起來那般。其中一些是披著石皮的惡魔，白天藏匿在雕像群中，夜晚則爬出來行惡。是冒險者把牠們從地下世界帶上來的。
 
-Special City Action:
-• Commission gargoyle: For 50g, you can commission a gargoyle of anything
-you want. This might be a comical bust of your rival to lampoon him or a
-flattering portrayal of yourself. These gargoyles will thereafter be much loved
-and admired by the folk of Stone.
+特殊城市行動：
+• 委製石像鬼：花費 50g，你可以委製一座你所想要的石像鬼。可以是用來嘲弄對手的滑稽半身像，或是展現自己英姿的溢美雕像。這些石像鬼此後將深受 Stone 居民的喜愛與欣賞。
 
-IV OF CUPS
+聖杯四
 The Hippodrome of Amet
-The Hippodrome of Amet hosts the City’s public games. A full one-third of the
-year is dedicated to the games at the Hippodrome. Of these, the chariot races are
-the most popular, but they include a wide variety of other entertainment: parades
-and processions, foot races, exotic animal hunts, plays and recitals, and public
-executions. The need for support during the public games has caused an entire
-district to grow up around the Hippodrome. Food sellers, beer brewers, token
-takers, animal tamers, janitors, musicians, repairmen, teamsters, and others all live
-near the Hippodrome to provide needed manpower.
+The Hippodrome of Amet 舉辦城市的公共競技活動。全年有整整三分之一的時間獻給 The Hippodrome 的競技。其中戰車賽最受歡迎，但也包含各式各樣的其他娛樂：遊行與列隊、賽跑、奇珍異獸狩獵、戲劇與吟誦，以及公開處決。公共競技對支援人力的需求，使整個街區在 The Hippodrome 周圍應運而生。食品販售者、啤酒釀造者、票務人員、馴獸師、清潔工、樂師、修繕工、搬運工等人都居住在 The Hippodrome 附近，以提供所需的勞動力。
 
-Sensations:
-The Hippodrome of Amet is a large field with a racetrack about a half-mile long.
-Stadium seating rings the field in tiers. On game days, the thunder of the horse hooves
-and chariot wheels is matched only by the thunder of the crowds. Flute players perform the
-sacred songs that start and end each game. The heraldry of different houses flies proudly in
-the hot wind. The smells of candied scorpion snacks mix with those of the horse stables.
+感官印象：
+The Hippodrome of Amet 是一片擁有約半英里賽道的廣闊場地。看台席分層環繞著場地。在競技日，馬蹄聲與戰車輪鳴震地，唯有觀眾的雷鳴喝采聲才能與之比擬。長笛手演奏神聖的樂曲，為每場競技開場與收場。各家族的紋章旗幟在熱風中驕傲飛揚。糖漬蠍子零食的香氣與馬厩的氣味交融在一起。
 
-Special City Action:
-• Purchase animal companion: Hunters are sent to the far corners of the Wide
-World for exotic animals to be displayed as combatants in the Hippodrome;
-not all animals brought back make the cut. You can purchase an exotic animal
-for the cost of 100–1000g (based on the animal’s rarity). Each animal purchased
-enters your service knowing one command (p. 78).
+特殊城市行動：
+• 購買動物夥伴：獵人被派往廣闊世界的各個角落，帶回奇珍異獸，作為 The Hippodrome 的格鬥參賽者；並非所有帶回的動物都能入選。你可以按照動物的稀有程度，花費 100–1000g 購買一頭奇珍異獸。每頭購入的動物加入你的麾下時，已知曉一個指令（第 78 頁）。
 
 313
 
 APPENDIX D     |     CITY CREATION
 
-V OF CUPS
+聖杯五
 Rouge Road
-Humans tell stories of love and romance second only to stories about war
-(actually, they’re usually related). Rouge Road is dedicated to these stories. It’s
-filled with shops dedicated to love and lovemaking: prophylactics, tools and toys,
-aphrodisiacs, wards against venereal diseases. There are many shrines dedicated to
-the Lovers, an emanation of the Monad that avenges infidelity, creates household
-harmony, and aids women in childbirth. And, at most of these shrines, there is
-some tender-hearted cultist willing to perform a hasty wedding.
+人類對愛情與浪漫的故事渴求，僅次於戰爭故事（實際上，兩者往往密不可分）。Rouge Road 便致力於這些故事。這裡到處是專門售賣愛情與情慾用品的店鋪：避孕用品、工具與玩具、春藥、預防性病的護身符。這裡有許多供奉情人（一元神的一個化身，懲罰不忠、維護家庭和諧、協助婦女生產）的神祠。而在大多數神祠旁，都有一位心地善良的教團成員，樂意主持一場倉促的婚禮。
 
-Sensations:
-The stone buildings are decorated with statuary that ranges from the lewd to the rude.
-Hawkers advertise the efficacy of their products; some offer free samples. Under an
-arbor sits a small shrine to the Lovers. Behind it, two young sweethearts are embracing
-amorously. Cherry trees shade the main thoroughfare. Their blossoms fall across the road
-and gather into little piles. There is a sweet smell in the air.
+感官印象：
+石造建築物以雕像裝飾，內容從情色到粗俗不等。叫賣者廣告自家產品的功效；有些甚至提供免費樣品。一座涼亭下，坐落著一座小型的情人神祠。神祠後方，兩個年輕的戀人正熱情相擁。櫻花樹蔭覆蓋著主要幹道。花瓣飄落路面，堆積成一小堆一小堆。空氣中瀰漫著甜甜的香氣。
 
-Special City Action:
-• Marriage feast: To hold a marriage feast, you must spend all of your gold from
-your last Crawl. (If your partner is another player’s adventurer, they must do
-the same.) You gain 2XP by getting married in this way. All adventurers who
-spend their City Action attending your marriage feast earn 1XP.
+特殊城市行動：
+• 婚宴：要舉辦婚宴，你必須花費上次探索所得的全部金幣。（若你的伴侶是另一位玩家的冒險者，對方也必須如此。）以這種方式結婚可獲得 2XP。所有將城市行動用於出席你婚宴的冒險者可獲得 1XP。
 
-VI OF CUPS
+聖杯六
 The Madrasa of Maiden Wisdom
-Founded by the Crow-Headed Queen and renamed for the mother of Mythrys,
-the Madrasa of Maiden Wisdom is a public institution of learning. There are a
-dozen or so colleges inside the City, but the Madrasa of Maiden Wisdom is the
-largest and most esteemed. It is unique in that it offers free education to anybody,
-boy or girl, human or non-human. Secondary education is administered by the
-“Lower Houses,” and covers literacy, arithmetic, grammar, music, and ethics.
-The “Upper Houses” administer advanced education in natural philosophy, law,
-politics, history, tactics, and logic.
+由 Crow-Headed Queen 創立，並以 Mythrys 之母為名重新命名的 The Madrasa of Maiden Wisdom，是一所公立學習機構。城市內有十餘所學院，但 The Madrasa of Maiden Wisdom 是規模最大、最受推崇的。它的獨特之處在於向所有人提供免費教育，不論男女、人類或非人類。「初等院」負責基礎教育，涵蓋識字、算術、文法、音樂與倫理。「高等院」則負責進階教育，涵蓋自然哲學、法律、政治、歷史、戰術與邏輯。
 
-Sensations:
-The Madrasa is laid out like a little fortress—it’s ringed with white sandstone walls
-demarcating the boundaries of the campus. Inside, a surprising burst of green: a dell rich
-with trees surrounding a reflecting pool. Spirited youths chase each other across the dell,
-followed by a shouting janitor. Stone buildings are lit with mosaics depicting natural
-phenomena. From an open window, you hear the voice of a scholar intoning her lesson.
+感官印象：
+The Madrasa 的佈局如同一座小型要塞——四周環繞著白色砂岩牆，劃定校園的邊界。內部是令人驚喜的一片翠綠：鬱鬱蔥蔥的谷地，樹木環繞著一座倒影池。活潑的年輕人在谷地中互相追逐，後面跟著一個大喊的工友。石造建築物以描繪自然現象的馬賽克照亮。從一扇敞開的窗戶傳來一位學者吟誦課文的聲音。
 
-Rumor:
-There is a third school inside the Madrasa called the “Superior House.” The
-teachers in this college are not flesh and blood, but devils, daemons, angels,
-and genii from the far realms. Students who study under these spiritual masters
-learn heretical metaphysics. It is said that the ghost of the Crow-Headed Queen
-herself teaches certain subjects.
+傳聞：
+The Madrasa 內部有第三所學校，名為「至尊院」。這所學院的教師並非血肉之軀，而是來自遙遠領域的惡魔、精靈、天使與智靈。在這些靈性導師門下修行的學生，學習異端形而上學。據說 Crow-Headed Queen 的亡靈親自教授某些科目。
 
-Special City Action:
-• Study language: For 200g, you may study the grammar of one of the City’s main
-languages at the Madrasa of Maiden Wisdom. The main languages are described
-on page 29. Add one language to the list of languages that you know.
+特殊城市行動：
+• 語言研修：花費 200g，你可以在 The Madrasa of Maiden Wisdom 研修城市主要語言之一的文法。主要語言詳見第 29 頁。將一種語言加入你已知語言的清單中。
 
 314314
 
 APPENDIX D     |     CITY CREATION
 
-VII OF CUPS
+聖杯七
 The Plaza of the Stylites
-Thirty-some years ago, a Mythric monk climbed on top of one of the pillars in
-the public square now called the Plaza of the Stylites and began screaming about
-the end of the world. He stayed there day and night, living in extreme austerity.
-When the Underworld first opened, he was heard laughing. His last words were,
-“I was right.”
-Following his example, dozens of other monks have clambered up onto high
-pillars and poles in this district. They spend all day arguing theology with each
-other, prophesying various flavors of doom, and excoriating the sins of those
-who pass below them. They are kept fed by the almsgiving of the citizens of the
-district who look on their pillar-saints with bemusement and respect.
-Sensations:
-A sunburned old man covered in pigeon droppings is yelling at you: “Repent ye vile
-Maggots of the Material! You writhe and wriggle in sin, blind to the holy light! You
-consume, consume, consume, and you shit, shit, shit. All the works of Man will be thus in
-the end! Turn from the temporary and give yourself to the permanent! The time of fires
-will soon be at hand!”
-His voice trails away as you cross the plaza and enter a small bakery.
-Special City Action:
-• Doomsaying: If you donate to a stylite, they will give you a personalized
-prophecy. Give the stylite 10g and draw four cards from the minor arcana deck
-for a random prophecy using the table below. If you can ever justify the prophecy
-being true by a generous interpretation of the events of your adventures, you can
-immediately refill your Resolve to full at any point in the future.
+大約三十年前，一位 Mythric 僧侶爬上了如今被稱為 The Plaza of the Stylites 的公共廣場中的一根石柱頂端，開始大聲喊叫世界末日即將來臨。他日夜不離，過著極度禁欲的生活。當地下世界初次開啟時，有人聽見他在笑。他最後的話語是：「我說得沒錯。」
+效仿他的榜樣，數十名其他僧侶也紛紛攀爬上這個街區高聳的石柱和柱杆。他們整日相互辯論神學，預言各式各樣的厄運，並斥責下方路過之人的罪孽。街區居民對這些柱頂聖人報以好奇與敬重，以施捨維持他們的飲食。
+感官印象：
+一個被鴿子糞便覆蓋、曬得通紅的老人正對著你怒吼：「悔改吧，你們這些物質世界的可鄙蛆蟲！你們在罪惡中蠕動扭曲，對神聖的光明視而不見！你們消費，消費，消費，然後排泄，排泄，排泄。人類所有的作為，到頭來都不過如此！拋棄短暫，投身永恆！烈火的時代即將到來！」
+當你穿越廣場、走進一家小麵包店時，他的聲音漸漸遠去。
+特殊城市行動：
+• 厄運預言：若你向一位柱頂聖人捐款，他將給你一個個人化的預言。給予柱頂聖人 10g，並從小阿爾卡那牌組中抽取四張牌，使用下表得出一個隨機預言。如果你能以對冒險事件的寬泛詮釋，使預言看似應驗，你可以在未來的任意時刻立刻將決心補滿。
 
-Read from left to right; the suit of the card in each step determines which row
-you read from:
+從左至右閱讀；每個步驟中牌的花色決定你閱讀哪一列：
 | s   | p       |     |     |
 | --- | ------- | --- | --- |
 | uit | rophecy |     |     |
 ...you hear my
-When the Constellation  ...hunger will be loosed  command: “Ascend the
+When the Constellation  ...hunger will be loosed  command: "Ascend the
 The moon will die,
 SWORDS of the Beast is in the  and given leave to come  stairs of Heaven and
 unless...
 | First House... | among you. |     | devour whatever you  |
 | -------------- | ---------- | --- | -------------------- |
-find there.”
+find there."
 ...the seven crowns are
 ...the Last Queen will
 |                               |                         | A new river will rise   | stolen from the severed  |
@@ -234,658 +135,337 @@ sing.
 | east...                          | childbirth.              |                       |                          |
 APPENDIX D     |     CITY CREATION 315
 
-VIII OF CUPS
-The Philosophers’ Forum
-There is a (currently popular) branch of philosophy that rejects modern educational
-standards, the esteem of the City’s various colleges, and even the utility of the
-written word. These iconoclast philosophers hang out in the district called the
-Philosophers’ Forum. In essence, these philosophers live as paupers (though they
-would use the term “aesthetic mendicant”), and make a poor living by selling their
-treatises, giving public recitations, and betting on rhetorical contests.
+聖杯八
+The Philosophers' Forum
+有一個（目前頗為流行的）哲學流派，拒絕現代教育標準、城市各學院的聲望，甚至連文字的實用性都一併否定。這些離經叛道的哲學家聚集在名為 The Philosophers' Forum 的街區。本質上，這些哲學家以乞丐為生（儘管他們自稱「審美乞食者」），靠販售論著、公開朗誦以及參與修辭辯論賭注為業，勉強度日。
 
-At its best, the Philosophers’ Forum is an intellectual center for the City. It
-contributes new ideas to ethics, aesthetics, ontology, epistemology, etc. It hosts
-interesting and controversial personalities. Its nightlife is spirited and lively.
+The Philosophers' Forum 在最好的狀況下，是城市的智識中心。它為倫理學、美學、本體論、認識論等領域貢獻新思想，並孕育出有趣而充滿爭議的人物。這裡的夜生活充滿活力與朝氣。
 
-At its worst, its citizenship is contentious and argumentative. Factional rivalries
-manifest and dissolve frequently. There’s little peace and zero quiet.
+在最壞的狀況下，這裡的居民固執好辯。派系之爭時常出現，又迅速瓦解。幾乎沒有片刻安寧，更遑論靜謐。
 
-The average citizen of the district finds these street philosophers something of a
-nuisance, but cannot deny that they contribute a local color to the neighborhood.
+一般而言，這個街區的普通市民認為這些街頭哲學家是個麻煩，但不得不承認他們為街坊增添了一種獨特的色彩。
 
-Sensations:
-The buildings are in disrepair, even ruinous: standing columns and collapsing arches from
-ancient eras define the landscape. The forum itself is shaped like a bowl for acoustical
-reasons. Amid the market stalls, deadbeat philosophers with shaggy beards shelter in old
-wine casks: they offer poetic recitations in exchange for coin. Ahead, a crowd has gathered
-to watch two famous old women debate the nature of sapience. The crowd loudly boos
-them both.
+感官印象：
+建築物已然失修，甚至殘破不堪：來自遠古時代的立柱與傾倒的拱門構成了街區的面貌。The Forum 本身呈碗狀，是為了聲學效果而設計的。在市集攤位之間，蓄著雜亂鬍子的落魄哲學家棲身於舊酒桶中，以朗誦詩句換取銅板。前方聚集了一群人，正在觀看兩位著名的老婦人辯論智識的本質。人群對兩人都大聲喝倒采。
 
-Rumor:
-The Philosophers’ Forum is home to a seditionist element. They claim the current
-ruler of the City is illegitimate and long for the return of the rightful ruler. You
-can find these rebels by paying a philosopher with a non-golden coin (rare these
-days). If the philosopher returns the coin and says, “Money has no use in the
-land of the dead,” you must reply, “The dead know no king but His Majesty the
-Worm.” You will then be taken to the underground lair of the rebellion.
+傳聞：
+The Philosophers' Forum 藏匿著一股煽動叛亂的勢力。他們聲稱城市現任統治者並非正統，渴望真正的統治者回歸。你可以用一枚非黃金材質的硬幣（如今極為罕見）支付給一位哲學家，以此找到這些叛黨。若哲學家將硬幣退還給你並說：「金錢在死者之地毫無用處」，你必須回答：「死者只知一位君王——蠕蟲陛下。」隨後你將被帶往叛亂組織的地下巢穴。
 
-Special City Action:
-• Seek truth: An individual philosopher might be batshit wrong about almost
+特殊城市行動：
+• 探尋真相：單個哲學家或許對幾乎所有事情都荒誕不經，但哲學家的集體卻實際上非常睿智。花費 50g 召集一群人，讓他們喝得醉醺醺的。提出一個假設。
 
-everything, but collectively the philosophers are actually very wise. Spend 50g
-to assemble a crowd and get them sufficiently drunk. Make a hypothesis.
+•  若群眾歡呼你的假設，則你的假設大致正確。
 
-•  If the crowd cheers the hypothesis, your hypothesis is mostly correct.
+•  若群眾對你喝倒采，則你的假設是錯誤的。
 
-•  If the crowd boos you, your hypothesis is incorrect.
+•  若群眾開始辯論你的假設，則假設是錯誤的，但其中包含某些本質性的真理核心。
 
-•  If the crowd begins to debate your hypothesis, it’s incorrect but has some
-
-essential kernel of truth.
-
-You can use this City Action to have the GM reveal the veracity of your theories
-about the nature of the Underworld and its residents.
+你可以使用此城市行動，讓主持人揭示你關於地下世界及其居民的理論的真偽。
 
 316316
 
 APPENDIX D     |     CITY CREATION
 
-IX OF CUPS
+聖杯九
 The Shrine of the Fig of Fate
-When the First King of the City died, a fig tree burst through his chest at the
-moment of death. His corpse was subsumed into this blessed tree
-transmogrification, his face captured into a carven visage of blissful agony. This was
-a sign that a new age of prosperity was to come again to the realms of humanity.
+城市第一位國王死去時，一棵無花果樹在他嚥氣的瞬間破胸而出。他的遺體被這棵神聖之樹的蛻變所吸收，他的臉龐化為一張雕刻在樹幹上、呈現極樂痛苦的石刻面孔。這是一個預兆，昭示著一個新的繁盛時代即將再度降臨人類的領域。
 
-In the spot of this metamorphosis, there now stands a small grove of fig
-trees, in the center of which is a shrine with a gnarled, ancient, and somewhat
-human-looking tree. Since it is a site associated with foundings and beginnings,
-expectant mothers visit the Shrine of the Fig of Fate to pray for healthy children.
-Some mothers even opt to give birth in the grove itself. As such, a robust industry
-of midwifery has grown up in the neighborhood surrounding the shrine.
+在這段蛻變發生之處，如今矗立著一片小型無花果樹林，其中心是一棵枝幹盤結、古老而略帶人形的神祠樹。由於這裡是與建立和開端相關的聖地，待產的母親們前來 The Shrine of the Fig of Fate 祈禱，求得健康的孩子。有些母親甚至選擇在樹林中分娩。因此，圍繞神祠的街區興起了蓬勃的助產行業。
 
-Sensations:
-A line of pregnant women trails down a sparsely forested hill. Merchants are selling jars
-of water from the local spring, parcels of dried figs, and small jars of honey. Goats move
-through the area cropping the grass. The buzz of bees in the air.
+感官印象：
+一列孕婦沿著稀疏樹林覆蓋的山丘蜿蜒而下。商人販賣著當地泉水的罐裝水、一包包的乾燥無花果，以及小罐蜂蜜。山羊在這片區域漫步，啃食著草地。空氣中嗡嗡蜂鳴。
 
-Special City Action:
-• Purchase fate honey: When you take this City Action, you may add as many
-jars of fate honey to your pack as you wish; they each take 1 slot. You may
-consume a jar of fate honey during a Crawl to immediately restore 1 lore bid.
+特殊城市行動：
+• 購買命運蜂蜜：當你執行此城市行動時，你可以在背包中加入任意數量的命運蜂蜜罐；每罐佔用 1 個格位。你可以在探索途中消耗一罐命運蜂蜜，立即恢復 1 次學識投注。
 
-X OF CUPS
-Alchemists’ Hall
-Before the arrival of the Underworld, alchemists were an unpopular profession.
-Everybody thought they were virgin losers—and they were more or less right.
-But the Underworld is an alchemical smorgasbord: an almost entirely untapped
-treasure trove of reagents waiting to be harvested. The implications for power
-and riches are obvious. In this light, alchemists have become very popular.
+聖杯十
+Alchemists' Hall
+地下世界到來之前，煉金術士是一個不受歡迎的職業。所有人都認為他們是一無是處的廢物——而這個評價大致不差。但地下世界是一個煉金術的盛宴：幾乎完全未被開發的試劑寶庫，等待著被採集。其對財富與力量的意涵顯而易見。在此背景下，煉金術士變得非常搶手。
 
-No place in the City has such extensive, well-stocked laboratories as the
-Alchemist’s Hall. The gloomy stone buildings are full of instruments of doubtful
-and unlawful aspect: fitful furnaces, balances, hourglasses, crucibles, astrolabes,
-alembics of phosphorescent glass. The Order of Alchemists will rent these
-facilities out in exchange for coin or harvested reagents.
+城市中沒有任何地方擁有如 Alchemists' Hall 這般設備齊全的實驗室。這些陰鬱的石造建築物中擺滿了各種可疑而違法的器具：鬧騰的熔爐、天平、沙漏、坩堝、星盤、磷光玻璃製成的蒸餾器。煉金術士修會以金幣或採集的試劑換取設施租借。
 
-Sensations:
-A hill-top campus of stone buildings: laboratories, dormitories, storage silos, warehouses.
-White-robed alchemists, busy as ants, hurry to and fro. Foul smokes and vapors
-continuously belch forth from a forest of chimneys. A strong chemical smell hangs in the
-air. In the underground cellars, jars of glass and earthenware preserve the viscera of
-mythic monsters: the pickled eye of the cyclops, the coagulated blood of the hellhound, the
-powdered dung of the manticore.
+感官印象：
+山頂上的校園，由石造建築物組成：實驗室、宿舍、儲藏倉庫、貨棧。身穿白袍的煉金術士，繁忙如蟻，來來往往。惡臭的煙霧與蒸汽不斷從一片煙囪森林中噴湧而出。空氣中瀰漫著強烈的化學氣味。在地下室的藏室中，玻璃和陶器罐子保存著神話怪物的臟器：獨眼巨人的醃漬眼珠、地獄犬的凝固血液、曼提柯爾的研磨糞便。
 
-Special City Action:
-• Sell reagents: Alchemists will pay good coin for monster parts preserved in
-hermetic bottles. The GM will tell you how much the reagent is worth.
+特殊城市行動：
+• 販售試劑：煉金術士願意用好價錢購買保存在密封瓶中的怪物部位。主持人將告知你試劑的價值。
 
-(A general rule of thumb is 5g x total HD of the monster (p. 125). For example, a
-reagent from a monster with 6HD would yield 30g.)
+（一個大致的準則是怪物總骰子面數（HD）× 5g（第 125 頁）。例如，一個 6HD 怪物的試劑可售得 30g。）
 
 317
 
 APPENDIX D     |     CITY CREATION
 
-PAGE OF CUPS
+聖杯侍者
 The Hospital of St. Berenthu
-Formal healthcare in the City is only available at one location: the Hospital of St.
-Berenthu. (Elsewhere, one must rely on barber-surgeons to pull dead teeth, drain
-boils, amputate gangrenous limbs without anesthesia, and dole out basic first aid.)
-Those suffering from habitual illnesses are kept for several weeks in dormitories:
-they undergo periods of purging and fasting cleanses, generous leeching, and
-visits to underground chambers for therapy by way of “dream amplification.”
-Those suffering from obvious physical maladies are given morphine-laced wine
-for sweet sleep and go under the chirurgeon's knife.
+城市中正式的醫療服務只在一個地方提供：The Hospital of St. Berenthu。（其他地方只能依靠外科醫生拔除壞牙、引流膿包、在無麻醉的情況下截除壞疽肢體，以及施予基本急救。）患有慢性病症的患者在宿舍中療養數週：他們需接受一段時間的清腸與禁食淨化、大量的水蛭療法，以及前往地下室接受「夢境擴大術」療法。明顯身患外傷的患者則被給予含嗎啡的葡萄酒以獲得甜美的睡眠，然後接受外科醫生的手術。
 
-Sensations:
-A sprawling complex, half above ground and half below. Dream-like imagery of horned
-snakes, lambs with human faces, and peacock angels are carved on the cream-colored stone
-walls. The steps are crowded with lepers, the lame, and the blind: their groaning is that
-of a vast pipe organ. Poppies grown in flower boxes cannot overwhelm the magnolia-sweet
-smell of death.
+感官印象：
+一座龐大的建築群，地上地下各半。有角蛇、有人臉的羔羊以及孔雀天使等夢幻般的圖像，雕刻在奶油色的石牆上。臺階上擠滿了痲瘋病人、跛足者與盲人：他們的呻吟宛如一架巨大的管風琴。窗花箱中種植的罌粟花無法壓過那木蘭花般甜膩的死亡氣息。
 
-Special City Actions:
-• Rest and recuperate: As long as you are not destitute, you may spend your City
+特殊城市行動：
+• 休養生息：只要你不身無分文，你便可以將你的城市行動用於在醫院休養。這將治癒所有傷勢。
 
-Action resting at the Hospital. This heals all Wounds.
+• 接受水蛭療法：你可以治療一種疾患，每個階段需花費 20g（依第 97 頁的規則）。
 
-• Undergo leeching: You may heal an affliction at the cost of 20g per stage (per
+聖杯騎士
+The Old Queen's Library
+書籍是 Old Queen 唯一的執念。為此，她對城市課徵了唯一的一項稅：任何通過城門或停泊船隻的人，必須上繳其所攜帶的所有書籍。這些書籍隨後由她的抄寫員謄錄。原本由 Old Queen 保存，副本則歸還給原主。她早已長眠，但她龐大的卷軸、典籍與抄本藏書依然留存。圖書館由教團管理，負責照管書籍的修女們忠實地守護與保存著這批典藏。圖書館服務教團的史學家、學者、詩人與法律從業者。
 
-the rules in the p. 97).
+感官印象：
+壁龕中擺放著象徵各種藝術形式與詩歌類型的擬人雕像。身穿棕袍的圖書館員俯身伏案，虔誠地裝訂和修補乾燥的莎草紙卷軸。空氣中瀰漫著墨水與膠水的氣息。千支筆尖在紙上刮擦的聲音。
 
-KNIGHT OF CUPS
-The Old Queen’s Library
-Books were the singular obsession of the Old Queen. So much so that this was
-the one tax she imposed upon the City: any person passing the gates or docking
-ship must yield up any book in their possession. These were then copied by her
-scribes. The originals were kept by the Old Queen, and the copies returned
-to the owners. She is now long dead, but her enormous collection of scrolls,
-tomes, and codices remains. The library is kept by the Cult, whose librarian nuns
-faithfully tend and preserve the books. The library serves as a resource for the
-Cult’s historians, scholars, poets, and law practitioners.
+傳聞：
+原典與謄錄本之間的抄寫錯誤，根本不是錯誤，而是館員修女使用的一套複雜密碼。透過將原典（收藏於圖書館中）與謄錄本（歸還原主者）重新對照，你可以開始解讀這套密碼。但它究竟隱藏著什麼秘密？
 
-Sensations:
-Statues representing anthropomorphized arts and poetic genres are set in niches. Bent over
-long tables, brown-robed librarians reverently bind and mend dry papyrus scrolls. The
-smell of ink and glue. The sound of a thousand scratching pen nibs against paper.
-
-Rumor:
-The copying errors between the original texts and the copied texts are not
-mistakes at all but a complicated cipher used by the librarian nuns. By reuniting
-the original texts (held in the library) and the copied texts (returned to the original
-owners), you can begin to parse this cipher. But what secrets will the it reveal?
-
-Special City Action:
-• Copy texts: The Old Queen’s Library has texts on almost every subject. Ask
-the GM if you can find a text on a particular topic. If one exists, you may pay
-for a scribe to copy a book from the library for you. Copied texts cost between
-100–1400g (randomly determined by the GM).
+特殊城市行動：
+• 謄錄文本：The Old Queen's Library 藏有幾乎所有主題的文獻。詢問主持人你是否能找到某個特定主題的文獻。若存在，你可以付費請抄寫員為你謄錄一本圖書館的藏書。謄錄本費用在 100–1400g 之間（由主持人隨機決定）。
 
 318318
 
 APPENDIX D     |     CITY CREATION
 
-QUEEN OF CUPS
+聖杯皇后
 The Centrum Bank
-As folks from far flung places in the Wide World came to the City, they brought
-different currencies with them: drachmas, staters, scripts, aureuses, talents,
-cowries. Someone needed to change this money. The Cult of Mythrys stepped in
-to fill this role and formed the Centrum Bank.
+隨著廣闊世界各地的人們來到城市，他們帶來了各種不同的貨幣：德拉克馬、斯塔特、紙鈔、奧里斯、塔蘭特、貝殼。有人需要為這些貨幣提供兌換服務。Mythrys 教團介入填補了這個空缺，並成立了 The Centrum Bank。
 
-The Centrum Bank makes high-interest loans to the desperate and the foolish.
-They also provide a safe repository for the heaps of gold being brought up from
-the Underworld; they exchange a broken chit as a unique ID for any who store
-their gold in the vaults.
+The Centrum Bank 向走投無路者和愚人提供高利貸款。他們也為從地下世界帶上來的大量黃金提供安全的保管庫；凡在金庫存放黃金者，以一枚破碎的票據作為唯一識別。
 
-Sensations:
-Sun glints off the gilded dome. There is the feeling of an immense weight above you.
-Tall column-like statues of shining marble. Hushed voices. The clink of counted coins,
-the squeak of the balance scale, the click of the abacus. Echoes, echoes, echoes.
+感官印象：
+陽光在鍍金圓頂上閃爍。你感受到頭頂巨大重量的壓迫。高聳的大理石柱雕，光彩奪目。竊竊私語。清點銅板的叮噹聲、磅秤發出的嘎吱聲、算盤撥珠的喀噠聲。迴響，迴響，迴響。
 
-Special City Action:
-• Take out a loan: You can take out a loan of almost any size. It has a 30% interest
+特殊城市行動：
+• 辦理貸款：你幾乎可以申請任何金額的貸款。利率為 30%。這不是個好主意。
 
-rate. It’s not a great idea.
-
-KING OF CUPS
+聖杯國王
 The Court of the Grail
-The Cult of Mythrys is a mystery religion, and its unknowable nature is mirrored
-in the Cult’s center of power, a district called the Court of the Grail. There are
-twenty-one initiations in the Cult. The higher initiations are wholly unknown to
-the lower initiates. As such, it is like many religions jumbled together, as reflected
-in the myriad temples of this district.
+Mythrys 教團是一個秘教，其神秘莫測的本質映照在教團的核心權力中樞——一個名為 The Court of the Grail 的街區。教團共有二十一階入會儀式。較高階的儀式對較低階的入會者完全保密。因此，它就像許多宗教的大雜燴，反映在這個街區的無數神廟之中。
 
-Sensations:
-Some temples are squat, black, and marked with the obscene imagery of devils. Some
-temples are tall and gilded. Some orders are masked and hooded head to toe and bound
-by vows of silence. Some orders practice sacred prostitution and lie naked on ivory altars.
-Some holidays are celebrated with public processionals of venerated mummies. Some
-holidays are celebrated through seclusion and fasting.
+感官印象：
+有些神廟矮小、漆黑，並以惡魔的淫穢圖像為標記。有些神廟高聳且鍍金。有些修會從頭到腳戴著面具、穿著兜帽長袍，並受沉默誓約約束。有些修會奉行神聖賣淫，裸臥在象牙祭壇上。有些節日以公開遊行供奉被尊崇的木乃伊來慶祝。有些節日則以隱居與禁食來慶祝。
 
-Rumor:
-Anybody can be shown the lesser mysteries of the first step, but only the Secret
-Pope knows the last mystery of the twenty-first step, and only the four members
-of the twentieth initiation even know who the Secret Pope is. As such, the
-identity of the Secret Pope is a thing of much conjecture. Some say it is a child
-and that the final mystery is “innocence.” Some say it is a corrupt and bloated
-vampire, and that the final mystery is “eternal life.” Some say it is His Majesty
-the Worm; nobody speculates as to what He knows.
+傳聞：
+任何人都可以被引介入第一階的初等奧秘，但只有秘密教皇知道第二十一階的最終奧秘，且只有第二十階的四名入會者知道秘密教皇是誰。因此，秘密教皇的身分是眾多猜測的焦點。有人說他是個孩童，而最終的奧秘是「純真」。有人說他是一個腐朽而臃腫的吸血鬼，而最終的奧秘是「永生」。有人說他就是蠕蟲陛下；沒有人猜測祂所知曉的。
 
-Special City Action:
-• Seek initiation: You are given the keys to the lesser mysteries and join the Cult
-of Mythrys. You begin at the first initiation. If you outrank another initiate,
-you gain favor in tests of fate to positively influence or bully them while in the
-City. When you gain a new rank (including your first), you are told a koan or
-riddle. To advance in rank, you must perform this City Action to try and guess
-the riddle’s answer. If you answer correctly, you advance in rank and are given a
-new koan to meditate on.
+特殊城市行動：
+• 尋求入會：你獲得進入初等奧秘的鑰匙，加入 Mythrys 教團。你從第一階開始。若你的階位高於另一位入會者，當你們同在城市時，你在命運考驗中可獲得優勢，以正面影響或施壓對方。每當你晉升一個新的階位（包括第一次），你將獲告知一則公案或謎語。要晉升階位，你必須執行此城市行動，嘗試猜測謎語的答案。若你回答正確，你晉升一個階位，並獲得一則新的公案供你冥想。
 
 319
 
 APPENDIX D     |     CITY CREATION
 
-Wands
+權杖
 
 320320
 
-I OF WANDS
-Prestidigitators’ Theater
-In Prestidigitators’ Theater, puppetry has evolved from a distraction for children
-to a form of niche high art all its own. At any hour during the day, you can view a
-variety of puppet shows that range from farcical physical comedies to existential
-shadow plays. Street vendors hawk simple puppets of all shapes and sizes while
-larger shops sell bespoke and elaborate puppets, puppet-parts, repair tools, wire
-of different tensile strengths, and other puppet-nerd products.
+權杖一
+Prestidigitators' Theater
+在 Prestidigitators' Theater，木偶戲已從兒童消遣演變為一種利基高藝術形式。在白天的任何時刻，你都能觀賞各式各樣的木偶表演，從滑稽的喜劇肢體劇到存在主義的影子戲，應有盡有。街頭小販兜售各種大小形狀的簡單木偶，較大的店鋪則出售量身訂製的精巧木偶、木偶零件、修繕工具、不同抗拉強度的細線，以及其他木偶愛好者所需的產品。
 
-Sensations:
-Narrow streets bordered on either side by brightly-painted storefronts and vendor’s carts.
-Puppets, puppets, puppets: some minuscule, some several stories tall! The alleyways open
-onto broad squares with outdoor stages set into each corner. Crowds of people of all ages
-jostle for a good view of the plays. There are bursts of laughter, gasps of fear, and not a
-few somber tears shed.
+感官印象：
+兩旁色彩鮮豔的店面與攤販手推車夾道而立的狹窄街道。木偶，木偶，到處都是木偶：有些微乎其微，有些高達數層樓！小巷通往寬闊的廣場，每個角落都設有露天舞台。各年齡層的人群爭相搶佔觀看戲劇的好位置。時而爆出笑聲，時而傳來驚恐的喘氣聲，也不乏幾滴凝重的淚水。
 
-Rumor:
-The Puppeteers’ Guild can make puppets that are really, really, realistic. So
-realistic that you can’t tell the difference between them and living flesh. The
-guild has some power to animate these puppets from afar. Anybody you meet in
-the City might actually be a puppet controlled by one of the unholy puppeteers.
+傳聞：
+木偶師公會能製造出非常、非常逼真的木偶。逼真到你無法分辨它們與活生生的血肉之差。公會有能力從遠處操控這些木偶。你在城市中遇到的任何人，都可能是一個由不潔木偶師遠端操控的木偶。
 
-Special City Action:
-• Commission puppet: You may commission the creation of a puppet for 10g.
+特殊城市行動：
+• 委製木偶：你可以花費 10g 委製一個木偶。這個木偶看起來相當栩栩如生。你可以委製木偶製成你自己或其他人的模樣。
 
-This puppet looks pretty dang lifelike. You can commission the puppet to look
-like you or somebody else.
-
-II OF WANDS
+權杖二
 Newt Row
-Take a walk down Newt Row and you’ll see all forms of the eldritch and the
-arcane: Bubbling cauldrons. Polished viewing globes. Charms of bound herbs.
-Fortune telling of all sorts—even those ridiculous cards.
+沿著 Newt Row 走一圈，你將見識到各種神秘與奧術的形態：沸騰的大鍋。拋光的占卜水晶球。草藥綑紮的護身符。各式各樣的占卜——甚至包括那些荒唐的紙牌。
 
-Sorcerers scoff at Newt Row. This hedge-witchery is basically junk (more or
-less). It’s essentially a tourist’s destination in the City: a place where folks from
-Far Away can get spooked by a sibyl and pay too much for a blue-eye amulet.
-Still, for those with a penchant for the weird, Newt Row can be a charming little
-neighborhood to visit.
+術士對 Newt Row 嗤之以鼻。這種江湖符咒基本上是廢物（大致如此）。這裡本質上是城市的觀光景點：一個讓來自遠方的人被女先知嚇到，並花大錢買一個藍眼護身符的地方。儘管如此，對於喜愛奇異事物的人而言，Newt Row 可以是一個迷人的小街區。
 
-Sensations:
-A maze of narrow cobblestone alleyways winding up a hill. At each doorway, an incense-
-wreathed woman beckons you into her smoky parlor. Shop windows are full of phallic-
-shaped charms and waxen statues. Fetishes of woven reeds dangle from crossbeams. The
-smell of sage smoke hangs heavy in the air.
+感官印象：
+一座蜿蜒上山的狹窄鵝卵石小巷迷宮。在每扇門口，一位薰香繚繞的女子向你招手，邀你進入她煙霧瀰漫的客廳。店面櫥窗裡擺滿了陽具形狀的護身符和蠟像。橫樑上懸掛著用蘆葦編織的巫術偶。空氣中瀰漫著鼠尾草煙霧的氣息。
 
-Special City Action:
-• Purchase amulets: You may purchase amulets for 10g each. Each amulet removes
-disfavor once (doesn’t grant favor). When used in this way, the amulet shatters.
+特殊城市行動：
+• 購買護身符：你可以花費 10g 購買護身符。每個護身符可消除一次劣勢（不提供優勢）。以此方式使用時，護身符碎裂。
 
 APPENDIX D     |     CITY CREATION
 
-III OF WANDS
-The Lotus Eater’s District
-The Lotus Eater’s District caters to lotus addicts, but also sells intoxicants of
-all descriptions. Many kith and kin have found surprising ways to get fucked up,
-and they can all be found here: dragonteeth blunts, rackety-tam, angelshit, troll
-spice, takalashi jelly, etc.
+權杖三
+The Lotus Eater's District
+The Lotus Eater's District 服務蓮花成癮者，但同時販售各種描述的迷幻藥物。許多族裔與親族發現了令人驚訝的方式來讓自己醉醺醺，而這裡全都找得到：龍牙煙捲、雜亂塔姆、天使糞、巨魔香料、塔卡拉西果凍等。
 
-Sensations:
-Ghost lotus is growing everywhere: through cracks in the cobblestones, sprouting in the
-gutters, choking fountains and wells. At night, its phosphorescent glow fills the district
-with a pale moon-like glow. Graffiti artists have painted the alabaster walls with vivid
-colors: impressionist art in rainbow fractal patterns. As cellar doors open, clouds of acrid
-blue smoke issue forth from them. Someone is lying in the gutter, twitching. Laughter
-drifts out of an open upper window.
+感官印象：
+幽靈蓮無所不在：從鵝卵石的縫隙中冒出，在排水溝中萌發，窒息著噴泉與水井。夜晚，它的磷光將整個街區照亮，宛如蒼白的月光。塗鴉藝術家以鮮豔的色彩繪滿了雪白的牆壁：彩虹分形圖案的印象派藝術。當地窖門打開，一陣刺鼻的藍色煙霧便從中湧出。有人躺在排水溝中，身軀抖動。笑聲從一扇開著的上層窗戶飄出。
 
-Special City Action:
-• Buy exotic drugs: You may purchase exotic drugs. Black honey costs 35g per
-dose. Ghost lotus costs 5g per dose. (The stats for these drugs are found on
-page 98.) The GM is encouraged to come up with half-a-dozen or so additional
-exotic drugs that players can buy in this district.
+特殊城市行動：
+• 購買奇珍毒品：你可以購買奇珍毒品。黑蜂蜜每劑 35g。幽靈蓮每劑 5g。（這些藥物的數據詳見第 98 頁。）建議主持人自行設計半打左右的其他奇珍毒品，供玩家在此街區購買。
 
-IV OF WANDS
+權杖四
 Kobalosgaard
-By long-standing tradition, the ruler of the City maintains an honor guard of
-twenty fireblooded orcs. The reasoning is that orcs, as outsiders, have no political
-ties to the factions of the City that would raise questions about their loyalty.
+按照悠久的傳統，城市的統治者維持著一支由二十名烈血獸人組成的榮譽衛隊。其背後的考量是：獸人作為外來者，在城市的各派系中沒有政治關係，不會引起對其忠誠度的質疑。
 
-The honor guard dwells in the palace named Kobalosgaard. Its district is
-dedicated to the support of the foreign orcs and caters to their curious needs.
+榮譽衛隊居住在名為 Kobalosgaard 的宮殿中。其所在的街區專門服務這些外來獸人，以滿足他們奇特的需求。
 
-The orcs consider their blood oath to the ruler sacrosanct and inviolable. They
-will fight to the death in defense of their charge. However, if the ruler does
-happen to die, they see no reason to join them in the afterlife. As part of their
-pact, the honor guard has the right to leave the City with as much booty from the
-treasury as they can carry.
+這些獸人視對統治者的血誓為神聖且不可侵犯的。他們將為保護其主奮戰至死。然而，若統治者不幸身亡，他們沒有理由隨之赴死。依照他們的誓約，榮譽衛隊有權攜帶他們所能搬運的最多財物離開城市。
 
-Sensations:
-Goblins are everywhere, constantly underfoot. You smell outdoor cook fires smoking in the
-bailey. Orcs, off duty, embrace each other while boasting over their cups of mead. In the
-practice yard, armored orcs train with terrifying ferocity. The palace, though made in a
-human style, has been embellished by orcish artisans with draconic motifs. You realize, too
-late, that one of the goblins has relieved you of your purse.
+感官印象：
+哥布林無處不在，永遠在腳邊礙手礙腳。你聞到庭院中露天炊火升起的炊煙。休假的獸人相互擁抱，在蜂蜜酒杯上吹噓炫耀。在訓練場上，披甲的獸人以令人生畏的猛烈氣勢操練。宮殿雖以人類風格建造，卻已由獸人工匠加添了龍紋飾樣。你這才意識到，一個哥布林早已趁你不注意，洗劫了你的錢包。
 
-Special City Action:
-• Blood feast: For the price of 50g in gifts and the carcass of an Underworld
-
-monster, you may join the orcs in their revelries. The result? They give you a
-cool nickname that all orcs will call you from now on.
+特殊城市行動：
+• 血宴：以 50g 的禮物和一具地下世界怪物的屍體為代價，你可以加入獸人的狂歡宴飲。結果呢？他們賜予你一個酷炫的綽號，從此所有獸人都將這樣稱呼你。
 
 321
 
 APPENDIX D     |     CITY CREATION
 
-V OF WANDS
+權杖五
 The Plaza Numina
-Caves are sacred spaces in Mythrism, and hundreds of natural caverns, large and
-small, are used by City dwellers. Of these, one of the most notable and legendary
-is the cave under the Plaza Numina. Under this district, there are volcanic fissures
-that belch forth a noxious fume. These vapors have an intoxicating effect. Those
-who breathe these smokes experience a dream-like trance. Sometimes they rave
-or babble. It’s widely accepted that this is a sacred experience. Those who dwell
-in this district mostly cater to pilgrims coming to huff the vents, like residents of
-Mecca catering to those on the hajj.
+洞穴在 Mythrys 信仰中是神聖的空間，城市居民使用數百座大大小小的天然洞窟。其中最著名也最具傳奇色彩的，是位於 The Plaza Numina 地下的洞穴。這個街區的地下有火山裂縫，噴出有毒的煙霧。這些蒸汽具有迷幻效果。吸入這些煙霧的人會陷入夢幻般的恍惚狀態，有時會狂言亂語或胡言亂語。這被廣泛認為是一種神聖的體驗。居住在此街區的人，大多服務著前來吸嗅噴出口的朝聖者，就像麥加的居民服務進行朝覲的旅客一般。
 
-Sensations:
-The titular plaza is large and unpaved. A rent in the earth lies at its center, like an
-unclosed wound. Candles surround the fissure, giving it an eerie glow. The smell that
-permeates this district has been described as mushroomy. Here and there, pilgrims
-convulse in the street, tended by red-robed minders. The sound of overlapping glossolalia.
+感官印象：
+這個名符其實的廣場廣闊而未鋪設地面。一道裂縫橫亙於廣場中心，如同一道未癒合的傷口。蠟燭環繞著地裂，為其投下詭異的光芒。瀰漫在整個街區的氣味被形容為菇類氣味。三三兩兩的朝聖者在街上抽搐，由身穿紅袍的照料者守護。重疊的異語祈禱聲嗡嗡作響。
 
-Special City Action
-• Huff fumes: If you seek to huff the sacred fumes, the GM prepares a “Mad Lib”
-for you. You provide adjectives, nouns, and verbs. The GM then reads the Mad
-Lib to you. This is what you babble/prophesize during your trip. The GM may
-use this nonsense prophecy in planning sections of the Underworld, if they wish.
+特殊城市行動
+• 吸嗅聖煙：若你尋求吸嗅神聖的煙霧，主持人會為你準備一個「填充短文」。你提供形容詞、名詞和動詞。主持人隨後將這段填充短文唸給你聽。這便是你在迷幻狀態中所喃喃或預言的內容。若主持人願意，可以利用這個荒唐的預言來規劃地下世界的部分內容。
 
-VI OF WANDS
+權杖六
 The Street of Heretics
-The Cult of Mythrys is the predominant religion in the City, but it is by no means
-the only one. The Veneration of the Feathered Swine, the Followers of Issek of
-the Jug, the Cult of the God Twins, the elven Tripartite, and dozens of other faiths
-have significant numbers of adherents. These fringe religious communities gather
-on the Street of Heretics. Congregating in a single district allows these minority
-communities to avoid persecution and political pressures elsewhere. Because each
-sect is more or less in the same boat, they are remarkably tolerant of each other.
+Mythrys 教團是城市的主導宗教，但絕非唯一的宗教。羽毛野豬崇拜、Issek of the Jug 信徒、神之雙生子教團、精靈的三位一體，以及其他數十種信仰，都擁有相當數量的信徒。這些邊緣宗教社群聚集在 The Street of Heretics。集中在單一街區使這些少數群體得以避免在其他地方遭受的迫害與政治壓力。因為每個教派的處境大致相同，他們彼此之間表現出驚人的包容。
 
-Sensations:
-Different architectural styles crowd the street: outdoor fanes jostle for position with
-temples, shrines, cathedrals, and tabernacles. A riot of steeples. Religious costumes also
-vary widely (although many of them feature strikingly tall hats). Prayers to a dozen
-strange gods are uttered in a dozen languages. The smoke of incense roils towards the
-heavens. A silver horn sounds: a call to worship.
+感官印象：
+不同的建築風格擁擠地佔據著街道：露天神殿與廟宇、神祠、大教堂、聖幕爭相林立。林林總總的尖塔。宗教服飾也五花八門（儘管許多都以驚人的高聳帽子為特色）。對十幾位陌生神明的祈禱，以十幾種語言喁喁低吟。薰香的煙霧向天際翻湧。一支銀號響起：召喚禮拜的聲音。
 
-Rumor:
-The Church of the Snake’s doomsday recently came and went. This Day of
-Second Skin was observed only by a few, and the prophesied end of the world
-never quite materialized. However, adventuring guilds have recently reported
-that a gigantic serpent has appeared within the Underworld. Could this giant
-serpent be the one foretold by the Snake worshipers?
+傳聞：
+蛇之教會的末日預言近來來了又去。這個「蛻皮之日」只有少數人留意，預言中的世界終結也從未真正降臨。然而，冒險公會最近報告說，一條巨大的蛇已在地下世界出現。這條巨蛇會是蛇崇拜者所預言的那條嗎？
 
-Special City Action:
-• Strange communions: If you attend a religious service of importance to you,
-you may draw Challenge cards from either the top of the deck, the top of the
-minor arcana discard pile, or some combination of the two once during your
-next expedition.
+特殊城市行動：
+• 奇異聖餐：若你出席一個對你而言意義重大的宗教儀式，你可以在下次探險中，從牌組頂端、小阿爾卡那棄牌堆頂端，或兩者的某種組合中各抽一次挑戰牌。
 
 322322
 
 APPENDIX D     |     CITY CREATION
 
-VII OF WANDS
+權杖七
 The Sidereal House
-Because of the myriad smokes and discharges of the City, the stars are remote
-and rare things. They are infrequently seen—except in the district of the Sidereal
-House. The Sidereal House is a tower atop a high plateau, jutting defiantly up
-from the urban sprawl. This institution seeks to understand the lights of the sky
-and their significance for those who dwell on earth.
+由於城市中瀰漫的各種煙霧與排放物，星辰在這裡是遙遠而罕見的事物，很少能被看見——唯獨在 The Sidereal House 所在的街區除外。The Sidereal House 是一座建在高台上的高塔，從城市的蔓延之中拔地而起，傲然聳立。這個機構致力於理解天空的光芒及其對地上居民的意義。
 
-The Sidereal House is home to a sect of natural philosophers. These astronomers
-calculate the motions and positions of various planets, their dance, conjunctions,
-and the timing of eclipses. The Sidereal House is also home to many astronomical
-tools: a (relatively simple) telescope, a (large and elaborate) orrery, and a
-mechanical clock (the mechanisms of which dominate three floors of the tower).
-It is the civic responsibility of the Sidereal House to track, record, and name
-new years.
+The Sidereal House 是一個自然哲學家教派的所在地。這些天文學家計算著各個行星的運動與位置、它們的舞步、合相，以及日月蝕的時機。The Sidereal House 也收藏許多天文儀器：一架（相對簡單的）望遠鏡、一架（巨大而精密的）太陽系儀，以及一座機械鐘（其機械結構佔據了高塔的整整三個樓層）。記錄、追蹤並為新年份命名，是 The Sidereal House 的公民職責。
 
-Sensations:
-Mosaics personifying the zodiac, the constellations, and each planet. The tower itself is a
-massive affair, and looks somewhat unsteady. At this height, the air is quite clear. It is cold
-and good smelling. When you look up, you can actually see the stars twinkling above you.
+感官印象：
+描繪黃道帶、星座與各行星的馬賽克圖案。高塔本身是個龐然大物，看起來有些搖搖欲墜。在這個高度，空氣相當清新。寒冷而氣息芬芳。當你抬起頭，你確實能看見星辰在頭頂閃爍。
 
-Special City Action:
-• As above so below: You may go stargazing at the Sidereal House. Draw the top
-three cards from the minor arcana deck and place them back in any order.
+特殊城市行動：
+• 天上地下皆一理：你可以前往 The Sidereal House 觀星。從小阿爾卡那牌組頂端抽取三張牌，並以任意順序放回。
 
-VIII OF WANDS
+權杖八
 Garden of Ravenous Roses
-The largest greenspace in the City is the Garden of Ravenous Roses. The district
-is eerie and strange. It’s like if Central Park and Alice in Wonderland had a
-lovechild. Mazes of hedgerows that lead nowhere. Rose bushes with spiraling,
-sprawling arms reaching out to embrace you. Strange concentric circles of
-mushrooms. But it’s also peaceful. Quiet. There are no birds or insects. The
-whole place feels like it's holding its breath.
+城市中最大的綠地是 Garden of Ravenous Roses。這個街區陰森而怪異。就像中央公園與愛麗絲夢遊仙境生了個孩子。無處可尋出口的迷宮式灌木叢。玫瑰叢以螺旋式、蔓延的枝幹向外伸展，試圖將你擁入懷中。奇異的同心圓蘑菇圈。但這裡也平和而靜謐。沒有鳥類或昆蟲。整個地方感覺像是在屏息以待。
 
-Sensations:
-Too quiet. There are seventeen shades of green: fern, forest, jungle, laurel, lime. The flora
-is strange and the fauna non-existent. There are fractal patterns almost everywhere. You
-can hear a yoga class being taught not far from you.
+感官印象：
+太過安靜。有十七種深淺不一的綠色：蕨綠、森林綠、叢林綠、月桂綠、萊姆綠。植物群落奇異，動物族群根本不存在。幾乎處處可見分形圖案。你能聽到不遠處有人在教授瑜伽課。
 
-Rumor:
-Vampires (or anybody that needs blood to live, really) can actually be vegetarians
-in the Garden of Ravenous Roses. Just pick a few flowers and eat those instead.
-Same nutritious blood content.
+傳聞：
+吸血鬼（或任何需要以血液為生的生物）在 Garden of Ravenous Roses 其實可以吃素。只需採幾朵花吃掉就行了。同樣富含營養的血液成分。
 
-Special City Action:
-• Picnic: You may have a picnic in the terrible garden and invite other
-
-adventurers to come with you. In the same way that step 2 (break bread) of
-the Camp Phase can elicit interesting conversations (p. 189), this is explicitly
-an opportunity to share your own backstory and say something dramatic
-about your adventurer. Each person who participates in the picnic must share
-something unknown about their adventurer.
+特殊城市行動：
+• 野餐：你可以在這座可怕的花園裡舉辦野餐，並邀請其他冒險者前來。就像紮營階段第二步（共享食物）可以引出有趣的對話（第 189 頁）一樣，這明確是一個分享你自己的背景故事，以及說出關於你的冒險者某些戲劇性言語的機會。每位參與野餐的人，都必須分享一個關於自己冒險者的未知事項。
 
 323
 
 APPENDIX D     |     CITY CREATION
 
-IX OF WANDS
+權杖九
 The Labyrinth
-The Labyrinth is a tomb built by the Tyrant Emperor for himself: a mausoleum
-of epic size and scope. Its winding passageways are unknown to any living mason
-or architect because, upon completion, the Tyrant Emperor promptly executed
-all who participated in its construction. It is built of brick, mortar, and blood.
-When the City rebelled, the people sealed the Tyrant Emperor into his own
-tomb: a poetic end for the last of a line of mad monarchs. Now, the Labyrinth
-stands as a cursed and haunted blight on the City.
+The Labyrinth 是 Tyrant Emperor 為自己建造的墳墓：一座規模宏大的陵寢。它蜿蜒曲折的通道對任何在世的泥瓦匠或建築師而言都是一個謎，因為在建成後，Tyrant Emperor 隨即處決了所有參與其建造的人。它以磚塊、砂漿與鮮血建造而成。當城市起義時，人民將 Tyrant Emperor 封閉在他自己的墳墓中：這是瘋狂君主一脈中最後一人的詩意結局。如今，The Labyrinth 是詛咒纏身、鬼魅出沒的城市毒瘤。
 
-The disenfranchised are sometimes forced to live in its shadow, but (almost) no
-one dares to cross its threshold. Those that do are never heard from again.
+那些一無所有的人有時被迫生活在它的陰影下，但（幾乎）沒有人敢越過其門檻。那些踏入其中的人，再也沒有音訊。
 
-Sensations:
-Like a wen on the face of the City, the Labyrinth bulges up in the middle of the metropolis.
-It would be beautiful if it weren’t so grandiose. The Labyrinth is composed of red brick
-and is perfectly circular. When seen from above, there’s an apparent spiral pattern. There
-are many entrances into the structure, all bricked up—though the bricks are frequently
-crumbling, and age has opened other holes in it as well.
+感官印象：
+如同城市臉上的一顆囊腫，The Labyrinth 在都市的中心隆起。若非如此誇張，它本可稱得上美麗。The Labyrinth 由紅磚構成，呈完美的圓形。從高處俯瞰，有一種明顯的螺旋圖案。建築物上有許多入口，全部被磚塊封死——儘管磚塊頻繁地剝落，歲月也在其中開鑿出其他缺口。
 
-Rumor:
-The Tyrant Emperor isn’t dead. The hoi polloi played right into his hands. They
-sealed him into his own tomb—the tomb where he knew the location of the secret
-doors and hidden passages. He’s still alive down there. Stalking. Waiting. Eating
-rats. One day, he will rise again.
+傳聞：
+Tyrant Emperor 並沒有死。那些平民百姓恰恰中了他的計。他們將他封閉在他自己的墳墓裡——而他偏偏知道這座墳墓中所有隱藏通道與秘密門的位置。他還活著，就在裡面。潛行。等待。以鼠果腹。有朝一日，他將再度崛起。
 
-Special City Action:
-• Enter the Underworld: In actuality, the Labyrinth touches the Underworld. (Is
-it responsible for the coming of the Underworld?) If you use this City Action,
-your guild begins the Crawl in a random location in the Underworld. The GM
-should randomly determine the location each time. It is never the same.
+特殊城市行動：
+• 進入地下世界：事實上，The Labyrinth 與地下世界相連。（它是否是地下世界到來的起因？）若你使用此城市行動，你的公會將從地下世界中的一個隨機地點開始探索。主持人應每次隨機決定地點。每次都不相同。
 
-X OF WANDS
+權杖十
 The Starfall Pit
-When the star fell, everybody blamed the sorcerers. They did it. Them and
-their foul magics. It devastated most of the City. Those that lived had to flee the
-smoke and the dust. But—in time—many came back. They rebuilt. The City is
-eternal. But few dared go near the Starfall Pit. Few who did returned. Those who
-returned came back...wrong.
+星辰墜落時，所有人都將矛頭指向術士。是他們幹的。他們和他們骯髒的魔法。那次事件摧毀了城市的大半。倖存者不得不逃離煙霧與塵埃。但——隨著時間流逝——許多人回來了。他們重建了一切。城市是永恆的。然而幾乎沒有人敢靠近 The Starfall Pit。去過的人很少回來。那些回來的人帶著……變異而歸。
 
-Sensations:
-Ruins ring an ugly weeping wound in the earth. The air smells chemical. Your ears ring
-in a way that you can feel in your genitals. You glimpse the pit. There is a glow, but the
-light doesn’t illuminate anything. The glow flickers between two impossible colors, ulfire
-and jale, that mingle in a weird, eerie way.
+感官印象：
+廢墟環繞著大地上一道醜陋、泣血的傷口。空氣中散發著化學氣味。你的耳朵嗡嗡作響，那感覺甚至傳遍了你的私處。你瞥見了這個坑洞。有一種光芒，但那道光卻照不亮任何東西。光芒在兩種不可能存在的顏色——ulfire 與 jale——之間閃爍，以一種怪異、詭異的方式交融。
 
-Special City Action:
-• Visit the Pit: If you are foolish enough to go into the pit, pass your adventurer
-sheet around the table. Each player at the table may alter or swap one thing on
-your adventurer sheet within the normal bounds of the game. For example, they
-could swap your Cups and Pentacles attributes, change your gender, change your
-kith, etc. To you, this is normal. “I’ve always been like this,” you will insist.
+特殊城市行動：
+• 造訪坑洞：若你夠愚蠢，膽敢進入這個坑洞，將你的冒險者紙張傳遞給桌上所有人。桌上的每位玩家都可以在遊戲正常規則範圍內，更改或替換你冒險者紙張上的任意一項內容。例如，他們可以互換你的聖杯與錢幣屬性，改變你的性別，改變你的族裔等等。對你而言，這一切都是正常的。「我一直都是這樣，」你將如此堅持。
 
 324324
 
 APPENDIX D     |     CITY CREATION
 
-PAGE OF WANDS
+權杖侍者
 The Broken Smiles District
-Theater is a popular pastime in the City for both the commoners and the nobility.
-The center of theatrical craft is the Broken Smiles District (the macabre name
-comes from the symbol of a half-comedy, half-tragedy mask that represents the
-borough). The district is like Broadway and the West End had a baby. Playhouses
-abound. Its residents are all theater kids. They like to sing. Its residents are also
-fiercely territorial: different families support different playing companies. The
-rivalries are fierce. For example, if you’re a supporter of the Lord Governor’s
-Men, don’t find yourself below Swan’s Street after dark.
+戲劇是城市中平民與貴族共同喜愛的消遣。戲劇工藝的中心是 The Broken Smiles District（這個陰鬱的名字來源於代表該行政區的半喜半悲面具符號）。這個街區就像百老匯和西區生了個孩子。戲院林立。這裡的居民全都是戲劇迷。他們喜歡唱歌。這裡的居民也極度具有地域性：不同的家族支持不同的劇團。競爭激烈。舉例而言，若你是 Lord Governor's Men 的支持者，天黑後最好不要在 Swan's Street 以下的地方現身。
 
-Sensations:
-There are always crowds of people, beggars, and cutpurses. Playhouses carry names as
-fanciful as the taverns: the Curtain, the Bear-Baiter, Good Hope. For a half-coin, the
-poor can stand on the rush-strewn floors of almost any theater. The wealthier can afford
-more comfortable seating, coddle-cups of watered wine, and pretty decent sandwiches.
-Plays run the gamut from comedies, passion plays, musicals, satyr plays, and tragedies.
+感官印象：
+總是人頭攢動，有乞丐，也有扒手。劇院的名字和酒館一樣天馬行空：the Curtain、the Bear-Baiter、Good Hope。只需半枚銅板，窮人幾乎可以在任何劇院的蒲草鋪地大廳中站立觀賞。有錢人則能負擔更舒適的座位、摻水葡萄酒的保溫杯，以及相當不錯的三明治。上演的劇目涵蓋喜劇、受難劇、音樂劇、薩提兒劇與悲劇。
 
-Special City Action:
-• The play’s the thing: For 25g, you can take one other person (either an
+特殊城市行動：
+• 好戲在後頭：花費 25g，你可以帶另一個人（冒險者或主持人角色均可）出去享受一晚的娛樂。說出你們要去看的戲劇主題——任何主題都行：謀殺、婚姻、抵押、金錢等等。你可以透過觀察同伴對戲劇的反應，準確地判斷出他們對這個主題的看法。這能讓你洞悉他們希望對你隱藏的某個主題。
 
-adventurer or a GM character) out for an evening’s entertainment. Name the
-subject of the play you are going to see—it can be anything: murder, marriage,
-mortgages, money, etc. You may correctly gauge your companion’s opinion
-about this subject by observing their reaction to the play. This can give you
-insight into some subject they wish to keep hidden from you.
+權杖騎士
+The Temple of God's Wives
+在異教神王的時代，由雙性人與第三性別人士組成的神妻教派，握有巨大的政治影響力。他們的地位是神聖的：對教派以外的人而言，觸碰他們是死罪。時至今日，古老的神廟已成廢墟，但這個街區依然是那些游走於性別二元之外的人們的避風港。這些多元的人們作為社群聚集在神廟街區，以避免其他地方的不受歡迎或政治迫害。重要的是，古老教團的傳統至今仍以民間傳說的形式在這個街區流傳。長者的話語中蘊藏著許多智慧。
 
-KNIGHT OF WANDS
-The Temple of God’s Wives
-In the days of the pagan god-kings, the sect of the God’s Wives—made up
-of intersex and third gender persons—wielded enormous political influence.
-Their status was sacred: it was death for one outside their order to touch them.
-Today, the old temple is in ruins, but the district remains a haven for those
-who fall outside of the gender binary. These diverse peoples band together as
-a community in the Temple district to avoid unwelcome attention or political
-persecution. Importantly, the traditions of the old cult are still passed on as
-folklore in this district. There is much wisdom found in the sayings of the elders.
+感官印象：
+如同城市大部分地區，古老融入了嶄新。慶祝男女交融的古老雕像被塗上一層層清新鮮豔的油漆加以保存。灰泥建築物覆蓋著彩繪貝殼。紫藤花盛開。舞蹈伴隨著鼓聲與長笛聲。
 
-Sensations:
-Like most of the City, the old is incorporated into the new. Ancient statues celebrating
-the blending of the male and the female are kept in coats of fresh, vivid paint. The stucco
-buildings are covered in painted shells. Wisteria is blooming. Dancing is accompanied by
-the sound of drums and a flute.
+特殊城市行動：
+• 交換禮物：這個街區至今仍流行著一種古老的待客之道：贈禮以回禮。有時這是刻意帶有喜劇色彩的：以隆重的儀式交換垃圾。有時這則是一個意義深刻的儀式。
 
-Special City Action:
-• Exchange gifts: An ancient tradition of hospitality is still practiced in this
-district: a gift is given for a gift received. Sometimes this is intentionally
-comedic: rubbish exchanged with pomp and circumstance. Sometimes this is a
-meaningful ceremony.
-
-Tell the GM what gift you are giving away. Test Cups. On a failure, you receive
-a small, funny item. On a success, you are given a random antique. The GM will
-tell you what it is.
+告訴主持人你要贈出什麼禮物。進行聖杯考驗。失敗時，你收到一件小巧有趣的物品。成功時，你獲得一件隨機的古董。主持人將告知你是什麼。
 
 325
 
 APPENDIX D     |     CITY CREATION
 
-QUEEN OF WANDS
+權杖皇后
 The Tower Gnostic
-Natural philosophers observe the world and make hypotheses about its workings.
-They write bestiaries and herbologies, chronicle the passing of the seasons,
-and track the position of the stars. The Tower Gnostic is made up of unnatural
-philosophers. They posit the nature of the far realms, catalog the shapes of
-daemons and devils, and theorize the nature of sorcery.
+自然哲學家觀察世界，並對其運作方式提出假設。他們撰寫動物誌與植物誌，記錄四季更迭，追蹤星辰的位置。The Tower Gnostic 則由非自然哲學家組成。他們探討遙遠領域的本質，記錄精靈與惡魔的形貌，並對術法的本質提出理論。
 
-Not every member of the Tower Gnostic is a sorcerer, though many are.
-The Tower’s focus is more on theory than practical application. For Tower
-philosophers, the how is much more important than the doing. They aspire to
-write treatises about magic, not actually cast spells. The City mostly tolerates the
-Tower’s presence due to this apparent lack of ambition.
+並非 The Tower Gnostic 的每位成員都是術士，儘管許多人是。The Tower 的關注焦點更多在於理論而非實際應用。對 The Tower 的哲學家而言，如何遠比實踐更重要。他們渴望撰寫關於魔法的論著，而非真正施放法術。城市大致上容忍 The Tower 的存在，正是由於這種表面上缺乏野心的態度。
 
-Tylwyth is spoken by most of the population in this district.
+Tylwyth 語是這個街區大多數人口使用的語言。
 
-Sensations:
-Hewn of black stones, the Tower is hunched like an old man, having been built on and
-expanded a dozen times. It has its servants, maids, cooks, horse grooms, men-at-arms,
-and otherwise, but it also hosts a collection of speculative philosophers in red-and-black
-robes and zucchettos. They chatter to each other in low, animated voices as they hustle
-past you. There’s a vague old person smell around here.
+感官印象：
+以黑色石塊鑿成，The Tower 如同一個彎腰的老人，已歷經十幾次的增建與擴張。它有其僕從、女僕、廚師、馬夫、武裝家丁等，但也匯聚了一批身穿紅黑袍、頭戴無邊瓜皮帽的思辨哲學家。他們以低沉而生動的聲音相互交談，從你身旁匆匆走過。這裡瀰漫著一股隱約的老人氣息。
 
-Rumor:
-The Underworld opened up under the City when the Tower Gnostic summoned
-a god from beyond the far realms. Each day, tunneling up from some deep hell,
-His Majesty the Worm grows closer to those who bid Him come forth.
+傳聞：
+The Tower Gnostic 從遙遠領域召喚了一位神明，地下世界因此在城市腳下裂開。每一天，蠕蟲陛下從某個深邃的地獄中不斷往上掘進，逐漸靠近那些招喚祂前來的人們。
 
-Special City Action:
-• Research a new spell: If you want to introduce a new spell into the game, pitch
-your idea to the GM. Your GM will suggest amendments or consult with the
-rest of the table to nail down the wording of the mechanics. In general, new
-spells should feel similar to those established in Appendix A: Sorcery.
+特殊城市行動：
+• 研發新法術：若你想在遊戲中引入一個新法術，向主持人提出你的想法。你的主持人將提出修改建議，或與桌上其他人協商，確定規則的措辭。一般而言，新法術應感覺類似於附錄 A：術法中已有的法術。
 
-•  The GM will name the new spell. This name should be similar to the other
+•  主持人將為新法術命名。這個名字應與其他法術名稱相似（例如，Animate Object、Flare、Circle of Protection）。
 
-spell names (e.g., Animate Object, Flare, Circle of Protection).
+•  一旦確定了法術的名稱，你便可以採取此行動來追求這個法術的創造。花費 25g 從拼字遊戲袋中抽取 1 個字母磚。一旦你拼出你所研究的法術名稱，研究便告完成。
 
-•  Once the spell’s name has been established, you may pursue creation of this
-
-spell by taking this action. Spend 25g to draw 1 tile from a Scrabble bag. Your
-research is complete once you’ve spelled out the name of the spell you are
-researching.
-
-•  You may draw as many tiles per City Action as you can afford. Any tiles you
-
-pull for research are kept between City Phases until the research is complete.
+•  每次城市行動，你可以抽取你所能負擔的任意數量字母磚。為研究抽取的字母磚，在研究完成之前，可在城市階段之間保留。
 
 326326
 
 APPENDIX D     |     CITY CREATION
 
-KING OF WANDS
+權杖國王
 The Court of Wands
-The City maintains a strained relationship with sorcerers. In some ways, it’s like
-nuclear power. People like electricity, reducing pollution, and lower energy
-costs, but they hate the big nuclear reactor ticking away in their backyard. It’s
-the same thing with magic.
+城市與術士之間維持著一種緊張的關係。某種程度上，這就像核電一樣。人們喜歡電力、減少污染和更低的能源成本，但他們厭惡在自家後院嘀嗒作響的大型核反應爐。魔法也是同樣的道理。
 
-The Court of Wands is the City’s attempt to control sorcerers. Magical crimes,
-such as unleashing maleficence or casting spells upon citizens, are punished by
-the Court of Wands. Rogue sorcerers are hunted down and dispatched by the
-Court without mercy. The sorcerous population of the City consent to this
-scrutiny because they understand that true conflict with the powers of the City
-would be disastrous.
+The Court of Wands 是城市試圖管控術士的機構。釋放禍兆或對市民施法等魔法罪行，皆由 The Court of Wands 予以懲處。流氓術士被毫不留情地追捕並就地正法。城市中的術士群體之所以同意接受這種審查，是因為他們明白，與城市當局正面衝突將是災難性的結果。
 
-The Court of Wands district is austere and sequestered, a tiny city-within-a-
-city. Its population is mostly sorcerers, which means that it is diverse and utterly
-weird. Few others dare to visit this district.
+The Court of Wands 街區與世隔絕、冷峻肅穆，是一座微型的城中之城。其居民大多是術士，這意味著它既多元又極度怪異。其他人幾乎無人敢踏足此地。
 
-Tylwyth is spoken by most of the population in this district.
+Tylwyth 語是這個街區大多數人口使用的語言。
 
-Sensations:
-The architecture is bleak and unadorned. In contrast, the population is outrageous in style
-of dress, fetish ornamentation, and body modification. Loud voices argue with each other
-inside barren stone halls. Those that are magically inclined can feel the power kept checked
-here, like energy in a coiled spring.
+感官印象：
+建築風格簡樸而無裝飾。與此形成鮮明對比的是，這裡的居民在服飾風格、護身符裝飾與身體改造上極度張揚。高亢的聲音在空曠的石廳中相互爭論。對於有魔法天賦的人而言，他們能感受到這裡被壓制的力量，如同蓄勢待發的彈簧中的能量。
 
-Special City Action:
-• Join the Court of Wands: For 100g in dues, you may join the ranks of the
-
-Court of Wands. You are given an archwood staff. This can both be wielded as a
-polearm (p. 170) and release blasts of magical energy using the Gramarye talent.
+特殊城市行動：
+• 加入 The Court of Wands：繳納 100g 的會費，你便可以加入 The Court of Wands 的行列。你將獲得一根靈木法杖。這根法杖既可作為長柄武器揮舞（第 170 頁），也可透過秘法術天賦釋放魔法能量爆發。
 
 327
 

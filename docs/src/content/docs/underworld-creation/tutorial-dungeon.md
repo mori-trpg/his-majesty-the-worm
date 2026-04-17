@@ -7,10 +7,9 @@ sidebar:
 
 The Tomb of Golden Ghosts
 
-The corridors are dark and shaped from natural limestone caverns unless otherwise noted.
-You can hear a river churning in the north. Smells of damp earth.
+走廊一片漆黑，由天然石灰岩洞窟塑形而成，除非另有說明。你可以聽見北方有條河在湍流。散發著潮濕土壤的氣息。
 
-The Gamemaster’s map is below. The players’ map is on page 389.
+遊戲主持人版地圖如下，玩家版地圖在第389頁。
 
 379
 
@@ -42,39 +41,35 @@ Torches gutter
 
 VI.
 
-[Curiosity] Faint shreds of cobwebs hang from the ceiling here, blowing gently.
+[好奇心] 天花板上掛著稀薄的蜘蛛網殘絲，輕輕飄動。
 
 VII.
 
-[Curiosity] The guild glimpses something golden disappearing around a corner.
+[好奇心] 公會瞥見一道金色的東西消失在轉角處。
 
 VIII.
 
-[Curiosity] The ground here is strewn with gross black fewmets. (Appropriate lore bids reveal that this is
-centipede scat.)
+[好奇心] 地上散落著令人噁心的黑色糞塊。（適當的學識投注可揭示這是蜈蚣的排泄物。）
 
 IX.
 
-[Curiosity] The distant rumbling of an earthquake. It shakes for a few moments then stands still.
+[好奇心] 遠處傳來地震的轟鳴聲，震動了幾個瞬間後歸於平靜。
 
 X.
 
-[Curiosity] A cold wind blows down the corridor, reminiscent of the exhalation of the unquiet dead.
+[好奇心] 走廊中刮起一陣寒風，讓人想起不安之死者的呼吸。
 
 XI.
 
-[Travel event] Quicksand. Giant centipedes have churned the soft ground in this area. The first adventurer
-of human, orc, or troll stature to move into this area sinks into the ground. How will the guild pull them out?
-Even if rescued, the victim is now Stressed.
+[行進事件] 流沙。巨型蜈蚣已翻攪了此區域的鬆軟地面。第一個進入此區域的人類、獸人或巨魔體型的冒險者會沉入地面。公會要如何把他們拉出來？即使獲救，受害者現在也承受了壓力。
 
 XII.
 
-[Travel event] Illusory walls cover all doors and exits to this room, except the one the guild just came through.
+[行進事件] 幻象牆壁覆蓋了此房間的所有門和出口，除了公會剛剛進入的那扇門。
 
 XIII.
 
-[Travel event] Room choked with webs. It is impossible to explore unless care is taken to systematically
-clear the webbing. Torches may be used, but this method consumes 3 torch flickers.
+[行進事件] 房間被蜘蛛網塞得密密麻麻。若不系統性地清除網絲，就無法探索。可以使用火把，但此方法會消耗3格火把搖曳。
 
 XIV.
 
@@ -82,55 +77,40 @@ XV.
 
 XVI.
 
-[Travel event] Trap webs. If not moving carefully, first in marching order tests Cups to notice the snare.
-Failure means that they are pulled, feet first, 20’ into the air. How will the rest of the guild get them down?
+[行進事件] 陷阱網。若未謹慎行進，隊列中排在最前面的人進行聖杯考驗以察覺陷阱。失敗意味著他們被腳朝上地拉升到20英尺高空。公會其他成員要如何安全地將他們放下？
 
-[Travel event] A distant earthquake—the cavern begin crashing down around the guild. Each player must
-test Pentacles: on a failure, they take a Wound from a falling rock or twisted ankle.
+[行進事件] 遠處的地震——洞窟開始在公會四周崩塌。每位玩家必須進行錢幣考驗：失敗時，他們因落石或扭傷腳踝而受到一點傷勢。
 
-[Random encounter] The guild encounters [adventurers] puppet-mummies, controlled by the brain spider
-Kodi Dove-Devourer. Kodi does this from behind an illusory wall. An adventurer with active second sight
-can see him, but otherwise he will be hidden.
+[隨機遭遇] 公會遭遇了[冒險者人數]個傀儡木乃伊，由腦蜘蛛Kodi Dove-Devourer操控。Kodi躲在幻象牆後進行操控。有靈視啟動的冒險者可以看見他，否則他將是隱形的。
 
 XVII.
 
-[Random encounter] Glaura Glossolalia, the brain spider, is currently weaving webs throughout this room.
-She hisses a telepathic warning to leave this place, then uses her wall-crawling ability to quickly escape.
+[隨機遭遇] 腦蜘蛛Glaura Glossolalia正在這個房間中編織蜘蛛網。她以心靈感應低聲警告他們離開，然後利用爬牆能力迅速逃離。
 
 XVIII.
 
-[Random encounter] A weeping golden ghost. It cannot speak, but will engage in charades to articulate its
-grievances.
+[隨機遭遇] 一個哭泣的黃金幽靈，無法開口說話，但會用比手畫腳的方式表達自己的冤屈。
 
 XIX.
 
-[Random encounter] A pair of rival adventurers named Finch (a wood elven naturalist) and Justin
-Pepperoni (a halfling cook) being chased by [discard] giant centipedes. They are in rough shape. If rescued,
-they’ll give them a signet ring (worth 20 gold) and a hermetic bottle with a slime bomb (see page 238).
+[隨機遭遇] 一對對手冒險者Finch（一名木精靈博物學家）和Justin Pepperoni（一名半身人廚師）正被[捨牌數]隻巨型蜈蚣追趕。兩人狀況很糟。若獲救，他們會贈送一枚印章戒指（價值20金）和一個裝有黏液炸彈的密封瓶（見第238頁）。
 
 XX.
 
-[Random encounter] The guild encounters [adventurers - 1] giant centipedes in this room. They won’t let
-anybody enter the area without a fight, but won’t pursue the fleeing guild.
+[隨機遭遇] 公會在此房間遭遇了[冒險者人數－1]隻巨型蜈蚣。牠們不會讓任何人不戰而入，但也不會追趕逃離的公會。
 
 XXI.
 
-[Quest Rumor] Provide a clue for the next step of the guild’s quest, delivered in context of the dungeon.
+[任務傳言] 提供一條公會任務下一步的線索，以地城的背景呈現。
 
-101 – Entrance
-The entrance to the tomb yields to two hallways, one
-going north and one going east. A ruined door, twisted
-off of its hinges, lies on the ground.
+101 – 入口
+墓穴入口通向兩條走廊，一條往北，一條往東。一扇已損毀的門被扭離鉸鏈，橫躺在地上。
 
-There is a mural of a sorcerer observing the night sky via
-a reflecting pool on the west wall of the northern tunnel,
-immediately past the entrance.
+入口北側隧道的西牆上，緊接入口之後，有一幅壁畫描繪著一位術士透過映像池觀察夜空的景象。
 
-• If investigated, the mural hides a hidden latch that
+• 若加以調查，壁畫隱藏著一個暗銷，可以開啟通往112號房間的暗門。
 
-opens a secret door to 112.
-
-•  The brain spiders are unaware of this secret door.
+• 腦蜘蛛並不知曉此暗門的存在。
 
 Broadcast secrets through
 pattern recognition
@@ -139,67 +119,42 @@ doors provides contextual clues for players. If
 they search one mural and find a hidden door,
 they might guess that they all have hidden doors.
 
-102 – Scriptorium
-A small room. Each wall holds crumbling bookshelves,
-laden with ancient, moldering scrolls. A moldy smell.
+102 – 謄寫室
+一個小房間。每面牆都有搖搖欲墜的書架，上面堆滿了古老、發霉的卷軸。散發著霉味。
 
-• The scrolls are very fragile. Unless opened carefully and
-in the right environments, they crack and fall to dust.
+• 這些卷軸極為脆弱。除非在合適的環境下小心開啟，否則它們會碎裂化為塵土。
 
-•  Antiquarians in the City prize these scrolls at a rate
+• 城市中的古物研究者以每份10至100金的價格收購這些卷軸，但搬運時需要特別照料。
 
-of 10–100g per scroll, but they require special care to
-transport.
+• 若小心開啟，這些卷軸詳細記載了封存在此墓中的王室成員的政務，大多是關於徵稅和收受贈禮的記錄。
 
-•  If opened carefully, these scrolls detail the business
+• 若徹底調查，可以找到一個保存良好的卷軸筒，上面寫著「除非特殊場合，否則請勿開啟」，以一種古老形式的古語書寫。
 
-of rule for those in the royal family sealed within this
-tomb. For the most part, this consists of enumerating
-taxes and gifts collected.
+• 若開啟，卷軸將開始詳細記錄開啟者發生的一切，每分每秒。卷軸可以無限延伸。
 
-• If thoroughly investigated, one scroll case is found in
-good condition. It reads “Do not open unless special
-occasion” in an ancient form of Vetus.
+• 除非被摧毀，否則卷軸將持續記錄並增長。
 
-•  If opened, the scroll will start to detail everything
-that happens to the opener, minute by minute. The
-scroll can become infinitely long.
+103 – 蜈蚣前廳
+一個長方形的房間。地面被翻得鬆軟，散發著腐爛的臭味。
 
-•  The scroll will continue to chronicle and grow
+• 若公會進入此房間，3隻巨型蜈蚣從地面竄出。牠們不會讓冒險者通過，但除非受到激怒，否則不會追趕公會離去。巨型蜈蚣的數值在第387頁。
 
-unless destroyed.
+104 – 一具屍體
+一具臭氣熏天的屍體，大部分已被吃掉，癱倒在角落。一個撕破的背包躺在屍體旁。
 
-103 – Antechamber of centipedes
-An oblong room. The ground is churned and soft here.
-There is a putrid smell.
+• 這具屍體屬於一個倒霉的冒險者，已大部分被巨型蜈蚣吃掉了。
 
-• If the guild enters this room, 3 dire centipedes emerge
-from the ground. They won’t let adventurers pass, but
-won’t pursue the guild unless antagonized. The stats
-for dire centipedes are on page 387.
-
-104 – A corpse
-A stinking corpse, mostly eaten, slumped in the corner.
-A torn pack lies near the body.
-
-• The corpse belongs to an unlucky adventurer. It has
-
-been mostly devoured by the dire centipedes.
-
-•  If the pack is investigated, the only thing of value
-intact is the Alchemical Treatise of Francis Stewbrew,
-a book partially detailing the alchemical reagents of
-this level of the Underworld.
+• 若調查背包，其中唯一完好且有價值的東西是《Francis Stewbrew的鍊金術論文》，一本部分詳述此層地下世界鍊金試劑的書籍。
 
 Writing creature stats
 As you place creatures and characters in your
 dungeon rooms or on your Meatgrinder table,
-you’ll also write down their stats in your notes in
-case they run afoul the players’ guild. Appendix
-C covers creature creation in detail, but here’s a
+you'll also write down their stats in your notes in
+case they run afoul the players' guild. Appendix
+C covers creature creation in detail, but here's a
 quick recap.
 
-To write a creature’s stats, you can either:
+To write a creature's stats, you can either:
 
 • Use one of the example creatures from
 
@@ -211,13 +166,13 @@ to suit your needs
 
 • Make one up, whole cloth
 
-For this dungeon, we’re using the slime and
-the brain spiders from Appendix C. We’ll give
+For this dungeon, we're using the slime and
+the brain spiders from Appendix C. We'll give
 the brain spiders the Sorcery doom from the
-Strategist template, too, because we’re not
-afraid to change “official” rules. For the puppet-
-mummies, we’ll rebrand the zombie stats.
-For centipedes, we’ll make a new creature by
+Strategist template, too, because we're not
+afraid to change "official" rules. For the puppet-
+mummies, we'll rebrand the zombie stats.
+For centipedes, we'll make a new creature by
 combining the beast theme (Appendix C, p. 247)
 and minion threat (Appendix C, p. 250).
 
@@ -228,49 +183,33 @@ are on page 386.
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-105 – Hall of Solemnity
-A long hall held up by a central line of mighty stone
-columns chiseled from the living stone.
+105 – 莊嚴大廳
+一條長廊，由一排從活石上鑿出的巨大石柱撐立於中央。
 
-The northern wall has crumbled away, revealing a large,
-natural cavern (113).
+北牆已崩塌，露出一個巨大的天然洞窟（113號）。
 
-Silvery webs cover a 30’ stretch of hallway at its eastern end.
+銀色蜘蛛網覆蓋著走廊東端30英尺長的一段。
 
-• Brain spider webs are solid for both tangible and
-intangible creatures. These webs keep the golden
-ghosts from 106 and 107 from passing.
+• 腦蜘蛛的蜘蛛網對有形和無形的生物都是實體障礙。這些蜘蛛網將106號和107號的黃金幽靈隔絕在外。
 
-• If you destroy the webs, the ghosts are free to wander.
+• 若你摧毀這些蜘蛛網，幽靈就可以自由遊蕩了。
 
-107 – The looted tomb
-A circular chamber holding seven empty stone
-sarcophagi. The lids of these coffins are cast off, broken,
-onto the ground.
+107 – 被洗劫的墓室
+一個圓形廳室，放有七具空的石棺。這些棺材的石蓋被掀開，碎裂在地上。
 
-This chamber is haunted by seven semi-transparent
-golden ghosts. They are wearing golden spectral
-togas and weeping golden tears. They cluster around
-the adventurers, never touching, but making wild
-gesticulations with their golden hands.
+這個廳室被七個半透明的黃金幽靈所縈繞。他們穿著金色的幽靈托加袍，流著金色的眼淚。他們簇擁著冒險者，從不觸碰，但用金色的手做出狂亂的手勢。
 
-• The ghosts are eager to communicate their distress to
-you, but they are mute. (Actually play charades with
-the players. It’s fun.)
+• 幽靈迫不及待地想向你傳達他們的苦難，但他們是啞巴的。（實際上和玩家玩比手畫腳，這很有趣。）
 
-•  (It is possible a ghost has previously slipped past
+• （有可能一個幽靈之前已從蜘蛛網中溜過，若通過絞肉機結果遭遇到。）
 
-• The ghosts demand the return of seven death masks
+• 幽靈要求歸還七個死亡面具（六個在111號，一個在117號）。
 
-(six in 111, one in 117).
+• 若得到安撫，幽靈將回歸死亡的沉眠。
 
-• If appeased, the ghosts will return to the sleep of death.
+• 若被釋放卻未得到安撫，幽靈的憤怒將會變得可怕。不要把被釋放的幽靈當作可以戰鬥的敵人：把他們當作天災。
 
-• If freed and unappeased, the ghosts’ wrath will grow
-terrible. Do not treat freed ghosts as enemies to be
-fought: treat them as a natural disaster.
-
-• The sarcophagi are empty.
+• 石棺是空的。
 
 Symbolism
 For our playtest games, we use the implied
@@ -286,29 +225,22 @@ might have an epiphany later and return.
 the webs, if one is encountered through a
 Meatgrinder result.)
 
-•  The ghosts could, theoretically, also escape through
+• The ghosts could, theoretically, also escape through
 the secret door in the mural in 116 if it was opened.
 
-106 – Burial chambers
-The hallway bends around into a semi-circular shape.
-There is a mural on the northeastern wall of an
-astronomer pointing in alarm towards a comet.
+106 – 墓葬廳
+走廊轉彎成半圓形。東北牆上有一幅壁畫，描繪著一位天文學家驚恐地指向一顆彗星。
 
-Note: The ghosts in 107 are free to move throughout
-the entire burial chambers—rooms 106, 107, and 108—and
-will hinder the progress of anybody they hear exploring
-these rooms.
+注意：107號房間的幽靈可以自由遊蕩於整個墓葬廳——106號、107號和108號房間——並且會阻礙任何他們聽見在這些房間探索的人的進度。
 
-• There is a secret door in the mural that leads to 116.
-This door cannot be opened from this room, only
-from the other side.
+• 壁畫隱藏著一個暗銷，通往116號的暗門。此門只能從另一側開啟，無法從本房間打開。
 
 Not everything needs stats
 You can use wraith stats (Appendix C, p. 284) for
 the ghosts, but not every creature needs a way to
 be defeated in the Challenge Phase. Just because
-it has a mythological name—a will o’ wisp, a
-unicorn, an undine, whatever—doesn’t mean
+it has a mythological name—a will o' wisp, a
+unicorn, an undine, whatever—doesn't mean
 you need to trap it inside a stat block to provide
 a way to hit it with imaginary swords. Some
 creatures are better handled narratively, like you
@@ -318,98 +250,49 @@ would handle a shop keeper or a falling rock.
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-108 – Tripartite statue
-A three-sided, gold-plated stone statue stands in a niche
-in the wall: one side depicts a maiden, one a pregnant
-woman, and one a crone. The three heads share a single
-silver crown, decorated with thorn-covered antlers. A
-desiccated corpse lays at the statue’s feet. The corpse
-partially obscures a pedestal with three astrological
-symbols: a sun, a moon, and a star. These are set on
-tracks and look like they can be rotated.
+108 – 三相神雕像
+一座三面鍍金的石雕像立於牆壁的壁龕中：一面描繪少女，一面描繪孕婦，一面描繪老嫗。三個頭共用一頂銀色王冠，以荊棘覆蓋的鹿角裝飾。一具乾枯的屍體橫臥於雕像腳下。屍體部分遮住了一個基座，基座上有三個占星符號：太陽、月亮和星星，安裝在軌道上，看起來可以轉動。
 
-• The corpse belongs to an unlucky adventurer who
+• 這具屍體屬於一個觸發了陷阱的倒霉冒險者。遺體已如沼澤木乃伊般被老化了1000年，但他的衣物和裝備卻是現代的。
 
-sprung the trap. The body has been aged 1,000 years,
-like a bog mummy, but his clothes and gear are modern.
+• 王冠顯然可以取下。若在解開雕像謎題之前取走王冠，陷阱就會啟動。
 
-• The crown can obviously be removed. If it is removed
-before solving the statue’s puzzle, the trap activates.
+• 陷阱：若雕像的陷阱被觸發，雕像的六隻眼睛將射出光線。任何站在雕像視野範圍內的人都將被老化1000年，立即殺死任何非妖精的生物（妖精對此免疫）。
 
-•  Trap: If the statue’s trap is activated, rays blast forth
-from the statue’s six eyes. Anybody standing within
-sight of the statue will be aged 1,000 years. This
-instantly kills any non-fay, who are immune.
+  - 冒險者必須進行錢幣考驗，以閃躲出已啟動雕像衰老光束的視線範圍之外。
 
- -  Adventurers must test Pentacles to dive out of
-sight of the activated statue’s aging beams.
+  - 因為「奇術」天賦只能作用於你能看見的東西，試圖用「奇術」將王冠扯下，仍會遭受雕像的攻擊。
 
- -  Because the Dwimmercraft talent can only
-target things you can see, attempting to use
-Dwimmercraft to pull the crown off will still suffer
-the statue’s attack.
+• 陷阱可以通過將基座上的占星符號與相應的雕像面對應來解除。
 
-• The trap can be disarmed by lining up the astrological
-signs on the pedestal with the appropriate statue face.
+  - 占星符號必須旋轉以對應如下：少女對太陽，母親對月亮，老嫗對星星。在此位置，王冠可以安全取下。
 
-•  The astrological symbols must be rotated to
+• 若佩戴王冠，王冠顯然是有魔力的。佩戴者立刻獲得一種新的感知：月光視覺。他們可以從月亮的視角看見地球（如衛星圖像）。在地城探索的意義上，這個能力是無用的。然而，許多城市派系願意不惜一切代價獲得這件神器。
 
-correspond thus: Maiden with the Sun, Mother with
-the Moon, Crone with the Star. In this position, the
-crown can be safely removed.
+• 幽靈會積極阻止任何人與這座雕像互動。若幽靈的死亡面具（見107號房間）被歸還給幽靈，他們將回歸神聖沉睡，讓公會得以解除陷阱並獲取寶藏。
 
-• If worn, the crown is obviously magical. The wearer
-immediately gains a new sense: moonsight. They can
-see the Earth from the perspective of the moon (like
-a satellite image). In a dungeon-crawling sense, this
-power is useless. However, many City factions would
-pay any price to gain this artifact.
+109 – 傀儡木乃伊守衛室
+這個長形房間約10英尺寬、30英尺長。房間北端崩塌入一條河流中。
 
-• The ghosts will actively try to prevent anyone from
+• 公會進入時，數量等同冒險者人數的傀儡木乃伊顫抖著發動攻擊。傀儡木乃伊的數值在第387頁。
 
-interacting with this statue. If the ghosts’ death masks
-(see room 107) are returned to the ghosts, they will
-return to sacred sleep, allowing the guild to deactivate
-the trap and claim the treasure.
+• Kodi Dove-devourer正從幻象牆後方操控這些傀儡木乃伊。
 
-109 – Guard room of the puppet-mummies
-This long room is about 10’ wide and 30’ long. The
-room’s north section crumbles away into a river.
+• 有靈視啟動的冒險者可以透過幻象看見Kodi；否則，他的詭計將不為人所見。
 
-• As the guild enters, a number of puppet-mummies
-equal to the number of adventurers jerkily attack.
-Puppet-mummy stats are on page 387.
+• 傀儡木乃伊在公會進入時會發動攻擊，但實際上無法離開房間（因為它們被蜘蛛網控制器所束縛）。
 
-•  Kodi Dove-devourer is controlling the puppet-
+• 用遠端武器從房間外攻擊傀儡木乃伊，會讓Kodi現身，咒罵自己的精心計畫被識破。隨後Kodi利用幻術金蟬脫殼。
 
-mummies from behind an illusory wall.
-
-•  Adventurers with second sight active can see Kodi
-through the illusion; otherwise, his machinations
-are unseen.
-
-• The puppet-mummies will attack the guild as they
-
-enter, but physically can’t leave the room (because they
-are controlled by web rigging).
-
-•  Attacking the puppet-mummies from outside the
-room with missile weapons causes Kodi to reveal
-himself, cursing that his brilliant plan was foiled.
-Kodi then uses his illusions to make his getaway.
-
-• A dire catfish named “Big Cheese” lives in this
-
-section of the river. He spits back anything you throw
-into the river.
+• 一條名叫「大起司」的巨型鯰魚住在這段河流中，它會把你扔進河裡的任何東西吐回來。
 
 Interpreting the Meatgrinder
 What do you do when you get a Meatgrinder
-event that feels weird for the guild’s current
+event that feels weird for the guild's current
 room? All Meatgrinder events need a little
 interpretation and narrative massaging by the
 Game Master. With some imagination, you can
-harmonize the Meatgrinder and the room’s
+harmonize the Meatgrinder and the room's
 contents with grace.
 
 For example, what happens if you draw the
@@ -423,235 +306,129 @@ number puppet-mummies here.
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-110 – Trapped hallway
-A curving hallway, with three short flights of stairs
-towards 111. The door to 111 is blocked with a large
-boulder tied to the ceiling with silvery webs. Several thin,
-silvery webs criss-cross the path between the second and
-third set of stairs on the passage leading to the door.
+110 – 陷阱走廊
+一條彎曲的走廊，有三段短梯通向111號。通往111號的門被一塊用銀色蜘蛛網綁在天花板上的大圓石堵住。幾條細薄的銀色蜘蛛網在通向門口的第二和第三段樓梯之間縱橫交錯。
 
-• Trap: If the web tripwires are broken, the boulder
-rapidly tumbles down the stairs, bursts into 109, and
-slams into the wall.
+• 陷阱：若蜘蛛網絆線被截斷，圓石便會迅速滾下樓梯，衝入109號並撞上牆壁。
 
-112 – The hidden sanctum
-This room is dusty and undisturbed. A thin trickle of
-water dribbles from the ceiling into a puddle.
+112 – 隱秘聖所
+這個房間積滿灰塵，完好無損。一縷細小的水流從天花板滴入一個水窪。
 
-A mural on the north wall displays a naked green-
-skinned man reaching up to snatch one of two flying
-silvery women from the sky.
+北牆上有一幅壁畫，描繪著一個綠皮膚裸男伸手去抓從天而降的兩位銀色飛女其中一位。
 
-• If investigated, the mural on the north wall hides a
+• 若加以調查，北牆的壁畫隱藏著一個暗門，連通至111號的壁畫。
 
-secret door that connects to the mural in 111.
+• 若公會在走廊中時觸發此陷阱，每名冒險者必須進行錢幣考驗以避免致命傷勢。
 
-•  If the guild is in the hallway when this happens,
-each adventurer must test Pentacles to avoid a
-Critical wound.
+苔蘚覆蓋了西牆。一隻巨大的蒼白蝸牛正在苔蘚上覓食。
 
-Moss covers the west wall. A large pale snail is grazing
-on the moss.
+• 若觀察，可以發現蝸牛在進食苔蘚時顏色變得更加鮮豔。
 
-• If observed, the snail brightens in color while eating
+• 隊列中排在第一位的冒險者（因此最靠近圓石）在這次考驗中處於劣勢。排在最後一位的冒險者（最遠離圓石）則處於優勢。
 
-•  The adventurer in the first rank of the marching
+• 圓石完全封住了從110號到111號的門。唯一越過圓石的方法是觸發陷阱（最好從遠距離觸發），或通過112號的暗門。
 
-the moss.
+111 – 蜘蛛的寶藏
+一個大寶箱放在房間中央。南牆上有一幅褪色的壁畫，描繪著一個有著月亮光暈的哭泣女子。
 
-order (and thus closest to the boulder) has disfavor
-on this test. The adventurer in the last rank (farthest
-from the boulder) has favor.
+• 寶箱上鎖。鑰匙在117號。若解鎖或撬開，寶箱中含有：
 
-• The boulder completely blocks the door from 110 to
+  - 1260金（從其他公會盜取）
 
-111. The only way past the boulder is to trigger the trap
-(but hopefully from a distance), or through the secret
-door in 112.
+  - 6個黃金死亡面具，每個價值50金（從107號盜取）
 
-111 – The spiders’ treasure
-A large treasure chest sits in the middle of the room. On
-the southern wall, a faded mural of a weeping woman
-with a moon-like halo.
+  - 20個鑲寶石的聖甲蟲，每個價值5金（從107號盜取）
 
-• The chest is locked. The key to this chest is in 117. If
+    - 幽靈（以非語言方式）承認聖甲蟲是他們的，但不需要它們歸還才能安息，並會將它們作為補償贈予公會。
 
-unlocked or picked, the chest contains:
+• 若加以調查，壁畫隱藏著一個暗銷，可以開啟通往112號的暗門。蜘蛛並不知曉此暗門的存在。
 
-•  1260 gold (stolen from other guilds)
+注意：六個死亡面具在111號的寶箱中。一個死亡面具在Kodi Dove-devourer在117號的巢穴中。黃金幽靈在七個死亡面具全部歸還之前不會得到安撫。
 
-•  6 golden death masks, worth 50g each (stolen from 107)
+• 若任何冒險者吃了苔蘚，他們會發現它出乎意料地美味——幾乎像青蔥。只夠一餐，但它可作為一份提供治癒效果的口糧（第12頁）。
 
-•  20 jeweled scarabs, worth 5g each (stolen from 107)
+東牆上有一幅壁畫，描繪著一個面容嚴肅、頭戴如自由女神冠冕（日冕式）的女人，用一根棒杖訓斥一個綠皮膚的男人。
 
- - The ghosts acknowledge (non-verbally) that the
-scarabs are theirs, but do not need them back
-to be at rest and will give them to the guild as
-compensation for their help.
+• 若加以調查，東牆的壁畫隱藏著一扇暗門，連通至101號的壁畫。
 
-• If investigated, the mural hides a hidden latch that
-
-opens a secret door to 112. The spiders are unaware of
-this secret door.
-
-Note: Six death masks are in the chest in 111. One death
-mask is in Kodi Dove-devourer’s nest in 117. The golden
-ghosts won’t be appeased until all seven death masks are
-returned to them.
-
-• If any adventurer eats the moss, they find it
-
-surprisingly good—almost like green onions. There’s
-only enough for one meal, but it counts as a ration that
-grants the Heal effect (p. 12).
-
-A mural on the east wall displays a stern-looking woman
-crowned with a corona (like the Statue of Liberty)
-castigating a green-skinned man with a rod.
-
-• If investigated, the mural on the east wall hides a secret
-
-door that connects to the mural in 101.
-
-• Because these doors are still secret, this room is safe
-
-(for now).
+• 因為這些門仍是秘密的，這個房間目前是安全的。
 
 Landmark, hidden, secret
 The snail is a good example of the different
 levels of information given to players as
-they explore (p. 183). At first, there’s nothing
+they explore (p. 183). At first, there's nothing
 to indicate that the moss has any beneficial
 properties. If a player asks about the snail, the
 GM can drop a hint that the snail is brightening
 and looking healthier by eating the moss
 (hidden information). Then, if the players take
 an action to investigate the moss (by eating
-it, or otherwise), they gain the moss’s benefits
+it, or otherwise), they gain the moss's benefits
 (secret information).
 
 384384
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-113 – The pit of bones
-A sprawling, shadowy natural cavern. Uneven flooring,
-dripping with stalactites, covered in puddles. A narrow
-crevasse 50’ deep runs like a wound through this cavern.
-A foul stench emanates from the pit.
+113 – 骨骸深坑
+一個寬闊、陰暗的天然洞窟。地面不平坦，鐘乳石滴水，地上積著水坑。一條50英尺深的狹窄裂縫如傷口般貫穿此洞窟。深坑中散發著惡臭。
 
-• A slime lives in the pit, feeding on discarded garbage.
-It will attack any who investigates. It will also attack
-anyone tarrying in this room for more than one watch.
-Slime stats are on page 388.
+• 一個黏液怪住在坑中，以丟棄的垃圾為食。任何調查此坑的人都將遭到攻擊。在此房間逗留超過一個時段的人也會遭到攻擊。黏液怪的數值在第388頁。
 
-114 – Magical laboratory and star-child
-The brain spider’s laboratory—a writing desk, shelves of
-reagents, ingredients, and arcane tools.
+114 – 魔法實驗室與星孩
+腦蜘蛛的實驗室——一張書桌，以及裝滿試劑、材料和奧術工具的架子。
 
-Arrestingly, in the corner of the room there is a large
-glass tank with a giant baby floating inside it. The
-baby sheds a steady, silvery light, which illuminates the
-laboratory. The baby appears asleep and utterly inhuman.
+引人注目的是，房間的角落裡有一個巨大的玻璃罐，裡面漂浮著一個巨大的嬰兒，嬰兒持續散發著穩定的銀色光芒，照亮了整個實驗室。嬰兒看起來在沉睡，完全不像人類。
 
-• The giant baby is a star-child. It fell to earth entirely
+• 這個巨型嬰兒是一個星孩，完全是意外地墜落地球，目前正在冬眠。
 
-by accident. It is currently hibernating.
+• 若玩家試圖喚醒星孩，它會裂開一隻眼，用一隻手結出一個手印，唱出一個在他們骨子裡迴響的「嗡」聲。發生這種情況時，抽取一張隨機禍兆（見附錄A，第202頁）。星孩隨後重新入睡。
 
-•  If the players try to wake up the star-child, it cracks
-open an eye, forms a mudra with one hand, and sings
-an “OHM” that reverberates through their bones.
-When this happens, draw a random maleficence (see
-Appendix A, p. 202). The star-child then goes back
-to sleep.
+  - 星孩只引發環境性禍兆效果；若某個效果會特別針對某個玩家，請重新抽取。
 
- -  The star-child only causes environmental
+• 星孩是一個不朽的、難以言喻的存在，玩家可能沒有辦法有意義地傷害它或與它交談（不過地下世界中的其他派系可能有辦法）。
 
-maleficence effects; if an effect would target a
-player specifically, draw again.
+• 法術「攜帶型孔洞」、「木紡」和「沉睡」的材料成分存放在實驗室中（見附錄A）。
 
-•  The star-child is an immortal, ineffable being. The
-players probably don’t have a way to meaningfully
-harm it or talk to it. (Other factions in the
-Underworld might, however.)
-
-• The components for the spells Portable Hole,
-
-Woodweave, and Sleep are kept in the laboratory (see
-Appendix A).
-
-• If either of the brain spiders are encountered here (by
-way of the Meatgrinder), they will fight to the death to
-protect the star-child.
+• 若通過絞肉機結果遭遇到任何一隻腦蜘蛛，他們會拼死保護星孩。
 
 Setting prices on treasure
-There’s no set amount of gold a guild should get
+There's no set amount of gold a guild should get
 per Crawl, nor any solid scheme for setting prices
 on treasure. Guesstimate your prices. Put lots of
 treasure behind traps to incentivize exploration.
-See “How much treasure?” on page 182.
+See "How much treasure?" on page 182.
 
-115 – The Book Worm
-A small closet. A dire centipede who calls herself “Book
-Worm” lives here. She ate so many scrolls (from 102) she
-has become sentient. Book Worm only speaks Vetus.
+115 – 書蟲
+一個小儲藏室。一隻自稱「Book Worm」的巨型蜈蚣住在這裡。她吃了太多卷軸（來自102號），因而變得有了意識。Book Worm只說古語。
 
-• Book Worm is generally amiable but a terrible nerd.
+• Book Worm整體上為人親切，但是個可怕的書蟲。
 
-• If you talk to her, she provides the following rumors:
+• 若你與她交談，她提供以下傳言：
 
-•  Glaura Glossolalia has some magic god child egg that
-she’s currently trying to hatch through magic. She
-thinks this will make her immortal. (Partially true)
+  - Glaura Glossolalia有某個魔法神靈孩童的卵，她目前正在嘗試通過魔法孵化它，她認為這將讓她長生不死。（部分屬實）
 
-•  The statue in 108 killed an adventurer with eye
+  - 108號的雕像用眼光殺了一個冒險者，不要試圖對它動手腳！（屬實）
 
-beams. Don’t try to mess with it! (True)
+• 若給她一本新書，她會告訴公會她最好的傳言：壁畫中隱藏著暗門。（屬實）
 
-• If given a new book, she will tell the guild her best
-rumor: There are hidden doors in the murals. (True)
+116 – Glaura的巢穴
+一個寬敞的房間，到處覆蓋著蜘蛛網。牆壁上貼著一堆籃球大小的卵，以黏稠的白色蜘蛛網固定在洞窟壁上。南牆上有一幅破舊的壁畫，其內容已破損得無法辨認。
 
-116 – Glaura’s nest
-A spacious room covered in webs. A clutch of eggs the
-size of basket balls is plastered to the cavern walls by
-sticky, white webs. The southern wall has a dilapidated
-mural, the contents of which are too damaged to discern.
+• 這是Glaura Glossalalia的私人住所。Glaura的數值在第386頁。
 
-• These are the private quarters of Glaura Glossalalia.
+• 除非另有遭遇，Glaura Glossolalia在第一次探索此房間時在這裡。若小阿爾卡那棄牌堆頂部有人物牌，則Kodi和Glaura都在這裡。若Kodi目前不在房間中，任何騷動的聲音都會讓他趕來支援Glaura。
 
-Glaura’s stats are on page 386.
+• 壁畫隱藏著一個暗銷，可以開啟通往106號的暗門。蜘蛛並不知曉此暗門的存在。
 
-•  Unless otherwise encountered, Glaura Glossalalia is
-here when this room is first explored. If the minor
-arcana discard pile has a face card showing, both
-Kodi and Glaura are here. If Kodi is not currently
-in the room, he will rush to Glaura’s aid at any
-sound of commotion.
+117 – Kodi的巢穴
+一個寬敞的房間，到處覆蓋著蜘蛛網。幾個肥大的蜘蛛網袋從天花板上懸掛下來。
 
-• The mural hides a hidden latch that opens a secret door
+• 這是Kodi Dove-devourer的私人住所。Kodi的數值在第386頁。
 
-to 106. The spiders are unaware of this secret door.
+• 除非另有遭遇，Kodi Dove-devourer在第一次探索此房間時在這裡。若小阿爾卡那棄牌堆頂部有人物牌，則Kodi和Glaura都在這裡。若Glaura目前不在房間中，任何騷動的聲音都會讓她趕來支援Kodi。
 
-117 – Kodi’s nest
-A spacious room covered in webs. A few fat sacks of webs
-hang from the ceiling here.
-
-• These are the private quarters of Kodi Dove-devourer.
-
-Kodi’s stats are on page 386.
-
-•  Unless otherwise encountered, Kodi Dove-
-
-devourer is here when this room is first explored.
-If the minor arcana discard pile has a face card
-showing, both Kodi and Glaura are here. If Glaura
-is not currently in the room, she will rush to Kodi’s
-aid at any sound of commotion.
-
-• If the hanging web nets are searched, they contain: 54
-gold, a key to the chest in room 111, lamp oil, a flagon
-of fine brandy, a golden death mask (worth 50g, looted
-from 107), and an orcish golden goat idol worth 15g.
+• 若搜索懸掛的蜘蛛網袋，其中包含：54金、111號房間寶箱的鑰匙、燈油、一壺上好白蘭地、一個黃金死亡面具（價值50金，從107號盜取），以及一個獸人黃金山羊神像，價值15金。
 
 385
 
@@ -660,31 +437,21 @@ APPENDIX E     |     UNDERWORLD CREATION
 Denizens of the Tomb
 
 Brain Spiders
-Kodi Dove-devourer (room 117)
+Kodi Dove-devourer（117號房間）
 
-Kodi believes that whatever he holds in his webs belongs
-to him, and he seeks to cover the entire Underworld in
-his net. He is particularly large for a brain spider, but
-remains nimble for his size. Ambitious and greedy, but
-not particularly competent.
+Kodi相信任何被他蜘蛛網網住的東西都屬於他，他試圖用自己的網覆蓋整個地下世界。他對一隻腦蜘蛛來說體型特別大，但以他的體型而言仍然敏捷。野心勃勃且貪婪，但能力並不特別突出。
 
-Likes: Goats (thinks they’re neat), Drugs, Banjo Music
+喜好：山羊（覺得很酷）、藥物、班卓琴音樂
 
-Dislikes: Goblins (thinks they’re gross), Being Looked
-Down On—Especially by Nobility
+厭惡：哥布林（覺得很噁心）、被看不起——尤其是被貴族
 
-Glaura Glossolalia (room 116)
+Glaura Glossolalia（116號房間）
 
-Glaura is sorcerously-inclined and obsessed with the
-star-child. She believes that if she can put the star-child
-into one of her eggs, she will ascend into godhood. (She
-is mostly wrong about her methods to achieve this.) She
-feels like she does most of the work in her relationship.
-(She is mostly right about this.)
+Glaura傾向於施法，且對星孩痴迷。她相信若能將星孩放入她的一顆卵中，她就能升格為神靈。（她在實現此目標的方法上大部分是錯誤的。）她覺得在這段關係中自己做了大部分的工作，（她在這點上大部分是對的。）
 
-Likes: Crude Jokes, Ribald Songs
+喜好：粗俗笑話、葷腥歌曲
 
-Dislikes: Mythric Priests (staunchly atheist)
+厭惡：秘法神父（堅定的無神論者）
 
 character
 
@@ -694,31 +461,27 @@ Kodi Dove-devourer
 
 Glaura Glossolalia
 
-•  Always in 117
-•  In 116 if face card is on the
-top of the minor arcana
+• 總在117號
+• 若小阿爾卡那棄牌堆頂部有人物牌，則在116號
+
 discard pile
 
-•  Secretly in 109, puppeting
+• 秘密在109號，操控木乃伊
 
-the mummies
+• 總在116號
+• 若小阿爾卡那棄牌堆頂部有人物牌，則在117號
 
-•  Always in 116
-•  In 117 if face card is on the
-top of the minor arcana
-discard pile
+巨型蜈蚣
 
-Dire centipedes
+• 103號
 
-•  103
+傀儡木乃伊
 
-Puppet-mummies
+• 109號
 
-•  109
+黏液怪
 
-Slime
-
-•  113
+• 113號
 
 Brain spider tactics
 • Make players waste cards by attacking illusions.
@@ -727,7 +490,7 @@ Brain spider tactics
 
 • Use Tactics to Avoid or Move as an interrupt action.
 
-•  Because you can use multiple interrupt actions on
+• Because you can use multiple interrupt actions on
 
 the same turn, you can both Avoid and Move at the
 same time to escape if the going gets tough (as long
@@ -853,7 +616,7 @@ severed. The limb continues to attack independently.
 This adds a new enemy to combat. This action does
 not count against the one card per turn limit.
 
-•  The severed limb has the same Initiative as the
+• The severed limb has the same Initiative as the
 puppet-mummy. The severed limb can suffer 1
 Wound before it stops moving. The severed limb
 cannot use the Last Gasp action.
@@ -932,7 +695,7 @@ Displaced, Rooted, or Tripped.
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-The guild’s map of the Tomb of Golden Ghosts
+The guild's map of the Tomb of Golden Ghosts
 
 Index
 A
@@ -1001,10 +764,11 @@ Camp Actions  137, 156 Dark elf arête  57 Fireblooded orcs  64
 | --------------------- | ---------------------- | ----------------------- |
 | Cant  29              | Dash (action)  117     | Flare (spell)  211      |
 | Carouse (action)  156 | Deafen  12             | Fleshcraft (spell)  206 |
-Challenge Actions  113, 116 Death’s Door (condition)  31, 126 Fletch Arrows (action)  137
+Challenge Actions  113, 116 Death's Door (condition)  31, 126 Fletch Arrows (action)  137
 | Cups actions  118       | Defy Depths (spell)  211 | Flickers  95    |
 | ----------------------- | ------------------------ | --------------- |
 | Enemy actions  122, 246 | Destroy  12              | Fool 7, 9, 114  |
+| -------------------- | ----------- | ----------- |
 339900 INDEX
 
 G
@@ -1154,7 +918,7 @@ Doom Eye  70
 Dwimmercraft  82
 Fight Dirty  74
 Foretell  56
-Giant’s Strength  60
+Giant's Strength  60
 Gramarye  82
 Hale and Hearty  60
 Heavy Metal Machine  70
@@ -1226,7 +990,6 @@ t
 i
 e
 s
-
 i
 n
 A
@@ -1360,7 +1123,6 @@ A
 m
 a
 s
-
 i
 
 C
@@ -2891,79 +2653,78 @@ c
 t
 s
 
-The Four Phases
 
-Crawl
+四大階段
 
-CamP
+探索
 
-Pursue your quest
+紮營
 
-Burn Charged Bonds
+追求你的任務
 
-aCCumulate wealth, avoid hazards
-Charge Bonds through rolePlaying and fulfilling Conditions
+燒掉已充能的羈絆
 
-heal wounds
-gain resolve
+積累財富，避開危險
+在角色扮演和實現條件中為羈絆充能
 
-1. Declare an active quest
+治癒傷勢
+獲得決心
 
-1. Camp Actions
+1. 宣告一個進行中的任務
 
-2. A watch passes when you travel to the next room
+1. 紮營行動
 
-2. Break bread
+2. 每當你移動到下一個房間，一個時段就過去了
 
-3. GM draws on the Meatgrinder each watch
+2. 共享食物
 
-3. No rest for the wicked
+3. GM每個時段在絞肉機上抽取一次
 
-City
+3. 惡人不得休息
 
-turn in and take new ContraCts
+城市
 
-sPend wealth to restoCk and heal
-Pursue long-term sChemes
+交出並接取新合約
 
-1. Death and taxes
+花費財富補充物資並恢復健康
+追求長期計畫
 
-2. Noteworthy deeds
+1. 死亡與稅收
 
-3. City events
+2. 值得一提的事蹟
 
-4. Recovery
+3. 城市事件
 
-5. End Camp Phase
+4. 復原
 
-Challenge
+5. 結束紮營階段
 
-fight the denizens of the underworld
+挑戰
 
-notCh armor
-gain wounds
+與地下世界的居民戰鬥
 
-0. Set the scene
+護甲出現缺口
+累積傷勢
 
-4. Turn in contracts
+0. 設定場景
 
-1. Draw Challenge cards
+4. 交出合約
 
-5. Upkeep
+5. 善後
 
-6. City Actions
+6. 城市行動
 
-2. Play Initiative
+2. 出牌決定先攻
 
-3. Take turns
+3. 輪流行動
 
-7. Plan the next Crawl
+7. 規劃下一次探索
 
-4. Minor actions
+4. 次要行動
 
-8. Restock the Underworld
+8. 補充地下世界
 
-5. End the round
+5. 結束本輪
 
 FLETCH ARROWS
 
@@ -2981,64 +2742,58 @@ Hold a Funeral
 
 their player to reclaim 1XP per 100g spent.
 
-hallenges
+挑戰與命運考驗
 
-tests of fate
+14點或以上視為成功
+若抽出的第一張牌是正確花色，視為大成功
+在推動命運後抽第二張牌，若總計低於14點則視為大失敗
+優勢／劣勢為±3
+A牌=1，侍者=11，騎士=12，皇后=13，國王=14
 
-Success on 14 or more
-If first card drawn is the correct suit, great success
-Great failure on a total of less than 14 after drawing second card to push fate
-Favor/disfavor is +/- 3
-Aces - 1, Page - 11, Knight - 12, Queen - 13, King - 14
+挑戰行動
 
-Challenge aCtions
+寶劍：攻擊、反擊
 
-Swords: Attack, Riposte
+錢幣：迴避、衝刺、閃躲、蠻力搏擊
 
-Pentacles: Avoid, Dash, Dodge, Roughhouse
+聖杯：協助他人、命令、背包、使用物品
 
-Cups: Aid Another, Command, Pack, Use Item
+權杖：挑釁、吟唱咒語、恢復
 
-Wands: Banter, Speak Incantation, Recover
+雜項：學識投注、移動、腰帶、裝填弩箭、
+考驗命運、瑣碎行動、警戒
 
-Miscellaneous: Bid Lore, Move, Belt, Reload Crossbow,
-Test Fate, Trivial Action, Vigilance
+主持挑戰
 
-gMing the Challenge
+每輪開始時，抽取3張牌，並追加：
 
-At the beginning of a round, draw 3 cards and add:
+• +1張牌（每種敵人類型）
+• +1張牌（若敵人數量多於公會人數）
+• +1張牌（若敵人是冒險者的兩倍）
 
-• +1 card for each type of enemy
-• +1 card if the enemies outnumber the guild
-• +1 card if twice as many enemies as adventurers
+• +1張牌（每隻比人類更大的敵人）
+• +2張牌（若有精英敵人）
+• +3張牌（若有地城之主）
 
-• +1 card for each enemy larger than a human
-• +2 cards if there’s an elite enemy
-• +3 cards if there’s a dungeon lord
+群聚規則
 
-Mob rules
+• 若2隻或以上的敵人攻擊同一名冒險者，
+他們獲得優勢
 
-• If 2+ enemies are fighting the same adventurer,
+• 若4隻或以上的敵人攻擊同一名冒險者，
+他們獲得優勢並造成穿刺傷害
 
-they gain favor
+• 若8隻或以上的敵人攻擊同一名冒險者，
+他們獲得優勢並造成致命傷害
 
-• If 4+ enemies are fighting the same adventurer,
+武器
 
-they gain favor and deal Piercing damage
-
-• If 8+ enemies are fighting the same adventurer,
-
-they gain favor and deal Critical damage
-
-Weapons
-
-Axe: If a target is killed, apply same Attack to another foe in range
-Blade: Deal 2 Wounds on a successful Riposte
-Flail: Always wins ties (i.e., against foes with shields)
-Dagger: Deals Piercing damage when a foe is Rooted, Tripped, or Disarmed
-Hammer & Mace: Deal 2 Wounds when Attack is 2x foe’s Initiative
-Polearm: Play a Riposte as an interrupt
-Bow: May Aim as an action and add the Aim value to your next Attack
-Crossbow: Deals Piercing damage, reload with a miscellaneous action
-Shield: Play any card facedown as a miscellaneous action, replacing Initiative; you win
-ties in Attack vs Initiative while carrying a shield
+斧頭：若目標被殺，將同一次攻擊應用於範圍內另一個敵人
+劍刃：反擊成功時造成2點傷勢
+連枷：總是贏得平局（即對抗持盾的敵人）
+匕首：當敵人被定身、絆倒或繳械時，造成穿刺傷害
+錘子及長棍：當攻擊值是敵人先攻的2倍時，造成2點傷勢
+長柄武器：可以將反擊作為中斷行動打出
+弓：可以花一個行動瞄準，並將瞄準值加入下一次攻擊
+弩：造成穿刺傷害，需要一個雜項行動裝填
+盾牌：以任意牌面朝下打出作為雜項行動，取代先攻；持盾時在攻擊對先攻的戰鬥中贏得平局

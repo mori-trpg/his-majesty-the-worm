@@ -11,16 +11,14 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 Dungeon Seeds
 
-“The universe (which others call the Library) is composed of
-an indefinite and perhaps infinite number of hexagonal galleries,
-with vast air shafts between, surrounded by very low railings.
-From any of the hexagons one can see, interminably, the upper and
-lower floors. The distribution of the galleries is invariable. Twenty
-shelves, five long shelves per side, cover all the sides except two;
-their height, which is the distance from floor to ceiling, scarcely
-exceeds that of a normal bookcase...”
+「宇宙（有人稱之為圖書館）由數目不定、或許無限多的六邊形走廊組成，
+走廊之間是廣大的通風豎井，四周環繞著極低的欄杆。
+從任何一個六邊形，都能無止盡地看見上下各層。
+走廊的分布是不變的。每側五個長架，共二十個架子，
+覆蓋除兩面外的所有牆面；架子的高度——即從地板到天花板的距離——
+幾乎不超過一個普通書架……」
 
-- The Library of Babel, Jorge Luis Borges
+- 《巴別圖書館》，豪爾赫·路易斯·博爾赫斯
 
 ecause staring at a blank page can be intimidating, here are twenty-one dungeon seeds to
 serve as inspirational prompts for your dungeon levels. Each dungeon seed provides some
@@ -29,7 +27,7 @@ B
 inspiring nonsense and a blank map for different dungeon levels. There are also twenty-one room
 features and a variety of traps included here.
 
-References to things like “Dungeon lords” and “Common monsters” aren’t intended to be
+References to things like "Dungeon lords" and "Common monsters" aren't intended to be
 definitive, just a starting place to help you start thinking about the contents of the dungeon's
 rooms and Meatgrinder.
 
@@ -41,40 +39,34 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 I – THE MAGICIAN
 The Spires
-An impossibly immense cavern forested with incredibly gigantic archwood trees, each
-larger than the largest sequoia. The forest has been denuded by the copper-colored locusts.
-Still, the ancient trunks, boughs, and roots of these skyscraper trees knit together to form a
-traversable environment. In its quiet moments, it seems almost peaceful.
-(This, of course, is a lie.)
+一個廣闊無垠的大洞窟，茂密生長著極其巨大的靈木，每一棵都大過最高大的北美紅杉。這片森林已遭銅色蝗蟲啃噬殆盡。儘管如此，這些摩天大廈般的古樹——其枝幹、樹根緊密交織——仍構成一個可穿行的環境。靜謐之時，此地幾乎讓人感到平和。
+（當然，這是謊言。）
 
-Sights
-A desiccated forest of colossal, dead trees. Everything
-is eerie. The shadows of the bare branches grasp out
-towards you like skeletal fingers.
+## 景象
+一片乾枯的巨樹枯林，一切都詭異非常。
+光禿枝椏投下的陰影，像骷髏指頭般朝你伸來。
 
-Lighting
-In the rot of the wood, glowing mushrooms shed a weird
-half-light. This counts as dim light, equivalent to a
-moonlit night.
+## 光照
+腐木中發光的蘑菇散發出奇異的半明半暗之光。
+視為昏暗光線，等同月夜。
 
-Sounds
-A constant buzzing from the ubiquitous copper-colored
-locusts. It sounds like an unplugged mic.
+## 聲音
+銅色蝗蟲無處不在，發出持續的嗡嗡聲，
+聽起來像是未插上的麥克風噪聲。
 
-Structures
-Like an Ewok village, wooden bridges connect the islands
-of trees that hang in the midst of a great emptiness.
+## 構造
+如同伊沃克村莊，木橋連接著懸浮於巨大虛空中的各棵樹島。
 
-Smell and taste
-The smell of a rotting pumpkin left out well into
-January. Vegetative humus.
+## 氣味與味道
+像是一顆放到一月份才發現的腐爛南瓜的氣味。
+植物腐殖質的味道。
 
-Common monsters
-Forest Imps, Mushroom Men, Cockatrice, Dire Bats,
-Dire Wolves, Sword Spiders, Undead Bears, Flower
-Fairies, Dryads, Lions
+## 常見怪物
+Forest Imps、Mushroom Men、Cockatrice、Dire Bats、
+Dire Wolves、Sword Spiders、Undead Bears、Flower
+Fairies、Dryads、Lions
 
-Dungeon lord
+## 地城之主
 The Locust Lich
 
 344344
@@ -83,39 +75,33 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 II – THE HIGH PRIESTESS
 The Boundless Moat
-Souls aren’t the only things that sink into the Underworld—ships do as well. This level
-is an underground ocean choked with the wreckage of a thousand, thousand ships. The
-limitless depths glow a ghastly neon color, casting bizarre shadows up onto the islands of
-sunken ships. The wreckage islands are a home to pirates, thieves, and worse.
+靈魂不是唯一沉入地下世界的東西——船也會。這一層是一片被千千萬萬沉船殘骸塞滿的地下海洋。深不見底的水域發出詭異的霓虹色光，在由沉船殘骸堆成的島嶼上投映出奇異的陰影。這些殘骸島是海盜、竊賊和更糟糕之人的家園。
 
-Sights
-Glowing blue waters, like an emptied glowstick. A
-floating dungeon, bobbing like a cork upon the waves.
+## 景象
+發著幽光的藍色海水，像是被倒空的螢光棒。
+一座漂浮地城，在波浪上像軟木塞一樣搖晃。
 
-Sounds
-The constant push and pull of the waves sounds like the
-snoring of a giant; like an hourglass being constantly
-turned. Psssssh. Thrsssssh.
+## 聲音
+波浪持續的起伏聲聽起來像巨人的鼾聲；
+像沙漏不斷被翻轉的聲音。Psssssh. Thrsssssh.
 
-Smell and taste
-The air tastes and smells of salt. The air is humid. Your
-armor requires constant oiling or it will rust.
+## 氣味與味道
+空氣帶著鹽的氣味與味道。空氣潮濕。
+你的護甲需要時時上油，否則會生鏽。
 
-Lighting
-The waves shine with glowing blue bioluminescent
-waters; this provides dim light.
+## 光照
+海浪散發著幽幽的藍色生物螢光；提供昏暗光線。
 
-Structures
-Rafts of bobbing flotsam and jetsam stretch across the
-underground ocean. Chambers of wreckage, hallways
-made of gangplanks, and a few solid reefs tying
-everything together.
+## 構造
+漂浮的殘骸與漂流物連成筏子，延伸橫跨地下海洋。
+由殘骸構成的房間、木板搭成的走廊，
+以及少量將一切連結在一起的堅實礁石。
 
-Common monsters
-Brine Imps, Sirens, Vodyanoy, Kraken, Daggerfish,
-Dire Man o’ Wars, Dire Eels, Kelpies, Leviathans
+## 常見怪物
+Brine Imps、Sirens、Vodyanoy、Kraken、Daggerfish、
+Dire Man o' Wars、Dire Eels、Kelpies、Leviathans
 
-Dungeon lord
+## 地城之主
 The Maimed Mermaid
 
 345
@@ -124,40 +110,34 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 III – THE EMPRESS
 The Castle of Crossed Destinies
-The Castle of Crossed Destinies was the seat of power for the Triarchy. The decadence
-that this castle once knew has faded and grown tarnished as it has fallen to the influences
-of the Underworld. Incredible works of art and unknowable traps sit side by side in these
-ancient halls.
+命運交錯之城曾是三王共治政體的權力中心。這座城堡昔日的奢華已隨著地下世界的侵蝕而褪色、蒙塵。精彩絕倫的藝術品與難以捉摸的機關陷阱並排陳列於這些古老的廳堂之中。
 
-The castle is tended by a caste of degenerate servants called the Lavritic who are
-descended from the original inhabitants. They trim the wicks of candles, throw dead
-bodies out of windows, and reset the traps. They are bound by powerful geas to never
-interfere, harm, or help outsiders. At best, they prostrate themselves and tremble.
+這座城堡由一群退化的僕人維護，他們稱為Lavritic，是原住民的後裔。他們修剪蠟燭的芯、將屍體扔出窗外、並重設陷阱。他們受到強大的禁制誓約束縛，絕不干涉、傷害或幫助外來者。頂多只是俯伏顫抖。
 
-Sights
-Grand rooms filled with magnificent works of baroque
-art. Utterly old and utterly beautiful.
+## 景象
+宏偉的廳房中擺滿巴洛克藝術傑作，
+古老得徹底，美麗得徹底。
 
-Structures
-Hallways and chambers made of cold, fitted stones.
-Wooden doors set with lever door knobs.
+## 構造
+由冰冷的切割石塊砌成的走廊與廳室。
+木製門扉裝有槓桿式門把。
 
-Sounds
-Eerily silent except for your own footsteps.
+## 聲音
+詭異的寂靜，只有自己的腳步聲。
 
-Smell and taste
-Everything smells old, dusty, and moldy.
+## 氣味與味道
+一切都散發著陳舊、塵埃與霉味。
 
-Lighting
-Candles light most rooms and hallways. They are
-regularly tended by the Lavritic.
+## 光照
+蠟燭照亮了大多數房間與走廊，
+由Lavritic定期維護。
 
-Common monsters
-Painted Imps, Dire Rats, Living Armor, Living
-Paintings, Mimics (Chests, Treasure, Ladders),
-Gargoyles, the First Knights
+## 常見怪物
+Painted Imps、Dire Rats、Living Armor、Living
+Paintings、Mimics（Chests、Treasure、Ladders）、
+Gargoyles、the First Knights
 
-Dungeon lord
+## 地城之主
 The Bone Chandelier
 
 346346
@@ -166,42 +146,34 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 IV – THE EMPEROR
 The Inverted Castle
-Dripping down like a stalactite, the Inverted Castle hangs in the midst of a great cavern.
-The draconic children of His Majesty the Worm are entombed here, and their reality-
-warping influence seeps out of their prison-tombs. Each room of the Inverted Castle seems
-to be decorated by someone who has only heard about humans through unreliable ancient
-historians and seen pictures of their lives through crude art. The rooms appear to be set
-to some purpose, but there’s little logic to the layout, decoration, or inventory. Disparate
-concepts are juxtaposed. Certain rooms are laid out nonsensically, e.g., an entire wing is
-entirely upside down.
+倒懸的城堡如鐘乳石般垂掛在巨大洞窟的中央。蠕蟲陛下的龍族子嗣被封印於此，他們扭曲現實的影響從囚禁之墓中滲透而出。倒懸城堡的每一個房間，看起來都像是由一個只透過不可靠的古代史家聽說過人類、只看過粗糙藝術作品的人所佈置的。房間似乎各有其用途，但整體的佈局、裝飾與擺設毫無邏輯可言。截然不同的概念被強行並置。某些房間的設計莫名其妙——例如有整個翼廊是完全顛倒的。
 
-Sights
-Escher-esque hallways tangled around a central Rubik’s
-Cube of a room. Disproportionate furniture hangs
-from the walls and the ceiling. An enshrined dragon is
-mummified in paper ofuda.
+## 景象
+艾雪式的走廊纏繞著一個如魔方般的中央核心房間。
+不成比例的家具懸掛在牆壁和天花板上。
+一條被紙質護符層層包裹的龍被供奉其中，已成木乃伊。
 
-Sounds
-The hanging towers ring their bells hourly. Their
-tintinnabulations reverberate through the entire structure.
+## 聲音
+懸掛的塔樓每小時鳴鐘報時，
+鈴聲在整個結構中迴響震盪。
 
-Smell and taste
-The air is dry and warm, with a faint tang of iron.
+## 氣味與味道
+空氣乾燥溫暖，帶著淡淡的鐵腥味。
 
-Structures
-Hallways and chambers made of cold, fitted stones.
-Wooden doors set with lever door knobs.
+## 構造
+由冰冷的切割石塊砌成的走廊與廳室。
+木製門扉裝有槓桿式門把。
 
-Common monsters
-Giggling Imps, Mummified Orcs, Orc Raiders,
-Sphinxes, Typhon Dogs, Scorpion Men, Dire Cats,
-Dire Beetles, Mummified Dragons
+## 常見怪物
+Giggling Imps、Mummified Orcs、Orc Raiders、
+Sphinxes、Typhon Dogs、Scorpion Men、Dire Cats、
+Dire Beetles、Mummified Dragons
 
-Dungeon lord
+## 地城之主
 The Beastmaster
 
-Lighting
-None.
+## 光照
+無。
 
 347
 
@@ -209,44 +181,30 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 V – THE HIEROPHANT
 The City of Ruin
-Ruin is the name of the first City. Here, humanity first learned about the joys and terrors
-of being alive. The iconography of the place is full of the strength and beauty of youth. This
-is in sharp contrast to the current melancholy state of this level: dilapidated, derelict, and
-disfigured. During the first Crusades into the Underworld, it was discovered that the first
-City was plated with gold. Subsequent expeditions by adventuring guilds have stripped
-almost all gold from this dungeon level. Much of the remaining wealth is so large and
-unwieldy it would be difficult to extract. Ruin was pulled into the Underworld by His
-Majesty the Worm. His reasons are (as usual) enigmatic.
+Ruin是第一座城市的名字。人類在此初次體驗了生命的喜悅與恐懼。此地的圖像充滿了青春的力量與美麗，與這一層目前的憂鬱狀態形成鮮明對比：破敗、荒廢、面目全非。在第一次進入地下世界的十字軍東征中，人們發現了這座最初的城市曾以黃金鋪就。冒險者公會的後續探索幾乎將這一地城層的黃金洗劫一空。剩餘的財富大多過於龐大笨重，難以搬運。Ruin是被蠕蟲陛下拖入地下世界的，祂的理由一如既往地難以捉摸。
 
-Sights
-Cyclopean structures tower above, once majestic but now
-fallen into ruin. Crumbling, colossal-sized statues of
-nameless rulers line the streets and crowd every square.
+## 景象
+巨型建築高聳入天，昔日壯麗，如今一片廢墟。
+岌岌可危的巨型無名統治者雕像排列街道兩旁，擁擠在每個廣場。
 
-Sounds
-A cold wind screams down the streets.
+## 聲音
+冰冷的風在街道中嘶吼。
 
-Smell and taste
-The air is cold and dry as dust. Your breath frosts.
+## 氣味與味道
+空氣如塵埃般冰冷乾燥，你呼出的氣息結成白霜。
 
-Lighting
-Street lamps contain dire fireflies. These lamps shed a
-dull red glow, providing dim light in the streets. The
-ruined buildings are unlit and dark.
+## 光照
+路燈中裝有Dire Fireflies。這些路燈在街道上散發出暗紅色的光芒，提供昏暗光線。廢棄建築內部沒有光源，一片漆黑。
 
-Structures
-The buildings are made of massive, closely-fitted granite
-stones. Most buildings are hollow, with floors and
-interiors rotted away. Occupied buildings have interiors
-constructed of scavenged masonry and furniture from
-other levels.
+## 構造
+建築物由大塊緊密嵌合的花崗岩砌成。大多數建築物是空殼，內部地板和設施早已腐朽。有人居住的建築物，其內部由從其他層搜刮來的石材和家具重新搭建。
 
-Common monsters
-Deconstruction Imps, Dire Cockroaches, Necrotic
-Slimes, Face Rats, Pacifist Werewolves, Animate
-Columns, Vampire Spawn, Harpies
+## 常見怪物
+Deconstruction Imps、Dire Cockroaches、Necrotic
+Slimes、Face Rats、Pacifist Werewolves、Animate
+Columns、Vampire Spawn、Harpies
 
-Dungeon lord
+## 地城之主
 The Enormous
 
 348348
@@ -255,39 +213,30 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 VI – THE LOVERS
 The Pits
-If you think that the Underworld is merely the home of death, you are mistaken. It is
-teeming with life. In fact, that is one of the Underworld’s peculiar facets: death comes
-slowly here. One of the most animated levels of the Underworld is the Pits. The breeding
-ground for mutant albino ratmen, these tunnels are teeming with life. Quick lifecycles
-mean that generations are born, grow old, and die in the space of a week. The Rat King
-hosts blood sports in his filth-filled colosseum for his own amusement.
+如果你以為地下世界只是死亡的居所，那你就錯了。那裡充斥著生命。事實上，這正是地下世界的一個奇特之處：死亡在這裡來得很慢。地下世界中最為熱鬧的一層，就是深坑。這片隧道是變種白化鼠人的繁殖地，生命在此密密麻麻地聚集。快速的生命周期意味著一代人在一週內出生、老去、死亡。鼠王在他污穢的競技場中，舉辦血腥競技以供自己取樂。
 
-Sights
-Honeycombed holes in a natural cavern inspire
-trypophobia. They each ooze with pale slime, like a
-weeping sore. Below, a breeding pit swarming with
-bodies. A riot of flesh.
+## 景象
+天然洞窟中蜂巢般的孔洞引發密集恐懼症，
+每個孔洞都滲出蒼白的黏液，如哭泣的傷口。
+下方是一個擁擠著無數軀體的繁殖坑，肉體橫流。
 
-Sounds
-A ceaseless chattering and squeaking and gnawing and
-chewing and scurrying.
+## 聲音
+無休止的嘰嘰喳喳、尖叫、啃噬、咀嚼與奔竄聲。
 
-Smell and taste
-An almost unbearable acrid, ammonia reek.
+## 氣味與味道
+幾乎令人難以忍受的刺鼻氨臭味。
 
-Lighting
-Ratmen use smoky torches to light their halls with dim
-light. Otherwise dark.
+## 光照
+鼠人用冒煙的火把以昏暗光線照亮廳室，其餘一片漆黑。
 
-Structures
-Natural caverns and narrow tunnels, all slick with slimy
-mold and filth.
+## 構造
+天然洞窟與狹窄隧道，到處都是滑膩的黴菌與污穢。
 
-Common monsters
-Effluence Imps, Dire Lice, Ratmen, Goblins, Meat
-Slimes, Living Buboes, Zombie Troglodytes
+## 常見怪物
+Effluence Imps、Dire Lice、Ratmen、Goblins、Meat
+Slimes、Living Buboes、Zombie Troglodytes
 
-Dungeon lord
+## 地城之主
 The Rat King
 
 349
@@ -296,41 +245,33 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 VII – THE CHARIOT
 Belly of the Beast
-The primordial world serpent Apep long gnawed upon the roots of the Underworld
-until he choked on the sins of the living and died. Now he’s stinking up the place. There
-are many things that the world serpent swallowed: monuments, tyrants, cathedrals,
-martyrs, magic swords, sailing galleys. They’re all lying in the serpent’s belly, ready to be
-reclaimed. It’s like somebody took a museum of pre-recorded history and shoved it into
-a series of reeking subway train cars made of meat. To enter this level, climb through
-Apep’s jaws (remember, even dead snakes can still bite) and crawl down the tunnel of its
-esophagus into its spacious stomach chambers.
+原始世界巨蛇Apep長期啃噬地下世界的根基，直到被生者的罪孽所噎死。如今牠正在此腐爛發臭。世界巨蛇吞下了許多東西：紀念碑、暴君、大教堂、殉道者、魔法劍、帆船。它們全都躺在巨蛇的腹中等待被奪回。就像有人把一座記錄著史前歷史的博物館，塞進了一系列由肉構成的臭烘烘地鐵車廂裡。要進入這一層，就得爬過Apep的顎骨（記住，死蛇也可能會咬人），然後沿著食道爬進寬敞的胃室。
 
-Sights
-A litany of strange objects, from the miniscule to the
-monolithic, sits in about six inches of bile.
+## 景象
+在約六英寸深的膽汁中，從微小到巨大，
+各式奇異物件羅列其中。
 
-Sounds
-The buzz of flies, the rumbling of digestion, and the
-slow dripping of fluids.
+## 聲音
+蒼蠅的嗡嗡聲、消化的咕嚕聲，以及液體的緩緩滴落聲。
 
-Smell and taste
-A sweet stench, but not entirely rotten—akin to the
-formaldehyde-soaked frogs you dissected in high school.
+## 氣味與味道
+一種甜甜的臭味，但並非完全腐爛——類似你高中時解剖青蛙時，
+那些浸泡在福馬林裡的氣味。
 
-Lighting
-None.
+## 光照
+無。
 
-Structures
-Tunnel-like passages, usually about 15’ high and 15’
-wide. Walls and ceilings are made of tissue and cartilage.
-Doors, such as they are, are valves and sphincters.
+## 構造
+隧道般的通道，通常高約15英尺、寬約15英尺。
+牆壁和天花板由組織和軟骨構成。
+所謂的門，是瓣膜和括約肌。
 
-Common monsters
-Melancholic Imps, Dire Tapeworms, Dire Rats,
-Hellflies, Skeleton Jellies, Green Slimes, Various
+## 常見怪物
+Melancholic Imps、Dire Tapeworms、Dire Rats、
+Hellflies、Skeleton Jellies、Green Slimes、Various
 Stomach Prisoners
 
-Dungeon lord
+## 地城之主
 The Still-Beating Heart
 
 350350
@@ -339,43 +280,34 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 VIII – JUSTICE
 The Drowned Wedding
-Everybody agrees that the wood elf princess Titikamook and the Finfolk King were
-lovers. Opinions differ as to whether the love was true or coerced. Everybody also agrees
-that Titikamook was to be married to her betrothed, the wood elf Kilium. What exactly
-happened at the wedding of these two elves is a matter of legend. It is said that the
-Finfolk King objected to the union, sunk the island, and turned the wedding guests into
-sea mammal monsters. The sunken island is preserved in a gigantic hollow pearl at the
-bottom of a subterranean lake. Getting there is nearly impossible without the aid of
-magic. Inside, although some sections are partially flooded, the air is breathable.
+大家都同意，木精靈公主Titikamook和Finfolk King是情人。然而，這份愛情究竟是真實的還是被迫的，眾說紛紜。大家也都同意，Titikamook本來要嫁給她的未婚夫——木精靈Kilium。這兩位精靈的婚禮上究竟發生了什麼，至今仍是傳說。據說Finfolk King反對這場婚事，將島嶼沉沒，並將婚禮賓客變成了海洋哺乳動物怪物。沉沒的島嶼被保存在地下湖底的一顆巨大空心珍珠中。若沒有魔法輔助，幾乎不可能到達那裡。島嶼內部雖有部分區域積水，但空氣仍可呼吸。
 
-Sights
-An elven gala fallen into impossible age. Rotting
-food on the table. Half-drunk putrid glasses of wine.
-Decorations threading themselves into cobwebs.
+## 景象
+一場精靈盛宴，陷入不可思議的久遠歲月。
+桌上食物已腐爛，杯中酒已發臭，只剩半杯。
+裝飾物蜿蜒交纏，化成了蜘蛛網。
 
-Structures
-The surrounding pearl is diamond-hard and milky white.
-Structures on the island are made of wood, magically
-warped into shape.
+## 構造
+外圍的珍珠質地堅如鑽石，色如白玉。
+島上的建築物由木材搭建，以魔法扭曲成形。
 
-Sounds
-Moaning of ghosts. Distantly, the sound of music? The
-sound of water rushing in and out of cracks in the wall.
+## 聲音
+幽靈的哀鳴聲。遠處，有音樂聲？
+海水從牆縫中湧入湧出的聲音。
 
-Smell and taste
-A lingering smell of incense and rotting flowers. The
-ocean tang of the salty sea.
+## 氣味與味道
+殘存的薰香與腐爛花朵的氣味，以及鹹海的腥鹹味。
 
-Common monsters
-Brine Imps, Mermaids, Vodyanoy, Walrus Men, Land
-Whales, Dire Lice, Elephantine Oozes, Topiary Golems,
-Elven Ghosts, Draugr, Banshees
+## 常見怪物
+Brine Imps、Mermaids、Vodyanoy、Walrus Men、Land
+Whales、Dire Lice、Elephantine Oozes、Topiary Golems、
+Elven Ghosts、Draugr、Banshees
 
-Dungeon lord
+## 地城之主
 The Finfolk King
 
-Lighting
-None.
+## 光照
+無。
 
 351
 
@@ -383,41 +315,29 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 IX – THE HERMIT
 The Library Heretical
-Burning books create a heavy smoke that trickles down into the Underworld. The soot
-of this smoke is scraped and harvested by the ancient and unknowable cyclops librarians,
-who then painstakingly use it to restore the original uncensored texts. The culmination
-of their work lines the walls of the Library Heretical. It is said that the librarians do not
-understand the languages that they write, and are merely replicating the shapes embedded
-in the psychic residue. Still, as a result of their efforts, the Library Heretical contains a
-vast wealth of knowledge from every age of the Wide World.
+燃燒書籍產生的濃煙向下飄入地下世界。這些煙灰被古老而難以捉摸的獨眼巨人圖書管理員刮取收集，然後費心費力地用它來復原最初未經審查的原始文本。他們工作的結晶覆蓋了異端圖書館的牆壁。據說這些圖書管理員並不理解自己所書寫的語言，只是在複製埋藏於心靈殘跡中的圖形。儘管如此，由於他們的努力，異端圖書館收藏了廣闊世界各個時代的大量知識。
 
-Sights
-Endless rows of books. Shelves stacked with scrolls.
-Sprawling scriptorium.
+## 景象
+無盡的書排，滿是捲軸的架子，龐大的謄寫室。
 
-Sounds
-The scribbling of pens. The whisper of a turning page.
+## 聲音
+筆在紙上沙沙書寫的聲音，翻頁的低語聲。
 
-Smell and taste
-Dusty and dry. A lingering acrid smell of smoke.
+## 氣味與味道
+塵埃與乾燥，以及煙霧殘留的刺鼻味。
 
-Lighting
-Jars of dire fireflies hang from chains on the ceiling
-and provide bright light to most rooms. The jars are
-regularly tended by the librarians.
+## 光照
+懸掛在天花板鐵鏈上的罐裝Dire Fireflies，為大多數房間提供明亮光線。罐子由圖書管理員定期維護。
 
-Structures
-Corridors and rooms made of gigantic wooden
-bookshelves. Secret doors hidden in the bookshelves.
-Everything is sized for cyclopes: climbing up stairs is
-laborious for humans, like bouldering for underfolk.
+## 構造
+由巨型木製書架構成的走廊與房間，書架中隱藏著暗門。一切都是按照獨眼巨人的尺寸設計的：爬上樓梯對人類來說費力不已，對地底民來說就像攀岩。
 
-Common monsters
-Ink Imps, Cyclops Librarians, Origami Golems,
-Bookworms, Crawling Brains, Book Mimics, Memetic
-Plagues, Speech Bubble Jellyfish
+## 常見怪物
+Ink Imps、Cyclops Librarians、Origami Golems、
+Bookworms、Crawling Brains、Book Mimics、Memetic
+Plagues、Speech Bubble Jellyfish
 
-Dungeon lord
+## 地城之主
 The Librarian Lich
 
 352352
@@ -426,40 +346,28 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 X – THE WHEEL OF FORTUNE
 The Field of Reeds
-At the confluence of the five rivers of the Underworld is the Field of Reeds, a marshy
-swamp choked with the detritus that’s washed down from upper levels. The terrain is
-treacherous: seemingly solid ground suddenly gives way to sucking pits. There are soft
-grasses that turn blade-sharp when agitated. Huge mangrove trees create small islands
-that knit together the flooded space, but even they are fickle. They whisper and conspire
-with each other, passing along rumors and muttering about grudges. It’s said that the
-waters of the Underworld rivers have strange properties. Do not drink from them.
+在地下世界五條河流的交匯處，是蘆葦之野——一片被從上層沖積而來的殘骸所窒息的沼澤濕地。地形極其險峻：看似堅實的地面突然塌陷成吸人的泥坑。有些草地柔軟，一旦受到擾動便會變得鋒利如刃。巨大的紅樹林在積水空間中構成一個個小島，但它們本身也反覆無常。它們竊竊私語、暗中謀畫，相互傳遞流言、嘀咕著彼此的舊怨。據說地下世界河流的河水有著奇特的屬性。切勿飲用。
 
-Sights
-A Louisiana swamp at night. The eyeshine of scrambling
-things disappearing into the mud, hiding themselves from
-the light of your torch. Thick webs of vines connecting
-jagged tree stumps. A thousand shades of green.
+## 景象
+路易斯安那州的夜間沼澤。一些急著躲進泥中的生物在火把光下露出的眼睛閃光。厚實的藤蔓網絡連接著參差嶙峋的樹椿。千種深淺不一的綠色。
 
-Sounds
-The soft plop of something leaping into the water. The
-whine of insects.
+## 聲音
+某個東西跳入水中的輕柔「撲通」聲，以及昆蟲的嗡嗡聲。
 
-Smell and taste
-The fetid water smells like fever sweats: hot and wet
-and insomniac.
+## 氣味與味道
+腐敗的水散發著發燒盜汗的氣味：又熱又濕，讓人輾轉難眠。
 
-Lighting
-Parts of the swamps are continuously on fire. Otherwise,
-all is dark.
+## 光照
+沼澤部分地區持續燃燒著，其餘一片漆黑。
 
-Structures
-Crumbling stone ruins, looming up out of the swamps.
+## 構造
+搖搖欲墜的石頭廢墟，從沼澤中矗立而出。
 
-Common monsters
-Brine Imps, Will o’ Wisps, Bog Mummies, Dire Spiders,
-Dire Toads, Hydrae, Harpies, Ogres
+## 常見怪物
+Brine Imps、Will o' Wisps、Bog Mummies、Dire Spiders、
+Dire Toads、Hydrae、Harpies、Ogres
 
-Dungeon lord
+## 地城之主
 Moonback the Dire Alligator
 
 353
@@ -468,45 +376,30 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XI – STRENGTH
 The Sepulcher of Titans
-Philosophers have speculated that humans were not the first people to govern where the
-City now stands. The Sepulcher of Titans supports these attestations. Here, the bodies
-of gigantic creatures lie in unquiet repose. The titans are not dead, merely dismembered.
-Their decapitated heads sit silently, thinking and watching. If you hooked a bellows up to
-their neck to give them breath, they could still talk their ancient language. If their giant
-arms are freed from their coffins, they crawl around blindly, looking for their bodies. If you
-pull their hearts from their canopic jars, you’ll find them still beating. (Do not under any
-circumstances eat the titans’ flesh.)
+哲學家們曾推測，人類並非第一批統治城市現址的民族。泰坦墓穴為這些說法提供了佐證。在這裡，巨大生物的屍體在不安的長眠中靜臥。泰坦們並未死去，只是被肢解了。他們被斬首的頭顱靜靜地思考著、注視著。若你用風箱向他們的脖子打氣，他們仍能說起古老的語言。若他們被禁錮在棺槨中的巨臂得以解放，便會四處盲目爬行，尋找自己的身體。若你從骨灰罈中取出他們的心臟，你會發現它仍在跳動。（任何情況下都不可食用泰坦的肉。）
 
-Sights
-The hallways are close-fitting, as if a secondary prison to
-the dismembered giants. Humans walk down them with
-a claustrophobic feeling. These narrow hallways open
-up into vaulted chambers that prominently display the
-burial chambers of muslin-wrapped giants.
+## 景象
+走廊狹窄逼仄，仿佛是肢解巨人的次級牢籠。人類走在其中感到幽閉恐懼。這些狹窄走廊通向拱頂廳堂，廳堂中央顯眼地陳列著用亞麻布包裹的巨人墓室。
 
-Sounds
-A hallowed quiet broken by the occasional rustling from
-within the stone tombs as the giants resettle themselves.
+## 聲音
+神聖的靜謐偶爾被石棺內的窸窣聲打破，那是巨人們在重新調整姿勢。
 
-Structures
-The rooms are made of unworked stone fitted closely
-together without cement. The hallways are made of
-natural caverns. Occasional stone doors of gigantic size
-separate chambers; difficult to move but unlocked.
+## 構造
+房間由未經雕琢的石塊緊密嵌合而成，未使用水泥。走廊由天然洞窟構成。偶爾以巨大的石門隔開廳堂；難以移動但未上鎖。
 
-Common monsters
-Tunneling Imps, Ogres, Mummified Giants,
-Disembodied Crawling Hands, Furies, Dire Spiders,
-Chimerae, Manticores
+## 常見怪物
+Tunneling Imps、Ogres、Mummified Giants、
+Disembodied Crawling Hands、Furies、Dire Spiders、
+Chimerae、Manticores
 
-Smell and taste
-The cool scent of damp earth. A pungent scent of mold.
+## 氣味與味道
+潮濕土壤的清涼氣息，以及濃烈的霉味。
 
-Dungeon lord
+## 地城之主
 The Sporehulk
 
-Lighting
-None.
+## 光照
+無。
 
 354354
 
@@ -514,44 +407,27 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XII – THE HANGED MAN
 Xania
-When the first human died, it took everybody by surprise. As necromancers furiously tried
-to solve the problem of eternal life, one sorceress took a bold new approach. This sorceress
-had a daughter and named her Xania. She named them all Xania. Through magic, she
-cloned her daughter thousands upon thousands of times. The sorceress automated these
-processes, and has long since perished. The processes continue. Xania survives. In an
-enchanted tower in the Underworld, magical cloning labs work continuously to unstitch
-and reweave the same person, over and over. There are hundreds of Xanias. Some are
-saner than others, but none are particularly sane. At least, not how humans think of it.
+當第一個人類死去時，所有人都大吃一驚。術士們拼命尋找長生不死之道，而一位女術士採取了大膽的全新方向。這位女術士有一個女兒，她將她命名為Xania。然後她又將所有的她都命名為Xania。透過魔法，她將自己的女兒複製了成千上萬次。這位女術士將這些流程自動化，自己早已死去。流程依舊持續。Xania繼續存活。在地下世界的一座魔法塔中，魔法克隆實驗室不間斷地運作，將同一個人一遍又一遍地拆解與重組。如今有數百個Xania。有些比其他更理智，但沒有一個是真正意義上的理智。至少，不是人類所理解的那種理智。
 
-Sights
-The most common material in this dungeon level is
-human flesh. Tapestries are woven of human hair. Books
-are bound in human skin. Furniture is made out of
-human bones. Meals are made out of—you guessed it!
-(Xanias do not think of this as weird. It’s a little like
-masturbation, maybe.)
+## 景象
+這一地城層最常見的材料是人類的血肉。掛毯由人類的頭髮編織而成。書籍以人類皮膚裝訂。家具由人類骨骼製成。餐點是由——你猜到了！（Xania們並不覺得這有什麼奇怪，或許有點像自慰吧。）
 
-Sounds
-The sounds of a working castle: women gossiping,
-the crying of babies, the birth-sacs filling with liquid,
-nightsoil being emptied, floors being swept, etc.
+## 聲音
+一座運作中的城堡的聲音：女人的閒談、嬰兒的哭聲、充滿液體的生育囊、夜壺被倒空、地板被掃淨，等等。
 
-Smell and taste
-It smells like a birthing room.
+## 氣味與味道
+聞起來像產房。
 
-Lighting
-Candelabras of human-fat candles provide bright light
-to most rooms. Hallways are dark.
+## 光照
+人脂蠟燭的燭台為大多數房間提供明亮光線。走廊一片漆黑。
 
-Structures
-The rooms are made of crumbling stone. Doors are made
-of metal. Locked doors are heavily reinforced. Furniture
-is strangely well-made, though in an Ed Gein pastiche.
+## 構造
+房間由崩裂的石塊構成。門由金屬製成。上鎖的門嚴密加固。家具做工精良得出奇，儘管帶著Ed Gein風格的拼貼感。
 
-Common monsters
+## 常見怪物
 Xania
 
-Dungeon lord
+## 地城之主
 Xania
 
 355
@@ -560,41 +436,30 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XIII – DEATH
 The Necropolis of Ot
-When the first human died, it took everybody by surprise. Nobody knew that would
-happen. Life had seemed to be eternal. Nobody could remember a time before being alive,
-and nobody had yet conceived of a time after being alive. The revelation that they would
-someday die terrified the first City. To solve this problem, humanity sought the aid of
-sorcery. Unfortunately, sorcery is a sword without a hilt: there’s no safe way to hold it.
-The result of the first City’s invention of necromancy is the Necropolis of Ot.
+當第一個人類死去時，所有人都大吃一驚。沒有人知道那會發生。生命似乎是永恆的。沒有人記得存在之前的時光，也沒有人曾構想過存在之後的時光。他們終將一死的啟示令第一座城市陷入恐懼。為了解決這個問題，人類尋求了巫術的幫助。不幸的是，巫術是一把沒有刀柄的劍：沒有安全的持握方式。第一座城市發明亡靈術的結果，便是Ot死靈城。
 
-Sights
-A city of the dead governed by the dead. Pyramids of
-bone rise up in a mammoth cavern, ringed by walls of
-heaped skulls. Funerary urns, carved with the likeness of
-life, clutter the corners of every chamber and hallway.
+## 景象
+由亡者統治的死者之城。骨骸堆砌的金字塔在巨大洞窟中矗立，
+四周環繞著頭骨堆砌的高牆。刻有生前樣貌的骨灰罈散落在每個廳室與走廊的角落。
 
-Structures
-The buildings of the necropolis are made of limestone,
-lined and decorated with millions of human bones.
-Doors are made of stone set on fulcrums at their center
-point, allowing them to easily turn.
+## 構造
+死靈城的建築物由石灰岩砌成，以數百萬根人類骨骸作為裝飾與內襯。門由石頭製成，安裝在中心支點上，可輕易轉動。
 
-Sounds
-The dead whisper and mutter ceaselessly, but you can
-never catch exactly what they’re saying.
+## 聲音
+亡者不停地低語喃喃，但你永遠聽不清他們在說什麼。
 
-Smell and taste
-It is dry as dust. Your lips are chapped.
+## 氣味與味道
+乾燥如塵埃，你的嘴唇皸裂。
 
-Lighting
-None.
+## 光照
+無。
 
-Common monsters
-Saprovore Imps, Ghosts, Zombies, Skeletons, Wraiths,
-Shadows, Skin Slimes, Tooth Fairies, Dire Owls,
+## 常見怪物
+Saprovore Imps、Ghosts、Zombies、Skeletons、Wraiths、
+Shadows、Skin Slimes、Tooth Fairies、Dire Owls、
 Monstrance Golems
 
-Dungeon lord
+## 地城之主
 The First Dead
 
 356356
@@ -603,41 +468,30 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XIV – TEMPERANCE
 The Menagerie of Singular Creatures
-The sphinxes whisper of a time before there were multitudinous species—droves of oxen,
-murmurations of starlings, schools of fish, prides of lions. Before that, there was only His
-Majesty the Worm. In His loneliness, He dipped his claws into the Well of Souls and
-brought forth singular creatures. Things unique, with no others of their kind. These
-things were subsequently forbidden from the Wide World, and so have been trapped in
-the Underworld. Each chamber is home to a thing utterly unique, with unique treasure,
-a uniquely sad story, and a unique danger.
+人面獅身獸低語著一個時代，那時還沒有無數的物種——成群的公牛、椋鳥的飛舞、魚群、獅群。在那之前，只有蠕蟲陛下。在孤獨中，祂將爪子伸入靈魂之泉，帶出了獨一無二的生物。這些東西是獨一的，世間再無其他同類。它們後來被禁止進入廣闊世界，因此被困在地下世界。每個廳室都是某種完全獨特的存在的家，擁有獨特的寶藏、獨特的悲傷故事，以及獨特的危險。
 
-Sights
-Moving from the Dajjal’s room to the Simurgh’s room is
-like moving from night to day. The gloomy caverns give
-way to a vaulted room lit with a crystalline pillar shining
-like the sun. The white roots of weirwood trees provide
-the Simurgh a roost. On the far wall, heavy chains forbid
-egress to the Tarasque’s chamber.
+## 景象
+從Dajjal的房間移動到Simurgh的房間，宛如從黑夜走入白晝。
+陰暗的洞窟讓位於一個以水晶柱照亮的拱頂廳室，水晶柱如日光般閃耀。
+白色的神木樹根為Simurgh提供了棲息之所。
+在遠牆上，沉重的鎖鏈阻止你進入Tarasque的廳室。
 
-Sounds
-Various. The dolorous sound of Echidna’s glass organ is
-never far away.
+## 聲音
+各有不同。Echidna那沉鬱的玻璃管風琴聲從不遠處傳來。
 
-Smell and taste
-Various. Each room has a particular odor.
+## 氣味與味道
+各有不同，每個房間都有其特有的氣味。
 
-Lighting
-Various. Some rooms are dark, some are well lit.
+## 光照
+各有不同，有些房間漆黑，有些燈火通明。
 
-Structures
-Various. The majority of the rooms are caverns of
-unworked stone, though different creatures have special
-structures designed to comfort their peculiar shapes.
+## 構造
+各有不同。大多數房間是未經雕琢的石洞，但不同的生物有著為其獨特體型而設計的特殊構造。
 
-Common monsters
-None.
+## 常見怪物
+無。
 
-Dungeon lord
+## 地城之主
 The Unicorn
 
 357
@@ -646,45 +500,34 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XV – THE DEVIL
 The Hellmarkt
-The Hellmarkt sits at a crossroads between the Underworld and the far realms, where
-spirits dwell. It takes human commerce and turns it up a notch. Spirits trade intangible
-things: the color of your eyes, the memory of your mother, your sense of fear. In return?
-They give you (almost) anything you want. It is impossible to buy your heart’s desire.
-However, many spirits have powerful tools that would make achieving your quest
-much simpler. They are willing to trade these things to you for a price. The costs of the
-Hellmarkt seem reasonable. Too reasonable. Alas, no mortal has ever made this bargain
-and avoided regret.
+Hellmarkt坐落在地下世界與遠域的交界——那裡是靈體的居所。它將人類的商業行為提升了一個層次。靈體交易無形之物：你眼睛的顏色、你對母親的記憶、你的恐懼感。作為回報，他們會給你（幾乎）任何你想要的東西。心中最深切的渴望是無法買到的。然而，許多靈體擁有強大的工具，能讓你更輕易地達成任務。他們願意以某個代價將這些東西交換給你。Hellmarkt的要價看似合理，太合理了。唉，從未有凡人做了這筆交易而不後悔。
 
-Sights
-Goblins cluster, offering you a variety of pretty, cheap
-things. A myriad of spirits eagerly sing structures into
-existence: there are a thousand details to take in at once,
-and the spirits insist that you pay attention to everything.
+## 景象
+哥布林聚集在一起，向你兜售各種漂亮的廉價商品。
+無數靈體迫不及待地歌唱著結構，讓它們憑空出現：
+有千種細節要同時吸收，而靈體堅持要你注意一切。
 
-Sounds
-Inhuman glossolalia babbles from all sides; two spirits
-argue about minute differences in their contrasting
-epistemological eschatologies. When they glimpse you,
-they are excited. “Come by! Come buy!”
+## 聲音
+非人類的方言語音從四面八方喋喋不休；兩個靈體正在爭論
+他們各自迥異的認識論末世學之間的細微差別。當他們瞥見你，
+他們興奮了起來。「光臨！光臨！」
 
-Lighting
-Well lit with fires of many colors.
+## 光照
+多種顏色的火焰將此地照得燈火通明。
 
-Structures
-A huge cavern has been co-opted into a huge outdoor
-market. Bedouin-like tents define the stalls. Most rooms
-and pathways are defined only by silks and tapestries.
+## 構造
+一個巨大的洞窟被改造成一個大型露天市集。
+貝都因式帳篷劃定了各個攤位，大多數空間與走道僅以絲綢和掛毯作為界定。
 
-Common monsters
-Servitor Imps, Elf Cloneslugs, Angels, Devils, Genii,
-Daemons, Goblins, Dream Fairies
+## 常見怪物
+Servitor Imps、Elf Cloneslugs、Angels、Devils、Genii、
+Daemons、Goblins、Dream Fairies
 
-Smell and taste
-Each stall has a different intoxicating scent prickling
-at the memory centers of your brain: cut grass, your
-mother’s perfume, the food on your wedding day.
+## 氣味與味道
+每個攤位都散發著不同的醉人香氣，刺激著你腦中的記憶中樞：
+割下的青草、你母親的香水、婚宴上的食物。
 
-Dungeon lords
+## 地城之主
 The Curators
 
 358358
@@ -693,46 +536,30 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XVI – THE TOWER
 The House of Many Angles
-The Underworld is the cradle and grave of all things, including concepts. Like Plato’s
-theory of forms, the Underworld births ideaspace—the manifestation of physical forms in
-their most idealized shape. The idea of buildings was first had by the Underworld, and
-in its dark dreams, the germ has taken root and spread into an infestation of hallways,
-a riot of walls, flowering gables, and endless chambers. Unburdened by the constraints
-of reality, the House of Many Angles folds and unfolds itself like an origami castle.
-Hallways loop impossibly into each other. Changing the geometry of a single room might
-change the shape of the entire complex.
+地下世界是萬物的搖籃與墳墓，包括概念本身。如同柏拉圖的形式論，地下世界孕育了意念空間——有形事物在其最理想形態下的顯現。建築物的概念最初正是由地下世界萌發，在其黑暗的夢境中，這顆種子生根蔓延，滋生出走廊的蔓生、牆壁的橫流、山形牆的綻放，以及無盡的廳室。不受現實束縛，多角之屋折疊與展開自身，如摺紙城堡。走廊在不可能的方式下彼此環繞。改變單一房間的幾何結構，可能會改變整個建築群的形狀。
 
-Sights
-Architecture of a thousand different styles all jammed
-together. Rooms are laid out in improbable ways, like
-they were designed by H. H. Holmes.
+## 景象
+千種不同風格的建築被硬塞在一起。
+房間以奇詭的方式布局，仿佛出自H. H. Holmes之手。
 
-Sounds
-The acoustics of the rooms are at once beautiful and
-strange. If your companions whisper on the far side of
-the room, you can clearly hear it, but there’s a sense of
-yawning space above you that feels crippling. Occasional
-grinding sounds hint that, when unobserved, other
-rooms in the House are rearranging themselves.
+## 聲音
+房間的音響效果既美麗又奇異。若你的同伴在房間另一端低語，你能清晰聽見，但頭頂那令人窒息的空曠感讓人感到癱瘓。偶爾傳來的研磨聲暗示著，當無人注視時，屋子裡的其他房間正在重新排列自身。
 
-Smell and taste
-Strangely sterile air.
+## 氣味與味道
+詭異的無菌空氣。
 
-Lighting
-None.
+## 光照
+無。
 
-Structures
-There is no consistency between chambers. Some are
-made of sturdy pine wood painted black. Some are
-rough-hewn logs of extinct trees. Some are made of
-fitted stones.
+## 構造
+各廳室之間毫無一致性。有些由漆黑的堅固松木構成，有些由已滅絕樹木的粗鑿木料組成，有些由切割石塊砌成。
 
-Common monsters
-Deconstruction Imps, Gargoyles, Dire Centipedes,
-Prolapsedogs, Inverted Horses, Face Rats, Non-
+## 常見怪物
+Deconstruction Imps、Gargoyles、Dire Centipedes、
+Prolapsedogs、Inverted Horses、Face Rats、Non-
 Euclidean Snakes
 
-Dungeon lord
+## 地城之主
 The Many-Angled Thing
 
 359
@@ -741,43 +568,29 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XVII – THE STAR
 The Augury
-The clockwork mechanisms that define the Augury exceed contemporary science. It’s like
-the Antikythera mechanism taken to a castle scale, with rooms of gears and cogs housed by
-limestone walls. Its intended purpose is bafflingly obscure. The only signifying elements
-are found in three separate orreries, which depict detailed but utterly alien skyscapes.
-However, clever dungeon denizens and adventurers have found many seemingly
-unintended uses for the Augury. Time seems especially fickle here. Food doesn’t spoil,
-but molds grow quickly. Hours seem to pass in minutes. Bright light causes paper to act
-photoreactive, capturing shadow imprints. Is this obscure mechanism responsible for the
-strange temporal features of the Underworld?
+定義占星所的發條機械超越了當代科學。就像把安提基瑟拉機器放大到城堡的規模，石灰岩牆內裝著一個個齒輪與嚙合輪的房間。其設計目的令人費解地晦暗。唯一可辨識的元素存在於三個獨立的宇宙儀中，它們描繪了詳細但完全陌生的星空景象。然而，聰明的地城居民和冒險者已為占星所找到了許多看似非預期的用途。時間在這裡似乎格外反覆無常。食物不會腐壞，但黴菌生長迅速。時間的流逝感覺分鐘像秒鐘。強光使紙張具有感光特性，捕捉陰影的印記。這個晦澀的機器是否是地下世界奇特時間特性的源頭？
 
-Sights
-A tower housing a large, slowly rotating flywheel with
-four chain-bound counterweights.
+## 景象
+一座塔內裝有一個緩慢旋轉的巨型飛輪，四條重錘以鎖鏈懸掛於其上。
 
-Sounds
-Loud whirring and clicking, like a huge grandfather
-clock. Echoes of past conversations reverberate back
-down the halls.
+## 聲音
+震耳欲聾的旋轉聲與喀噠聲，如同一口巨大的落地鐘。
+過去對話的回聲沿走廊迴響傳來。
 
-Smell and taste
-A licked penny.
+## 氣味與味道
+舔過的銅板的味道。
 
-Lighting
-None.
+## 光照
+無。
 
-Structures
-The structures are all centered around and intended
-to support a building-sized computational machine of
-bronze clockwork gears. Hallways and chambers made
-of wood. Walls are plastered. Arched wooden doors with
-round door knobs.
+## 構造
+所有構造都圍繞著一台建築物大小的青銅齒輪計算機器而設計，並為其提供支撐。由木材構成的走廊與廳室，牆壁為灰泥抹面，拱形木製門扉配有圓形門把。
 
-Common monsters
-Clockwork Imps, Clockwork Knights, Intelligent Mice,
-Blood Mists, Degenerate Dwarves, Oil Elementals
+## 常見怪物
+Clockwork Imps、Clockwork Knights、Intelligent Mice、
+Blood Mists、Degenerate Dwarves、Oil Elementals
 
-Dungeon lord
+## 地城之主
 Heuriko the Sorceress
 
 360360
@@ -786,41 +599,28 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XVIII – THE MOON
 The Truesilver Forge
-Although the supply chain and logistics are impossible to manage, a colony of underfolk
-have settled near this lode in an attempt to try and mine it. Unfortunately, mithril
-mining is incredibly unhealthy. Though mining has made the Truesilver Forge colony
-rich, it has also made them deeply disturbed. They’re suspicious and suffer hallucinations.
-Anybody who spends too long on this level begins to suffer these effects as well. Sorcerers
-should note that mithril increases the potency of magic (kind of like nega-iron). The
-presence of so much mithril at this level has strange, unpredictable effects on spells.
+儘管供應鏈和後勤幾乎不可能管理，一群地底民已在這個礦脈附近定居，試圖開採它。不幸的是，秘銀礦開採對健康極為有害。儘管採礦使Truesilver Forge殖民地變得富裕，卻也使他們深陷心理障礙。他們疑神疑鬼、飽受幻覺折磨。任何在這一層待太久的人也開始受到同樣的影響。術士應注意，秘銀能增強魔法的效力（有點像反向黑鐵）。這一層如此大量的秘銀存在，對法術產生了奇異且不可預測的影響。
 
-Sights
-Veins of mithril glow dully in the rock. A thin river
-of molten lava bifurcates the level, feeding into an
-elaborate stone trench to heat a dwarf-made forge.
+## 景象
+秘銀礦脈在岩石中暗暗發光。一條細小的熔岩河流將這一層一分為二，流入一個精心設計的石製溝槽，用來加熱矮人打造的鍛造爐。
 
-Structures
-Man-made tunnels that connect natural caverns.
-Inconsistent, sloped flooring. Wooden supports hold
-weak ceilings up; wooden bridges span gaps.
+## 構造
+人工開鑿的隧道連接著天然洞窟。地面傾斜不平。木製支撐撐住脆弱的天花板；木橋橫跨縫隙。
 
-Sounds
-The tireless falling of mattocks and shovels. Blast
-furnaces roaring. An argument, a wet thud, hysterical
-laughter mixed with weeping.
+## 聲音
+永不停歇的鶴嘴鋤與鏟子落地聲，轟轟燃燒的鼓風爐，一場爭吵、一聲悶響，歇斯底里的笑聲夾雜著哭泣聲。
 
-Smell and taste
-A chemical smell like ozone.
+## 氣味與味道
+一種臭氧般的化學氣味。
 
-Lighting
-Chambers are lit 50% of the time with red-glass lamps.
-Hallways are unlit.
+## 光照
+廳室有50%的概率裝有紅色玻璃燈，走廊無光照。
 
-Common monsters
-Hallucination Imps, Argyric Underfolk, Quicksilver
-Slimes, Dire Ants, Mutant Canaries
+## 常見怪物
+Hallucination Imps、Argyric Underfolk、Quicksilver
+Slimes、Dire Ants、Mutant Canaries
 
-Dungeon lord
+## 地城之主
 The Truesilver Golem
 
 361
@@ -829,42 +629,29 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XIX – THE SUN
 The White Gardens
-In the sunless reaches, light has taken on strange forms. Bizarre breeds of mushrooms
-have learned to shed illumination as white and cold as the stars. The light lures creatures
-into the sprawling groves of fungi who quickly become addled, poisoned, and lost. Their
-bodies go on to provide nutrients to the White Gardens. The White Gardens are fields of
-dungeon mushrooms growing in a series of natural caverns. Some of the mushrooms are so
-soft and small that they resemble translucent grass covering the subterranean floor. Others
-are tuberous and as large as trees. Still others still have a dim cunning and hate the rival
-kingdoms of plants, animals, and bacteria.
+在無日照的深處，光以奇異的形態出現。奇特品種的蘑菇學會了散發出如星光般白冷的光芒。這種光誘引生物進入廣闊蔓延的真菌叢，讓它們迅速陷入迷亂、中毒和迷失。它們的屍體隨後成為白色花園的養分。白色花園是由地城蘑菇構成的田野，生長在一系列天然洞窟中。有些蘑菇柔軟細小，像半透明的青草覆蓋著地下室的地面。有些則肥大粗壯，高大如樹。還有一些具有模糊的智慧，憎恨植物、動物和細菌的競爭王國。
 
-Sights
-Caverns vary wildly in size, swelling to the size of
-cathedrals and contracting to unnavigable seams through
-the stone. On almost every surface, fungi resembling sea
-anemones wave their spongy polyps.
+## 景象
+洞窟大小變化劇烈，從大教堂般的寬闊到難以穿行的窄縫。
+幾乎每一個表面，都有酷似海葵的真菌搖曳著其海綿狀的觸手。
 
-Sounds
-The drip of water. The occasional hiss of a mushroom
-releasing its spores.
+## 聲音
+水滴落下的聲音，以及蘑菇偶爾噴出孢子時的嘶嘶聲。
 
-Smell and taste
-The air is damp. There’s a pungent earthy smell. Clouds
-of spores smell fishy and taste like mustard.
+## 氣味與味道
+空氣潮濕，帶著濃烈的泥土氣息。孢子雲聞起來像魚腥味，嚐起來像芥末。
 
-Lighting
-Bioluminescent mushrooms shed LED-white light.
-This counts as bright light.
+## 光照
+生物螢光蘑菇散發出LED般的白光，視為明亮光線。
 
-Structures
-The cavern’s walls and floors are the consistency of
-pocked corral. The corral is a bone-white color.
+## 構造
+洞窟的牆壁和地面質地如同多孔珊瑚，珊瑚呈骨白色。
 
-Common monsters
-Spore-choked Imps, Fungoids, Dire Crabs, Shrieker
-Mushrooms, Polytechnic Polyspores, Spore Zombies
+## 常見怪物
+Spore-choked Imps、Fungoids、Dire Crabs、Shrieker
+Mushrooms、Polytechnic Polyspores、Spore Zombies
 
-Dungeon lord
+## 地城之主
 The Fruiting Mother
 
 362362
@@ -873,44 +660,31 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XX – JUDGEMENT
 The Dragonbone Memorial
-When humans stole the Well of Souls, the dragon city of Night crumbled away into dust.
-In the span of ages since, dragons have painstakingly remade the city out of the bones of
-their dead in the Underworld. Why? Nobody knows. Nobody knows anything about
-how or why dragons do anything. Orcs call this city the Dragonbone Memorial. A sect of
-religious fanatic orcs believes the Dragonbone Memorial to be their promised land. There
-is inter-factional disagreement about whether they should lead the orcish nations down
-into the Underworld or move the dragonbone city up to the surface piece by piece.
+當人類盜走靈魂之泉時，龍族的城市「夜城」化為塵土崩解。在此後漫長的歲月中，龍族在地下世界用其同族的骨骸痛苦地重建了這座城市。為什麼？無人知曉。關於龍族如何行事、為何行事，無人了解。獸人稱這座城市為龍骨紀念碑。一個宗教狂熱的獸人教派相信龍骨紀念碑是他們的應許之地。他們在內部存在派系分歧：究竟應該率領獸人各族深入地下世界，還是將龍骨城一塊塊地搬移到地表？
 
-Sights
-Narrow streets suddenly give way to a spacious square.
-A fountain depicts a serpent devouring its own tail. The
-fountain is full of blood.
+## 景象
+狹窄的街道突然讓位於寬闊的廣場。
+一座噴泉描繪著一條吞噬自己尾巴的巨蛇，噴泉中盛滿了鮮血。
 
-Sounds
-Dripping water. Very distantly, chimes like a Tibetan
-bowl. An ominous rumbling seems to be coming from
-somewhere below.
+## 聲音
+滴水聲。遠處，有如西藏頌缽般的鐘聲。
+一陣不祥的轟鳴聲似乎從下方某處傳來。
 
-Smell and taste
-The lingering haze of an electrical fire.
+## 氣味與味道
+電氣火災殘留的煙霧氣息。
 
-Lighting
-Although some creatures (like goblins and orcs) carry
-torches, the memorial itself provides no sources of light.
+## 光照
+雖然一些生物（如哥布林和獸人）攜帶火把，但紀念碑本身沒有任何光源。
 
-Structures
-The walls of the city are dry-stack bones. The roads are
-paved with crushed oyster shells. Buildings are composed
-of colossal, fossilized creatures reshaped into ancient
-architecture, each room no longer serving a meaningful
-purpose. Doors are made of fossilized wood.
+## 構造
+城牆由乾砌骨骸堆成。道路以碾碎的牡蠣殼鋪就。建築物由已石化的巨大生物遺骸重塑而成，仿照古代建築，每個房間都已喪失其原本的功能意義。門由石化的木材製成。
 
-Common monsters
-Keening Imps, Goblins, Orc Cultists, Human Crusaders,
-Bloody Cruciforms, Shadows, Panthers, Sword Spiders,
-Dire Rats, Dragon Skeletons, Dragons
+## 常見怪物
+Keening Imps、Goblins、Orc Cultists、Human Crusaders、
+Bloody Cruciforms、Shadows、Panthers、Sword Spiders、
+Dire Rats、Dragon Skeletons、Dragons
 
-Dungeon lord
+## 地城之主
 The Lamenting Lich
 
 363
@@ -919,42 +693,30 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 XXI – THE WORLD
 The Undertomb
-At the center of the Underworld is the Undertomb. At the center of the Undertomb
-is the Well of Souls, the font of all life and death. It is filled with vaults and chambers.
-Each room is imbued with symbols of religious allegory. Nobody understands the allegory
-or knows what the symbolism means. When unobserved, the paths between the chambers
-re-architect themselves. Light is blasphemous in the Undertomb, where darkness must
-forever reign supreme. Fire gutters as if frightened, and the circle of your torchlight seems
-to be several inches smaller than normal.
+地下世界的中心是Undertomb，而Undertomb的中心是靈魂之泉——所有生命與死亡的源頭。它由無數地窖與廳室構成。每個房間都充滿了宗教寓意的符號。沒有人理解這些寓意，或知道這些象徵意味著什麼。當無人注視時，廳室之間的路徑會自行重組。光明在Undertomb中是一種褻瀆，在那裡黑暗必須永遠至高無上地統治。火焰搖曳，仿佛受到了驚嚇，而你火把的光圈似乎比正常情況小了幾英寸。
 
-Sights
-Hewn, fitted stones seem to be devolving into a
-cavernous space. Strange images flecked with gold are
-worked into the stone: A lamb with a human face. The
-castration of a bull. A man crowned with an ouroboros.
+## 景象
+人工鑿刻的切割石塊仿佛正在退化回洞窟空間。
+石頭中嵌入著點綴金箔的奇異圖像：一隻有著人臉的羔羊，一頭公牛的閹割，一個頭戴銜尾蛇王冠的男人。
 
-Sounds
-The air here feels like a breath. Sometimes pushing,
-sometimes pulling. A yawning feeling.
+## 聲音
+這裡的空氣感覺像一次呼吸，有時呼出，有時吸入。一種令人心頭一緊的感覺。
 
-Smell and taste
-The air is warm and sulfurous. It smells and tastes like
-rotten eggs.
+## 氣味與味道
+空氣溫暖且充滿硫磺氣息，聞起來並且嚐起來像腐爛的雞蛋。
 
-Lighting
-None.
+## 光照
+無。
 
-Structures
-Chambers consist of caverns hewn from partially worked
-stone. The doors are made of metal, and many have very
-complex locking mechanisms.
+## 構造
+廳室由半雕鑿的石洞構成。門由金屬製成，許多有著極為複雜的鎖定機關。
 
-Common monsters
-Katabatic Imps, Ogre Spiders, Statuary Golems,
-Skeleton Jellies, Lost Adventurers Undergoing
-Apotheosis, Disassembling Angels, Goblins, Dragons
+## 常見怪物
+Katabatic Imps、Ogre Spiders、Statuary Golems、
+Skeleton Jellies、Lost Adventurers Undergoing
+Apotheosis、Disassembling Angels、Goblins、Dragons
 
-Dungeon lord
+## 地城之主
 His Majesty—THE WORM
 
 364364

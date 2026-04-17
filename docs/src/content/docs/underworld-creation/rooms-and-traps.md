@@ -7,445 +7,187 @@ sidebar:
 
 Creating interesting rooms
 
-The basic procedure for populating a dungeon is this: Come up with a bunch of
-interesting ideas and write them down. This is just as easy and hard as it sounds. Using
-the principles for creating interesting room descriptions (p. 335),  add features to each
-room. Some example features and inspiration for creating your own are provided below.
-There are twenty-one of them, so you can flip over a major arcana card to quickly select
-one if you desire randomness.
+設計地城最基本的流程如下：想出一堆有趣的點子並寫下來。這說起來既簡單又困難。運用第335頁中創造有趣房間描述的原則，為每個房間添加特色。以下提供了二十一個範例特色與靈感，供你創作自己的設計。其中共有二十一個，因此若你想要隨機選取，可以翻開一張大阿爾卡那牌。
 
-1. Circle of power
-Sites of power constructed where the leylines of the
-dungeon converge. These circles are designed as gates
-between the realm of Flesh and the far realms—either to
-bar outside entities or beckon such entities in. They are
-dangerous things, whose magic is more than any single
-mortal sorcerer can master.
+1. 力量圓陣
+力量之地建造於地城的靈脈交匯之處。這些圓陣被設計為肉身界與遠域之間的門戶——用來阻擋外界實體，或將其招引而來。它們危機四伏，其魔法力量遠超任何單一凡間術士所能掌控。
 
-Example
-A glyph written on the floor crackles with obviously
-discordant magical energy. The glyph is surrounded by
-five, five-sided pyramidal stones. The side of each stone
-is marked with runes that read “AB-RA-KA-DAB-RA”.
+範例
+地板上刻有一個符文，明顯散發著不和諧的魔法能量。符文周圍擺有五塊五面錐形石。每塊石頭的一面刻著符文，寫著「AB-RA-KA-DAB-RA」。
 
-If the guild steps onto the glyph without changing
-the arrangement of the stones, they are teleported to
-a deeper level of the dungeon and turned inside out
-(instant death). The glyph must be harmonized by
-turning the pyramidal stones so the runes facing the
-inside of the glyph read “Abrakadabra.” This word can
-start from any stone, but should proceed in order until
-every syllable is used sequentially in a clockwise manner.
-When this is done, the teleportation magic is safe to use.
+若公會在未調整石頭排列的情況下踏上符文，他們將被傳送至地城更深一層，並從內翻轉（即死）。符文必須透過旋轉錐形石來調諧，使面向符文內側的符文拼讀「Abrakadabra」。這個單詞可以從任意一塊石頭開始，但應按順序進行，直到每個音節以順時針方向依序使用完畢。完成後，傳送魔法便可安全使用。
 
-3. Cage
-A prison, a hanging gibbet, a jail designed to constrain
-its prisoners. What crimes could they have committed to
-be bound to such a fate? Are they imprisoned unjustly or
-have they committed sins that cannot be forgiven?
+3. 囚籠
+一座牢籠、一個懸吊的鐵絲籠、一間設計來困住囚犯的監獄。他們犯了什麼罪，才遭此命運的束縛？他們是含冤入獄，還是犯下了無法饒恕的罪行？
 
-Example
-A hanging cage made of thin sticks lashed together with
-leather cords. The door is fastened simply with a knot of
-herb (monkshood). The cage looks like you could kick it
-apart easily. Inside, an old man named Zacchaeus claims
-to have been brought here as food for vampires and begs
-to be let out. In truth, Zacchaeus is a werewolf. The
-monkshood (otherwise known as wolfsbane) keeps him
-so weak he cannot break the bars.
+範例
+一個懸掛的囚籠，以細木棍用皮繩捆綁而成。籠門只用一個草藥結（附子草）簡單扣住。囚籠看起來輕輕一踢就能踢碎。裡面，一個自稱Zacchaeus的老人聲稱自己是被當作吸血鬼的食物帶來的，懇求被放出去。實際上，Zacchaeus是一個狼人。附子草（又名狼毒草）讓他虛弱得無法掙脫鐵欄。
 
-4. Throne
-The thrones of the former rulers of the Underworld still
-contain some power. Those who sit on them are given
-a measure of control over a certain dungeon feature
-or a special awareness of a facet of the Underworld.
-However, thrones often possess magical curses or traps
-laid on them to ensure only the worthy sit upon them.
+4. 王座
+地下世界昔日統治者的王座仍殘留著一些力量。坐上王座的人能對某個特定的地城特徵獲得一定的掌控，或對地下世界某個面向產生特殊的感知。然而，王座上往往附有魔法詛咒或陷阱，以確保只有值得之人才能坐上去。
 
-2. Altar
-An altar is a table intended for sacrifice. Altars are shaped
-in the semblance of the god to which they are dedicated.
-It is a conduit to a higher power, and prayers to the
-appropriate divinity carry more weight here.
+2. 祭壇
+祭壇是一張用於獻祭的桌子。祭壇的形狀象徵著它所供奉的神靈。它是通往更高力量的媒介，向合適神祇的祈禱在此具有更大的份量。
 
-Example
-A colossal throne covered in dust, mice skeletons, and
-owl droppings. The back of the throne is sculpted like
-spread owl wings. The arms of the throne each depict a
-closed eye.
+範例
+一張被灰塵、老鼠骸骨和貓頭鷹糞便覆蓋的巨大王座。王座的椅背雕成展開的貓頭鷹翅膀形狀。王座的兩側扶手各雕有一隻閉合的眼睛。
 
-Example
-The altar of the Black Goat is a table shaped like a
-standing she-goat, her back forming the flat surface
-of the table. On it, candles have burned down into wax
-puddles atop goat skulls. It is blood stained.
+範例
+黑山羊的祭壇是一張形如站立母山羊的桌子，其背部形成桌子的平面。上面的蠟燭已燃盡，在山羊頭骨上凝成蠟油。它染滿了血跡。
 
-A sacrifice of a living creature on this altar has a 1-in-4
-chance to cure any afflictions (p. 97). If the celebrants
-have multiple afflictions, test each one to see if it is cured.
+在此祭壇上獻祭一隻活生生的生物，有四分之一的機率能治癒任何疾患（第97頁）。若參與者有多種疾患，對每一種分別進行考驗以確定是否被治癒。
 
-Sitting on the throne while holding a light source causes
-it to suddenly flare and go out. The adventurer must
-succeed in a test of Wands or be Blinded until after the
-next Camp Phase.
+坐在王座上同時持有光源，會導致光源突然閃亮後熄滅。冒險者必須在權杖考驗中成功，否則將陷入失明狀態，直到下一個紮營階段之後方可恢復。
 
-Those who sit on the throne find their hearing greatly
-improved. Immediately, they hear the whistling of
-wind through a crack in a secret door on the north wall.
-Additionally, they hear whispering far above them. If
-they stay seated for an entire watch, they can hear one
-rumor spoken by someone distantly in the dungeon.
+坐在王座上的人發現自己的聽覺大幅提升。他們立刻聽見北牆上一扇暗門縫隙中傳來的風嘯聲。此外，他們還聽見遠在頭頂上方的低語聲。若他們在整個時段內保持就座，就能聽到地城深處某人說出的一則傳言。
 
 365
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-8. Hearthfire
-This place looks safe enough for now. Here, other
-adventuring guilds have encamped. An ember of their
-fire remains. Light it again to kindle some hope in this
-dark place.
+8. 爐火
+這個地方目前看起來足夠安全。其他冒險者公會曾在此紮營，他們留下的餘燼尚未熄滅。重新點燃它，在這黑暗之地燃起一絲希望。
 
-Example
-A small shrine with a campfire in which a ruined sword
-has been driven. Those who camp here restore all
-Resolve without having to burn charged Bonds.
+範例
+一座小型神龕，其中的篝火裡插著一把已損毀的劍。在此紮營的人無需燒掉已充能的羈絆，即可恢復所有決心。
 
-9. Merchant
-Rule of Acquisition 34: War is good for business.
-Adventurers are a desperate sort, and their pockets are
-weighed down with grave goods, golden idols, and other
-ill-gotten gains. Shrewd merchants have learned that you
-can make more selling a single candle to an adventurer in
-a dark dungeon than you can selling candles to a cotter’s
-wife all year. That said, most merchants you find in a
-dungeon aren’t the sort to go in for a brick-and-mortar
-business.
+9. 商人
+獲取法則第34條：戰爭利好商業。冒險者是走投無路的一群人，他們的口袋裝滿了隨葬品、黃金神像和其他不義之財。精明的商人已發現，在黑暗地城中向一名冒險者賣一根蠟燭，比整年向農婦賣蠟燭還賺錢。話雖如此，你在地城中遇到的大多數商人都不是那種在固定門市做生意的類型。
 
-Example
-Grinnin’ Grimnir is a goblin who hauls around a sleigh
-filled with assorted goods. He always sells balls of twine (1
-gold), candles (5 gold), torches (10 gold), daggers (20 gold),
-and rations (30 gold). He also has ten random items every
-time you encounter him. Put him on your Meatgrinder.
+範例
+Grinnin' Grimnir是一個哥布林，拖著一輛裝滿各種貨物的雪橇。他總是出售麻繩球（1金）、蠟燭（5金）、火把（10金）、短劍（20金）和口糧（30金）。每次遇到他，他還有十件隨機物品。把他加進你的絞肉機。
 
-Grinnin’ Grimnir is protected by a curse. Anyone who
-kills him will be cursed with vile luck for a year. For an
-adventurer, this spells certain death. Those who try to
-run away from the bad luck in remote townships undergo
-so much trauma they eventually resemble a little,
-constantly-giggling goblin. They are eventually seized
-with the strange compulsion to load up a sleigh and start
-a little trade in the Underworld.
+Grinnin' Grimnir受到一個詛咒的保護。任何殺死他的人將遭受一年的惡運詛咒。對冒險者來說，這意味著必死無疑。那些試圖在偏遠鄉鎮逃離厄運的人，會遭受如此巨大的創傷，最終開始變得像一個不停傻笑的小哥布林。他們最終會被一種奇特的衝動所驅使，裝滿一輛雪橇，在地下世界開始小型貿易。
 
-5. Idol
-The Underworld contains giant idols of strange gods.
-Some say they were raised by ancient troglodytes. Some
-say they were gods that crawled into the veins of the
-earth and became fossils. In either event, there is still
-power in these colossi.
+5. 神像
+地下世界藏有奇異神靈的巨大神像。有人說它們是由古代穴居人豎立的，有人說它們是爬入地球脈絡並化為化石的神靈。無論如何，這些巨像仍然蘊含著力量。
 
-Example
-A giant statue of a seated devil with gemstone eyes. It
-holds a huge brazier of coals. Attempting to pry out the
-idol’s gemstone eyes causes the idol to tip the brazier
-over, pouring liquid fire into the room. The room’s floor
-becomes lava. The would-be thieves are trapped on the
-statue with no obvious way out.
+範例
+一座坐姿惡魔的巨大雕像，眼睛鑲嵌著寶石，手持一個巨大的炭火盆。試圖撬出神像寶石眼睛的人，會導致神像將火盆傾倒，將液態火焰傾瀉入房間。房間的地板變成熔岩，企圖行竊者被困在雕像上，沒有明顯的出路。
 
-6. Library
-Books and scrolls are hoarded by scholars, lore-masters,
-and wizards. Libraries house books that are written
-on papyrus, vellum, and wax tablets. Many things that
-are forgotten on the surface can be found trapped in
-letters here. However, it takes time to carefully pour
-over the tomes here, translating the antique dialects and
-shepherding the fragile pages.
+6. 圖書館
+書籍與卷軸被學者、學識大師和法師所珍藏。圖書館中存放著寫在莎草紙、羊皮紙和蠟板上的書籍。許多在地面上被遺忘的事物，可以在此找到它們的文字記錄。然而，仔細翻閱館內的典籍，翻譯古老的方言並愛護脆弱的書頁，都需要耗費時間。
 
-Example
-The necromancer Crabbe made the Library of Heads:
-mummified heads sitting on concentric shelves in a
-circular room. If you pick up the heads and blow through
-their neck hole, they begin to recite their life’s story
-in their native tongue. There are 102 heads here. Many
-have nothing interesting to say to an adventurer. A few
-hold some esoteric knowledge worthy of a researcher in
-a niche subject. At least three were rival sorcerers who
-speak eloquently about their forays into the far realms.
+範例
+亡靈術士Crabbe建造了頭顱圖書館：木乃伊頭顱層層排列在一個圓形房間的同心書架上。若你拿起頭顱對著脖頸孔吹氣，它們便開始以各自的母語背誦自己的一生故事。這裡共有102個頭顱。許多頭顱對冒險者來說毫無有趣之處可言；有幾個在某些冷僻學科上擁有值得研究者了解的深奧知識；至少有三個是競爭對手的術士，他們對自己進入遠域的旅程有著雄辯的陳述。
 
-7. Elevator
-Elevators are platforms or chambers that move around
-the dungeon (vertically, horizontally, or in stranger
-ways). Different levels of the Underworld may be
-connected by elevators that need to be activated.
+7. 升降台
+升降台是在地城內移動的平台或廳室（垂直、水平或以更奇特的方式移動）。地下世界的不同層級可能通過需要啟動的升降台相互連接。
 
-Example
-The guild steps into the bottom of a deep pit. A colossal
-chain ending in a huge hook dangles from an unseen
-place high above. A giant earthworm is pierced by the
-hook, wiggly feebly. If the guild manages to make a
-significant pull on the chain, the giant at the top of the
-pit pulls the hook and chain up to the upper level. He’s
-not interested in the guild and will discard them at this
-upper level as being “under his limit.”
+範例
+公會走到一個深坑的底部。一條巨大的鎖鏈末端掛著一個巨大的鉤子，從看不見的高處垂落下來。一條巨大的蚯蚓被鉤子刺穿，無力地扭動著。若公會設法使勁拉動鎖鏈，坑頂的巨人就會將鉤子和鎖鏈拉到上層。他對公會不感興趣，並會以「太小了，不夠資格」為由，將他們丟棄在上層。
 
 366366
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-12. Magic wall
-Magical barriers may be raised to gate certain sections of
-a dungeon. These could be magical force fields or walls
-made of esoteric energies, such as walls of fire or walls
-of ice. The key to these walls are almost always magical.
-Often, the artifact or structure generating the wall needs
-to be disabled.
+12. 魔法牆壁
+魔法屏障可能豎立起來，封鎖地城的某些區域。這些可能是魔法力場，或由深奧能量構成的牆壁，如火焰之牆或冰霜之牆。這些牆壁的鑰匙幾乎總是魔法性質的。通常，生成牆壁的神器或構造需要被破壞才能移除。
 
-Example
-An archway of skulls bifurcates a room. The keystone
-skull once belonged to a giant bird. A malicious presence
-haunts the bird skull, whose evil will only allows those
-who bear the tokens of its master the Pigeon King to
-pass. This is not a physical barrier but a mental command
-screaming DO NOT ENTER. It cannot be resisted by
-any sentient, living creature. Arrows and spells may pass
-under the archway.
+範例
+一個由頭骨組成的拱門將房間一分為二。拱頂的核心頭骨曾屬於一隻巨鳥。一股惡意的存在盤踞在那隻鳥頭骨中，其邪惡意志只允許持有其主人——鴿王——令牌的人通過。這不是實體屏障，而是一個尖聲高喊「禁止進入」的精神指令。任何有知覺的活生生的生物都無法抵抗它。箭矢和法術可以穿越拱門。
 
-The keystone skull’s evil will can only work on creatures
-it can see. Blinding the skull (with a Flare spell) or
-sneaking past while Shrouded will also allow passage.
+頭骨的邪惡意志只對它能看見的生物起效。用耀光法術令頭骨失明，或在遮蔽狀態下悄悄通過，也可以讓人順利穿過。
 
-13. Sepulcher
-Past the false tombs, sepulchers entomb the dead.
-Sometimes these dead are restless, sometimes they have
-withered away to bones. Adventurers low in scruples and
-funds sometimes loot these sepulchers in hopes of grave
-goods, but find traps and curses instead.
+13. 墓室
+穿過偽墓，墓室中長眠著死者。有時這些死者不安地徘徊，有時他們已化為枯骨。道德底線低、囊中羞澀的冒險者有時會洗劫這些墓室，妄圖獲取隨葬品，卻發現等待他們的是陷阱與詛咒。
 
-Example
-A sarcophagus whose stone lid depicts a snake-headed
-human. The lid is massively heavy and can only be moved
-with a combined strength of five adventurers; tools like
-a ten-foot pole used as a lever double an adventurer’s
-lifting capacity, but usually snap the lever unless it is
-unusually sturdy.
+範例
+一具石棺，其石蓋刻有一個蛇頭人身的形象。石蓋極其沉重，需要五名冒險者合力才能移動；像十英尺長竿這樣用作槓桿的工具可以讓冒險者的舉力翻倍，但除非材質異常堅固，否則槓桿通常會折斷。
 
-Inside, a mummy. The mummy is just a normal mummy,
-not undead. It does carry a disease, however. If you
-handle the body directly without gloves, test Cups to
-avoid contracting the mummy rot affliction.
+裡面是一具木乃伊。這具木乃伊只是普通的木乃伊，並非不死生物。然而它確實攜帶著疾病。若你不戴手套直接接觸屍體，進行聖杯考驗以避免感染木乃伊腐病疾患。
 
-The wrappings around the mummy are a treasure map.
-Mark a hidden room on the guild’s map of this dungeon
-level, in which treasure can be found.
+纏繞木乃伊的包布是一張藏寶圖。在公會的本地城層地圖上標記一個隱藏房間，其中可以找到寶藏。
 
-10. Machine
-Mechanisms made by ancient hands, the purpose and
-the logic of which are not known. Some machines are
-malfunctioning, producing imperfect results. Some are
-broken, but can be fixed (though not understood) by
-replacing an obvious part or providing a power source.
-Some work perfectly, but exactly what they do and why
-is beyond mortal ken.
+10. 機器
+由古代之手製造的機械裝置，其用途與運作邏輯不為人知。有些機器已故障，產生不完美的結果。有些已損毀，但可以透過更換明顯的零件或提供動力來源修復（雖然不一定能理解）。有些運作完美，但它們的用途與原因卻超越了凡人的理解。
 
-Example
-The workings of the Unmaking Machine are hidden
-inside its body, which resembles a 40’ x 40’ x 40’ cube.
+範例
+毀解機的機件隱藏在其主體內部，外形像一個40英尺×40英尺×40英尺的立方體。
 
-The first time the Unmaking Machine is encountered by
-the guild, there is a single, six inch, cube-shaped section
-missing from the left side of the cube. This missing cube
-can be found elsewhere in the dungeon and inserted into
-it like a key. The machine thereafter begins to function.
+公會第一次遇到毀解機時，立方體左側有一個6英寸的立方體形狀缺口。這個缺失的立方體可在地城別處找到，插入後如同一把鑰匙。此後，機器開始運作。
 
-Once repaired, the only interface with which to operate
-the machine are two apertures, both square holes exactly
-13” in diameter, both on the cube’s “front.” When an
-item is placed into the upper hole, it slides into the
-darkness as if drawn in by a hand. The cube emits a series
-of grinding sounds. Then, the component construction
-materials of the item issue out from the lower hole.
+修復後，與機器互動的唯一介面是兩個開口，都是正方形孔洞，直徑各為13英寸，位於立方體的「正面」。當一件物品被放入上方的孔洞，它便滑入黑暗深處，仿佛被一隻手拉入。立方體發出一系列研磨聲。然後，物品的組成材料從下方的孔洞送出。
 
-For example, if a sword was put into the top hole, the
-cube emits the following: an ingot of iron, small cubes
-of trace minerals involved in embellishment, a strip of
-leather and a solid block of wood (both from the hilt), a
-dollop of animal-based glue, and a single droplet of oil
-(residual from maintenance).
+例如，若將一把劍放入頂部孔洞，立方體會輸出以下物品：一錠鐵、裝飾所用的微量礦物小方塊、一條皮革和一塊實木（均來自劍柄）、一團動物性黏膠，以及一滴油（保養的殘餘物）。
 
-If an item is jammed into the lower hole, it comes out of
-the top hole terribly mangled.
+若將一件物品硬塞入下方的孔洞，它會從頂部孔洞破損嚴重地出來。
 
-11. False tomb
-There are tombs down here. But there are also false
-tombs intended to baffle and punish grave robbers.
-These facades obscure the true burial chambers behind
-secret doors and deadly traps.
+11. 偽墓
+這裡有墓穴存在。但也有偽造的墓穴，專門用來迷惑並懲罰盜墓者。這些門面遮掩著暗門後方的真正埋葬廳室以及致命的陷阱。
 
-Example
-A mosaic depicts a bull-headed man holding a scale with
-a feather and a heart. Beneath it, two doors. Ancient
-writing on the wall (when translated) reads: “The just
-enter on the left to pass to paradise. The unjust enter to
-the right to meet their punishment.”
+範例
+一幅馬賽克描繪著一個牛頭人身者，手持一架秤，秤上分別擺著一根羽毛和一顆心臟。其下，有兩扇門。牆上的古代文字（翻譯後）寫道：「正義者入左方，通向天堂。不義者入右方，迎接懲罰。」
 
-The doors both lead to the same small chamber. About
-five seconds after the doors are opened, a two-ton block
-drops into the small chamber, crushing anyone within
-who doesn’t succeed in a test of Pentacles to dodge back
-into the false tomb.
+兩扇門都通往同一個小廳室。大約在門被打開五秒後，一塊兩噸重的石塊落入小廳室，將所有不能在錢幣考驗中成功向後閃躲回偽墓的人碾壓致死。
 
 367
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-14. Fountain
-Fountains in the Underworld are usually enchanted.
-Drinking, bathing, or dipping items into the fountain
-activates their enchantments.
+14. 噴泉
+地下世界中的噴泉通常受到魔法加持。飲用、沐浴或將物品浸入噴泉中，會觸發其魔法效果。
 
-16. Oubliette
-An oubliette is where you put someone to forget about
-them. Accessed only by a trapdoor, these deep pits serve
-as prisons for those now long abandoned.
+16. 地牢暗室
+地牢暗室是用來將某人關在裡面讓世人遺忘的地方。只能通過活板門進入，這些深坑是那些早已被遺棄之人的牢籠。
 
-Example
-A merry face is carved on the outlet of the spring where
-this fountain flows. The face speaks simple phrases,
-welcoming travelers to drink from its waters.
+範例
+這座噴泉的泉水出口雕刻著一張歡快的臉。那張臉說著簡單的語句，歡迎旅人來此飲水。
 
-Drinking from the waters causes mild euphoria
-and hallucinations. If under any persistent negative
-enchantments, geasa, mind control, or similar effects,
-adventurers who drink the water are allowed to test
-Wands to attempt to overcome them. However,
-adventurers who have drunk from the water must play
-their lowest card for Initiative during Challenges and
-cannot cast spells due to consistent giggling interrupting
-their incantations. This effect lasts until the Camp Phase.
+飲用泉水會引起輕微的欣快感和幻覺。若身上帶有任何持續性的負面魔法效果、禁制誓約、精神控制或類似效果，飲水的冒險者可以進行權杖考驗，嘗試克服這些效果。然而，飲過泉水的冒險者在考驗中必須打出最低的牌作為先攻，且因不斷傻笑打斷咒語吟唱而無法施放法術。此效果持續到紮營階段。
 
-15. Statue
-These graven images bear the semblance of ancient
-kings, heroes, and mythological figures. They reflect
-the culture of those who shaped them, and provide clues
-to their creator’s worldview with regards to the local
-dungeon level. A recent poll of dungeon delvers found
-that 70% of puzzles incorporated statues in some way.
+15. 雕像
+這些刻鑿的形象呈現了古代帝王、英雄和神話人物的樣貌。它們反映了塑造它們的文化，並為附近謎題提供了關於創作者世界觀的線索，這些線索與當地地城層的環境相關。一項針對地城探索者的近期調查發現，70%的謎題以某種方式包含了雕像。
 
-Example
-A three-faced statue of the elven Tripartite—the Maiden,
-the Mother, and the Crone—stands in the middle of
-a triangular room. Examination of the statue reveals
-scratch marks on the floor near its base, indicating the
-statue has been turned from its original position.
+範例
+一座三面精靈三相神的雕像——少女、母親和老嫗——矗立在三角形房間的中央。檢視雕像後，發現其底座附近地板上有劃痕，表明雕像已從原始位置被轉動過。
 
-Two of the walls of the room are decorated with mosaics.
-One bears a crescent moon. One bears a white circle. The
-third wall is blank.
+房間兩面牆壁裝飾著馬賽克。一面牆上是一彎新月，另一面牆上是一個白色圓圈。第三面牆是空白的。
 
-If the statue is turned so the Maiden faces the crescent
-moon, the Mother faces the white circle, and the Crone
-faces the blank wall, the blank wall will become a misty
-portal that will teleport the guild to a new location.
+若將雕像轉動，使少女面向新月，母親面向白色圓圈，老嫗面向空白牆壁，空白牆壁就會變成一個薄霧門戶，將公會傳送到一個新地點。
 
-Example
-This oubliette contains two skeletons: one of a human
-(wearing the tattered remains of a once-fabulous gown)
-and one of a dwarf. The human skeleton has tooth marks
-indicative of a cannibalistic end. Instructions are written
-on the wall in blood to find a secret door elsewhere on
-this dungeon level.
+範例
+這個地牢暗室內有兩具骸骨：一具是人類的（身穿曾經華貴的袍服殘骸），另一具是矮人的。人類骸骨上有咬痕，表明其死於同類相食。牆上用血書寫著指示，指引人找到本地城層別處的一扇暗門。
 
-17. Mirror
-Magical mirrors create aberrant reflections of the
-real world. They sometimes serve as traps, creating
-doppelgangers of the adventurers. They might serve as
-portals, perhaps to an alternate dimension. These also
-might be the focal piece of a puzzle, where the mirror
-must reflect a ray of light in a different direction.
+17. 鏡子
+魔法鏡子能創造出現實世界的扭曲映像。它們有時作為陷阱，創造出冒險者的複製體。它們也可能是通往異次元的門戶。這些鏡子還可能是謎題的核心道具，需要將鏡子反射的光線引導到特定方向。
 
-Example
-A hall of twelve mirrors, three of which bear the frozen
-visage of an adventurer and three of which are broken.
-Those who look into an empty mirror see their own
-reflection frozen there.
+範例
+一廳十二面鏡，其中三面凝結著冒險者的面容，三面已碎裂。望入空白鏡子的人，會看到自己的倒影被凍結在其中。
 
-Adventurers who look into an empty mirror create a
-“save state.” At any point, they can choose to reset their
-bodies directly to this point—same XP, same Wounds,
-same equipment, etc. This must be done consciously, i.e.,
-before they are unconscious or dead. When this ability is
-activated, the image disappears from the mirror and the
-mirror breaks.
+望入空白鏡子的冒險者創造了一個「存檔點」。在任意時刻，他們可以選擇將身體直接重置到此時的狀態——相同的經驗值、相同的傷勢、相同的裝備等。這必須在清醒的情況下執行，即在失去意識或死亡之前。當此能力啟動時，影像從鏡中消失，鏡子碎裂。
 
-18. Painting
-Paintings, tapestries, frescoes, and mosaics provide
-more than simple dungeon decoration. They often hide
-secrets, carry an enchantment, or provide important
-context to nearby puzzles.
+18. 畫作
+繪畫、掛毯、壁畫和馬賽克提供的不僅是地城的簡單裝飾，它們往往隱藏著秘密、帶有魔法，或為附近的謎題提供重要的背景線索。
 
-Example
-A framed painting of a door with no knob. Elsewhere in
-the dungeon are magical paints. Painting a knob onto the
-door will turn the painting into a functioning secret door.
+範例
+一幅有框架的畫，畫中是一扇沒有門把的門。地城別處有魔法顏料。在門上畫出一個門把，就能將這幅畫變成一扇真正運作的暗門。
 
 368368
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-19. River
-Adventurers beware! Underworld rivers notoriously have
-uncanny properties, and drinking even a drop of their
-water will rob you of your memories, plunge you into
-eternal sleep, cause ceaseless weeping, or deliver other
-terrible curses.
+19. 河流
+冒險者請注意！地下世界的河流以其詭異的特性而惡名昭著，即使只飲下一滴河水，也可能讓你喪失記憶、陷入永恆沉睡、引發不止哭泣，或帶來其他可怕的詛咒。
 
-21. Well
-Wells in the Underworld contain bizarre things: wine,
-treacle, oil, pudding. Almost anything but water.
-Moreover, wells frequently have some denizen who lives
-off their contents, either dwelling at the bottom of the
-well or guarding it from interlopers.
+21. 水井
+地下世界中的水井藏有奇異之物：酒、糖漿、油、布丁——幾乎什麼都有，就是沒有水。此外，水井裡頻繁住著靠其內容物維生的居民，要麼棲居在井底，要麼守護著水井以防他人覬覦。
 
-Example
-A tiny blue imp lives at the bottom of a wishing well.
-He demands you throw coins down and he’ll grant
-you wishes. He is a liar. He wants to make fun of your
-desires and dreams.
+範例
+一個微小的藍色小鬼住在一口許願井底。他要求你向井裡投幣，然後他就會實現你的願望。他是個騙子，只想嘲笑你的慾望與夢想。
 
-Underground rivers initially serve as barriers that
-restrict travel—how will the adventurers get across the
-rushing river? Once the appropriate vehicles or tools are
-discovered, these rivers can actually serve as connective
-arteries to deeper sections of the Underworld. Boats can
-be used to travel rivers to hitherto inaccessible sections.
+地下河流最初充當阻礙行進的屏障——冒險者要如何越過湍急的河流？一旦找到合適的載具或工具，這些河流其實可以成為通往地下世界更深處的連接動脈。船隻可用於沿河航行，到達迄今無法進入的區域。
 
-Example
-The River Phlegethon looks like a normal river but the
-water is acidic, earning it the nickname the “River of
-Fire.” It exudes a noxious, sulfurous scent. Any normal
-item submerged into the waters is quickly destroyed.
+範例
+Phlegethon河外觀與普通河流無異，但河水具有腐蝕性，因此獲得了「火焰之河」的別稱。它散發著一股有毒的硫磺氣味。任何普通物品浸入河水中都會迅速被摧毀。
 
-If the guild can persuade Iago the Lion-Turtle to take
-them onto his back, he can wade and withstand the
-waters of this river, ferrying them to the other side.
+若公會能說服Iago the Lion-Turtle讓他們騎在他的背上，他可以涉水並抵禦此河的河水，將他們渡到對岸。
 
-20. Waterwheel
-Waterwheels harness the power of the strange rivers of
-the Underworld. Adventurers may find the state of the
-dungeon changed if a waterwheel is stopped or started.
+20. 水車
+水車利用地下世界奇異河流的力量。若水車被停止或啟動，冒險者可能發現地城的狀態發生了改變。
 
-Example
-The flow of the river is split into three waterfalls by
-a series of locks and dams controlled by levers inside
-the dungeon. When the water turns the northern
-waterwheel, the colossal door to the Necropolis of Ot
-is raised. When the water turns the eastern waterwheel,
-the lamps inside the Castle of Crossed Destinies are
-lit, allowing adventurers to forgo carrying their own
-torches. When the water turns the western waterwheel,
-the bridge extends from the castle towards the City of
-Ruin. Only one waterfall can flow at a time.
+範例
+河流被一系列閘門和水壩分成三道瀑布，由地城內部的控制桿控制。當水流轉動北方水車時，通往Ot死靈城的巨門被抬起。當水流轉動東方水車時，命運交錯之城內的燈火亮起，讓冒險者無需自備火把。當水流轉動西方水車時，從城堡延伸出一座橋樑，通往廢墟之城。每次只能有一道瀑布流動。
 
 369
 
@@ -453,73 +195,45 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 Creating interesting traps
 
-Traps are a genre staple. Here are some principles for creating interesting traps.
+陷阱是類型慣例的核心元素。以下是創造有趣陷阱的一些原則。
 
-Traps are usually present to guard something specific. The presence of a trap
-will tell the players that there is something worthwhile to be gained by braving
-the trap. Gambling risk and reward is an interesting choice for the players.
+陷阱通常是用來守護某件特定事物的。陷阱的存在將告訴玩家，承受這個陷阱的風險是值得的。讓玩家衡量風險與回報，是一個有趣的選擇。
 
-Create meaningful exploration by telegraphing the presence of traps and
-having the players figure out how to safely get past them. It’s boring if a
-trap triggers while an adventurer walks down a hall, deals a Wound, and the
-adventurer says “OK. I keep going, I guess.” Traps, like the rest of the game,
-should involve interesting decisions.
+透過向玩家暗示陷阱的存在，並讓玩家想辦法安全繞過，創造有意義的探索體驗。若陷阱在冒險者走過走廊時直接觸發，造成一點傷勢，冒險者說「好吧，我繼續走」，這樣的設計就很無聊。陷阱和遊戲中的其他一切一樣，應該涉及有趣的抉擇。
 
-Telegraph the traps by engaging all five senses. Clues that a trap exists can
-be found in discolorations of stone, strong smells, grinding gears in walls,
-temperature differences in the air, etc. If the players follow up on these clues,
-the traps should be obvious. The essential puzzle is how to overcome the trap,
-not whether or not a trap exists.
+透過調動所有五種感官來暗示陷阱的存在。石頭上的褪色、強烈的氣味、牆壁中研磨的齒輪聲、空氣中的溫度差異等，都可以作為陷阱存在的線索。若玩家追蹤這些線索，陷阱就應該顯而易見。真正的謎題是如何克服陷阱，而非陷阱是否存在。
 
-As players investigate traps, speak generously and tell them everything their
-adventurers can see and understand. Traps should be fun for the entire guild.
-There are no talents that determine who can pick locks or disable devices.
-Anybody can interact with traps with the right equipment.
+當玩家調查陷阱時，慷慨地開口，告訴他們冒險者所能看見和理解的一切。陷阱應該讓整個公會都感到有趣。沒有任何天賦決定誰能開鎖或拆除裝置，只要有合適的裝備，任何人都能與陷阱互動。
 
-Arbitrate the players’ actions fairly. Good ideas, preparation, and lateral
-thinking obviate tests of fate. When players start testing fate, they’ve already
-failed to deal with the trap in a safe way.
+公正地仲裁玩家的行動。好的想法、準備和跳脫框架的思考可以免去命運考驗。當玩家開始進行命運考驗時，他們已經未能以安全的方式應對陷阱了。
 
-Put some of these traps in your dungeon. Use them as inspiration for your own.
+在你的地城中放置以下部分陷阱，以它們為靈感設計自己的版本。
 
-1. Mysterious tower, acid lake
-There is a tumbledown tower in the middle of an island. The island is in the
-middle of a bright-green acid lake. The lake is death for whoever falls into it.
+1. 神秘塔樓，酸液湖泊
+一座廢棄的塔樓矗立在島嶼中央，島嶼位於一片亮綠色酸液湖泊的中央。湖泊對落入其中的人來說是死亡。
 
-Why this trap doesn’t suck: The possible rewards are tantalizing. (A mysterious
-tower? What’s in it?) The dangers are obvious. (The lake is bright green! Acid
-is deadly!) This is an open-ended problem with many possible solutions but no
-one obvious solution.
+為何這個陷阱不糟糕：潛在獎勵令人垂涎（神秘的塔樓？裡面有什麼？）。危險一目了然（湖水是亮綠色的！酸液是致命的！）。這是一個開放式問題，有多種可能的解法，但沒有一個顯而易見的解法。
 
-How to run it: Living creatures who fall into the waters are killed. Unless the
-player is as direct as saying, “I run and jump in the lake!,” let them test fate to
-avoid this.
+如何運行：落入水中的活生生的生物會被殺死。除非玩家直接說「我跑步跳入湖中！」，否則讓他們進行命運考驗以避免這種情況。
 
-Players should be able to easily experiment to determine how caustic the waters
-actually are. An item will quickly be Destroyed if placed in the acid lake unless
-it is indestructible. Carefully touching an item to the surface of the acidic water
-will simply Notch it.
+玩家應該能夠輕鬆地進行實驗，以確定湖水的腐蝕性究竟有多強。放入酸液湖泊的物品若非堅不可摧，將迅速被摧毀。小心地將物品輕輕觸碰酸液表面，只會使其出現缺口。
 
-Spells might help the guild cross the lake. Gust of Wind would allow one
-adventurer to cross the lake (more if more Resolve is spent). Defy Depths
-would probably work, but the adventurer’s boots would burn off their feet as
-they walked on the surface.
+法術可能幫助公會越過湖泊。「狂風」可以讓一名冒險者越過湖泊（若投入更多決心則可讓更多人通過）。「無懼深淵」大概也可以起效，但冒險者在水面行走時靴子會被燒掉。
 
-Clever guilds might employ the use of flying monsters elsewhere in the
-dungeon to help them cross the acidic lake.
+聰明的公會可能會利用地城其他地方的飛行怪物，幫助他們越過酸液湖泊。
 
-Anything that’s not
+Anything that's not
 nailed down
-There’s a huge number of resources
+There's a huge number of resources
 in the role-playing hobby to draw
 on. RPGs have been around a long
-time and it’s never been better.
-There’s a vibrant DIY community
+time and it's never been better.
+There's a vibrant DIY community
 of incredibly talented people
 creating all sorts of blog posts,
 zines, and indie games. When you
 set out to create your Underworld,
-you’ll have an enormous amount
+you'll have an enormous amount
 of things to borrow from and be
 inspired by.
 
@@ -553,225 +267,97 @@ be just off the coast of the City.
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-2. Arrow trap
-A hallway has a 10’ stretch of wall, dotted with small
-holes on either side. The floor contains a pressure plate.
-Stepping on the pressure plate causes arrows to fire
-from the holes.
+2. 箭矢陷阱
+走廊中有一段10英尺的牆壁，兩側各佈滿小孔。地板上有一塊壓力板。踩上壓力板會觸發孔洞中射出箭矢。
 
-4. Electrified chest
-A metal chest on a plinth. The plinth is electrified. The
-whole room smells of ozone. Nearing the plinth causes
-your arm hair to stand on end. Touching either the
-plinth or chest delivers a nasty shock.
+4. 通電寶箱
+一個放在基座上的金屬箱子，基座通有電流。整個房間都散發著臭氧氣味。靠近基座會讓你的汗毛豎立。觸碰基座或寶箱都會遭受強烈的電擊。
 
-Why this trap doesn’t suck: Pressure plates and traps
-(arrows, pits, jets of flame, etc.) are genre staples. That’s
-cool. However, they tend to be both hidden and deadly.
-That’s a bad combination during play.
+為何這個陷阱不糟糕：壓力板和陷阱（箭矢、陷坑、噴射火焰等）是類型慣例的核心元素，這本身並無問題。然而，它們往往既隱蔽又致命，而這在遊玩時是一個糟糕的組合。
 
-You can make these traps not suck by broadcasting the
-danger clearly and providing a part of the trap for the
-players to interact with. In this circumstance, the holes
-are both obvious and interactable. Apply this principle to
-other types of traps to make tropey traps more fun.
+你可以讓這些陷阱不那麼糟糕，方法是清晰地廣播危險信號，並為玩家提供一個可互動的陷阱部件。在這種情況下，孔洞既顯而易見又可以互動。將這個原則應用到其他類型的陷阱上，可以讓老套的陷阱更加有趣。
 
-How to run it: If an adventurer steps onto the pressure
-plate, tell the player they hear a click. They have a split
-second of real-life time to tell you what they want to do.
-If they make a move away from the holes—dropping to
-the floor, launching themselves backwards—they can test
-Pentacles to avoid the volley. On a failure—or if they do
-nothing—they take a Wound.
+如何運行：若冒險者踩上壓力板，告訴玩家他們聽到了一聲「喀嗒」聲。他們有現實生活中的一瞬間來告訴你他們想做什麼。若他們採取遠離孔洞的動作——伏地、向後彈飛——他們可以進行錢幣考驗以躲避箭雨。失敗，或若他們什麼都不做，就會受到一點傷勢。
 
-The arrows will only fire once. (They need to be reset
-after they’re triggered.) If one adventurer triggers the
-trap, the rest can pass.
+箭矢只會射出一次（觸發後需要重置）。若一名冒險者觸發了陷阱，其他人可以通過。
 
-The holes on the wall should be a clear indication of
-danger. Adventurers can trigger the trap prematurely by
-throwing something heavy onto the pressure plate. They
-can also leap over it with a successful test of Pentacles.
-They might plug the holes up with alchemical glue
-bombs. Let ideas that make sense automatically work.
+牆上的孔洞應該是危險的明確信號。冒險者可以透過向壓力板扔重物來提前觸發陷阱，也可以透過在錢幣考驗成功後直接跳過壓力板。他們還可以用鍊金術黏合炸彈堵住孔洞。讓合情合理的想法自動奏效。
 
-3. Quicksand
-A swampy section of ground is actually quicksand. It
-begins to inexorably swallow anybody who steps into it—
-just like the old movies.
+3. 流沙
+一片沼澤地帶實際上是流沙，它開始無情地吞噬任何踏入其中的人——就像老電影裡的那樣。
 
-Why this trap doesn’t suck: Tropes are instantly
-understood at the table. Quicksand is a good trope
-because it’s hidden without being deadly. It traps one
-adventurer and gives the rest of the guild something to do.
+為何這個陷阱不糟糕：老套的設計在桌遊桌上一目了然。流沙是一個好的老套元素，因為它是隱蔽的，但不是致命的。它會困住一名冒險者，同時給公會其他成員安排一些事情做。
 
-How to run it: If the guild is not moving carefully, the
-first adventurer in the marching order blunders into
-the quicksand and gets stuck. Unless they have a tool in
-their hand or on their belt that could help them with the
-situation (e.g., rope to lasso over a nearby tree limb), they
-can’t do anything by themselves to get unstuck. Other
-members of the guild can test Swords to pull the stuck
-adventurer out: rope grants favor to this test.
+如何運行：若公會沒有謹慎行進，隊列中的第一名冒險者會誤入流沙並被困住。除非他們手中或腰帶上有能幫助他們的工具（例如，用繩索套住附近的樹枝），否則他們靠自己什麼也做不了。公會的其他成員可以進行寶劍考驗將被困的冒險者拉出：繩索可以為此考驗提供優勢。
 
-Why this trap doesn’t suck: Although the danger of
-the chest and plinth might not be obvious by sight, the
-smells and sensations broadcast the danger. Having
-obvious treasure allows the guild to be instantly
-rewarded for their cleverness.
+為何這個陷阱不糟糕：雖然寶箱和基座的危險可能不那麼顯而易見，但氣味和感覺廣播了危險。顯而易見的寶藏讓公會能夠因為自己的聰明才智而立即獲得回報。
 
-How to run it: Touching the chest or the plinth deals
-Piercing damage.
+如何運行：觸碰寶箱或基座會造成穿刺傷害。
 
-There are lots of different ways to disarm the trap. For
-example, an adventurer can knock the chest off the
-plinth with the butt of a spear to disconnect it from the
-electric current (though this might break the contents).
-Dwimmercraft might also open the chest at a distance.
+有很多種方法可以解除陷阱。例如，冒險者可以用長矛柄敲落基座上的寶箱，切斷電流（雖然這可能損壞寶箱的內容物）。「奇術」法術也可以在距離之外打開寶箱。
 
-5. Big rolling boulder
-A sarcophagus. Behind it, a large devil statue—in a pose
-like a bowler about to make a throw—holds a massive
-boulder. Runes on the lid of the sarcophagus promise
-death for whoever disturbs the rest of Jarl Ninebones.
+5. 巨型滾動圓石
+一具石棺，其後方，一座巨大的惡魔雕像——擺出保齡球手即將投球的姿勢——手持一塊巨大的圓石。石棺蓋上的符文警告，任何打擾Jarl Ninebones長眠的人都將死亡。
 
-If the sarcophagus is opened, the statue throws the
-boulder, which rolls towards the guild Indiana Jones-style.
+若石棺被打開，雕像就會投出圓石，它將印第安納·瓊斯式地朝公會滾來。
 
-Why this trap doesn’t suck: It should be obvious based
-on the statue’s pose what will happen if the guild
-disturbs the sarcophagus. This gives the guild a chance
-to plan their approach, get out of the way, or disable the
-trap before it goes off.
+為何這個陷阱不糟糕：根據雕像的姿勢，打擾石棺時將發生什麼應該是顯而易見的。這給了公會機會來規劃應對方案、讓開道路，或在陷阱觸發前將其解除。
 
-How to run it: Once activated, the boulder will roll past
-the sarcophagus and chase the adventurers back the way
-they came. Each adventurer in the boulder’s path tests
-Pentacles. On a success, the adventurer jumps through
-the narrow door at the end of the passage, escaping the
-boulder. On a failure, they take Critical damage.
+如何運行：一旦啟動，圓石將越過石棺，追趕冒險者沿來路滾去。每名處於圓石路徑上的冒險者需進行錢幣考驗。成功時，冒險者跳過通道盡頭的窄門，逃脫圓石。失敗時，他們受到致命傷害。
 
-Players who have ideas such as “Jump in the
-sarcophagus” automatically avoid the boulder without
-having to test fate. Players who have ideas such as “Raise
-a stone wall by casting Wall of Elements with 3 Resolve
-to block the boulder” disable the trap entirely.
+有「跳入石棺」等想法的玩家可以自動躲避圓石，無需進行命運考驗。有「用3點決心施放元素之牆以阻擋圓石」等想法的玩家可以完全解除陷阱。
 
 371
 
 APPENDIX E     |     UNDERWORLD CREATION
 
-6. Invisible path
-A door opens onto a chasm, apparently dropping into an
-endless pit. Falling into the pit would be certain death.
-On the other side of the chasm is another door.
+6. 隱形通道
+一扇門打開，通向一個深淵，看似直墜無盡的深坑。墜入深坑將是必死無疑。深淵的另一側是另一扇門。
 
-In actuality, an invisible bridge spans the two doors,
-though it does not go in a straight line. Rather, it
-meanders across the gap.
+實際上，一座隱形橋樑橫跨兩扇門，但它走的並非直線，而是在虛空中蜿蜒曲折。
 
-Why this trap doesn’t suck: The danger is obvious and
-the solution isn’t. If the guild doesn’t understand there’s
-an invisible bridge, they can simply leave.
+為何這個陷阱不糟糕：危險顯而易見，但解法卻不明朗。若公會不明白有一座隱形橋，他們直接離開就好了。
 
-How to run it: The presence of the invisible bridge can
-be found by reaching out and touching the empty air
-directly in front of the door. Adventurers can tap on it
-with a ten-foot pole or tentatively put their weight on
-the empty air while their companions hold a rope tied
-around their waist.
+如何運行：隱形橋的存在可以通過向門正前方的空氣伸手觸碰來發現。冒險者可以用十英尺長竿敲擊，或試探性地將體重放在空氣上，同時讓同伴拉住綁在他們腰間的繩索。
 
-The invisible bridge can be painted with paint, spilled
-ink, smashed lightning bugs, whatever. Sling stones or
-coins can also be placed to mark the path. Sorcerers can
-also use Dwimmercraft to activate their second sight and
-perceive the invisible bridge.
+隱形橋可以用顏料、潑灑的墨水、壓碎的螢火蟲等塗抹使其可見。投石或硬幣也可以放置在路徑上作標記。術士也可以使用「奇術」啟動靈視來感知隱形橋。
 
-If the players have a good idea on how to ascertain the
-bridge’s position, they can make their way across.
+若玩家有好方法確認橋的位置，他們就能成功通過。
 
-7. Hungry door
-A door frame is filled with a huge, gross, animate,
-slavering mouth. The teeth grind together, it smiles, it
-lolls its tongue, it belches. “Feed me!” it barks.
+7. 飢餓之門
+門框中嵌著一張巨大、令人噁心、會動的、口水橫流的大嘴。牙齒在研磨，它在微笑，舌頭在滾動，它打了個嗝。「餵我！」它叫道。
 
-The door will open if it is well fed. It will be sated if it
-eats five rations or one sizable living creature.
+若門被餵飽，它就會打開。五份口糧或一隻相當大小的活體生物可以讓它滿足。
 
-Why this trap doesn’t suck: Like the invisible path, the
-guild can simply leave the door if they don’t have a good
-idea on how to get past it. Its danger is avoidable.
+為何這個陷阱不糟糕：和隱形通道一樣，若公會沒有好主意對付它，可以直接離開。其危險是可以迴避的。
 
-Also, the door is gross. Gross things are fun in dungeons.
+此外，這扇門很噁心，而噁心的東西在地城裡很有趣。
 
-How to run it: The hungry door, despite being
-animate, can sustain damage like a metal door. If the
-guild attempts to smash the door down with something
-smaller than a battering ram, the door will chew on it
-and spit it out. This Notches items and/or Wounds the
-limbs of adventurers.
+如何運行：飢餓之門雖然有生命，但和金屬門一樣能承受傷害。若公會試圖用比攻城槌更小的東西將門撞開，門會咀嚼後吐出來。這會使物品出現缺口和（或）使冒險者的肢體受傷。
 
-Feeding the door either requires some resource attrition
-(feeding it some of their precious rations) or cleverness
-on the guild’s part. Are they willing to sacrifice one of
-their animal companions? Can the guild bring the door a
-captured monster to eat?
+餵飽門要麼需要資源消耗（拿出他們珍貴的口糧），要麼需要公會的機智。他們願意犧牲一隻動物同伴嗎？公會能帶一隻捕獲的怪物讓門吃嗎？
 
-8. Flooding fish statue
-A shallow pool hosts a large fish statue with a large
-blue sapphire in its mouth. Removing the gem causes
-the doors to slam shut and water to gush from the fish’s
-mouth. Within moments, the room is completely flooded.
+8. 灌水魚像
+一個淺池中放有一座巨大的魚形雕像，魚嘴中含著一顆大藍寶石。取走寶石會導致門被猛力關閉，水從魚嘴中噴涌而出。片刻之間，房間就完全被水淹沒了。
 
-Why this trap doesn’t suck: A too-obvious reward
-should make players suspicious that there is a hidden
-risk. If the guild makes an effort to position themselves
-for success before looting the gem from the fish statue,
-they’ll significantly reduce the risk of this trap.
+為何這個陷阱不糟糕：過於顯眼的獎勵應該讓玩家懷疑其背後隱藏著風險。若公會在洗劫魚像寶石前努力佈置好應對措施，將大幅降低這個陷阱帶來的風險。
 
-How to run it: Tell the players that they have the length
-of three actions in total to try and disable the trap.
+如何運行：告訴玩家他們共有三個行動的時間來嘗試解除陷阱。
 
-The simplest solution is just to put the gem back in the
-fish’s mouth. This effectively blocks the water. The guild
-can also try something less valuable of equivalent size.
+最簡單的解法就是將寶石放回魚嘴中，這實際上封住了水流。公會也可以嘗試某個價值較低但大小相同的替代物。
 
-If the guild has a tool like a crowbar, they can test
-Swords to smash their way out of the room. On a failure,
-they’ve wasted one of their actions and the water
-continues to rise.
+若公會有撬棍這樣的工具，他們可以進行寶劍考驗，強行砸開房間的牆壁出逃。失敗意味著他們浪費了一個行動，而水繼續上漲。
 
-A spell like Portable Hole will create a hole large enough
-for the water to flow out. After a few minutes, the water
-in the reservoir under the fish statue will run out.
+「攜帶型孔洞」這樣的法術可以開出一個足以讓水流出的孔洞。幾分鐘後，魚像下方水庫的水就會耗盡。
 
-If the guild cannot find a way to stop the flow of
-water after three actions, it’s okay to let them drown.
-Adventuring is nasty business.
+若公會在三個行動後仍無法止住水流，讓他們溺死也未嘗不可——冒險的本質就是如此殘酷。
 
-9. Pyrotechnic mushrooms
-The far side of the hallway is cluttered with ugly orange
-mushrooms growing on the walls, floors, and ceiling.
-All naked flame in the hallway hisses and sputters. A
-sulphureous smell pervades the area. If the mushrooms are
-disturbed, they fill the air with a highly-flammable gas.
+9. 爆燃蘑菇
+走廊遠端的牆壁、地板和天花板上密密麻麻地生長著醜陋的橙色蘑菇。走廊中所有裸露的火焰都嘶嘶作響、閃爍不定。濃重的硫磺氣味瀰漫四周。若蘑菇受到擾動，它們會在空氣中釋放出高度易燃的氣體。
 
-Why this trap doesn’t suck: The mushrooms are
-obviously bad news. The interaction with the guild’s
-light and the smell broadcasts the danger. Also,
-interacting with mushrooms will feel different from
-interacting with mechanical traps.
+為何這個陷阱不糟糕：蘑菇明顯是危險信號。它們與公會光源的互動以及氣味廣播了危險。此外，與蘑菇互動和與機械陷阱互動的感覺截然不同。
 
-How to run it: Make it clear the guild cannot pass the
-mushrooms without disturbing them. If the adventurers
-have active flames while walking through the area, an
-explosion is triggered. Anybody carrying a light catches
-on fire. They take a Wound and one flammable item in
-their belt/pack is Notched every time an action is taken
-until they can put themselves out. Everybody adjacent in
-the marching order also takes a Wound. The adventurers
-can put their lights out to traverse the hallway—but how
-will they deal with what’s beyond in the dark?
+如何運行：明確告知公會，他們在不驚擾蘑菇的情況下無法通過。若冒險者手持明火穿越此區域，就會引發爆炸。攜帶光源的人會著火，每次採取行動都會受到一點傷勢，且腰帶或背包中的一件易燃物品出現缺口，直到他們能夠撲滅自身火焰為止。隊列中相鄰的人也會各受到一點傷勢。冒險者可以熄滅光源來穿越走廊——但在黑暗中，他們要如何應對走廊盡頭的東西呢？
 
 373
 
@@ -779,23 +365,20 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 Building the Tutorial Dungeon
 
-To give you insight into the process of making a megadungeon, we’ll demonstrate writing
-a dungeon level and explain and how it’s intended to be used at the table. This is a nitty,
-gritty example. The end result will be a tutorial dungeon called The Tomb of Golden
-Ghosts, which you can use to try out His Majesty the Worm.
+為了讓你對製作巨型地城的流程有所了解，我們將演示如何撰寫一個地城層，並解釋其在桌遊中的預期使用方式。這是一個具體詳盡的範例。最終成果將是一個名為黃金幽魂之墓的教學地城，你可以用它來試玩《蠕蟲陛下》。
 
 A focused example
 For the sake of this example,
-we’ll assume that steps 1 and 2 of
+we'll assume that steps 1 and 2 of
 Underworld creation are complete.
-We’ve already determined the
+We've already determined the
 general lore and layout of the
-Underworld. We’ll focus entirely on
-making one of our Underworld’s
+Underworld. We'll focus entirely on
+making one of our Underworld's
 dungeon levels (steps 3-5).
 
 To more clearly demonstrate the
-ideation process, we’re not going
+ideation process, we're not going
 to use a specific dungeon seed
 level, although you might imagine
 that this dungeon could be part
@@ -804,60 +387,41 @@ City of Ruin.
 
 Creating the map
 
-Let’s use a premade map for expediency. We’ll use a map from a cartographer
-named Dyson Logos, whose work is used extensively in this book. They have
-both free and purchasable work for you to use, too!
+讓我們為了方便起見使用一張現成的地圖。我們將使用一位名為Dyson Logos的製圖師的作品，他的作品在本書中被廣泛使用。他們也有免費和付費的作品供你使用！
 
-In this example, we’re going to call this dungeon Level 1, so we’re going to key
-all our rooms as “1xx.” This map can be found, fully keyed, on page 379.
+在這個範例中，我們將這個地城稱為第一層，因此我們將所有房間標記為「1xx」。這張地圖的完整標記版本可在第379頁找到。
 
-The player’s version of the map needs to be a little different than the GM’s
-version: it shouldn’t show secret doors and rooms. The copy to give your
-players is provided on page 389.
+玩家版地圖需要與GM版有所不同：它不應顯示暗門和暗室。提供給玩家的版本在第389頁。
 
 Writing room descriptions
 
-When it comes to populating a dungeon, the first step is just brainstorming.
-Write your ideas for different rooms down. Select the ones you like and put
-the others aside for another project. Then, read through the dungeon design
-checklist on page 335 to make sure you have a good mix of interesting things.
+在填充地城時，第一步只是腦力激盪。把你對不同房間的想法寫下來。選出你喜歡的，把其他的留作其他項目使用。然後，閱讀第335頁的地城設計檢查清單，確保你有各種有趣的元素。
 
 Brainstorming
-Imagine a tomb that was once the resting place of a magical royal family, but
-is currently occupied by a pair of brain spiders. The brain spiders excavated the
-former tombs to make a nest for themselves.
+想像一座曾是魔法王族長眠之所的陵墓，但目前被一對腦蜘蛛佔據。腦蜘蛛挖掘了原有的墓穴，為自己搭建了巢穴。
 
-• Reading over the notes about brain spiders in the Bestiary (Appendix C, p.
+• 閱讀圖鑑（附錄C，第256頁）中有關腦蜘蛛的筆記，感覺這些生物像是週六早晨卡通中的反派，這將影響我們的一些選擇。
 
-256), it feels like these creatures are Saturday morning cartoon villains, so that
-will inform some of our choices.
+• 為了讓腦蜘蛛更有威脅感，我們也給它們一些施法能力。施放幻術具有瘋狂天才的特質。
 
-• To give the brain spiders a bit more teeth, let’s give them some spell-casting
+墓穴原住民可能不喜歡自己的安息之地被玷污。所以墓穴中有幽靈。
 
-abilities, too. Casting illusions has a mad genius bend to it.
+• 因為幽靈是王族，他們看起來是由純金打造的。
 
-The inhabitants of the tomb probably don’t like their resting places defiled.
-There are ghosts.
-
-• Because the ghosts are royalty, they appear to be made of pure gold.
-
-• It would be cool if the ghosts were contained the spiders’ webs. We’ll say the
-webs effect both tangible and intangible creatures. When the guild explores,
-they might destroy these webs. This is a good way to change the dungeon
-mid-exploration.
+• 若幽靈被困在蜘蛛網中會很酷。我們就說這些蜘蛛網同時影響有形體和無形體的生物。當公會探索時，他們可能摧毀這些蜘蛛網。這是在探索途中改變地城狀態的好方法。
 
 374374
 
 APPENDIX E     |     UNDERWORLD CREATION
 
 Reread the dungeon checklist
-Once you’ve got some ideas from brainstorming, reread
+Once you've got some ideas from brainstorming, reread
 the dungeon design elements on page 335 to see if you
 have any gaps. Did you get everything?
 
-We’ve sketched out two opposing factions: the brain
+We've sketched out two opposing factions: the brain
 spiders and the golden ghosts. These cover a reason to
-talk. But let’s think a bit more about their motivations
+talk. But let's think a bit more about their motivations
 and personalities.
 
 The brain spiders could possibly ally with the guild if
@@ -873,15 +437,15 @@ The ghosts probably want their tomb treasure and for the
 brain spiders to be destroyed. Will the players be willing
 to trade potential treasure for the aid of the ghosts?
 
-It’s dull to just repeat “the brain spiders” and “ghosts.”
-Let’s give these creatures names. What about:
+It's dull to just repeat "the brain spiders" and "ghosts."
+Let's give these creatures names. What about:
 
-• One brain spider’s name is Kodi Dove-devourer. That
+• One brain spider's name is Kodi Dove-devourer. That
 sounds just soft enough to be actually nefarious. Its
 mate is Glaura Glossalalia. That sounds arcane.
 
 • The ghosts are members of the Aurumius Dynasty.
-The word “aurum” is Latin for gold, so that’ll be a
+The word "aurum" is Latin for gold, so that'll be a
 mnemonic device to help us remember it.
 
 •  If it comes up, we can name individual ghosts based
@@ -893,8 +457,8 @@ reasons to fight?
 
 What did the spiders do with the bodies they excavated?
 Maybe they use webs to puppet the mummified bodies,
-making adventurers think that there’s actually undead in
-the area. That’s a Scooby Doo-esque plot that feels fun.
+making adventurers think that there's actually undead in
+the area. That's a Scooby Doo-esque plot that feels fun.
 
 What else would be in this tomb? The brain spiders
 might have captured a slime. That sounds villainous.
@@ -903,16 +467,16 @@ as a disposal system.
 
 Giant centipedes are probably natural monsters to
 encounter in an underground, detritus-filled area.
-They’re probably constant headaches for the spiders.
+They're probably constant headaches for the spiders.
 
 Maybe one centipede has achieved sentience by eating
 too many books. Now, she speaks in a terrible voice, but is
-friendly and intelligent. Her name is Book Worm. She’ll
+friendly and intelligent. Her name is Book Worm. She'll
 help the players if they bring her more books to devour.
 
-Next, let’s determine a reason to explore. Treasure
+Next, let's determine a reason to explore. Treasure
 is a good one. Interesting treasure is more than just
-coins: it’s works of art, personalized clothes or jewelry,
+coins: it's works of art, personalized clothes or jewelry,
 ancestral weapons, exotic beasts, academic works, etc.
 
 Because this dungeon might be used to introduce
@@ -921,20 +485,20 @@ free-standing mission instead of one of many dungeon
 levels, we need to provide a reason to engage with the
 space. Quests usually provide this motivational factor.
 Perhaps there is an ancient treasure entombed within.
-We’ll call it the Tripartite’s crown to ground the treasure
-with the “lore” of the setting. If this dungeon is used as
+We'll call it the Tripartite's crown to ground the treasure
+with the "lore" of the setting. If this dungeon is used as
 a tutorial, consider asking one of your players to take
-“Find the Tripartite’s crown” as a quest. Ask them why
-they’re seeking this item to help them think through
-their character’s backstory. You can be clear about this
-framing device. Tell your players: “This is your quest,
+"Find the Tripartite's crown" as a quest. Ask them why
+they're seeking this item to help them think through
+their character's backstory. You can be clear about this
+framing device. Tell your players: "This is your quest,
 this is the dungeon. This is just a small example so we
-can try the game out.”
+can try the game out."
 
-We need a reason to experiment. Let’s put a strange
-artifact in the spider’s nest—something Glaura is
-experimenting with. What’s weird? Babies are weird.
-Space is weird. Let’s put a weird, sleeping star-baby
+We need a reason to experiment. Let's put a strange
+artifact in the spider's nest—something Glaura is
+experimenting with. What's weird? Babies are weird.
+Space is weird. Let's put a weird, sleeping star-baby
 into her chambers. Its radiation will randomly generate
 maleficence (Appendix A, p. 202).
 
@@ -945,14 +509,14 @@ This provides incentive to travel back and forth.
 
 We still need a reason to flee. Ghosts, as non-corporeal
 enemies, are difficult for flesh and blood adventurers to
-deal with in any circumstance. Let’s establish that a) if
+deal with in any circumstance. Let's establish that a) if
 the ward-webs are taken down; and b) the golden ghosts
 have not been appeased by the return of their treasure,
 they will become an essentially unstoppable force.
 
 We need a reason to be surprised and a reason to breathe
 easy. Since this is just a small section of the dungeon,
-let’s combine them. Let’s place a hidden door into an
+let's combine them. Let's place a hidden door into an
 undiscovered (and therefore safe) room. If found,
 the guild can retreat here and hide out.
 
@@ -962,11 +526,9 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 Writing Meatgrinder tables
 
-Every dungeon level must also have an accompanying Meatgrinder. Let’s step through
-the writing process for writing a Meatgrinder for our example dungeon. The finished
-product is presented on full on page 380.
+每個地城層都必須有一個配套的絞肉機。讓我們逐步演示為範例地城撰寫絞肉機的過程。完整的成品呈現於第380頁。
 
-Designer’s commentary
+Designer's commentary
 
 1. The demarcation [adventurers]
 means that the players will
@@ -977,9 +539,9 @@ can modify this (like [adventurers
 antagonists is a good starting point
 for an easy encounter with minions.
 
-2. We’ll give the puppet-mummies
+2. We'll give the puppet-mummies
 the same stats as zombies, but
-we’ll note they won’t actually be
+we'll note they won't actually be
 undead—just corpses pulled around
 by webs. See page 387.
 
@@ -990,7 +552,7 @@ have web traps.
 
 4. Actually play charades with the
 players. Using out-of-character
-challenges like “charades” breaks
+challenges like "charades" breaks
 up the flow of the game, giving this
 encounter a different tenor than
 other types of role-playing.
@@ -1001,79 +563,47 @@ the City Phase. Let the guild
 build friendships, rivalries, and
 relationships with GM characters.
 
-6. For giant centipede stats, we’ll
+6. For giant centipede stats, we'll
 combine the beast and minion
 templates from Appendix C. You
 can find these stats on page 387.
 
 Torches gutter and quest rumors
-Every Meatgrinder table has a spot for a quest rumor. Every unlit dungeon
-level (like this one) has torches gutter events. Let’s add those in first.
+每個絞肉機表都有一個任務傳言的欄位。每個無光照的地城層（如本層）都有火把搖曳事件。讓我們先把這些加進去。
 
 Random encounters
-We’ve brainstormed several active agents for this level: golden ghosts, brain
-spiders, a slime, and some centipedes down in the lower regions. Now, we just
-have to imagine encounters with them that represent the feeling we want this
-dungeon area to have.
+我們已為這一層腦力激盪出了幾個活躍的行動者：黃金幽靈、腦蜘蛛、一個黏液怪，以及一些在下方區域的蜈蚣。現在，我們只需要想像與它們的遭遇，以呈現出我們希望這個地城區域具備的氛圍。
 
-Because the conflict between the golden ghosts and the brain spiders is central
-to the current “story” of the region, let’s say most of the random encounters
-are about those:
+因為黃金幽靈與腦蜘蛛之間的衝突是這個區域目前「故事」的核心，所以讓我們說大多數隨機遭遇都圍繞著他們展開：
 
-• The guild encounters [adventurers]1 puppet-mummies2 controlled by Kodi
-Dove-devourer. Kodi does this from behind an illusory wall. An adventurer
-with active second sight can see him, but otherwise he will be invisible.
+• 公會遭遇了[冒險者人數]個¹被Kodi Dove-devourer操控的傀儡木乃伊²。Kodi躲在幻象牆後進行操控。有靈視啟動的冒險者可以看見他，否則他將是隱形的。
 
-• The guild encounters Glaura Glossolalia, who is currently weaving webs
-throughout this room3. She hisses a telepathic warning to leave this place,
-then uses her wall-crawling ability to quickly escape.
+• 公會遭遇了正在這個房間編織蜘蛛網的Glaura Glossolalia³。她以心靈感應低聲警告他們離開，然後利用爬牆能力迅速逃離。
 
-• The guild encounters a weeping golden ghost. It cannot speak, but will
+• 公會遭遇了一個哭泣的黃金幽靈，它無法開口說話，但會用比手畫腳⁴的方式表達自己的冤屈。
 
-engage in charades4 to articulate its grievances.
+• 公會遭遇了一對對手冒險者⁵，分別是Finch（一名木精靈博物學家）和Justin Pepperoni（一名半身人廚師），他們正被[捨牌數]隻巨型蜈蚣追趕。兩名冒險者狀況很糟。若獲救，他們會贈送一枚印章戒指（價值20金）和一個裝有黏液炸彈的密封瓶（附錄B，第238頁）。
 
-• The guild encounters a pair of rival adventurers5 named Finch (a wood elven
-naturalist) and Justin Pepperoni (a halfling cook) being chased by [discard]
-giant centipedes. The adventurers are in rough shape. If rescued, they’ll give
-them a signet ring (worth 20 gold) and a hermetic bottle with a slime bomb
-(Appendix B, p. 238).
-
-• The guild encounters [adventurers - 1] giant centipedes6 in this area. They
-won’t let anybody enter the area without a fight, but won’t pursue the
-fleeing guild.
+• 公會在此區域遭遇了[冒險者人數－1]隻巨型蜈蚣⁶。牠們不會讓任何人不戰而入，但也不會追趕逃離的公會。
 
 376376
 
 APPENDIX E     |     UNDERWORLD CREATION
 
 Travel events
-Now that we’ve established the active elements, let’s imagine a few travel
-events that the guild might encounter. We’ll use a mix of random misfortunes
+Now that we've established the active elements, let's imagine a few travel
+events that the guild might encounter. We'll use a mix of random misfortunes
 and hazards to overcome:
 
-• Giant centipedes have churned the soft ground in this area. The first
+• 巨型蜈蚣已翻攪了此區域的鬆軟地面。第一個進入此區域的人類、獸人或巨魔體型¹的冒險者會像陷入流沙一樣沉下去。公會要如何把他們拉出來？²即使獲救，受害者現在也承受了壓力。³
 
-adventurer of human, orc, or troll stature1 to move into this area sinks into it
-like quicksand. How will the guild pull them out?2 Even if rescued, the victim
-is now Stressed.3
+• 腦蜘蛛在此區域編織了幻術⁴。除了公會剛剛進入的那扇門之外，房間中所有的門和出口都被幻象牆壁隱藏。
 
-• This brain spiders have woven illusions4 in this area. All doors and exits
-to this room, except the one the guild just came through, are hidden by
-illusory walls.
+• 腦蜘蛛用蜘蛛網將這個房間塞得密密麻麻。若不系統性地清除網絲，就無法探索。可以使用火把，但這個方法會消耗3格火把搖曳。⁵
 
-• The brain spiders have choked this room with their webs. It is impossible to
-explore unless care is taken to systematically clear the webbing. Torches may
-be used, but this method consumes 3 torch flickers.5
+• 腦蜘蛛在此區域設置了陷阱網。若公會未謹慎行進⁶（第91頁），隊列中排在最前面的冒險者必須在聖杯考驗⁷中成功，才能注意到陷阱。失敗意味著他們被腳朝上地拉升到20英尺高空。公會其他成員要如何安全地將他們放下？
 
-• The brain spiders have rigged up trap webs in this area. If the guild isn’t
-moving carefully6 (p. 91), the adventurer first in the marching order must
-succeed in a test of Cups7 to notice the snare. Failure means that they are
-pulled, feet first, 20’ into the air. How will the rest of the guild get them
-safely down?
-
-• A distant earthquake—the crumbling cavern begin crashing down around the
-guild. Moving through the room requires each player to test Pentacles8: on a
-failure, they take a Wound from a falling rock or twisted ankle.
+• 遠處的地震——搖搖欲墜的洞窟開始在公會四周崩塌。穿越房間需要每位玩家進行錢幣考驗⁸：失敗時，他們因落石或扭傷腳踝而受到一點傷勢。
 
 Curiosities
 Last, now that we have the encounters and travel events planned out, we can
@@ -1081,29 +611,21 @@ think about a few low-stakes curiosities the players might come across as they
 travel. These can be sights, sounds, tastes, smells—anything that gives a clue or
 a hint as to the nature of the region:
 
-• Faint shreds of cobwebs hang from the ceiling here, blowing gently.
+• 稀薄的蜘蛛網殘絲懸掛在天花板上，輕輕飄動。
 
-• The guild glimpses something golden disappearing around a corner.
+• 公會瞥見一道金色的東西消失在轉角處。
 
-• The ground here is strewn with gross black fewmets. Appropriate lore bids
+• 地上散落著令人噁心的黑色糞塊。適當的學識投注可以揭示這是蜈蚣的排泄物。
 
-reveal that this is centipede scat.
+• 遠處傳來地震的轟鳴聲，震動了幾個瞬間後歸於平靜。
 
-• The distant rumbling of an earthquake. It shakes for a few moments then
-
-stands still.
-
-• A cold wind blows down the corridor, reminiscent of the exhalation of the
-
-unquiet dead.
+• 走廊中刮起一陣寒風，讓人想起不安之死者的呼吸。
 
 Putting it all together
 
-Now, we just have to write down everything we’ve worked on in a format that
-we can use it at the table! What follows is the result of our hard work: a map,
-room descriptions, and a Meatgrinder for the Tomb of Golden Ghosts!
+現在，我們只需要以一種能在桌遊上使用的格式將所有內容記錄下來！以下是我們辛苦工作的成果：一張地圖、房間描述，以及黃金幽魂之墓的絞肉機！
 
-Designer’s commentary
+Designer's commentary
 
 1. Marching order is a good tool
 to use for travel events. You can
@@ -1121,14 +643,14 @@ solutions should prompt a test of
 fate and deal a Wound or other
 consequences on failure.
 
-3. Make the players feel like they’re
+3. Make the players feel like they're
 role-playing real people by keeping
 the focus of the game on a personal
-level. “This feels gross” is a good
+level. "This feels gross" is a good
 way to do that. Stressed is a fair
 random condition to conflict.
 
-4. Illusions work best when they’re
+4. Illusions work best when they're
 fairly obvious. Obscuring all of
 the exits should make the players
 suspicious and want to look around
