@@ -5,34 +5,34 @@ sidebar:
   order: 2
 ---
 
-設計有趣的房間
+## 設計有趣的房間
 
 設計地城最基本的流程如下：想出一堆有趣的點子並寫下來。這說起來既簡單又困難。運用[地下世界建構](/underworld-creation/)中創造有趣房間描述的原則，為每個房間添加特色。以下提供了二十一個範例特色與靈感，供你創作自己的設計。其中共有二十一個，因此若你想要隨機選取，可以翻開一張大阿爾卡那牌。
 
-1. 力量圓陣
+### 1. 力量圓陣
 力量之地建造於地城的靈脈交匯之處。這些圓陣被設計為肉身界與遠域之間的門戶——用來阻擋外界實體，或將其招引而來。它們危機四伏，其魔法力量遠超任何單一凡間術士所能掌控。
 
-範例
+#### 範例
 地板上刻有一個符文，明顯散發著不和諧的魔法能量。符文周圍擺有五塊五面錐形石。每塊石頭的一面刻著符文，寫著「AB-RA-KA-DAB-RA」。
 
 若公會在未調整石頭排列的情況下踏上符文，他們將被傳送至地城更深一層，並從內翻轉（即死）。符文必須透過旋轉錐形石來調諧，使面向符文內側的符文拼讀「Abrakadabra」。這個單詞可以從任意一塊石頭開始，但應按順序進行，直到每個音節以順時針方向依序使用完畢。完成後，傳送魔法便可安全使用。
 
-3. 囚籠
+### 3. 囚籠
 一座牢籠、一個懸吊的鐵絲籠、一間設計來困住囚犯的監獄。他們犯了什麼罪，才遭此命運的束縛？他們是含冤入獄，還是犯下了無法饒恕的罪行？
 
-範例
+#### 範例
 一個懸掛的囚籠，以細木棍用皮繩捆綁而成。籠門只用一個草藥結（附子草）簡單扣住。囚籠看起來輕輕一踢就能踢碎。裡面，一個自稱Zacchaeus的老人聲稱自己是被當作吸血鬼的食物帶來的，懇求被放出去。實際上，Zacchaeus是一個狼人。附子草（又名狼毒草）讓他虛弱得無法掙脫鐵欄。
 
-4. 王座
+### 4. 王座
 地下世界昔日統治者的王座仍殘留著一些力量。坐上王座的人能對某個特定的地城特徵獲得一定的掌控，或對地下世界某個面向產生特殊的感知。然而，王座上往往附有魔法詛咒或陷阱，以確保只有值得之人才能坐上去。
 
-2. 祭壇
+### 2. 祭壇
 祭壇是一張用於獻祭的桌子。祭壇的形狀象徵著它所供奉的神靈。它是通往更高力量的媒介，向合適神祇的祈禱在此具有更大的份量。
 
-範例
+#### 範例
 一張被灰塵、老鼠骸骨和貓頭鷹糞便覆蓋的巨大王座。王座的椅背雕成展開的貓頭鷹翅膀形狀。王座的兩側扶手各雕有一隻閉合的眼睛。
 
-範例
+#### 範例
 黑山羊的祭壇是一張形如站立母山羊的桌子，其背部形成桌子的平面。上面的蠟燭已燃盡，在山羊頭骨上凝成蠟油。它染滿了血跡。
 
 在此祭壇上獻祭一隻活生生的生物，有四分之一的機率能治癒任何疾患（[危險要素](/crawl-phase/hazards/)）。若參與者有多種疾患，對每一種分別進行考驗以確定是否被治癒。
@@ -41,68 +41,60 @@ sidebar:
 
 坐在王座上的人發現自己的聽覺大幅提升。他們立刻聽見北牆上一扇暗門縫隙中傳來的風嘯聲。此外，他們還聽見遠在頭頂上方的低語聲。若他們在整個時段內保持就座，就能聽到地城深處某人說出的一則傳言。
 
-365
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-8. 爐火
+### 8. 爐火
 這個地方目前看起來足夠安全。其他冒險者公會曾在此紮營，他們留下的餘燼尚未熄滅。重新點燃它，在這黑暗之地燃起一絲希望。
 
-範例
+#### 範例
 一座小型神龕，其中的篝火裡插著一把已損毀的劍。在此紮營的人無需燒掉已充能的羈絆，即可恢復所有決心。
 
-9. 商人
+### 9. 商人
 獲取法則第34條：戰爭利好商業。冒險者是走投無路的一群人，他們的口袋裝滿了隨葬品、黃金神像和其他不義之財。精明的商人已發現，在黑暗地城中向一名冒險者賣一根蠟燭，比整年向農婦賣蠟燭還賺錢。話雖如此，你在地城中遇到的大多數商人都不是那種在固定門市做生意的類型。
 
-範例
+#### 範例
 Grinnin' Grimnir是一個哥布林，拖著一輛裝滿各種貨物的雪橇。他總是出售麻繩球（1金）、蠟燭（5金）、火把（10金）、短劍（20金）和口糧（30金）。每次遇到他，他還有十件隨機物品。把他加進你的絞肉機。
 
 Grinnin' Grimnir受到一個詛咒的保護。任何殺死他的人將遭受一年的惡運詛咒。對冒險者來說，這意味著必死無疑。那些試圖在偏遠鄉鎮逃離厄運的人，會遭受如此巨大的創傷，最終開始變得像一個不停傻笑的小哥布林。他們最終會被一種奇特的衝動所驅使，裝滿一輛雪橇，在地下世界開始小型貿易。
 
-5. 神像
+### 5. 神像
 地下世界藏有奇異神靈的巨大神像。有人說它們是由古代穴居人豎立的，有人說它們是爬入地球脈絡並化為化石的神靈。無論如何，這些巨像仍然蘊含著力量。
 
-範例
+#### 範例
 一座坐姿惡魔的巨大雕像，眼睛鑲嵌著寶石，手持一個巨大的炭火盆。試圖撬出神像寶石眼睛的人，會導致神像將火盆傾倒，將液態火焰傾瀉入房間。房間的地板變成熔岩，企圖行竊者被困在雕像上，沒有明顯的出路。
 
-6. 圖書館
+### 6. 圖書館
 書籍與卷軸被學者、學識大師和法師所珍藏。圖書館中存放著寫在莎草紙、羊皮紙和蠟板上的書籍。許多在地面上被遺忘的事物，可以在此找到它們的文字記錄。然而，仔細翻閱館內的典籍，翻譯古老的方言並愛護脆弱的書頁，都需要耗費時間。
 
-範例
+#### 範例
 亡靈術士Crabbe建造了頭顱圖書館：木乃伊頭顱層層排列在一個圓形房間的同心書架上。若你拿起頭顱對著脖頸孔吹氣，它們便開始以各自的母語背誦自己的一生故事。這裡共有102個頭顱。許多頭顱對冒險者來說毫無有趣之處可言；有幾個在某些冷僻學科上擁有值得研究者了解的深奧知識；至少有三個是競爭對手的術士，他們對自己進入遠域的旅程有著雄辯的陳述。
 
-7. 升降台
+### 7. 升降台
 升降台是在地城內移動的平台或廳室（垂直、水平或以更奇特的方式移動）。地下世界的不同層級可能通過需要啟動的升降台相互連接。
 
-範例
+#### 範例
 公會走到一個深坑的底部。一條巨大的鎖鏈末端掛著一個巨大的鉤子，從看不見的高處垂落下來。一條巨大的蚯蚓被鉤子刺穿，無力地扭動著。若公會設法使勁拉動鎖鏈，坑頂的巨人就會將鉤子和鎖鏈拉到上層。他對公會不感興趣，並會以「太小了，不夠資格」為由，將他們丟棄在上層。
 
-366366
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-12. 魔法牆壁
+### 12. 魔法牆壁
 魔法屏障可能豎立起來，封鎖地城的某些區域。這些可能是魔法力場，或由深奧能量構成的牆壁，如火焰之牆或冰霜之牆。這些牆壁的鑰匙幾乎總是魔法性質的。通常，生成牆壁的神器或構造需要被破壞才能移除。
 
-範例
+#### 範例
 一個由頭骨組成的拱門將房間一分為二。拱頂的核心頭骨曾屬於一隻巨鳥。一股惡意的存在盤踞在那隻鳥頭骨中，其邪惡意志只允許持有其主人——鴿王——令牌的人通過。這不是實體屏障，而是一個尖聲高喊「禁止進入」的精神指令。任何有知覺的活生生的生物都無法抵抗它。箭矢和法術可以穿越拱門。
 
 頭骨的邪惡意志只對它能看見的生物起效。用耀光法術令頭骨失明，或在遮蔽狀態下悄悄通過，也可以讓人順利穿過。
 
-13. 墓室
+### 13. 墓室
 穿過偽墓，墓室中長眠著死者。有時這些死者不安地徘徊，有時他們已化為枯骨。道德底線低、囊中羞澀的冒險者有時會洗劫這些墓室，妄圖獲取隨葬品，卻發現等待他們的是陷阱與詛咒。
 
-範例
+#### 範例
 一具石棺，其石蓋刻有一個蛇頭人身的形象。石蓋極其沉重，需要五名冒險者合力才能移動；像十英尺長竿這樣用作槓桿的工具可以讓冒險者的舉力翻倍，但除非材質異常堅固，否則槓桿通常會折斷。
 
 裡面是一具木乃伊。這具木乃伊只是普通的木乃伊，並非不死生物。然而它確實攜帶著疾病。若你不戴手套直接接觸屍體，進行聖杯考驗以避免感染木乃伊腐病疾患。
 
 纏繞木乃伊的包布是一張藏寶圖。在公會的本地城層地圖上標記一個隱藏房間，其中可以找到寶藏。
 
-10. 機器
+### 10. 機器
 由古代之手製造的機械裝置，其用途與運作邏輯不為人知。有些機器已故障，產生不完美的結果。有些已損毀，但可以透過更換明顯的零件或提供動力來源修復（雖然不一定能理解）。有些運作完美，但它們的用途與原因卻超越了凡人的理解。
 
-範例
+#### 範例
 毀解機的機件隱藏在其主體內部，外形像一個40英尺×40英尺×40英尺的立方體。
 
 公會第一次遇到毀解機時，立方體左側有一個6英寸的立方體形狀缺口。這個缺失的立方體可在地城別處找到，插入後如同一把鑰匙。此後，機器開始運作。
@@ -113,87 +105,75 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 若將一件物品硬塞入下方的孔洞，它會從頂部孔洞破損嚴重地出來。
 
-11. 偽墓
+### 11. 偽墓
 這裡有墓穴存在。但也有偽造的墓穴，專門用來迷惑並懲罰盜墓者。這些門面遮掩著暗門後方的真正埋葬廳室以及致命的陷阱。
 
-範例
+#### 範例
 一幅馬賽克描繪著一個牛頭人身者，手持一架秤，秤上分別擺著一根羽毛和一顆心臟。其下，有兩扇門。牆上的古代文字（翻譯後）寫道：「正義者入左方，通向天堂。不義者入右方，迎接懲罰。」
 
 兩扇門都通往同一個小廳室。大約在門被打開五秒後，一塊兩噸重的石塊落入小廳室，將所有不能在錢幣考驗中成功向後閃躲回偽墓的人碾壓致死。
 
-367
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-14. 噴泉
+### 14. 噴泉
 地下世界中的噴泉通常受到魔法加持。飲用、沐浴或將物品浸入噴泉中，會觸發其魔法效果。
 
-16. 地牢暗室
+### 16. 地牢暗室
 地牢暗室是用來將某人關在裡面讓世人遺忘的地方。只能通過活板門進入，這些深坑是那些早已被遺棄之人的牢籠。
 
-範例
+#### 範例
 這座噴泉的泉水出口雕刻著一張歡快的臉。那張臉說著簡單的語句，歡迎旅人來此飲水。
 
 飲用泉水會引起輕微的欣快感和幻覺。若身上帶有任何持續性的負面魔法效果、禁制誓約、精神控制或類似效果，飲水的冒險者可以進行權杖考驗，嘗試克服這些效果。然而，飲過泉水的冒險者在考驗中必須打出最低的牌作為先攻，且因不斷傻笑打斷咒語吟唱而無法施放法術。此效果持續到紮營階段。
 
-15. 雕像
+### 15. 雕像
 這些刻鑿的形象呈現了古代帝王、英雄和神話人物的樣貌。它們反映了塑造它們的文化，並為附近謎題提供了關於創作者世界觀的線索，這些線索與當地地城層的環境相關。一項針對地城探索者的近期調查發現，70%的謎題以某種方式包含了雕像。
 
-範例
+#### 範例
 一座三面精靈三相神的雕像——少女、母親和老嫗——矗立在三角形房間的中央。檢視雕像後，發現其底座附近地板上有劃痕，表明雕像已從原始位置被轉動過。
 
 房間兩面牆壁裝飾著馬賽克。一面牆上是一彎新月，另一面牆上是一個白色圓圈。第三面牆是空白的。
 
 若將雕像轉動，使少女面向新月，母親面向白色圓圈，老嫗面向空白牆壁，空白牆壁就會變成一個薄霧門戶，將公會傳送到一個新地點。
 
-範例
+#### 範例
 這個地牢暗室內有兩具骸骨：一具是人類的（身穿曾經華貴的袍服殘骸），另一具是矮人的。人類骸骨上有咬痕，表明其死於同類相食。牆上用血書寫著指示，指引人找到本地城層別處的一扇暗門。
 
-17. 鏡子
+### 17. 鏡子
 魔法鏡子能創造出現實世界的扭曲映像。它們有時作為陷阱，創造出冒險者的複製體。它們也可能是通往異次元的門戶。這些鏡子還可能是謎題的核心道具，需要將鏡子反射的光線引導到特定方向。
 
-範例
+#### 範例
 一廳十二面鏡，其中三面凝結著冒險者的面容，三面已碎裂。望入空白鏡子的人，會看到自己的倒影被凍結在其中。
 
 望入空白鏡子的冒險者創造了一個「存檔點」。在任意時刻，他們可以選擇將身體直接重置到此時的狀態——相同的經驗值、相同的傷勢、相同的裝備等。這必須在清醒的情況下執行，即在失去意識或死亡之前。當此能力啟動時，影像從鏡中消失，鏡子碎裂。
 
-18. 畫作
+### 18. 畫作
 繪畫、掛毯、壁畫和馬賽克提供的不僅是地城的簡單裝飾，它們往往隱藏著秘密、帶有魔法，或為附近的謎題提供重要的背景線索。
 
-範例
+#### 範例
 一幅有框架的畫，畫中是一扇沒有門把的門。地城別處有魔法顏料。在門上畫出一個門把，就能將這幅畫變成一扇真正運作的暗門。
 
-368368
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-19. 河流
+### 19. 河流
 冒險者請注意！地下世界的河流以其詭異的特性而惡名昭著，即使只飲下一滴河水，也可能讓你喪失記憶、陷入永恆沉睡、引發不止哭泣，或帶來其他可怕的詛咒。
 
-21. 水井
+### 21. 水井
 地下世界中的水井藏有奇異之物：酒、糖漿、油、布丁——幾乎什麼都有，就是沒有水。此外，水井裡頻繁住著靠其內容物維生的居民，要麼棲居在井底，要麼守護著水井以防他人覬覦。
 
-範例
+#### 範例
 一個微小的藍色小鬼住在一口許願井底。他要求你向井裡投幣，然後他就會實現你的願望。他是個騙子，只想嘲笑你的慾望與夢想。
 
 地下河流最初充當阻礙行進的屏障——冒險者要如何越過湍急的河流？一旦找到合適的載具或工具，這些河流其實可以成為通往地下世界更深處的連接動脈。船隻可用於沿河航行，到達迄今無法進入的區域。
 
-範例
+#### 範例
 Phlegethon河外觀與普通河流無異，但河水具有腐蝕性，因此獲得了「火焰之河」的別稱。它散發著一股有毒的硫磺氣味。任何普通物品浸入河水中都會迅速被摧毀。
 
 若公會能說服Iago the Lion-Turtle讓他們騎在他的背上，他可以涉水並抵禦此河的河水，將他們渡到對岸。
 
-20. 水車
+### 20. 水車
 水車利用地下世界奇異河流的力量。若水車被停止或啟動，冒險者可能發現地城的狀態發生了改變。
 
-範例
+#### 範例
 河流被一系列閘門和水壩分成三道瀑布，由地城內部的控制桿控制。當水流轉動北方水車時，通往Ot死靈城的巨門被抬起。當水流轉動東方水車時，命運交錯之城內的燈火亮起，讓冒險者無需自備火把。當水流轉動西方水車時，從城堡延伸出一座橋樑，通往廢墟之城。每次只能有一道瀑布流動。
 
-369
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-設計有趣的陷阱
+## 設計有趣的陷阱
 
 陷阱是類型慣例的核心元素。以下是創造有趣陷阱的一些原則。
 
@@ -209,7 +189,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 在你的地城中放置以下部分陷阱，以它們為靈感設計自己的版本。
 
-1. 神秘塔樓，酸液湖泊
+### 1. 神秘塔樓，酸液湖泊
 一座廢棄的塔樓矗立在島嶼中央，島嶼位於一片亮綠色酸液湖泊的中央。湖泊對落入其中的人來說是死亡。
 
 為何這個陷阱不糟糕：潛在獎勵令人垂涎（神秘的塔樓？裡面有什麼？）。危險一目了然（湖水是亮綠色的！酸液是致命的！）。這是一個開放式問題，有多種可能的解法，但沒有一個顯而易見的解法。
@@ -222,7 +202,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 聰明的公會可能會利用地城其他地方的飛行怪物，幫助他們越過酸液湖泊。
 
-**拿走所有沒釘死的東西**
+### 拿走所有沒釘死的東西
 
 桌遊愛好者可以借鑒的資源多不勝數，TRPG 發展至今已相當成熟，且從未如此蓬勃。這個圈子裡有著充滿活力的 DIY 社群，無數才華洋溢的創作者持續推出各種部落格文章、同人誌和獨立遊戲。當你著手建構自己的地下世界時，將有海量的素材供你借鑒與汲取靈感。
 
@@ -230,14 +210,10 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 想用《蠕蟲之王》遊玩，但傾向以選用的六角格野外探索規則取代巨型地城？《杜鵑木》（Gavin Norman，Necrotic Gnome，2023）可以佔據你戰役地圖的西北一隅。《埃爾德的薄霧群島》（Chuck Kutalik，Hydra Cooperative，2016）和《溫泉島》（*The Dark of Hot Springs Island*，Swordfish Islands，2017）則可以座落於城市的近海之處。
 
-370370
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-2. 箭矢陷阱
+### 2. 箭矢陷阱
 走廊中有一段10英尺的牆壁，兩側各佈滿小孔。地板上有一塊壓力板。踩上壓力板會觸發孔洞中射出箭矢。
 
-4. 通電寶箱
+### 4. 通電寶箱
 一個放在基座上的金屬箱子，基座通有電流。整個房間都散發著臭氧氣味。靠近基座會讓你的汗毛豎立。觸碰基座或寶箱都會遭受強烈的電擊。
 
 為何這個陷阱不糟糕：壓力板和陷阱（箭矢、陷坑、噴射火焰等）是類型慣例的核心元素，這本身並無問題。然而，它們往往既隱蔽又致命，而這在遊玩時是一個糟糕的組合。
@@ -250,7 +226,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 牆上的孔洞應該是危險的明確信號。冒險者可以透過向壓力板扔重物來提前觸發陷阱，也可以透過在錢幣考驗成功後直接跳過壓力板。他們還可以用鍊金術黏合炸彈堵住孔洞。讓合情合理的想法自動奏效。
 
-3. 流沙
+### 3. 流沙
 一片沼澤地帶實際上是流沙，它開始無情地吞噬任何踏入其中的人——就像老電影裡的那樣。
 
 為何這個陷阱不糟糕：老套的設計在桌遊桌上一目了然。流沙是一個好的老套元素，因為它是隱蔽的，但不是致命的。它會困住一名冒險者，同時給公會其他成員安排一些事情做。
@@ -263,7 +239,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 有很多種方法可以解除陷阱。例如，冒險者可以用長矛柄敲落基座上的寶箱，切斷電流（雖然這可能損壞寶箱的內容物）。「奇術」法術也可以在距離之外打開寶箱。
 
-5. 巨型滾動圓石
+### 5. 巨型滾動圓石
 一具石棺，其後方，一座巨大的惡魔雕像——擺出保齡球手即將投球的姿勢——手持一塊巨大的圓石。石棺蓋上的符文警告，任何打擾Jarl Ninebones長眠的人都將死亡。
 
 若石棺被打開，雕像就會投出圓石，它將印第安納·瓊斯式地朝公會滾來。
@@ -274,11 +250,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 有「跳入石棺」等想法的玩家可以自動躲避圓石，無需進行命運考驗。有「用3點決心施放元素之牆以阻擋圓石」等想法的玩家可以完全解除陷阱。
 
-371
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-6. 隱形通道
+### 6. 隱形通道
 一扇門打開，通向一個深淵，看似直墜無盡的深坑。墜入深坑將是必死無疑。深淵的另一側是另一扇門。
 
 實際上，一座隱形橋樑橫跨兩扇門，但它走的並非直線，而是在虛空中蜿蜒曲折。
@@ -291,7 +263,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 若玩家有好方法確認橋的位置，他們就能成功通過。
 
-7. 飢餓之門
+### 7. 飢餓之門
 門框中嵌著一張巨大、令人噁心、會動的、口水橫流的大嘴。牙齒在研磨，它在微笑，舌頭在滾動，它打了個嗝。「餵我！」它叫道。
 
 若門被餵飽，它就會打開。五份口糧或一隻相當大小的活體生物可以讓它滿足。
@@ -304,7 +276,7 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 餵飽門要麼需要資源消耗（拿出他們珍貴的口糧），要麼需要公會的機智。他們願意犧牲一隻動物同伴嗎？公會能帶一隻捕獲的怪物讓門吃嗎？
 
-8. 灌水魚像
+### 8. 灌水魚像
 一個淺池中放有一座巨大的魚形雕像，魚嘴中含著一顆大藍寶石。取走寶石會導致門被猛力關閉，水從魚嘴中噴涌而出。片刻之間，房間就完全被水淹沒了。
 
 為何這個陷阱不糟糕：過於顯眼的獎勵應該讓玩家懷疑其背後隱藏著風險。若公會在洗劫魚像寶石前努力佈置好應對措施，將大幅降低這個陷阱帶來的風險。
@@ -319,40 +291,24 @@ APPENDIX E     |     UNDERWORLD CREATION
 
 若公會在三個行動後仍無法止住水流，讓他們溺死也未嘗不可——冒險的本質就是如此殘酷。
 
-9. 爆燃蘑菇
+### 9. 爆燃蘑菇
 走廊遠端的牆壁、地板和天花板上密密麻麻地生長著醜陋的橙色蘑菇。走廊中所有裸露的火焰都嘶嘶作響、閃爍不定。濃重的硫磺氣味瀰漫四周。若蘑菇受到擾動，它們會在空氣中釋放出高度易燃的氣體。
 
 為何這個陷阱不糟糕：蘑菇明顯是危險信號。它們與公會光源的互動以及氣味廣播了危險。此外，與蘑菇互動和與機械陷阱互動的感覺截然不同。
 
 如何運行：明確告知公會，他們在不驚擾蘑菇的情況下無法通過。若冒險者手持明火穿越此區域，就會引發爆炸。攜帶光源的人會著火，每次採取行動都會受到一點傷勢，且腰帶或背包中的一件易燃物品出現缺口，直到他們能夠撲滅自身火焰為止。隊列中相鄰的人也會各受到一點傷勢。冒險者可以熄滅光源來穿越走廊——但在黑暗中，他們要如何應對走廊盡頭的東西呢？
 
-373
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-Building the Tutorial Dungeon
+## 製作教學地城
 
 為了讓你對製作巨型地城的流程有所了解，我們將演示如何撰寫一個地城層，並解釋其在桌遊中的預期使用方式。這是一個具體詳盡的範例。最終成果將是一個名為黃金幽魂之墓的教學地城，你可以用它來試玩《蠕蟲陛下》。
 
-A focused example
-For the sake of this example,
-we'll assume that steps 1 and 2 of
-Underworld creation are complete.
-We've already determined the
-general lore and layout of the
-Underworld. We'll focus entirely on
-making one of our Underworld's
-dungeon levels (steps 3-5).
+:::note[聚焦範例]
+為了簡化起見，我們假設地下世界建構的步驟一和步驟二已完成，已確定了地下世界的整體背景傳說與布局。此處我們將完全專注於製作地下世界的其中一個地城層（步驟三至五）。
 
-To more clearly demonstrate the
-ideation process, we're not going
-to use a specific dungeon seed
-level, although you might imagine
-that this dungeon could be part
-of the Necropolis of Ot or the
-City of Ruin.
+為了更清晰地展示構思過程，我們不使用特定的地城種子層，但你可以想像這個地城可能是奧特死亡都市或廢墟之城的一部分。
+:::
 
-Creating the map
+### 繪製地圖
 
 讓我們為了方便起見使用一張現成的地圖。我們將使用一位名為Dyson Logos的製圖師的作品，他的作品在本書中被廣泛使用。他們也有免費和付費的作品供你使用！
 
@@ -360,11 +316,11 @@ Creating the map
 
 玩家版地圖需要與GM版有所不同：它不應顯示暗門和暗室。提供給玩家的版本在[教學地城](/underworld-creation/tutorial-dungeon/)。
 
-Writing room descriptions
+### 撰寫房間描述
 
 在填充地城時，第一步只是腦力激盪。把你對不同房間的想法寫下來。選出你喜歡的，把其他的留作其他項目使用。然後，閱讀[地下世界建構](/underworld-creation/)的地城設計檢查清單，確保你有各種有趣的元素。
 
-Brainstorming
+### 腦力激盪
 想像一座曾是魔法王族長眠之所的陵墓，但目前被一對腦蜘蛛佔據。腦蜘蛛挖掘了原有的墓穴，為自己搭建了巢穴。
 
 • 閱讀圖鑑（附錄C，[怪物圖鑑](/dungeon-denizens/bestiary/)）中有關腦蜘蛛的筆記，感覺這些生物像是週六早晨卡通中的反派，這將影響我們的一些選擇。
@@ -377,168 +333,68 @@ Brainstorming
 
 • 若幽靈被困在蜘蛛網中會很酷。我們就說這些蜘蛛網同時影響有形體和無形體的生物。當公會探索時，他們可能摧毀這些蜘蛛網。這是在探索途中改變地城狀態的好方法。
 
-374374
+:::note[重讀地城設計清單]
+一旦你從腦力激盪中獲得了一些想法，重新閱讀[地下世界建構](/underworld-creation/)的地城設計元素，檢查是否有遺漏。你涵蓋了所有要素嗎？
 
-APPENDIX E     |     UNDERWORLD CREATION
+我們已勾勒出兩個對立派系：腦蜘蛛和黃金幽靈。這兩者提供了一個對話的理由。但讓我們更深入思考他們的動機和個性。
 
-Reread the dungeon checklist
-Once you've got some ideas from brainstorming, reread
-the dungeon design elements on page 335 to see if you
-have any gaps. Did you get everything?
+如果目標一致，腦蜘蛛或許可以與公會結盟。蜘蛛們想要什麼？[怪物圖鑑](/dungeon-denizens/bestiary/)中的數據表說他們想要感覺聰明，容易受到相關奉承。他們也想推進自己的目標，在地下世界壯大力量。成功孵化出一批新的腦蜘蛛卵，或取得新形式的魔法力量，都可以達到這個目的。
 
-We've sketched out two opposing factions: the brain
-spiders and the golden ghosts. These cover a reason to
-talk. But let's think a bit more about their motivations
-and personalities.
+幽靈大概想要他們的墓穴寶藏，以及讓腦蜘蛛被消滅。玩家們是否願意以潛在的寶藏換取幽靈的幫助？
 
-The brain spiders could possibly ally with the guild if
-their goals align. What do the spiders want? Their stat
-block in the Bestiary says they want to feel smart: they
-are susceptible to flattery along those lines. They also
-want to advance their cause and grow their power in the
-Underworld. Successfully hatching a new clutch of brain
-spider eggs would accomplish this, as would obtaining
-new forms of magical power.
+一直重複「腦蜘蛛」和「幽靈」會很乏味。讓我們給這些生物取名字：
 
-The ghosts probably want their tomb treasure and for the
-brain spiders to be destroyed. Will the players be willing
-to trade potential treasure for the aid of the ghosts?
+• 其中一隻腦蜘蛛的名字是 Kodi Dove-devourer。這個名字聽起來溫和到足以令人不安，實際上卻十分邪惡。牠的伴侶是 Glaura Glossolalia，這個名字聽起來神秘莫測。
 
-It's dull to just repeat "the brain spiders" and "ghosts."
-Let's give these creatures names. What about:
+• 幽靈是 Aurumius 王朝的成員。「Aurum」在拉丁語中是黃金的意思，這將幫助我們記憶它。
 
-• One brain spider's name is Kodi Dove-devourer. That
-sounds just soft enough to be actually nefarious. Its
-mate is Glaura Glossalalia. That sounds arcane.
+• 若有需要，我們可以根據拉丁數字系統為個別幽靈命名：Primus、Secundus、Tertius，依此類推。
 
-• The ghosts are members of the Aurumius Dynasty.
-The word "aurum" is Latin for gold, so that'll be a
-mnemonic device to help us remember it.
+這個區域還有哪些生物可以提供戰鬥的理由？
 
-•  If it comes up, we can name individual ghosts based
-on the Latin numbering system: Primus, Secundus,
-Tertius, etc.
+蜘蛛拿那些被挖出的屍體做什麼了？或許他們用蜘蛛網操控木乃伊屍體，讓冒險者以為那裡有不死生物。這是一個充滿史酷比風格的陰謀，感覺很有趣。
 
-What other creatures exist in this area that could provide
-reasons to fight?
+這座陵墓裡還會有什麼？腦蜘蛛或許捕獲了一個黏液怪，把它關在坑裡用垃圾餵養，作為廢物處理系統。
 
-What did the spiders do with the bodies they excavated?
-Maybe they use webs to puppet the mummified bodies,
-making adventurers think that there's actually undead in
-the area. That's a Scooby Doo-esque plot that feels fun.
+巨型蜈蚣可能是在地下腐質有機物區域中自然會遭遇的怪物。對蜘蛛來說，牠們可能是持續的麻煩。
 
-What else would be in this tomb? The brain spiders
-might have captured a slime. That sounds villainous.
-They could keep it in a pit and feed it garbage, using it
-as a disposal system.
+也許有一隻蜈蚣因為吃了太多書而獲得了智慧。她用一種可怕的聲音說話，但性情友善而聰明。她的名字是 Book Worm。若玩家給她帶來更多書籍，她將幫助玩家。
 
-Giant centipedes are probably natural monsters to
-encounter in an underground, detritus-filled area.
-They're probably constant headaches for the spiders.
+接下來，讓我們確定探索的理由。寶藏是個好選擇。有趣的寶藏不只是金幣：它包括藝術品、個人化的服飾或珠寶、祖傳武器、奇珍異獸、學術著作等。
 
-Maybe one centipede has achieved sentience by eating
-too many books. Now, she speaks in a terrible voice, but is
-friendly and intelligent. Her name is Book Worm. She'll
-help the players if they bring her more books to devour.
+由於這個地城可能被用來向玩家介紹《蠕蟲陛下》，作為獨立任務而非眾多地城層之一，我們需要提供一個接觸空間的理由。任務通常提供這種動機。也許裡面埋藏著一件古老的寶物，我們稱其為「三相之神的王冠」，以將寶藏與世界背景相連。若這個地城被用作教學，可以讓其中一名玩家將「尋找三相之神的王冠」作為任務，並詢問他們為何尋找這件物品，以幫助他們思考角色的背景故事。你可以明確說明這個框架：「這是你的任務，這是地城。這只是一個小範例，讓我們試玩看看。」
 
-Next, let's determine a reason to explore. Treasure
-is a good one. Interesting treasure is more than just
-coins: it's works of art, personalized clothes or jewelry,
-ancestral weapons, exotic beasts, academic works, etc.
+我們還需要一個實驗的理由。讓我們在蜘蛛巢穴裡放置一件奇異的神器——Glaura 正在研究的東西。嬰兒是奇異的，太空是奇異的。讓我們把一個奇異的、沉睡的星嬰放入她的房間。它的輻射將隨機產生惡兆（[法術規則](/sorcery/rules/)）。
 
-Because this dungeon might be used to introduce
-players to His Majesty the Worm, and thus exist as a
-free-standing mission instead of one of many dungeon
-levels, we need to provide a reason to engage with the
-space. Quests usually provide this motivational factor.
-Perhaps there is an ancient treasure entombed within.
-We'll call it the Tripartite's crown to ground the treasure
-with the "lore" of the setting. If this dungeon is used as
-a tutorial, consider asking one of your players to take
-"Find the Tripartite's crown" as a quest. Ask them why
-they're seeking this item to help them think through
-their character's backstory. You can be clear about this
-framing device. Tell your players: "This is your quest,
-this is the dungeon. This is just a small example so we
-can try the game out."
+我們也需要一個返回的理由。你可以在地下世界的其他部分設置鉤子，讓兩個或多個派系想要某人去偷取或食用星嬰，以此提供來回旅行的動機。
 
-We need a reason to experiment. Let's put a strange
-artifact in the spider's nest—something Glaura is
-experimenting with. What's weird? Babies are weird.
-Space is weird. Let's put a weird, sleeping star-baby
-into her chambers. Its radiation will randomly generate
-maleficence (Appendix A, [法術規則](/sorcery/rules/)).
+我們仍然需要一個逃跑的理由。幽靈作為非實體的敵人，在任何情況下都難以被有血有肉的冒險者對付。讓我們確立：若守護蜘蛛網被拆除，且黃金幽靈還未因寶藏歸還而得到安撫，他們將成為一股基本上無法阻止的力量。
 
-We need a reason to return, too. You can put a hook
-in another part of the Underworld where two or more
-factions want someone to steal or eat the star-baby.
-This provides incentive to travel back and forth.
+我們需要一個驚喜的理由和一個喘息的理由。由於這只是地城的一小部分，讓我們將兩者結合：在一個未被發現（因此安全）的房間裡放置一扇暗門。若被找到，公會可以在此撤退躲避。
+:::
 
-We still need a reason to flee. Ghosts, as non-corporeal
-enemies, are difficult for flesh and blood adventurers to
-deal with in any circumstance. Let's establish that a) if
-the ward-webs are taken down; and b) the golden ghosts
-have not been appeased by the return of their treasure,
-they will become an essentially unstoppable force.
-
-We need a reason to be surprised and a reason to breathe
-easy. Since this is just a small section of the dungeon,
-let's combine them. Let's place a hidden door into an
-undiscovered (and therefore safe) room. If found,
-the guild can retreat here and hide out.
-
-375
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-Writing Meatgrinder tables
+### 撰寫絞肉機表
 
 每個地城層都必須有一個配套的絞肉機。讓我們逐步演示為範例地城撰寫絞肉機的過程。完整的成品呈現於[教學地城](/underworld-creation/tutorial-dungeon/)。
 
-Designer's commentary
+:::note[設計者評注]
+1. 「[冒險者]」標記意味著玩家將遭遇與桌上玩家數量相等的生物。你可以修改這個數值（如「[冒險者－2]」），但與玩家數量相等的對手數量，對於與小嘍囉的輕鬆遭遇來說是個好的起點。
 
-1. The demarcation [adventurers]
-means that the players will
-encounter a number of creatures
-equal to the players at the table. You
-can modify this (like [adventurers
--2]), but an equal number of
-antagonists is a good starting point
-for an easy encounter with minions.
+2. 我們將給傀儡木乃伊與殭屍相同的數據，但標注他們實際上不是不死生物——只是被蜘蛛網拖拽的屍體。見[教學地城](/underworld-creation/tutorial-dungeon/)。
 
-2. We'll give the puppet-mummies
-the same stats as zombies, but
-we'll note they won't actually be
-undead—just corpses pulled around
-by webs. See page 387.
+3. 展示腦蜘蛛編織蜘蛛網，將警告玩家這個地城的其他區域可能有網陷阱。
 
-3. Showing the brain spiders weaving
-webs will warn the players that
-other areas of this dungeon might
-have web traps.
+4. 實際上與玩家玩比手畫腳。使用桌外挑戰（如「比手畫腳」）打破遊戲節奏，使這次遭遇與其他類型的角色扮演有不同的基調。
 
-4. Actually play charades with the
-players. Using out-of-character
-challenges like "charades" breaks
-up the flow of the game, giving this
-encounter a different tenor than
-other types of role-playing.
+5. 對手冒險隊伍是將探索階段與城市階段聯繫起來的好方法。讓公會與GM角色建立友誼、對立和關係。
 
-5. Rival adventuring parties are a
-good way to tie the Crawl with
-the City Phase. Let the guild
-build friendships, rivalries, and
-relationships with GM characters.
+6. 對於巨型蜈蚣的數據，我們將結合[怪物圖鑑](/dungeon-denizens/bestiary/)的野獸與小嘍囉模板。你可以在[教學地城](/underworld-creation/tutorial-dungeon/)找到這些數據。
+:::
 
-6. For giant centipede stats, we'll
-combine the beast and minion
-templates from Appendix C. You
-can find these stats on page 387.
-
-Torches gutter and quest rumors
+### 火把搖曳與任務傳言
 每個絞肉機表都有一個任務傳言的欄位。每個無光照的地城層（如本層）都有火把搖曳事件。讓我們先把這些加進去。
 
-Random encounters
+### 隨機遭遇
 我們已為這一層腦力激盪出了幾個活躍的行動者：黃金幽靈、腦蜘蛛、一個黏液怪，以及一些在下方區域的蜈蚣。現在，我們只需要想像與它們的遭遇，以呈現出我們希望這個地城區域具備的氛圍。
 
 因為黃金幽靈與腦蜘蛛之間的衝突是這個區域目前「故事」的核心，所以讓我們說大多數隨機遭遇都圍繞著他們展開：
@@ -553,14 +409,8 @@ Random encounters
 
 • 公會在此區域遭遇了[冒險者人數－1]隻巨型蜈蚣⁶。牠們不會讓任何人不戰而入，但也不會追趕逃離的公會。
 
-376376
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-Travel events
-Now that we've established the active elements, let's imagine a few travel
-events that the guild might encounter. We'll use a mix of random misfortunes
-and hazards to overcome:
+### 旅途事件
+現在我們已確立了活躍的元素，讓我們想像幾個公會可能遭遇的旅途事件。以下結合了隨機的不幸事件與需要克服的危險：
 
 • 巨型蜈蚣已翻攪了此區域的鬆軟地面。第一個進入此區域的人類、獸人或巨魔體型¹的冒險者會像陷入流沙一樣沉下去。公會要如何把他們拉出來？²即使獲救，受害者現在也承受了壓力。³
 
@@ -572,11 +422,8 @@ and hazards to overcome:
 
 • 遠處的地震——搖搖欲墜的洞窟開始在公會四周崩塌。穿越房間需要每位玩家進行錢幣考驗⁸：失敗時，他們因落石或扭傷腳踝而受到一點傷勢。
 
-Curiosities
-Last, now that we have the encounters and travel events planned out, we can
-think about a few low-stakes curiosities the players might come across as they
-travel. These can be sights, sounds, tastes, smells—anything that gives a clue or
-a hint as to the nature of the region:
+### 奇象
+最後，既然我們已規劃好遭遇和旅途事件，就可以構思幾個低風險的奇象，讓玩家在旅途中偶然發現。這些可以是景象、聲音、味道、氣味——任何能為此區域特性提供線索或暗示的事物：
 
 • 稀薄的蜘蛛網殘絲懸掛在天花板上，輕輕飄動。
 
@@ -588,70 +435,25 @@ a hint as to the nature of the region:
 
 • 走廊中刮起一陣寒風，讓人想起不安之死者的呼吸。
 
-Putting it all together
+### 整合所有內容
 
 現在，我們只需要以一種能在桌遊上使用的格式將所有內容記錄下來！以下是我們辛苦工作的成果：一張地圖、房間描述，以及黃金幽魂之墓的絞肉機！
 
-Designer's commentary
+:::note[設計者評注]
+1. 行進序列是用於旅途事件的好工具。你可以根據冒險者的族裔、性別、體型等進行針對，使隊列中特定類型的第一個冒險者觸發事件。
 
-1. Marching order is a good tool
-to use for travel events. You can
-target adventurers by their kith/kin,
-gender, size, etc., so that the first
-adventurer of a certain type triggers
-the event.
+2. 許多旅途事件以開放式問題作結：公會現在要怎麼做？公平地裁決他們的解決方案。好的解決方案應該直接奏效；有風險的解決方案應引發命運考驗，並在失敗時造成傷勢或其他後果。
 
-2. Many travel events end with an
-open-ended question: What will
-the guild do now? Adjudicate
-their solutions fairly. Good
-solutions should simply work, risky
-solutions should prompt a test of
-fate and deal a Wound or other
-consequences on failure.
+3. 透過將遊戲焦點保持在個人層面，讓玩家感受到他們在扮演真實的人。「這感覺很噁心」就是個好方法。壓力狀態是一個公平的隨機附帶條件。
 
-3. Make the players feel like they're
-role-playing real people by keeping
-the focus of the game on a personal
-level. "This feels gross" is a good
-way to do that. Stressed is a fair
-random condition to conflict.
+4. 幻術在相當明顯時效果最好。遮蔽所有出口應該讓玩家起疑，想找找是否有暗門。記住，幻術只是一個全息投影，將頭伸進幻象牆中就能看到它所隱藏的秘密。
 
-4. Illusions work best when they're
-fairly obvious. Obscuring all of
-the exits should make the players
-suspicious and want to look around
-for hidden doors. Remember, an
-illusion is just a hologram. Putting
-your head through an illusory wall
-shows you the secret it obscures.
+5. 旅途事件可以讓玩家陷入困境，消耗他們的資源。事先說清楚代價。
 
-5. Travel events can put players
-in a tough spot by using up their
-resources. Make the costs clear
-up front.
+6. 如果玩家謹慎行進，讓絞肉機事件易於規避，以此獎勵謹慎的玩遊戲方式。
 
-6. Make Meatgrinder events easily
-avoidable if the players are moving
-carefully. This rewards careful play.
+7. 讓不同的絞肉機事件引發不同類型的命運考驗。聖杯考驗很適合測試某人是否保持警覺。
 
-7. Make different Meatgrinder events
-prompt different types of tests of
-fate. Tests of Cups are good for
-testing if someone was being alert
-or watchful.
+8. 至少設置一個讓整個公會陷入困境的絞肉機事件（如地震或無法躲避的陷阱），提醒他們在地下世界逗留過久是不明智的。
+:::
 
-8. Having at least one Meatgrinder
-event that puts the entire guild in
-a rough spot, like an earthquake
-or an unavoidable trap, reminds
-them that lingering too long in the
-Underworld is inadvisable.
-
-377
-
-APPENDIX E     |     UNDERWORLD CREATION
-
-378378
-
-APPENDIX E     |     UNDERWORLD CREATION
