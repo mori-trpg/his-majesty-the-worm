@@ -43,19 +43,19 @@
      ============================================ */
 
   /* 背景色 HSL - 調整 --bg-l 可調暗背景 */
-  --bg-h: 224;
-  --bg-s: 25%;
-  --bg-l: 6%;
+  --bg-h: 28;
+  --bg-s: 18%;
+  --bg-l: 5%;
 
   /* 主色 HSL - 連結、按鈕、強調 */
-  --color-primary-h: 217;
-  --color-primary-s: 91%;
-  --color-primary-l: 60%;
+  --color-primary-h: 45;
+  --color-primary-s: 88%;
+  --color-primary-l: 58%;
 
   /* 次要色 HSL - 成功、正向提示 */
-  --color-secondary-h: 142;
-  --color-secondary-s: 71%;
-  --color-secondary-l: 45%;
+  --color-secondary-h: 30;
+  --color-secondary-s: 65%;
+  --color-secondary-l: 42%;
 
   /* 第三色 HSL - 警告、危險提示 */
   --color-tertiary-h: 0;
@@ -63,8 +63,8 @@
   --color-tertiary-l: 60%;
 
   /* 第四色 HSL - 注意、次要強調 */
-  --color-quaternary-h: 25;
-  --color-quaternary-s: 95%;
+  --color-quaternary-h: 15;
+  --color-quaternary-s: 90%;
   --color-quaternary-l: 53%;
 
   /* 備註色 HSL - 紫色提示框 */
@@ -100,7 +100,7 @@
      背景與遮罩
      ============================================ */
 
-  --overlay-opacity: 0.7;
+  --overlay-opacity: 0.6;
   --bg-overlay: hsla(var(--bg-h), var(--bg-s), 5%, var(--overlay-opacity));
   --bg-overlay-strong: hsla(var(--bg-h), var(--bg-s), 5%, 0.9);
   --bg-overlay-light: hsla(var(--bg-h), var(--bg-s), 5%, 0.6);
@@ -119,12 +119,12 @@
      ============================================ */
 
   --sl-color-white: hsl(0, 0%, 100%);
-  --sl-color-gray-1: hsl(224, 20%, 94%);
-  --sl-color-gray-2: hsl(224, 10%, 77%);
-  --sl-color-gray-3: hsl(224, 8%, 56%);
-  --sl-color-gray-4: hsl(224, 10%, 36%);
-  --sl-color-gray-5: hsl(224, 14%, 20%);
-  --sl-color-gray-6: hsl(224, 20%, 12%);
+  --sl-color-gray-1: hsl(28, 18%, 94%);
+  --sl-color-gray-2: hsl(28, 10%, 77%);
+  --sl-color-gray-3: hsl(28, 8%, 56%);
+  --sl-color-gray-4: hsl(28, 10%, 36%);
+  --sl-color-gray-5: hsl(28, 14%, 20%);
+  --sl-color-gray-6: hsl(28, 20%, 12%);
   --sl-color-black: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
 
   /* Starlight 系統色 */
@@ -176,11 +176,11 @@ html {
    2. 取消下方註解 */
 body {
   background-color: var(--sl-color-black);
-  /* background-image: url('/bg.jpg');
+  background-image: url('/bg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 /* 全頁暗色覆蓋層（配合背景圖使用） */

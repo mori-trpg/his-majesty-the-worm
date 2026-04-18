@@ -74,6 +74,14 @@ export default defineConfig({
 						content: '/og-image.jpg',
 					},
 				},
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'icon',
+						type: 'image/png',
+						href: '/favicon.png',
+					},
+				},
 			],
 			defaultLocale: 'root',
 			locales: {
